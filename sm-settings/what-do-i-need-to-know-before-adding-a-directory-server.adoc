@@ -1,0 +1,19 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, adding, directory, server, 
+summary: アクセス管理でディレクトリサーバを追加する前に、次の要件を満たしていることを確認してください。 
+---
+= ディレクトリサーバを追加するときは、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アクセス管理でディレクトリサーバを追加する前に、次の要件を満たしていることを確認してください。
+
+* ユーザグループがディレクトリサービスに定義されている必要があります。
+* LDAPサーバのクレデンシャルを確認しておく必要があります。ドメイン名とサーバのURLのほか、必要に応じてバインドアカウントのユーザ名とパスワードも指定できます。
+* セキュアなプロトコルを使用するLDAPSサーバの場合は、LDAPサーバの証明書チェーンがローカルマシンにインストールされている必要があります。
+

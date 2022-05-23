@@ -1,0 +1,47 @@
+---
+permalink: sm-storage/disable-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disable, snapshot, volume 
+summary: Snapshotボリューム、またはSnapshot整合性グループのSnapshotボリュームが不要になった場合や一時的に使用を停止する場合は、それらのボリュームを無効にすることができます。 
+---
+= Snapshotボリュームを無効にします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotボリューム、またはSnapshot整合性グループのSnapshotボリュームが不要になった場合や一時的に使用を停止する場合は、それらのボリュームを無効にすることができます。
+
+次のいずれかの条件に該当する場合は、Disableオプションを使用します。
+
+* SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームをしばらく使用しない。
+* あとでSnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームを（読み取り/書き込み用に）再作成する予定があり、再度作成する必要がないように関連付けられているリザーブ容量を残しておきたい。
+* 読み取り/書き込みのSnapshotボリュームへの書き込みアクティビティを停止して、ストレージアレイのパフォーマンスを向上させたい。
+
+
+SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームが読み取り/書き込み用の場合、このオプションを使用すると、関連付けられているリザーブ容量ボリュームへの以降の書き込みアクティビティも停止できます。SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームを再作成する場合は、同じベースボリュームからSnapshotイメージを選択する必要があります。
+
+[NOTE]
+====
+SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームがオンラインコピー関係の一部である場合は、そのボリュームで無効化オプションを実行することはできません。
+
+====
+.手順
+. メニューを選択します。Storage [Snapshots]。
+. スナップショットボリューム*タブを選択します。
++
+System Managerに、ストレージアレイに関連付けられているすべてのSnapshotボリュームが表示されます。
+
+. 無効にするSnapshotボリュームを選択し、メニューから「一般的でないタスク」「無効」を選択します。
+. 操作を実行することを確認し、[*Disable*]をクリックします。
+
+
+.結果
+* Snapshotボリュームのベースボリュームとの関連付けは維持されます。
+* SnapshotボリュームのWorld Wide Name（WWN；ワールドワイド名）は保持されます。
+* 読み取り/書き込みの場合、Snapshotボリュームに関連付けられているリザーブ容量は保持されます。
+* Snapshotボリュームのホストの割り当てとアクセスは保持されます。ただし、読み取り/書き込み要求は失敗します。
+* SnapshotボリュームのSnapshotイメージとの関連付けは解除されます。
+

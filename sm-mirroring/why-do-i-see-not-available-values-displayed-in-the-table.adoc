@@ -1,0 +1,16 @@
+---
+permalink: sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Not Available 
+summary: リモートストレージアレイにあるデータを表示できない場合は、テーブルにNot availableという値が表示されます。 
+---
+= 表に「該当なし」と表示される場合、どのような理由が考えられますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リモートストレージアレイにあるデータを表示できない場合は、テーブルにNot availableという値が表示されます。
+
+リモートストレージアレイのデータを表示するには、Unified ManagerからSystem Managerを起動します。

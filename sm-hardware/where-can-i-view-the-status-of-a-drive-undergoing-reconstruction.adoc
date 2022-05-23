@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, drive, reconstruction, 
+summary: ドライブの再構築ステータスは、処理実行中ダッシュボードで確認できます。 
+---
+= 再構築中のドライブのステータスはどこで確認できますか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ドライブの再構築ステータスは、処理実行中ダッシュボードで確認できます。
+
+ホームページの右上にある* View Operations in Progress *リンクをクリックします。
+
+ドライブによっては、完全な再構築にかなりの時間がかかることがあります。ボリューム所有権が変更された場合は、迅速な再構築の代わりに完全な再構築が実行されることがあります。

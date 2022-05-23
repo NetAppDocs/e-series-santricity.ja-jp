@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, suspend, iom, auto-synchronization 
+summary: IOMの自動同期を一時停止すると、SANtricity OSコントローラソフトウェアの次回アップグレード時にIOMファームウェアがアップグレードされなくなります。 
+---
+= IOMの自動同期を一時停止するときは、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+IOMの自動同期を一時停止すると、SANtricity OSコントローラソフトウェアの次回アップグレード時にIOMファームウェアがアップグレードされなくなります。
+
+通常、コントローラソフトウェアとIOMファームウェアは一緒にアップグレードされます。エンクロージャに残したいIOMファームウェアの特定のビルドがある場合は、IOMの自動同期を中断できます。そうしないと、コントローラソフトウェアの次回アップグレード時に、コントローラソフトウェアにバンドルされているIOMファームウェアにリバートされます。

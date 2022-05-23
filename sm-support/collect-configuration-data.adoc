@@ -1,0 +1,34 @@
+---
+permalink: sm-support/collect-configuration-data.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, collect, configuration data 
+summary: ボリュームグループとディスクプールのすべてのデータを含む、コントローラからRAID構成データを保存できます。データのリストア方法については、テクニカルサポートにお問い合わせください。 
+---
+= 構成データを収集
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリュームグループとディスクプールのすべてのデータを含む、コントローラからRAID構成データを保存できます。データのリストア方法については、テクニカルサポートにお問い合わせください。
+
+このタスクでは、RAID構成データベースの現在の状態を保存する方法について説明します。このデータは、コントローラのRPAメモリの場所から取得されます。
+
+[NOTE]
+====
+Collect Configuration Data機能では'save storageArray dbmDatabaseのCLIコマンドと同じ情報が保存されます
+
+====
+このタスクは、Recovery Guruの処理またはテクニカルサポートの指示があった場合にのみ実行してください。
+
+.手順
+. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
+. [ 構成データの収集 *] を選択します。
+. ダイアログボックスで、* Collect *をクリックします。
++
+ファイル「configurationdata-<ArrayName>-<dateTime >.7z」は、ブラウザのDownloadsフォルダに保存されます。
+
+. ファイルの送信とシステムへのデータのロードの詳細については、テクニカルサポートにお問い合わせください。
+

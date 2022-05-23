@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, interpret, nvme, over, Fabrics, statistics, 
+summary: View NVMe over Fabrics Statisticsダイアログボックスには、NVMeサブシステムとRDMAインターフェイスの統計が表示されます。統計はすべて読み取り専用で、設定することはできません。 
+---
+= NVMe over Fabrics統計には何が表示されますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+View NVMe over Fabrics Statisticsダイアログボックスには、NVMeサブシステムとRDMAインターフェイスの統計が表示されます。統計はすべて読み取り専用で、設定することはできません。
+
+* * nvmeサブシステム統計*- NVMeコントローラとそのキューの統計が表示されます。NVMeコントローラは、ストレージアレイ内のネームスペースとホストの間のアクセスパスを提供します。NVMeサブシステム統計では、接続障害、リセット、シャットダウンなどの項目を確認できます。これらの統計の詳細については、[表見出しの凡例を表示する*]をクリックしてください。
+* * rdma Interface statistics *-- RDMAインターフェイス上のすべてのNVMe over Fabricsポートの統計を提供します。各スイッチポートに関連付けられているパフォーマンス統計とリンクエラー情報が含まれます。このタブは、NVMe over Fabricsポートが使用可能な場合にのみ表示されます。統計の詳細については、[表見出しの凡例を表示する*]をクリックしてください。
+
+
+これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。統計の生データは、コントローラの起動以降に収集されたすべての統計です。ベースライン統計は、ベースライン時間の設定以降に収集されたポイントインタイムの統計です。

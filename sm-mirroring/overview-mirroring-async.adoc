@@ -1,0 +1,60 @@
+---
+permalink: sm-mirroring/overview-mirroring-async.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ARVM, asynchronous, mirroring, firmware, 
+summary: 非同期ミラーリング機能は、ローカルストレージアレイとリモートストレージアレイの間のデータレプリケーション用に、コントローラレベル、ファームウェアベースのメカニズムを提供します。 
+---
+= 非同期ミラーリングの概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+非同期ミラーリング機能は、ローカルストレージアレイとリモートストレージアレイの間のデータレプリケーション用に、コントローラレベル、ファームウェアベースのメカニズムを提供します。
+
+[NOTE]
+====
+この機能は、EF600またはEF300ストレージシステムでは使用できません。
+
+====
+
+
+== 非同期ミラーリングとは何ですか？
+
+非同期ミラーリング_は、特定の時点におけるプライマリボリュームの状態をキャプチャし、前回のイメージキャプチャ以降に変更されたデータのみをコピーします。プライマリサイトはただちに更新でき、セカンダリサイトは帯域幅に余裕があれば更新できます。情報はキャッシュされ、あとでネットワークリソースが利用可能になったときに送信されます。
+
+非同期ミラーリングはボリューム単位で作成されますが、グループレベルで管理されます。そのため、個別のリモートミラーボリュームを、特定のストレージアレイ上の任意のプライマリボリュームに関連付けることができます。このタイプのミラーリングはノンストップオペレーションの要求に応えるための手段として最適であり、一般的には、定期的なプロセスをはるかに少ないネットワーク負荷で実施できます。
+
+詳細はこちら。
+
+* link:how-synchronous-mirroring-works.html["非同期ミラーリングの仕組み"]
+* link:asynchronous-terminology.html["非同期ミラーリングに関する用語"]
+* link:asynchronous-mirror-status.html["非同期ミラーのステータス"]
+* link:volume-ownership-sync.html["ボリューム所有権"]
+* link:role-change-of-a-mirror-consistency-group.html["ミラー整合性グループのロール変更"]
+
+
+
+
+== 非同期ミラーリングを設定するにはどうすればよいですか？
+
+アレイ間の初期ミラーリングを実行するには、Unified Managerインターフェイスを使用する必要があります。設定が完了すると、System Managerでミラーペアと整合グループを管理できるようになります。
+
+詳細はこちら。
+
+* link:requirements-for-using-asynchronous-mirroring.html["非同期ミラーリングを使用するための要件"]
+* link:workflow-for-mirroring-a-volume-asynchronously.html["ボリュームを非同期でミラーリングするためのワークフロー"]
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html["非同期ミラーペアの作成（Unified Manager）"]
+
+
+
+
+== 関連情報
+
+非同期ミラーリングに関連する概念を確認できます。
+
+* link:what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html["ミラー整合性グループを作成するときは、どのような点に注意する必要がありますか"]
+* link:asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html["ミラーペアを作成するときは、どのような点に注意する必要がありますか"]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html["非同期ミラーリングと同期ミラーリングの違い"]
+

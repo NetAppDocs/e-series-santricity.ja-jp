@@ -1,0 +1,39 @@
+---
+permalink: sm-storage/overview-performance.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, performance 
+summary: Performanceページでは、ストレージアレイのパフォーマンスを簡単に監視できます。 
+---
+= パフォーマンスの概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Performanceページでは、ストレージアレイのパフォーマンスを簡単に監視できます。
+
+
+
+== パフォーマンスデータから何がわかりますか？
+
+パフォーマンスのグラフと表にはパフォーマンスデータがほぼリアルタイムで表示されるため、ストレージアレイに問題が発生しているかどうかを確認できます。パフォーマンスデータを保存してストレージアレイの履歴を確認し、問題の発生時期や原因を特定することもできます。
+
+詳細はこちら。
+
+* link:performance-graphs-guidelines.html["パフォーマンスグラフとガイドライン"]
+* link:performance-terminology.html["パフォーマンスの用語"]
+
+
+
+
+== パフォーマンスデータを表示するにはどうすればよいですか？
+
+パフォーマンスデータは、ホームページおよびストレージページから確認できます。
+
+詳細はこちら。
+
+* link:view-performance-data-graphical.html["グラフィカルなパフォーマンスデータを表示します"]
+* link:view-and-save-performance-data-tabular.html["表形式のパフォーマンスデータを表示および保存する"]
+* link:interpret-performance-data.html["パフォーマンスデータを解釈する"]
+

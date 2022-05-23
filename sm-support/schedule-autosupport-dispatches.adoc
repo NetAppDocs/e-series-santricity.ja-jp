@@ -1,0 +1,32 @@
+---
+permalink: sm-support/schedule-autosupport-dispatches.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, schedule, autosupport, dispatches 
+summary: System Managerでは、AutoSupport ディスパッチのデフォルトスケジュールが自動的に作成されます。必要に応じて、独自のスケジュールを指定できます。 
+---
+= AutoSupport ディスパッチのスケジュールを設定します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerでは、AutoSupport ディスパッチのデフォルトスケジュールが自動的に作成されます。必要に応じて、独自のスケジュールを指定できます。
+
+AutoSupport 機能を有効にする必要があります。有効になっているかどうかは、AutoSupport ページで確認できます。
+
+.このタスクについて
+* *毎日の時刻*--毎日のディスパッチが収集され、指定した期間内に毎日送信されます。System Managerでは、期間内のランダムな時刻が選択されます。協定世界時（UTC）が使用されるため、ストレージアレイのローカルの時刻とは異なる場合があります。ストレージアレイのローカルの時刻をUTCに変換する必要があります。
+* *週次日*--週次ディスパッチが収集され、週に1回送信されます。System Managerでは、指定した複数の日にちからランダムな1日が選択されます。週次ディスパッチを実行しない曜日がある場合は、選択を解除します。System Managerでは、許可した複数の日にちからランダムな1日が選択されます。
+* *週次時間*--週次ディスパッチが収集され、指定した期間に週に1回送信されます。System Managerでは、期間内のランダムな時刻が選択されます。協定世界時（UTC）が使用されるため、ストレージアレイのローカルの時刻とは異なる場合があります。ストレージアレイのローカルの時刻をUTCに変換する必要があります。
+
+
+.手順
+. メニューを選択AutoSupport します。[Support Center]>[Support]（サポートセンター）タブ。
+. 「* AutoSupport ディスパッチのスケジュール設定*」を選択します。
++
+AutoSupport ディスパッチのスケジュール設定ウィザードが表示されます。
+
+. ウィザードの手順に従います。
+

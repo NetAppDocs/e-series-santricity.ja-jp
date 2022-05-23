@@ -1,0 +1,24 @@
+---
+permalink: um-manage/launch-considerations.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager 
+summary: ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、起動オプションを使用してSANtricity System Managerを開きます。 
+---
+= System Managerにアクセスする際の考慮事項
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、Launchオプションを使用してSystem Managerを開きます。
+
+System Managerは、コントローラに組み込まれたアプリケーションであり、イーサネット管理ポートを介してネットワークに接続されます。アレイベースのすべての関数が含まれています。
+
+System Managerにアクセスするには、以下を準備しておく必要があります。
+
+* 次のいずれかのアレイモデルが表示されます。 link:https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html["E シリーズハードウェアの概要"^]
+* Webブラウザを使用したネットワーク管理クライアントへのアウトオブバンド接続。
+
+
+image::../media/single2800.gif[Single 2800]

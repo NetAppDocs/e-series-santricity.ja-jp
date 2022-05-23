@@ -1,0 +1,39 @@
+---
+permalink: sm-support/collect-support-data-manually.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, collect, support, data, manually 
+summary: ストレージアレイに関する各種のインベントリ、ステータス、およびパフォーマンスデータを1つのファイルに収集することができます。テクニカルサポートは、このファイルをトラブルシューティングや詳細分析に使用できます。 
+---
+= サポートデータを手動で収集する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイに関する各種のインベントリ、ステータス、およびパフォーマンスデータを1つのファイルに収集することができます。テクニカルサポートは、このファイルをトラブルシューティングや詳細分析に使用できます。
+
++++++
+
+[NOTE]
+====
+AutoSupport 機能が有効になっている場合は、* AutoSupport *タブに移動し、* AutoSupport ディスパッチを送信*を選択して、このデータを収集することもできます。
+
+====
+収集処理は一度に1つずつしか実行できません。別の処理を開始しようとすると、エラーメッセージが表示されます。
+
+[NOTE]
+====
+この処理は、テクニカルサポートから指示があった場合にのみ実行してください。
+
+====
+.手順
+. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
+. 「サポートデータの収集」を選択します。
+. [*Collect*]( 収集 ) をクリックします
++
+ブラウザの Downloads フォルダに、「 upport-data.7z 」という名前でファイルが保存されます。シェルフにドロワーが搭載されている場合、そのシェルフの診断データは「tray -component-state-capture.7z」という別の圧縮ファイルにアーカイブされます。
+
+. テクニカルサポートからの指示に従ってファイルを送信します。
+

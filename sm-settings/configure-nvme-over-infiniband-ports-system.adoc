@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/configure-nvme-over-infiniband-ports-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, nvme, over, InfiniBand, ports, 
+summary: コントローラにNVMe over InfiniBand接続が搭載されている場合は、System（システム）ページでNVMeポートを設定できます。 
+---
+= NVMe over InfiniBandポートを設定する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+コントローラにNVMe over InfiniBand接続が搭載されている場合は、System（システム）ページでNVMeポートを設定できます。
+
+.作業を開始する前に
+* コントローラにNVMe over InfiniBandホストポートが搭載されている必要があります。そうでないと、System ManagerでNVMe over InfiniBand設定を使用できません。
+* ホスト接続のIPアドレスを確認しておく必要があります。
+
+
+[NOTE]
+====
+NVMe over InfiniBandの設定と機能は、ストレージアレイのコントローラにNVMe over InfiniBandポートが搭載されている場合にのみ表示されます。
+
+====
+.手順
+. メニューを選択します。[設定][システム]。
+. [* NVMe over InfiniBand settings]で、[Configure NVMe over InfiniBand ports]を選択します。
+. NVMe over InfiniBandポートを設定するコントローラを選択します。「 * 次へ * 」をクリックします。
+. 設定するHICポートをドロップダウンリストから選択し、IPアドレスを入力します。
++
+200Gb対応のHICを使用してEF600ストレージアレイを設定する場合、このダイアログボックスには、2つのIPアドレスフィールドが表示されます。1つは物理ポート（外部）用のフィールドで、もう1つは仮想ポート（内部）用のフィールドです。両方のポートに一意のIPアドレスを割り当てる必要があります。これらの設定により、ホストは各ポート間のパスを確立し、HICのパフォーマンスを最大限に高めることができます。仮想ポートにIPアドレスを割り当てない場合、HICの実行速度は約半分になります。
+
+. [ 完了 ] をクリックします。
+. 「* Yes」をクリックして、NVMe over InfiniBandポートをリセットします。
+

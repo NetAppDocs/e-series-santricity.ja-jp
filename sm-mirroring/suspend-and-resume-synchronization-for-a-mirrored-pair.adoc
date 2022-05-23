@@ -1,0 +1,38 @@
+---
+permalink: sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirrored, pair, 
+summary: 中断オプションと再開オプションを使用して、ミラーペアのプライマリボリュームとセカンダリボリュームのデータを同期するタイミングを制御できます。 
+---
+= ミラーペアの同期を中断して再開します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+中断オプションと再開オプションを使用して、ミラーペアのプライマリボリュームとセカンダリボリュームのデータを同期するタイミングを制御できます。
+
+ミラーペアを手動で中断した場合、そのペアは手動で再開するまで同期されません。
+
+.手順
+. 選択メニュー：Storage [Synchronous Mirroring]
+. 中断または再開するミラーペアを選択し、メニューから[More [Suspend]（その他の中断）またはメニュー：More [Resume]（その他の再開）のいずれかを選択します。
++
+確認メッセージが表示されます。
+
+. 「*はい*」を選択して確定します。
+
+
+System Managerは次の処理を実行します。
+
+* ミラー関係を削除せずに、ミラーペア間のデータ転送を中断または再開します。
+* 中断されたミラーペアの場合：
++
+** ミラーペアテーブルに「* suspended」と表示されます。
+** 同期の中断中にミラーペアのプライマリボリュームに書き込まれたデータをログに記録します。
+
+
+* 再開されたミラーペアでは、同期が再開されたときにミラーペアのセカンダリボリュームにデータを自動的に書き込みます。完全同期は必要ありません。
+

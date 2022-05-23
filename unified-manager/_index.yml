@@ -1,0 +1,41 @@
+---
+indexpage:
+  tiles:
+  - title: セットアップ
+    links:
+    - title: Unified Managerインターフェイスの概要
+      url: "../um-admin/overview-interface-unified.html"
+    - title: 管理パスワードを設定
+      url: "../um-admin/administrator-password-protection-unified.html"
+  - title: アレイを検出します
+    links:
+    - title: 検出に関する考慮事項
+      url: "../um-manage/considerations-for-discovering-arrays.html"
+    - title: 単一のアレイ
+      url: "../um-manage/discover-single-array.html"
+    - title: 複数のアレイ
+      url: "../um-manage/discover-multiple-arrays.html"
+  - title: アレイを管理します
+    links:
+    - title: ストレージアレイグループ
+      url: "../um-manage/overview-manage-groups.html"
+    - title: ストレージアレイのステータス
+      url: "../um-manage/storage-array-status.html"
+    - title: ソフトウェアをアップグレードする
+      url: "../um-manage/upgrade-controller-firmware.html"
+  - title: アクセスの管理
+    links:
+    - title: ユーザアクセス
+      url: "../um-certificates/how-access-management-works-unified.html"
+    - title: 証明書
+      url: "../um-certificates/how-certificates-work-unified.html"
+    - title: ディレクトリサービス
+      url: "../um-certificates/access-management-with-directory-services-unified.html"
+  - title: 設定を管理します
+    links:
+    - title: 設定をインポートします
+      url: "../um-manage/how-import-settings-works.html"
+    - title: パスワードの設定を変更します
+      url: "../um-certificates/change-local-user-passwords-settings-unified.html"
+    - title: ディレクトリサーバの設定を変更します
+      url: "../um-certificates/edit-directory-server-settings-unified.html"

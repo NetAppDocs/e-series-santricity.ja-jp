@@ -1,0 +1,75 @@
+---
+permalink: um-certificates/access-management-terminology-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, terminology 
+summary: SANtricity Unified Managerに関連するアクセス管理の用語を次に示します。 
+---
+= アクセス管理の用語
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Managerに関連するアクセス管理の用語を次に示します。
+
+[cols="25h,~"]
+|===
+| 期間 | 説明 
+
+
+ a| 
+Active Directory
+ a| 
+Active Directory（AD）は、Windowsドメインネットワーク用のLDAPを使用するMicrosoftのディレクトリサービスです。
+
+
+
+ a| 
+結合
+ a| 
+バインド処理は、ディレクトリサーバに対するクライアントの認証に使用されます。通常はアカウントとパスワードのクレデンシャルが必要ですが、匿名のバインド処理が可能なサーバもあります。
+
+
+
+ a| 
+できます
+ a| 
+認証局（CA）は、インターネットセキュリティのためにデジタル証明書と呼ばれる電子文書を発行する信頼されたエンティティです。証明書でWebサイトの所有者を識別することにより、クライアントとサーバの間のセキュアな接続が確立されます。
+
+
+
+ a| 
+証明書
+ a| 
+証明書はセキュリティ上の目的でサイトの所有者を識別するもので、攻撃者による偽装を防止します。証明書には、サイトの所有者に関する情報と、その情報について証明（署名）する信頼されたエンティティのIDが含まれます。
+
+
+
+ a| 
+LDAP
+ a| 
+Lightweight Directory Access Protocol（LDAP）は、分散型のディレクトリ情報サービスへのアクセスと管理に使用されるアプリケーションプロトコルです。このプロトコルを使用すると、さまざまなアプリケーションやサービスがLDAPサーバに接続してユーザを検証できます。
+
+
+
+ a| 
+RBAC
+ a| 
+ロールベースアクセス制御（RBAC）は、コンピュータやネットワークリソースへのアクセスを個々のユーザのロールに基づいて制御する手法です。Unified Managerには事前定義されたロールがあります
+
+
+
+ a| 
+SSO
+ a| 
+シングルサインオン（SSO）は、1組のログインクレデンシャルで複数のアプリケーションにアクセスできるようにする認証サービスです。
+
+
+
+ a| 
+Web Services Proxyの使用方法
+ a| 
+Web Services Proxyは標準のHTTPSメカニズムによるアクセスを提供するプロキシで、管理者にストレージアレイの管理サービスの設定を許可します。このプロキシは、WindowsホストまたはLinuxホストにインストールできます。Unified ManagerインターフェイスはWeb Services Proxyで使用できます。
+
+|===

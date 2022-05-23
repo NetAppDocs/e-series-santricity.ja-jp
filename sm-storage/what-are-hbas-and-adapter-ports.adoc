@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-are-hbas-and-adapter-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hbas, adapter, ports 
+summary: ホストバスアダプタ（HBA）はホストに搭載されるボードで、1つ以上のホストポートが搭載されています。ホストポートは、コントローラに物理的に接続されるホストバスアダプタ（HBA）のポートで、I/O処理に使用されます。 
+---
+= HBAおよびアダプタポートとは何ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ホストバスアダプタ（HBA）はホストに搭載されるボードで、1つ以上のホストポートが搭載されています。ホストポートは、コントローラに物理的に接続されるホストバスアダプタ（HBA）のポートで、I/O処理に使用されます。
+
+HBAのアダプタポートはホストポートと呼ばれます。ほとんどのHBAには1つまたは2つのホストポートがあります。HBAと各HBAホストポートには、それぞれ一意のWorld Wide Identifier（WWID）が割り当てられています。SANtricity System Managerからホストを手動で作成する場合、またはHost Context Agentでホストを自動的に作成する場合は、ホストポート識別子を使用して、適切なHBAを物理ホストに関連付けます。

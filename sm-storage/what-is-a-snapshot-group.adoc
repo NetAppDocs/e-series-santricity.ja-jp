@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-a-snapshot-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, group, 
+summary: Snapshotグループは、1つの関連するベースボリュームのポイントインタイムSnapshotイメージの集まりです。 
+---
+= Snapshotグループとは何ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotグループは、1つの関連するベースボリュームのポイントインタイムSnapshotイメージの集まりです。
+
+System Managerでは、Snapshotイメージを_ Snapshotグループ_に編成します。Snapshotグループに対するユーザの操作は必要ありませんが、Snapshotグループではリザーブ容量をいつでも調整できます。また、次の条件を満たす場合は、リザーブ容量の作成を求められることがあります。
+
+* SnapshotグループがまだないベースボリュームのSnapshotを作成するたびに、System ManagerはSnapshotグループを自動的に作成します。これにより、ベースボリュームのリザーブ容量が作成され、後続のSnapshotイメージの格納に使用されます。
+* ベースボリュームのSnapshotスケジュールを作成するたびに、System ManagerはSnapshotグループを自動的に作成します。
+

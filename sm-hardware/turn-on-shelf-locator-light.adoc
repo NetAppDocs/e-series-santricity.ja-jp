@@ -1,0 +1,23 @@
+---
+permalink: sm-hardware/turn-on-shelf-locator-light.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED 
+summary: Hardware（ハードウェア）ページに表示されているシェルフの物理的な位置を確認するには、シェルフのロケーターライトをオンにします。 
+---
+= シェルフのロケーターライトを点灯します
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ハードウェアのページに表示されるシェルフの物理的な場所を確認するには、シェルフのロケーターライトを点灯します。
+
+.手順
+. 「 * ハードウェア * 」を選択します。
+. コントローラシェルフまたはドライブシェルフのドロップダウンリストを選択し、*ロケーターライトを点灯*を選択します。
++
+シェルフのロケーターライトが点灯します。
+
+. シェルフを物理的に配置したら、ダイアログボックスに戻り、*電源をオフにする*を選択します。
+

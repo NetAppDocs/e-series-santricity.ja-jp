@@ -1,0 +1,30 @@
+---
+permalink: sm-settings/edit-key-management-server-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, key, management, server, settings, 
+summary: 外部キー管理を設定している場合、キー管理サーバの設定をいつでも表示および編集することができます。 
+---
+= キー管理サーバの設定を編集します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+外部キー管理を設定している場合、キー管理サーバの設定をいつでも表示および編集することができます。
+
+.手順
+. メニューを選択します。[設定][システム]。
+. セキュリティキー管理*で、*キー管理サーバ設定の表示/編集*を選択します。
+. 次のフィールドの情報を編集します。
++
+** *キー管理サーバのアドレス*-キー管理に使用するサーバの完全修飾ドメイン名またはIPアドレス（IPv4またはIPv6）を入力します。
+** *キー管理ポート番号*-- Key Management Interoperability Protocol (KMIP )通信に使用するポート番号を入力します
++
+*オプション：* Add Key Server*をクリックすると、別のキーサーバを含めることができます。
+
+
+
+. [ 保存（ Save ） ] をクリックします。
+

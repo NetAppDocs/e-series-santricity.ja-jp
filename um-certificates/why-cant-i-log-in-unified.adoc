@@ -1,0 +1,21 @@
+---
+permalink: um-certificates/why-cant-i-log-in-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, log in, login 
+summary: ログイン試行時にエラーが表示された場合は、次の原因を確認してください。 
+---
+= ログインできないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ログイン試行時にエラーが表示された場合は、次の原因を確認してください。
+
+ログインエラーは、次のいずれかが原因の可能性があります。
+
+* 入力したユーザ名またはパスワードが正しくありません。
+* 必要な権限がありません。
+* ログインが複数回失敗したために、ロックアウトモードがトリガーされました。10分待ってから再度ログインしてください。
+

@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, internal, security, key, external, security, key, management, 
+summary: ドライブセキュリティ機能を実装している場合は、内部セキュリティキーまたは外部セキュリティキーを使用して、セキュリティ有効ドライブがストレージアレイから取り外されたときにデータをロックダウンすることができます。 
+---
+= 内部セキュリティキー管理と外部セキュリティキー管理の違いは何ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ドライブセキュリティ機能を実装している場合は、内部セキュリティキーまたは外部セキュリティキーを使用して、セキュリティ有効ドライブがストレージアレイから取り外されたときにデータをロックダウンすることができます。
+
+セキュリティキーは、ストレージアレイのセキュリティ有効ドライブとコントローラで共有される文字列です。内部キーは、コントローラの永続的メモリに保持されます。外部キーは、Key Management Interoperability Protocol（KMIP）を使用して別のキー管理サーバに保持されます。

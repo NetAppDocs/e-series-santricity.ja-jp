@@ -1,0 +1,24 @@
+---
+permalink: sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, lights, LEDs 
+summary: ドライブを検索して、選択したプール、ボリュームグループ、またはSSDキャッシュを構成するすべてのドライブを物理的に特定できます。選択したプール、ボリュームグループ、またはSSDキャッシュ内の各ドライブのLEDインジケータが点灯します。 
+---
+= プール、ボリュームグループ、またはSSDキャッシュでのロケーターライトの点灯
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ドライブを検索して、選択したプール、ボリュームグループ、またはSSDキャッシュを構成するすべてのドライブを物理的に特定できます。選択したプール、ボリュームグループ、またはSSDキャッシュ内の各ドライブのLEDインジケータが点灯します。
+
+.手順
+. 選択メニュー：Storage（Pool & Volume Groups）
+. 特定するプール、ボリュームグループ、またはSSDキャッシュを選択し、メニューをクリックします。More [ロケーターライトを点灯]。
++
+選択したプール、ボリュームグループ、またはSSDキャッシュを構成するドライブのライトが点灯されたことを示すダイアログボックスが表示されます。
+
+. ドライブが正常に検出されたら、*電源をオフにする*をクリックします。
+

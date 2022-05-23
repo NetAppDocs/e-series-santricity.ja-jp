@@ -1,0 +1,35 @@
+---
+permalink: sm-settings/view-local-user-roles.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, local, user, roles, 
+summary: '[ローカルユーザーの役割]タブでは、ユーザープロファイルとデフォルトの役割のマッピングを表示できます。これらのマッピングは、ストレージアレイに適用されたロールベースアクセス制御（RBAC）の一部です。' 
+---
+= ローカルユーザロールを表示します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+[ローカルユーザーの役割]タブでは、ユーザープロファイルとデフォルトの役割のマッピングを表示できます。これらのマッピングは、ストレージアレイに適用されたロールベースアクセス制御（RBAC）の一部です。
+
+Security Adminの権限を含むユーザプロファイルでログインする必要があります。そうしないと、アクセス管理機能は表示されません。
+
+ユーザプロファイルとマッピングは変更できません。変更できるのはパスワードだけです。
+
+.手順
+. メニューを選択します。Settings [Access Management]。
+. [ローカルユーザー役割*（Local User Roles *）]タブを選択します。
++
+ユーザプロファイルが表に表示されます。
+
++
+** * Root admin *(admin)--システム内のすべての機能にアクセスできるスーパー管理者。このユーザプロファイルにはすべてのロールが含まれています。
+** * Storage admin *（storage）--すべてのストレージプロビジョニングを担当する管理者。このユーザプロファイルには、Storage Admin、Support Admin、Monitorの各ロールが含まれています。
+** * Security admin *（security）--アクセス管理、証明書管理、セキュリティ有効ドライブ機能など、セキュリティ構成を担当するユーザー。このユーザプロファイルには、Security AdminとMonitorの各ロールが含まれています。
+** * Support admin*(support)--ハードウェアリソース'障害データ'ファームウェアのアップグレードを担当するユーザーこのユーザプロファイルには、Support AdminとMonitorの各ロールが含まれています。
+** *Monitor*(モニタ)--システムへの読み取り専用アクセス権を持つユーザ。このユーザプロファイルには、Monitorロールのみが含まれています。
+
+
+

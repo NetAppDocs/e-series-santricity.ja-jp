@@ -1,0 +1,16 @@
+---
+permalink: um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, reserved, capacity, candidate 
+summary: プールまたはボリュームグループ内にストレージオブジェクトに対して選択した容量の割合を満たす複数のボリュームがある場合は、複数の候補が表示されます。 
+---
+= リザーブ容量の候補が複数表示されるのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+プールまたはボリュームグループ内にストレージオブジェクトに対して選択した容量の割合を満たす複数のボリュームがある場合は、複数の候補が表示されます。
+
+ベースボリューム上でコピーサービス処理用にリザーブする物理ドライブスペースの割合を変更すると、推奨される候補の一覧が更新されます。選択内容に基づいて最適な候補が表示されます。

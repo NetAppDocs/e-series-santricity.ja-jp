@@ -1,0 +1,22 @@
+---
+permalink: sm-interface/set-default-time-frame-for-performance-graphs.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, time, graphs 
+summary: パフォーマンスグラフに表示されるデフォルト期間を変更できます。 
+---
+= パフォーマンスグラフのデフォルト期間を設定します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+パフォーマンスグラフに表示されるデフォルト期間を変更できます。
+
+ホームページおよびパフォーマンスページに表示されるパフォーマンスグラフの初回表示は、1時間です。すべてのユーザが独自の設定を使用できるように、設定はブラウザのローカルストレージに保存されます。
+
+.手順
+. メニューを選択します。環境設定[環境設定]。
+. ドロップダウンリストから、* 5分*、* 1時間*、* 8時間*、* 1日*、または* 7日*のいずれかを選択します。 処理を確定します。
+

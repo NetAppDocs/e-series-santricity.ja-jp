@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/remove-community-name-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, communities, snmpv2c, traps, 
+summary: SNMPv2cトラップのコミュニティ名を削除できます。 
+---
+= SNMPv2cトラップのコミュニティを削除します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SNMPv2cトラップのコミュニティ名を削除できます。
+
+.手順
+. メニューを選択します。Settings [Alerts]（設定[Alerts]）。
+. [*SNMP*]タブを選択します。
++
+トラップの送信先とコミュニティ名は、[* Alerts]*ページに表示されます。
+
+. [コミュニティの設定]を選択します。
++
+コミュニティの設定ダイアログボックスが開きます。
+
+. 削除するコミュニティ名を選択し、右端の*削除*（X）アイコンをクリックします。
++
+このコミュニティ名にトラップ送信先が関連付けられている場合は、Confirm Remove Communityダイアログボックスに、影響を受けるトラップ送信先アドレスが表示されます。
+
+. 操作を確定し、*削除*をクリックします。
+
+
+コミュニティ名とそれに関連付けられているトラップ送信先は、[Alerts]ページから削除されます。

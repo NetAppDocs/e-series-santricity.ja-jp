@@ -1,0 +1,51 @@
+---
+permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, iser, infiniBand, 
+summary: 次の表に、iSER over InfiniBandセッションの設定と管理に使用するSystem Managerの機能を示します。 
+---
+= iSER over InfiniBandを設定または診断するためにほかに必要な作業は何ですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+次の表に、iSER over InfiniBandセッションの設定と管理に使用するSystem Managerの機能を示します。
+
+[NOTE]
+====
+iSER over InfiniBandを設定できるのは、ストレージアレイのコントローラにiSER over InfiniBandホスト管理ポートが搭載されている場合のみです。
+
+====
+[cols="35h,~"]
+|===
+| アクション | 場所 
+
+
+ a| 
+iSER over InfiniBandポートを設定します
+ a| 
+. 「 * ハードウェア * 」を選択します。
+. Show back of shelf*を選択します。
+. コントローラを選択します。
+. iSER over InfiniBandポートの設定*を選択します。
+
+
+または
+
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* iSER over InfiniBand setting*を選択し、* iSER over InfiniBandポートの設定*を選択します。
+
+
+
+
+ a| 
+iSER over InfiniBandの統計を表示します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* iSER over InfiniBand settings *を表示し、* View iSER over InfiniBand Statistics *を選択します。
+
+
+|===

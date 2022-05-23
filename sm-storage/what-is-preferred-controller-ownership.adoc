@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/what-is-preferred-controller-ownership.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, preferred, controller, ownership 
+summary: 優先コントローラ所有権は、ボリュームを所有するプライマリコントローラを定義します。 
+---
+= 優先コントローラ所有権とは何ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+優先コントローラ所有権は、ボリュームを所有するプライマリコントローラを定義します。
+
+コントローラ所有権は非常に重要であり、慎重に計画する必要があります。コントローラ間で総I/O数をできるだけ均等に分散する必要があります。
+
+たとえば、一方のコントローラが主に大容量のシーケンシャルデータブロックを読み取り、もう一方のコントローラが小さなデータブロックを頻繁に読み書きする場合、両者の負荷は大きく異なります。どのボリュームにどのタイプのデータが含まれているかを把握しておくと、両方のコントローラでI/O転送を均等に分散できるようになります。

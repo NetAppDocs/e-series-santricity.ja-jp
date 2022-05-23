@@ -1,0 +1,21 @@
+---
+permalink: um-manage/why-dont-i-see-all-of-my-storage-arrays.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, arrays missing 
+summary: 設定のインポート処理の際、ターゲットの選択ダイアログボックスに一部のストレージアレイが表示されないことがあります。 
+---
+= ストレージアレイが一部表示されないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+設定のインポート処理の際、ターゲットの選択ダイアログボックスに一部のストレージアレイが表示されないことがあります。
+
+ストレージアレイが表示されない理由は次のとおりです。
+
+* ファームウェアのバージョンが8.50未満である。
+* ストレージアレイがオフラインになっている。
+* システムがそのアレイと通信できません（アレイに証明書、パスワード、ネットワークの問題がある場合など）。
+

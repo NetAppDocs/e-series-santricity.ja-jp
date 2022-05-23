@@ -1,0 +1,23 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuring, syslog, server, 
+summary: 監査ログは外部syslogサーバにアーカイブできます。 
+---
+= syslogサーバを設定するときは、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+監査ログは外部syslogサーバにアーカイブできます。
+
+syslogサーバを設定する際は、次のガイドラインに注意してください。
+
+* サーバのアドレス、プロトコル、ポート番号を確認しておきます。サーバアドレスは、完全修飾ドメイン名、IPv4アドレス、またはIPv6アドレスのいずれかで指定できます。
+* サーバがセキュアなプロトコル（TLSなど）を使用している場合は、ローカルシステムに認証局（CA）証明書が配置されている必要があります。CA証明書がWebサイトの所有者を識別することにより、サーバとクライアントの間のセキュアな接続が確立さ
+* 設定が完了すると、以降すべての監査ログがsyslogサーバに送信されるようになります。以前のログは転送されません。
+* 上書きポリシーの設定（*View/Edit Settings*から入手可能）は、ログがsyslogサーバ設定でどのように管理されるかに影響しません。
+* 監査ログは、RFC 5424のメッセージ形式に従います。
+

@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, syslog, server, audit, logs, 
+summary: syslogサーバにTLSプロトコルを設定している場合、何らかの理由で証明書が無効になるとサーバはメッセージを受信できなくなります。無効な証明書に関するエラーメッセージが監査ログに記録されます。 
+---
+= syslogサーバが監査ログを受信しなくなりました。どうすればよいですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+syslogサーバにTLSプロトコルを設定している場合、何らかの理由で証明書が無効になるとサーバはメッセージを受信できなくなります。無効な証明書に関するエラーメッセージが監査ログに記録されます。
+
+この問題 を解決するには、syslogサーバの証明書を修正する必要があります。有効な証明書チェーンが確立されたら、メニューに移動します。Settings [Audit Log]> Configure Syslog Servers > Test All]。

@@ -1,0 +1,19 @@
+---
+permalink: sm-hardware/what-should-i-do-after-configuring-the-management-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, management, ports, 
+summary: ストレージアレイのIPアドレスを変更した場合は、SANtricity Unified Managerでグローバルアレイビューを更新できます。 
+---
+= 管理ポートを設定したあとに何をすればよいですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイのIPアドレスを変更した場合、Unified Managerでグローバルアレイビューを更新できます。
+
+Unified Managerでグローバルアレイビューを更新するには、インターフェイスを開き、メニューから「Manage [Discover]」に移動します。
+
+SANtricity Storage Managerをまだ使用している場合は、Enterprise Management Window（EMW）に移動し、IPアドレスを削除してから、新しいIPアドレスを再度追加する必要があります。

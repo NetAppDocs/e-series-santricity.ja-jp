@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, events, recorded, audit, log, 
+summary: 監査ログには、変更イベント、または変更イベントと読み取り専用イベントの両方を記録できます。 
+---
+= 監査ログにはどのようなタイプのイベントが記録されますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+監査ログには、変更イベント、または変更イベントと読み取り専用イベントの両方を記録できます。
+
+ポリシー設定に応じて、次のタイプのイベントが表示されます。
+
+* *変更イベント*--ストレージのプロビジョニングなど、システムへの変更を含む、System Manager内からのユーザーアクション。
+* *変更イベントおよび読み取り専用イベント*--システムへの変更を伴うユーザー操作、およびボリューム割り当ての表示やダウンロードなどの情報を含むイベント。
+

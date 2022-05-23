@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, parameters, physical, port, 
+summary: EF600ストレージアレイには、外部HICと内部HICが1つずつ、合計2つ搭載されています。 
+---
+= 1つの物理ポートに2セットのパラメータがあるのはなぜですか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF600ストレージアレイには、外部HICと内部HICが2つ搭載されています。
+
+この構成では、外部HICが内部の補助HICに接続されます。外部HICからアクセス可能な各物理ポートには、内部HICの仮想ポートが関連付けられています。
+
+最大200Gbのパフォーマンスを実現するには、物理ポートと仮想ポートの両方にパラメータを割り当てて、ホストが各ポートへの接続を確立できるようにする必要があります。仮想ポートにパラメータを割り当てない場合、HICの実行速度は約半分になります。

@@ -1,0 +1,14 @@
+---
+permalink: sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, dhcp, manual, configuration, protocol, 
+summary: ネットワーク設定のデフォルトの方法は、Dynamic Host Configuration Protocol（DHCP；動的ホスト構成プロトコル）です。ネットワークにDHCPサーバがない場合を除き、必ずこのオプションを使用してください。 
+---
+= DHCPと手動設定のどちらを選択しますか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ネットワーク設定のデフォルトの方法は、Dynamic Host Configuration Protocol（DHCP；動的ホスト構成プロトコル）です。ネットワークにDHCPサーバがない場合を除き、必ずこのオプションを使用してください。

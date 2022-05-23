@@ -1,0 +1,40 @@
+---
+permalink: sm-settings/enable-premium-feature.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, premium, feature, 
+summary: プレミアム機能は追加オプションであり、有効にするにはキーが必要です。 
+---
+= プレミアム機能を有効にします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+プレミアム機能は追加オプションであり、有効にするにはキーが必要です。
+
+.作業を開始する前に
+* 機能キーを入手しておきます。キーについては、必要に応じてテクニカルサポートにお問い合わせください。
+* 管理クライアント（System Managerにアクセスするためのブラウザを備えたシステム）上にキーファイルをロードしておきます。
+
+
+このタスクでは、System Managerを使用してプレミアム機能を有効にする方法について説明します。
+
+[NOTE]
+====
+プレミアム機能を無効にする場合は、コマンドラインインターフェイス（CLI）でDisable Storage Array Featureコマンド（disable storageArray（featurePack | featureAttributeList）を使用する必要があります。
+
+====
+.手順
+. メニューを選択します。[設定][システム]。
+. 「*アドオン*」で、「*プレミアム機能を有効にする*」を選択します。
++
+プレミアム機能を有効にするダイアログボックスが開きます。
+
+. [*Browse*](参照)をクリックし、キーファイルを選択します。
++
+ファイル名がダイアログボックスに表示されます。
+
+. [*Enable*] をクリックします。
+

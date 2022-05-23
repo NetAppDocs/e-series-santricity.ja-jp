@@ -1,0 +1,59 @@
+---
+permalink: sm-settings/overview-access-management.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access, management, 
+summary: アクセス管理は、SANtricity System Managerでユーザ認証を確立する手段の1つです。認証方式には、ロールベースアクセス制御（RBAC）、ディレクトリサービス、およびSecurity Assertion Markup Language（SAML）2.0があります。 
+---
+= アクセス管理の概要
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アクセス管理は、System Managerでユーザ認証を確立する手段の1つです。
+
+
+
+== どのような認証方式を使用できますか。
+
+認証方式には、ロールベースアクセス制御（RBAC）、ディレクトリサービス、およびSecurity Assertion Markup Language（SAML）があります。
+
+* *RBAC/ローカルユーザーロール*--ストレージアレイに適用されるRBAC機能を使用して認証を管理しますローカルユーザロールには、事前定義されたユーザプロファイルと、特定のアクセス権限を持つロールが含まれます。
+* *ディレクトリサービス*-- LDAP (Lightweight Directory Access Protocol)サーバとディレクトリサービス(MicrosoftのActive Directoryなど)を介して認証を管理します
+* *saml *-- SAML 2.0を使用して、アイデンティティプロバイダ（IdP）を介して認証を管理します。
+
+
+詳細はこちら。
+
+* link:how-access-management-works.html["アクセス管理の仕組み"]
+* link:access-management-terminology.html["アクセス管理の用語"]
+* link:permissions-for-mapped-roles.html["マッピングされたロールの権限"]
+* link:access-management-with-local-user-roles.html["ローカルユーザロール"]
+* link:access-management-with-directory-services.html["ディレクトリサービス"]
+* link:access-management-with-saml.html["SAML"]
+
+
+
+
+== 認証を設定するにはどうすればよいですか？
+
+ストレージアレイは、RBAC機能を実装したローカルユーザロールを使用するように事前に設定されています。別の方法を設定する場合は、[設定][アクセス管理]メニューに移動します。
+
+詳細はこちら。
+
+* link:add-directory-server.html["LDAPディレクトリサーバを追加します"]
+* link:configure-saml.html["SAMLを設定する"]
+
+
+
+
+== 関連情報
+
+アクセス管理に関連するタスクの詳細：
+
+* link:change-passwords.html["パスワードを変更します"]
+* link:view-audit-log-activity.html["監査ログアクティビティを表示します"]
+* link:configure-syslog-server-for-audit-logs.html["監査ログ用のsyslogサーバを設定します"]
+

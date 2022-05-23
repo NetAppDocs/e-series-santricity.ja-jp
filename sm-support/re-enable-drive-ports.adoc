@@ -1,0 +1,26 @@
+---
+permalink: sm-support/re-enable-drive-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, re-enable, drive, ports 
+summary: 誤配線状態からリカバリするための修正措置が実行されたことをコントローラに通知できます。 
+---
+= ドライブポートを再度有効にします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+誤配線状態からリカバリするための修正措置が実行されたことをコントローラに通知できます。
+
+.手順
+. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
+. ドライブポートを再度有効にする*を選択し、処理を確定します。
++
+このオプションは、ストレージアレイに無効なドライブポートがある場合にのみ表示されます。
+
++
+誤配線が検出されたときに無効になったSASポートが、コントローラによって再有効化されます。
+
+

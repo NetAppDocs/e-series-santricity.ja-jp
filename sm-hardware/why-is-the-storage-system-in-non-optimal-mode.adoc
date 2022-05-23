@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, non-optimal, mode, 
+summary: 最適モードでないストレージシステムは、システム設定が無効であることが原因です。この状態でも既存のボリュームへの通常のI/Oアクセスは完全にサポートされますが、System Managerでは一部の処理が禁止されます。 
+---
+= ストレージシステムが最適モードでないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+最適モードでないストレージシステムは、システム設定が無効であることが原因です。この状態でも既存のボリュームへの通常のI/Oアクセスは完全にサポートされますが、System Managerでは一部の処理が禁止されます。
+
+ストレージシステムがInvalid System Configurationに移行する理由には、次のいずれかが考えられます。
+
+* コントローラが準拠していません。間違ったサブモデルID（SMID）コードを持っているか、プレミアム機能の制限を超えている可能性があります。
+* ドライブファームウェアのダウンロードなどの内部サービス処理が実行中です。
+* コントローラがパリティエラーのしきい値を超えたためロックダウン状態になりました。
+* 一般的なロックダウン状態が発生しました。
+

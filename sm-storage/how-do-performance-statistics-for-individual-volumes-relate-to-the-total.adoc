@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, performance, statistics, 
+summary: プールとボリュームグループの統計は、リザーブ容量用ボリュームを含むすべてのボリュームの集計によって計算されます。 
+---
+= 個々のボリュームのパフォーマンス統計と合計値との関係はどうなっていますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+プールとボリュームグループの統計は、リザーブ容量用ボリュームを含むすべてのボリュームの集計によって計算されます。
+
+リザーブ容量は、シンボリューム、Snapshot、非同期ミラーリングをサポートするためにストレージシステムによって内部的に使用され、I/Oホストには表示されません。そのため、プール、コントローラ、およびストレージアレイの統計は、表示可能なボリュームの合計ではない場合があります。
+
+ただし、アプリケーションとワークロードの統計については、表示されるボリュームのみが集計されます。

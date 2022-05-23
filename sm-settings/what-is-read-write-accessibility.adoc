@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/what-is-read-write-accessibility.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, read/write, accessibility, 
+summary: Drive Settings（ドライブ設定）ウィンドウには、Drive Security（ドライブセキュリティ）属性に関する情報が表示されます。読み取り/書き込みアクセスは、ドライブのデータがロックされている場合に表示される属性の1つです。 
+---
+= 読み取り/書き込みアクセスとは何ですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Drive Settings（ドライブ設定）ウィンドウには、Drive Security（ドライブセキュリティ）属性に関する情報が表示されます。「読み取り/書き込みアクセス」は、ドライブのデータがロックされている場合に表示される属性の1つです。
+
+ドライブセキュリティ属性を表示するには、ハードウェアページに移動します。ドライブを選択し、*設定の表示*をクリックして、*詳細設定を表示*をクリックします。ドライブのロックが解除されている場合、ページの下部にある「読み取り/書き込みアクセス可能」属性の値は「*はい」です。読み取り/書き込みアクセス可能属性の値は*いいえ、ドライブがロックされている場合は無効なセキュリティキー*です。セキュリティキーをインポートすることで、セキュアドライブのロックを解除できます（メニュー：[設定][システム]>[セキュアドライブのロック解除]に進みます）。

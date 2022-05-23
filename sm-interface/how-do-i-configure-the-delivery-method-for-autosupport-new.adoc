@@ -1,0 +1,17 @@
+---
+permalink: sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, AutoSupport, ASUP 
+summary: AutoSupport 配信方法の設定タスクにアクセスするには、サポート>サポートセンターに移動し、AutoSupport タブをクリックします。 
+---
+= AutoSupport の配信方法を設定するにはどうすればよいですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 配信方法の設定タスクにアクセスするには、[Support]（サポートセンター）のメニューに移動し、AutoSupport *]タブをクリックします。
+
+サポートされているプロトコルは、HTTPS、HTTP、およびSMTPです。

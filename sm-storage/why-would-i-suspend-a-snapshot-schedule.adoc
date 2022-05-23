@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/why-would-i-suspend-a-snapshot-schedule.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series,  suspend, snapshot, schedule 
+summary: スケジュールを一時停止すると、スケジュールに基づいたSnapshotイメージの作成は実行されません。ストレージスペースを節約するためにSnapshotスケジュールを一時停止し、あとでスケジュールされたSnapshotを再開できます。 
+---
+= Snapshotスケジュールを一時停止するのはどのような場合ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+スケジュールを一時停止すると、スケジュールに基づいたSnapshotイメージの作成は実行されません。ストレージスペースを節約するためにSnapshotスケジュールを一時停止し、あとでスケジュールされたSnapshotを再開できます。
+
+Snapshotスケジュールが不要な場合は、スケジュールを一時停止するのではなく、削除してください。

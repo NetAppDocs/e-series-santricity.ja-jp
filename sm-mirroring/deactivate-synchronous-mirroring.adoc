@@ -1,0 +1,31 @@
+---
+permalink: sm-mirroring/deactivate-synchronous-mirroring.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, deactivate, synchronous, mirroring, adapter, host, bus, 
+summary: ストレージアレイで同期ミラーリング機能を非アクティブ化すると、ミラーデータの転送用に予約されていたホストバスアダプタ（HBA）のホストポート4を通常の用途に戻すことができます。 
+---
+= 同期ミラーリングを非アクティブ化する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイで同期ミラーリング機能を非アクティブ化すると、ミラーデータの転送用に予約されていたホストバスアダプタ（HBA）のホストポート4を通常の用途に戻すことができます。
+
+すべての同期ミラー関係を削除しておく必要があります。ストレージアレイからすべてのミラーペアが削除されたことを確認してください。
+
+.手順
+. 選択メニュー：Storage [Synchronous Mirroring]
+. メニューから[一般的でないタスク]を選択します。
++
+確認メッセージが表示されます。
+
+. 「*はい*」を選択して確定します。
+
+
+.結果
+* 同期ミラーリング通信専用で使用されていたコントローラのHBAホストポート4が、ホストの読み取り要求や書き込み要求を受け入れるようになります。
+* ストレージアレイのリザーブ容量ボリュームが削除されます。
+

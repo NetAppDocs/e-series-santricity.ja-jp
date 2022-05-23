@@ -1,0 +1,33 @@
+---
+permalink: sm-storage/activate-or-suspend-snapshot-schedule.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot schedule 
+summary: ストレージスペースの節約が必要な場合は、Snapshotイメージのスケジュールされた収集を一時的に停止できます。この方法は、Snapshotスケジュールを削除して作成し直すよりも効率的です。 
+---
+= Snapshotスケジュールのアクティブ化と一時停止
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージスペースの節約が必要な場合は、Snapshotイメージのスケジュールされた収集を一時的に停止できます。この方法は、Snapshotスケジュールを削除して作成し直すよりも効率的です。
+
+スケジュールされたスナップショットアクティビティを再開するために* Activate *オプションを使用するまで'スナップショットスケジュールの状態は一時停止のままになります
+
+.手順
+. メニューを選択します。Storage [Snapshots]。
+. 表示されていない場合は、* Schedules *（スケジュール*）タブをクリックします。
++
+スケジュールの一覧が表示されます。
+
+. サスペンドするアクティブなスナップショットスケジュールを選択し、[*Activate/Suspend*]をクリックします。
++
+State列のステータスが* suspended *に変わり、SnapshotスケジュールがすべてのSnapshotイメージの収集を停止します。
+
+. Snapshotイメージの収集を再開するには、再開する一時停止中のSnapshotスケジュールを選択し、* Activate / Suspend *をクリックします。
++
+状態列のステータスが*アクティブ*に変わります。
+
+

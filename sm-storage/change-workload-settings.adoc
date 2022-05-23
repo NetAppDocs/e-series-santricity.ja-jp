@@ -1,0 +1,29 @@
+---
+permalink: sm-storage/change-workload-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workload, settings 
+summary: ワークロードの名前を変更し、関連付けられているアプリケーションタイプを確認できます。現在の名前が適切でない場合はワークロードの名前を変更します。 
+---
+= ワークロードの設定を変更する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ワークロードの名前を変更し、関連付けられているアプリケーションタイプを確認できます。現在の名前が適切でない場合はワークロードの名前を変更します。
+
+.手順
+. 選択メニュー： Storage [Volumes]
+. [アプリケーションとワークロード]タブを選択します。
++
+[アプリケーションとワークロード]ビューが表示されます。
+
+. 変更するワークロードを選択し、*表示/設定の編集*を選択します。
++
+[アプリケーションとワークロードの設定]ダイアログボックスが表示されます。
+
+. *オプション：*ユーザが指定したワークロードの名前を変更します。
+. [ 保存（ Save ） ] をクリックします。
+

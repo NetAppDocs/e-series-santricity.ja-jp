@@ -1,0 +1,40 @@
+---
+permalink: sm-settings/edit-syslog-server-settings-for-audit-log-records.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, syslog, server, settings, audit, log, records, 
+summary: 監査ログのアーカイブに使用するsyslogサーバの設定を変更したり、サーバ用の新しい認証局（CA）証明書をアップロードしたりできます。 
+---
+= 監査ログレコード用のsyslogサーバ設定の編集
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+監査ログのアーカイブに使用するsyslogサーバの設定を変更したり、サーバ用の新しい認証局（CA）証明書をアップロードしたりできます。
+
+.作業を開始する前に
+* Security Adminの権限を含むユーザプロファイルでログインする必要があります。そうしないと、アクセス管理機能は表示されません。
+* syslogサーバのアドレス、プロトコル、およびポート番号を確認しておく必要があります。サーバアドレスは、完全修飾ドメイン名、IPv4アドレス、またはIPv6アドレスのいずれかで指定できます。
+* 新しいCA証明書をアップロードする場合は、ローカルシステムに証明書がある必要があります。
+
+
+.手順
+. メニューを選択します。Settings [Access Management]。
+. 監査ログタブで、*Configure Syslog Servers *を選択します。
++
+設定されているsyslogサーバがページに表示されます。
+
+. サーバ情報を編集するには、サーバ名の右側にある* Edit *（鉛筆）アイコンを選択し、次のフィールドで必要な変更を行います。
++
+** *サーバーアドレス*--完全修飾ドメイン名、IPv4アドレス、またはIPv6アドレスを入力します。
+** *Protocol*--ドロップダウンリストからプロトコル(TLS、UDP、TCPなど)を選択します。
+** *ポート*-- syslogレシーバーのポート番号を入力します。
+
+
+. （UDPまたはTCPから）プロトコルをセキュアTLSプロトコルに変更した場合は、[*Import Trusted Certificate*]をクリックしてCA証明書をアップロードします。
+. ストレージアレイとの新しい接続をテストするには、「*すべてテスト」を選択します。
+
+
+設定が完了すると、以降すべての監査ログがsyslogサーバに送信されるようになります。以前のログは転送されません。

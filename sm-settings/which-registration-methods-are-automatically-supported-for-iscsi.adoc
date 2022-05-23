@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, registration, methods,  automatically, supported, iscsi, 
+summary: iSCSIの実装では、Internet Storage Name Service（iSNS）検出方式またはSend Targetsコマンドの使用がサポートされます。 
+---
+= iSCSIではどの登録方法が自動的にサポートされますか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSIの実装では、Internet Storage Name Service（iSNS）検出方式またはSend Targetsコマンドの使用がサポートされます。
+
+iSNS方式では、イニシエータ（iSCSIホスト）とターゲット（コントローラ）の間でiSNS検出を実行できます。ターゲットコントローラを登録して、コントローラのiSCSI修飾名（IQN）とポート情報をiSNSサーバに提供します。
+
+iSNSを設定しない場合、iSCSIホストはiSCSI検出セッション中にSend Targetsコマンドを送信します。これに応答して、コントローラからポート情報（ターゲットIQN、ポートIPアドレス、リスニングポート、ターゲットポートグループなど）が返されます。iSNSを使用する場合は、ホストイニシエータがiSNSサーバからターゲットIPを取得できるため、この検出方式は必要ありません。

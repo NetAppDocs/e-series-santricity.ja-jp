@@ -1,0 +1,34 @@
+---
+permalink: sm-support/overview-support.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, support, center 
+summary: サポートセンターを使用して、テクニカルサポートから依頼される可能性のある診断、リカバリ、情報収集の処理を実行します。 
+---
+= サポートの概要
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+サポートページでは、テクニカルサポートリソースにアクセスできます。
+
+
+
+== どのようなサポートタスクがありますか？
+
+サポートでは、テクニカルサポートの連絡先の表示、診断の実行、AutoSupport の設定、イベントログの表示、ソフトウェアアップグレードの実行を行うことができます。
+
+詳細はこちら。
+
+* link:autosupport-feature-overview.html["AutoSupport 機能の概要"]
+* link:overview-event-log.html["イベントログの概要"]
+* link:overview-upgrade-center.html["Upgrade Centerの概要"]
+
+
+
+
+== テクニカルサポートへの連絡方法を教えてください。
+
+メインページで、[メニュー]、[サポートセンター]、[サポートリソース]タブの順にクリックします。テクニカルサポートの連絡先情報は、インターフェイスの右上に表示されます。

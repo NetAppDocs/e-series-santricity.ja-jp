@@ -1,0 +1,27 @@
+---
+permalink: sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, remote, storage, array, mirrored, pair, 
+summary: リモートストレージアレイ上のセカンダリボリュームを選択すると、そのミラーペアに対応するすべてのボリュームのリストが表示されます。 
+---
+= 非同期ミラーリング-リモートストレージアレイのボリュームが一部表示されないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リモートストレージアレイ上のセカンダリボリュームを選択すると、そのミラーペアに対応するすべてのボリュームのリストが表示されます。
+
+使用できないボリュームはリストに表示されません。次のいずれかの理由で、ボリュームが対象外になっている可能性があります。
+
+* 最適状態でない。
+* すでにミラー関係に参加している。
+* シンボリューム属性が、プライマリボリュームとセカンダリボリュームで一致しない。
+* Data Assurance（DA）を使用する場合、プライマリボリュームとセカンダリボリュームでDA設定を同じにする必要があります。
++
+** プライマリボリュームでDAを有効にする場合、セカンダリボリュームでもDAを有効にする必要があります。
+** プライマリボリュームでDAを有効にしない場合、セカンダリボリュームでもDAを無効にする必要があります。
+
+
+

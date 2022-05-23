@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, controller, network, configuration, gateway, 
+summary: アウトオブバンド管理を使用するときは、各コントローラのネットワーク設定（IPアドレス、サブネットマスク、ゲートウェイ）を設定する必要があります。 
+---
+= コントローラのネットワーク設定を変更する必要があるのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アウトオブバンド管理を使用する場合は、各コントローラのネットワーク設定（IPアドレス、サブネットワークマスク、ゲートウェイ）を設定する必要があります。
+
+ネットワーク設定は、動的ホスト構成プロトコル（DHCP）サーバを使用して設定できます。DHCPサーバを使用しない場合は、ネットワーク設定を手動で入力する必要があります。

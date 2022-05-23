@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-a-snapshot-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, image, 
+summary: Snapshotイメージは、ボリュームの内容を特定の時点でキャプチャした論理コピーです。Snapshotイメージが使用するストレージスペースは最小限です。 
+---
+= Snapshotイメージとは何ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotイメージは、ボリュームの内容を特定の時点でキャプチャした論理コピーです。Snapshotイメージが使用するストレージスペースは最小限です。
+
+Snapshotイメージのデータは次のように格納されます。
+
+* Snapshotイメージが作成された時点では、Snapshotイメージはベースボリュームと完全に一致します。Snapshotの作成後、ベースボリューム上のブロックに対して最初の書き込み要求が行われると、新しいデータがベースボリュームに書き込まれる前に元のデータがSnapshotリザーブ容量にコピーされます。
+* 以降のSnapshotには、最初のSnapshotイメージの作成後に変更されたデータブロックのみが含まれます。以降のcopy-on-write処理では、新しいデータがベースボリュームに書き込まれる前に、ベースボリュームで上書きされる元のデータがSnapshotリザーブ容量に保存されます。
+

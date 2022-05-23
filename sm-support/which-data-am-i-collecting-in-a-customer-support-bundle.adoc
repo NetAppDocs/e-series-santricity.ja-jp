@@ -1,0 +1,16 @@
+---
+permalink: sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, data, collection, autosupport, ASUP 
+summary: AutoSupport 機能と手動のサポートデータ収集機能を使用すると、テクニカルサポートによるリモートでのトラブルシューティングや問題分析用にカスタマーサポートバンドルにデータを収集できます。 
+---
+= 収集するデータ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 機能と手動のサポートデータ収集機能を使用すると、テクニカルサポートによるリモートでのトラブルシューティングや問題分析用にカスタマーサポートバンドルにデータを収集できます。
+
+カスタマーサポートバンドルでは、ストレージアレイに関するすべてのタイプの情報が1つの圧縮ファイルに収集されます。収集される情報には、物理構成、論理構成、バージョン情報、イベント、ログファイル、 パフォーマンスデータも収集できます。この情報は、テクニカルサポートがストレージアレイの問題を解決するためにのみ使用されます。

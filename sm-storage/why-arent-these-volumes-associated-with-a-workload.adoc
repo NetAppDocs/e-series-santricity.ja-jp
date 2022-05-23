@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/why-arent-these-volumes-associated-with-a-workload.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, associated, workload 
+summary: ボリュームをコマンドラインインターフェイス（CLI）を使用して作成した場合や別のストレージアレイから移行（インポート/エクスポート）した場合、それらのボリュームはワークロードに関連付けられません。 
+---
+= ボリュームがワークロードに関連付けられていないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリュームをコマンドラインインターフェイス（CLI）を使用して作成した場合や別のストレージアレイから移行（インポート/エクスポート）した場合、それらのボリュームはワークロードに関連付けられません。

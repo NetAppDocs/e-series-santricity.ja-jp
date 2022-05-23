@@ -1,0 +1,24 @@
+---
+permalink: sm-storage/why-use-snapshot-images.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, images 
+summary: Snapshotを使用すると、偶然または悪意のある行為によるデータの損失や破損からデータを保護し、リカバリすることができます。 
+---
+= Snapshotイメージを使用するのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotを使用すると、偶然または悪意のある行為によるデータの損失や破損からデータを保護し、リカバリすることができます。
+
+ベースボリュームまたはベースボリュームのグループであるSnapshot整合性グループを選択し、次のいずれかまたは複数の方法でSnapshotイメージをキャプチャします。
+
+* 1つのベースボリューム、または複数のベースボリュームで構成されるSnapshot整合性グループのSnapshotイメージを作成できます。
+* 手動でSnapshotを作成するか、ベースボリュームまたはSnapshot整合性グループの定期的なSnapshotイメージを自動的にキャプチャするスケジュールを作成できます。
+* ホストからアクセス可能なSnapshotイメージのSnapshotボリュームを作成できます。
+* ロールバック処理を実行してSnapshotイメージをリストアできます。
+
+
+複数のSnapshotイメージがリストアポイントとして保持されるため、特定の時点の既知の正常なデータセットにロールバックできます。ロールバック機能により、偶発的なデータの削除や破損からの保護が提供されます。

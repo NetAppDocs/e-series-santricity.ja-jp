@@ -1,0 +1,64 @@
+---
+permalink: sm-settings/overview-drive-security.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, system, security, key, management, 
+summary: セキュリティキー管理は、System（システム）ページから使用できます。 
+---
+= ドライブセキュリティの概要
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ドライブセキュリティとキー管理は、セキュリティキー管理のページで設定できます。
+
+
+
+== ドライブセキュリティとは何ですか？
+
+_Drive Security_は、セキュリティ有効ドライブをストレージアレイから取り外したときに、そのドライブ上のデータへの不正アクセスを防止する機能です。対応するドライブには、Full Disk Encryption（FDE）ドライブと連邦情報処理標準（FIPS）ドライブがあります。FDEドライブまたはFIPSドライブをアレイから物理的に取り外した場合、それらのドライブは別のアレイに取り付けるまで動作しなくなり、取り付けた時点で正しいセキュリティキーが提供されるまでセキュリティロック状態になります。a_security key_は、ストレージアレイ内のこれらのタイプのドライブおよびコントローラで共有される文字列です。
+
+詳細はこちら。
+
+* link:how-the-drive-security-feature-works.html["ドライブセキュリティ機能の仕組み"]
+* link:how-security-key-management-works.html["セキュリティキー管理の仕組み"]
+* link:drive-security-terminology.html["ドライブセキュリティの用語"]
+
+
+
+
+== キー管理を設定するにはどうすればよいですか？
+
+ドライブセキュリティを実装するには、アレイにFDEドライブまたはFIPSドライブが搭載されている必要があります。これらのドライブのキー管理を設定するには、メニューから次のいずれかを選択します。Settings [ System > Security key management ]コントローラの永続的メモリから内部キーを作成するか、キー管理サーバから外部キーを作成できます。最後に、ボリューム設定で「セキュリティ対応」を選択して、プールとボリュームグループのドライブセキュリティを有効にします。
+
+詳細はこちら。
+
+* link:create-internal-security-key.html["内部セキュリティキーを作成します"]
+* link:create-external-security-key.html["外部セキュリティキーを作成します"]
+* link:../sm-storage/create-pool-manually.html["プールを手動で作成する"]
+* link:../sm-storage/create-volume-group.html["ボリュームグループを作成します"]
+
+
+
+
+== ドライブのロックを解除する方法
+
+キー管理を設定したあとに、セキュリティ有効ドライブをストレージアレイ間で移動した場合は、セキュリティキーを新しいストレージアレイに再度割り当てて、ドライブ上の暗号化データにアクセスできるようにする必要があります。
+
+詳細はこちら。
+
+* link:unlock-drives-using-an-internal-security-key.html["内部キー管理を使用する場合は、ドライブのロックを解除します"]
+* link:unlock-drives-using-an-external-security-key.html["外部キー管理を使用する場合は、ドライブのロックを解除します"]
+
+
+
+
+== 関連情報
+
+キー管理に関連するタスクの詳細：
+
+* link:use-ca-signed-certificates-for-authentication-with-a-key-management-server.html["キー管理サーバでの認証にCA署名証明書を使用する"]
+* link:back-up-security-key.html["セキュリティキーをバックアップする"]
+

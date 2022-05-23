@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, snapshots, thin, standard, base, images 
+summary: Snapshotイメージを格納できるボリュームは、標準ボリュームとシンボリュームだけです。標準以外のボリュームは使用できません。ベースボリュームはプールまたはボリュームグループのどちらかに配置できます。 
+---
+= Snapshotにはどのような種類のボリュームを使用できますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotイメージを格納できるボリュームは、標準ボリュームとシンボリュームだけです。標準以外のボリュームは使用できません。ベースボリュームはプールまたはボリュームグループのどちらかに配置できます。

@@ -1,0 +1,23 @@
+---
+permalink: sm-storage/why-are-capacity-alerts-important.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, capacity, alerts, important 
+summary: 容量アラートは、プールにドライブを追加するタイミングを示します。ストレージアレイの処理を正常に実行するには、プールに十分な空き容量が必要です。プールの空き容量が指定した割合を超えたときにアラートを送信するようにSystem Managerを設定すると、容量不足による処理の中断を回避できます。 
+---
+= 容量アラートが重要なのはなぜですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+容量アラートは、プールにドライブを追加するタイミングを示します。ストレージアレイの処理を正常に実行するには、プールに十分な空き容量が必要です。プールの空き容量が指定した割合を超えたときにアラートを送信するようにSystem Managerを設定すると、容量不足による処理の中断を回避できます。
+
+プールの作成時にこの割合を設定するには、* Pool auto-configuration *オプションまたは* Create pool *オプションを使用します。自動オプションを選択すると、アラート通知を受信するタイミングはデフォルト設定によって自動的に決まります。プールを手動で作成する場合は、アラート通知の設定を指定します。必要に応じて、デフォルトの設定をそのまま使用することもできます。これらの設定は、後で「Settings [Alerts]」（設定[Alerts]）メニューで調整できます。
+
+[NOTE]
+====
+プールの空き容量が指定した割合に達すると、アラート設定に指定した方法でアラート通知が送信されます。
+
+====

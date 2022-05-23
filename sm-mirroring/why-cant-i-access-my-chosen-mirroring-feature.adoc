@@ -1,0 +1,33 @@
+---
+permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, mirroring, access 
+summary: ミラーリングはUnified Managerインターフェイスで設定されます。 
+---
+= 選択したミラーリング機能にアクセスできないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラーリングはUnified Managerインターフェイスで設定されます。
+
+[NOTE]
+====
+EF600またはEF300ストレージアレイではミラーリングを使用できません。
+
+====
+2つのアレイ間のミラーリングを有効にして設定するには、次の点を確認します。
+
+* Web Services Proxyサービスが実行されている必要があります。（Unified Managerは、Web Services Proxyとともにホストシステムにインストールされます）。
+* Unified ManagerがHTTPS接続経由でローカルホストで実行されている必要があります。
+* ミラーリングに使用する2つのストレージアレイがUnified Managerで検出されている必要があります。
+* Unified Managerには、ストレージアレイの有効なSSL証明書が必要です。自己署名証明書を受け入れることも、Unified ManagerからCA署名証明書をインストールすることもできます。
+
+
+設定手順については、以下を参照してください。
+
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html["非同期ミラーペアの作成（Unified Manager）"]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html["同期ミラーペアの作成（Unified Manager）"]
+

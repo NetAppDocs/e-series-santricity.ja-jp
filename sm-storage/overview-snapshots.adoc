@@ -1,0 +1,69 @@
+---
+permalink: sm-storage/overview-snapshots.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshots 
+summary: Snapshot機能を使用すると、ストレージアレイボリュームのポイントインタイムイメージを作成してバックアップまたはテストに使用できます。 
+---
+= Snapshot の概要
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot機能を使用すると、ストレージアレイボリュームのポイントインタイムイメージを作成してバックアップまたはテストに使用できます。
+
+
+
+== Snapshotイメージとは何ですか？
+
+a_snapshot image_は 特定の時点でキャプチャされたボリュームデータの論理コピーです。リストアポイントと同様に、 Snapshot イメージを使用して既知の正常なデータセットにロールバックできます。ホストはSnapshotイメージにアクセスできますが、直接読み取ったり書き込んだりすることはできません。
+
+詳細はこちら。
+
+* link:how-snapshot-storage-works.html["Snapshotストレージの仕組み"]
+* link:snapshot-terminology.html["Snapshotに関する用語"]
+* link:base-volumes-reserved-capacity-and-snapshot-groups.html["ベースボリューム、リザーブ容量、およびSnapshotグループ"]
+* link:snapshot-schedules-and-snapshot-consistency-groups.html["Snapshotスケジュールと整合性グループ"]
+* link:snapshot-volumes.html["Snapshotボリューム"]
+
+
+
+
+== Snapshotを作成するにはどうすればよいですか？
+
+ベースボリュームまたはSnapshot整合性グループからSnapshotイメージを手動で作成することができます。この手順 は次のメニューから使用できます。Storage [Snapshots]。
+
+詳細はこちら。
+
+* link:requirements-and-guidelines-for-snapshots.html["Snapshotの要件とガイドライン"]
+* link:workflow-for-creating-snapshot-images-and-snapshot-volumes.html["Snapshotイメージとボリュームを作成するためのワークフロー"]
+* link:create-snapshot-image.html["Snapshotイメージを作成"]
+* link:schedule-snapshot-images.html["Snapshotイメージのスケジュールを設定"]
+* link:create-snapshot-consistency-group.html["Snapshot整合性グループを作成します"]
+* link:create-snapshot-volume.html["Snapshotボリュームを作成します"]
+
+
+
+
+== Snapshotからデータをロールバックするにはどうすればよいですか？
+
+a_rollback_は、ベースボリューム内のデータを過去の特定の時点に戻すプロセスです。メニューからSnapshotデータをロールバックできます。Storage [Snapshots]。
+
+詳細はこちら。
+
+* link:snapshot-rollback.html["Snapshotのロールバック"]
+* link:start-snapshot-image-rollback-for-base-volume.html["ベースボリュームのSnapshotイメージのロールバックを開始する"]
+* link:start-snapshot-image-rollback-for-consistency-group-member-volumes.html["整合性グループメンバーのSnapshotイメージのロールバックを開始します"]
+
+
+
+
+== 関連情報
+
+Snapshotに関連するタスクの詳細を確認できます。
+
+* link:change-the-reserved-capacity-settings-for-a-snapshot-volume.html["Snapshotボリュームのリザーブ容量を変更します"]
+* link:change-the-reserved-capacity-settings-for-a-snapshot-group.html["Snapshotグループのリザーブ容量を変更します"]
+

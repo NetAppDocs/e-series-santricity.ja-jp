@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/add-community-names-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add, communities, snmpv2c, traps, 
+summary: SNMPv2cトラップには最大256個のコミュニティ名を追加できます。 
+---
+= SNMPv2cトラップのコミュニティを追加します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SNMPv2cトラップには最大256個のコミュニティ名を追加できます。
+
+.手順
+. メニューを選択します。Settings [Alerts]（設定[Alerts]）。
+. [*SNMP*]タブを選択します。
++
+トラップの送信先とコミュニティ名が表に表示されます。
+
+. [コミュニティの設定]を選択します。
++
+コミュニティの設定ダイアログボックスが開きます。
+
+. [*別のコミュニティを追加*]を選択します。
+. 新しいコミュニティ名を入力し、* Save *をクリックします。
+
+
+[Alerts]ページの[SNMP]タブに新しいコミュニティ名が表示されます。

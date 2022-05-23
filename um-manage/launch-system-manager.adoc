@@ -1,0 +1,23 @@
+---
+permalink: um-manage/launch-system-manager.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, individual, storage, array 
+summary: 管理操作を実行する場合は、起動オプションを使用して、1つ以上のストレージアレイのブラウザベースのSANtricity System Managerを開くことができます。 
+---
+= 個々のストレージアレイを管理します
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+管理操作を実行する場合は、起動オプションを使用して、1つ以上のストレージアレイのブラウザベースのSystem Managerを開くことができます。
+
+.手順
+. 管理ページで、管理するストレージアレイを1つ以上選択します。
+. [* 起動 * ] をクリックします。
++
+新しいウィンドウが開き、System Managerのログインページが表示されます。
+
+. ユーザー名とパスワードを入力し、*ログイン*をクリックします。
+

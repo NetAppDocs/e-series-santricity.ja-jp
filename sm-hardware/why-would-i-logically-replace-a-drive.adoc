@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/why-would-i-logically-replace-a-drive.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, logically, replace, drive, 
+summary: ドライブに障害が発生した場合や、何らかの理由でドライブを交換する場合、ストレージアレイに未割り当てのドライブがあれば、障害が発生したドライブを未割り当てのドライブに論理的に交換することができます。未割り当てのドライブがない場合は、ドライブを物理的に交換します。 
+---
+= ドライブを論理的に交換するのはどのような場合ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ドライブに障害が発生した場合や、何らかの理由でドライブを交換する場合、ストレージアレイに未割り当てのドライブがあれば、障害が発生したドライブを未割り当てのドライブに論理的に交換することができます。未割り当てのドライブがない場合は、ドライブを物理的に交換します。
+
+元のドライブのデータは、交換用ドライブにコピーまたは再構築されます。

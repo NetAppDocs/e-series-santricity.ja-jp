@@ -1,0 +1,39 @@
+---
+permalink: sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, mirror, consistency, group, 
+summary: ミラー整合性グループを作成する際は、次のガイドラインに従ってください。 
+---
+= ミラー整合性グループを作成するときは、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラー整合性グループを作成する際は、次のガイドラインに従ってください。
+
+[NOTE]
+====
+この機能は、EF600またはEF300ストレージシステムでは使用できません。
+
+====
+Unified Managerのミラーペアの作成ウィザードで整合性グループを作成しておきます。
+
+Unified Managerに関する次の要件を満たしている必要があります。
+
+* Web Services Proxyサービスが実行されている必要があります。
+* Unified ManagerがHTTPS接続経由でローカルホストで実行されている必要があります。
+* Unified Managerにストレージアレイの有効なSSL証明書が表示されている必要があります。Unified Managerのメニューから「Certificate Management」に移動し、自己署名証明書を受け入れるか、独自のセキュリティ証明書をインストールできます。
+
+
+また、ストレージアレイに関する次の要件を満たしていることも確認してください。
+
+* Unified Managerで2つのストレージアレイが検出されている必要があります。
+* 各ストレージアレイに2台のコントローラが必要です。
+* プライマリアレイとセカンダリアレイの各コントローラにイーサネット管理ポートが設定されていて、各コントローラがネットワークに接続されている必要があります。
+* ストレージアレイに必要なファームウェアの最小バージョンは7.84です（それぞれ異なるバージョンのOSを実行できます）。
+* ローカルとリモートのストレージアレイのパスワードを確認しておく必要があります。
+* ローカルとリモートのストレージアレイをFibre ChannelファブリックまたはiSCSIインターフェイスを介して接続します。
+

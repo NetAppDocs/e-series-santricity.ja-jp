@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, host, creation, volume, assignment 
+summary: 次の図に、ホストアクセスの設定方法を示します。 
+---
+= ホストの作成とボリュームの割り当てのワークフロー
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+次の図に、ホストアクセスの設定方法を示します。
+
+image::../media/sam1130-flw-hosts-create-host.gif[sam1130 Flwホストはホストを作成します]

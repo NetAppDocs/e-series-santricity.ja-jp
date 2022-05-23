@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, port, configuration, isns, server, dhcp, server, 
+summary: DHCPサーバは、サーバを変更またはアップグレードしたとき、および現在のストレージアレイと使用するストレージアレイに関連するDHCP情報が変更されたときに更新します。 
+---
+= DHCPサーバからポート設定またはiSNSサーバを更新する必要があるのはいつですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+DHCPサーバは、サーバを変更またはアップグレードしたとき、および現在のストレージアレイと使用するストレージアレイに関連するDHCP情報が変更されたときに更新します。
+
+具体的には、DHCPサーバが別のアドレスを割り当てることがわかったときに、DHCPサーバからポート設定またはiSNSサーバを更新します。
+
+[NOTE]
+====
+ポート設定を更新すると、そのポート上のすべてのiSCSI接続が停止します。
+
+====

@@ -1,0 +1,32 @@
+---
+permalink: um-certificates/reset-management-certificates-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, reset, management, certificates 
+summary: 管理証明書を工場出荷時の自己署名証明書の状態に戻すことができます。 
+---
+= 管理証明書をリセットします
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+管理証明書を工場出荷時の自己署名証明書の状態に戻すことができます。
+
+Security Adminの権限を含むユーザプロファイルでログインする必要があります。そうしないと、証明書の機能は表示されません。
+
+このタスクでは、Web Services ProxyとUnified Managerがインストールされているホストシステムから現在の管理証明書を削除します。証明書をリセットすると、ホストシステムでは自己署名証明書が再び使用されるようになります。
+
+.手順
+. [証明書管理]を選択します。
+. [管理（Management）]タブで、[*リセット（* Reset）]を選択します
++
+管理証明書のリセットの確認ダイアログボックスが開きます。
+
+. フィールドに「reset」と入力し、「* Reset *」をクリックします。
++
+ブラウザをリフレッシュすると、デスティネーションサイトへのアクセスがブロックされ、サイトでHTTP Strict Transport Securityが使用されていると報告されることがあります。この状況は、自己署名証明書に切り替えると発生します。デスティネーションへのアクセスをブロックしている状態をクリアするには、ブラウザから参照データをクリアする必要があります。
+
+
+
+システムでサーバの自己署名証明書が再び使用されるようになります。そのため、セッションの自己署名証明書を手動で承認するように求められます。

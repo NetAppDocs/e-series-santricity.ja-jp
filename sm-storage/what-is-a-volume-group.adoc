@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-is-a-volume-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volume, group 
+summary: ボリュームグループは、同じ特性を持つボリュームのコンテナです。ボリュームグループごとに容量とRAIDレベルが定義されています。ボリュームグループを使用して、ホストにアクセス可能な1つ以上のボリュームを作成することができます。（ボリュームはボリュームグループまたはプールから作成します）。 
+---
+= ボリュームグループとは何ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリュームグループは、同じ特性を持つボリュームのコンテナです。ボリュームグループごとに容量とRAIDレベルが定義されています。ボリュームグループを使用して、ホストにアクセス可能な1つ以上のボリュームを作成することができます。（ボリュームはボリュームグループまたはプールから作成します）。

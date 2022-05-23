@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/why-would-i-create-a-snapshot-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency, group 
+summary: Snapshot整合性グループは、複数のボリュームで同時にSnapshotイメージが作成されるようにする場合に作成します。 
+---
+= Snapshot整合性グループを作成するのはどのような場合ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot整合性グループは、複数のボリュームで同時にSnapshotイメージが作成されるようにする場合に作成します。
+
+たとえば、リカバリ目的で整合性を保つ必要がある複数のボリュームで構成されるデータベースが該当します。この場合、すべてのボリュームのSnapshotを同時に収集し、収集したSnapshotを使用してデータベース全体をリストアするために、Snapshot整合性グループが必要です。
+
+Snapshot整合性グループに含まれるボリュームのことを_member volume__と呼びます。
+
+Snapshot整合性グループに対して次のSnapshot処理を実行できます。
+
+* メンバーボリュームの同時イメージを取得するために、Snapshot整合性グループのSnapshotイメージを作成する。
+* メンバーボリュームの定期的な同時イメージを自動的にキャプチャするために、Snapshot整合性グループのスケジュールを作成する。
+* ホストからアクセス可能なSnapshot整合性グループイメージのSnapshotボリュームを作成する。
+* Snapshot整合性グループのロールバック処理を実行する。
+

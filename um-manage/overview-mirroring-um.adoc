@@ -1,0 +1,45 @@
+---
+permalink: um-manage/overview-mirroring-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, mirroring 
+summary: ミラーリング機能を使用して、ローカルストレージアレイとリモートストレージアレイの間でデータを非同期または同期的にレプリケートします。 
+---
+= ミラーリングの概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラーリング機能を使用して、ローカルストレージアレイとリモートストレージアレイの間でデータを非同期または同期的にレプリケートします。
+
+[NOTE]
+====
+この機能は、EF600またはEF300ストレージシステムでは使用できません。
+
+====
+
+
+== ミラーリングとは何ですか？
+
+SANtricity アプリケーションには、非同期と同期の2種類のミラーリングがあります。非同期ミラーリングでは、データボリュームをオンデマンドで、またはスケジュールに基づいてコピーします。これにより、データの破損や損失が原因で発生するダウンタイムを回避または最小限に抑えることができます。同期ミラーリングでは、データボリュームをリアルタイムでレプリケートして、継続的な可用性を確保します。
+
+詳細はこちら。
+
+* link:mirroring-overview.html["ミラーリングの仕組み"]
+* link:mirroring-terminology.html["ミラーリングに関する用語"]
+
+
+
+
+== ミラーリングの設定方法
+
+Unified Managerで非同期ミラーリングまたは同期ミラーリングを設定し、System Managerを使用して同期を管理します。
+
+詳細はこちら。
+
+* link:mirroring-configuration-workflow.html["ミラーリングの設定ワークフロー"]
+* link:requirements-for-using-mirroring.html["ミラーリングを使用するための要件"]
+* link:create-asynchronous-mirrored-pair-um.html["非同期ミラーペアを作成する"]
+* link:create-synchronous-mirrored-pair-um.html["同期ミラーペアを作成する"]
+

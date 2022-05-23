@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-are-the-differences-between-pools-and-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pools, volume, groups 
+summary: プールはボリュームグループに似ていますが、次の点が異なります。 
+---
+= プールとボリュームグループの違いは何ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+プールはボリュームグループに似ていますが、次の点が異なります。
+
+* プール内のデータは、同じ一連のドライブに格納されるボリュームグループ内のデータとは異なり、プール内のすべてのドライブにランダムに格納されます。
+* プールの方がドライブ障害時のパフォーマンスの低下と再構築にかかる時間が少なくなります。
+* プールには予約済み容量が組み込まれているため、専用のホットスペアドライブは必要ありません。
+* プールでは多数のドライブをグループ化できます。
+* プールにはRAIDレベルを指定する必要はありません。
+

@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, application, workloads, 
+summary: アプリケーション固有のワークロードのボリューム特性は、ワークロードがストレージアレイのコンポーネントとやり取りする方法を決定し、特定の構成下での環境のパフォーマンスを判断するのに役立ちます。 
+---
+= アプリケーション固有のワークロードはストレージアレイの管理にどのように役立ちますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アプリケーション固有のワークロードのボリューム特性は、ワークロードがストレージアレイのコンポーネントとやり取りする方法を決定し、特定の構成下での環境のパフォーマンスを判断するのに役立ちます。
+
+アプリケーションとは、SQL ServerやExchangeなどのソフトウェアです。アプリケーションごとに、サポートするワークロードを1つ以上定義します。一部のアプリケーションについては、ストレージを最適化するボリューム構成が自動的に提示されます。ボリューム構成には、I/Oタイプ、セグメントサイズ、コントローラ所有権、読み取りと書き込みのキャッシュなどの特性が含まれます。

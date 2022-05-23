@@ -1,0 +1,24 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, certificate, revocation, checking, 
+summary: System Managerでは、証明書失効リスト（CRL）をアップロードする代わりに、Online Certificate Status Protocol（OCSP）サーバを使用して失効した証明書をチェックできます。 
+---
+= 証明書失効チェックについて、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerでは、証明書失効リスト（CRL）をアップロードする代わりに、Online Certificate Status Protocol（OCSP）サーバを使用して失効した証明書をチェックできます。
+
+失効した証明書は信頼しないようにしてください。証明書が失効する理由はいくつかあります。たとえば、認証局（CA）から証明書が適切に発行されていない、秘密鍵が不正に使用された、特定されたエンティティがポリシーの要件を満たしていない、などの場合です。
+
+System ManagerでOCSPサーバへの接続を確立すると、ストレージアレイは、AutoSupport サーバ、外部キー管理サーバ（EKMS）、Lightweight Directory Access Protocol over SSL（LDAPS）サーバ、またはsyslogサーバに接続するたびに失効チェックを実行します。ストレージアレイは、これらのサーバの証明書の検証を試行して、証明書が失効していないことを確認します。その証明書について、サーバから「good」、「revoked」「unknown」のいずれかの値が返されます。証明書が失効している場合や、アレイがOCSPサーバにアクセスできない場合は、接続が拒否されます。
+
+[NOTE]
+====
+System Managerまたはコマンドラインインターフェイス（CLI）で指定したOCSPレスポンダアドレスは、証明書ファイル内のOCSPアドレスよりも優先されます。
+
+====

@@ -1,0 +1,61 @@
+---
+permalink: sm-interface/what-are-the-supported-browsers.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, browser support 
+summary: System Managerでサポートされるブラウザとバージョンは次のとおりです。 
+---
+= サポートされているブラウザ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerでサポートされるブラウザとバージョンは次のとおりです。
+
+[cols="1a,1a"]
+|===
+| ブラウザ | 最小バージョン 
+
+
+ a| 
+Google Chrome
+ a| 
+79
+
+
+
+ a| 
+Mozilla Firefox
+ a| 
+70
+
+
+
+ a| 
+Safari
+ a| 
+12.
+
+
+
+ a| 
+Microsoft Edge の場合
+ a| 
+79
+
+
+
+ a| 
+Microsoft Edge Legacy（Microsoft Edgeレガシー）
+ a| 
+18
+
+
+
+ a| 
+Microsoft Internet Explorer（MSIE）
+ a| 
+11.
+
+|===

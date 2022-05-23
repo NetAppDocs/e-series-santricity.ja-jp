@@ -1,0 +1,33 @@
+---
+permalink: um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, mapping, storage, array, roles 
+summary: グループをロールにマッピングする前に、ガイドラインを確認してください。 
+---
+= ストレージアレイのロールをマッピングするときは、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+グループをロールにマッピングする前に、ガイドラインを確認してください。
+
+RBAC（ロールベースアクセス制御）機能には次のロールがあります。
+
+* * Storage admin *--アレイ上のストレージ・オブジェクトへの読み取り/書き込みのフル・アクセスを提供しますが'セキュリティ構成へのアクセスはありません
+* * Security admin *--アクセス管理と証明書管理のセキュリティ設定へのアクセス。
+* * Support admin *--ストレージアレイ上のすべてのハードウェアリソース、障害データ、およびMELイベントへのアクセス。ストレージオブジェクトやセキュリティ設定にはアクセスできません。
+* *Monitor *--すべてのストレージオブジェクトへの読み取り専用アクセスが可能ですが、セキュリティ設定へのアクセスはありません。
+
+
+[NOTE]
+====
+Monitorロールは、管理者を含むすべてのユーザに必要です。
+
+====
+LDAP（Lightweight Directory Access Protocol）サーバとディレクトリサービスを使用する場合は、次の点を確認してください。
+
+* ディレクトリサービスでユーザグループを定義しておきます。
+* LDAPユーザグループのグループドメイン名を確認しておきます。
+

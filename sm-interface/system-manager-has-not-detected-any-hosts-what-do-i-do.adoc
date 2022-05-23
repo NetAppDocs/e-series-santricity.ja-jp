@@ -1,0 +1,22 @@
+---
+permalink: sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, host detection 
+summary: 接続されているホストが表示されない場合は、自動検出に失敗したか、ホストが正しく接続されていないか、または現在接続されているホストがありません。 
+---
+= ホストが検出されませんでした。どうすればよいですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+接続されているホストが表示されない場合は、自動検出に失敗したか、ホストが正しく接続されていないか、または現在接続されているホストがありません。
+
+ホストの設定は、セットアップの完了後に実行できます。ホストは、次の方法で自動または手動で作成できます。
+
+* ホストにHost Context Agent（HCA）がインストールされている場合は、ホストの設定情報がHCAからストレージアレイにプッシュされます。System Managerはこれらのホストを自動的に設定し、* Initial Setup *ウィザードに表示します。HCAは、NVMe over Fabricsホストには適用されません。
+* ホストを手動で作成し、次のメニューから適切なホストポート識別子を関連付けることができます：Storage [Hosts]。手動で作成したホストは、*初期セットアップ*ウィザードにも表示されます。
+* 自動検出が機能するためには、ターゲットとホストにホストポートタイプ（iSCSIやNVMe over RoCEなど）が設定されていて、ストレージへのセッションが確立されている必要があります。
+

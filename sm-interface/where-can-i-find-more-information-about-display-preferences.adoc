@@ -1,0 +1,18 @@
+---
+permalink: sm-interface/where-can-i-find-more-information-about-display-preferences.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, display preferences 
+summary: 使用可能な表示オプションに関する情報は、次のヘルプトピックで参照できます。 
+---
+= 表示環境設定に関する詳しい情報は、どこで入手できますか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用可能な表示オプションに関する情報を検索するには、次の手順に従います。
+
+* 容量値を表示する際のデフォルトの単位については、を参照してください link:set-default-units-for-capacity-values.html["容量値のデフォルトの単位を設定します"]。
+* パフォーマンスグラフを表示する際のデフォルト期間については、を参照してください link:set-default-time-frame-for-performance-graphs.html["パフォーマンスグラフのデフォルト期間を設定します"]。
+

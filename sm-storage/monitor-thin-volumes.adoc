@@ -1,0 +1,25 @@
+---
+permalink: sm-storage/monitor-thin-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, monitor, thin, volumes 
+summary: シンボリュームのスペースを監視して適切なアラートを生成し、容量不足が発生するのを回避できます。 
+---
+= シンボリュームを監視する
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+シンボリュームのスペースを監視して適切なアラートを生成し、容量不足が発生するのを回避できます。
+
+[NOTE]
+====
+この機能は、EF600またはEF300ストレージシステムでは使用できません。
+
+====
+[NOTE]
+====
+SANtricity System Managerには、シンボリュームを作成するオプションはありません。シンボリュームを作成する場合は、コマンドラインインターフェイス（CLI）を使用します。
+
+====

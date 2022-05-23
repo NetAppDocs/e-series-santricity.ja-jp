@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-if-alerts-are-disabled.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, alerts, disabled, 
+summary: ストレージアレイで発生する重要なイベントに関する通知を管理者が受信できるようにするには、アラート方法を設定する必要があります。 
+---
+= アラートが無効になっている場合
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイで発生する重要なイベントに関する通知を管理者が受信できるようにするには、アラート方法を設定する必要があります。
+
+SANtricity System Managerで管理されるストレージアレイの場合は、アラートページからアラートを設定します。アラート通知は、Eメール、SNMPトラップ、またはsyslogメッセージを介して送信できます。また、初期セットアップウィザードからEメールアラートを設定することもできます。

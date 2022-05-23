@@ -1,0 +1,38 @@
+---
+permalink: um-certificates/overview-certificates-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, certificate management 
+summary: 証明書管理では、証明書署名要求（CSR）の作成、証明書のインポート、および既存の証明書の管理を行うことができます。 
+---
+= 証明書の概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+証明書管理では、証明書署名要求（CSR）の作成、証明書のインポート、および既存の証明書の管理を行うことができます。
+
+
+
+== 証明書とは何ですか？
+
+_証明書_は、Webサイトやサーバなどのオンラインエンティティを識別し、インターネット上のセキュアな通信を実現するデジタルファイルです。証明書には2種類あります。A_Signed certificate_is validated by a Certificate Authority（CA；認証局）とa_self-signed certificate_is validated by the entity of the entity instead of a third party。
+
+詳細はこちら。
+
+* link:how-certificates-work-unified.html["証明書の仕組み"]
+* link:certificate-terminology-unified.html["証明書の用語"]
+
+
+
+
+== 証明書の設定方法
+
+証明書管理では、Unified Managerをホストする管理ステーションの証明書を設定できるほか、アレイのコントローラの証明書をインポートすることもできます。
+
+詳細はこちら。
+
+* link:use-ca-signed-certificate-um.html["管理システムのCA署名証明書を使用します"]
+* link:import-array-certificates-unified.html["アレイの証明書をインポートします"]
+

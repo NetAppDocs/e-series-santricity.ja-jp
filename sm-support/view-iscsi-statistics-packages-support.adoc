@@ -1,0 +1,37 @@
+---
+permalink: sm-support/view-iscsi-statistics-packages-support.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, iscsi, statistics, packages 
+summary: ストレージアレイへのiSCSI接続に関するデータを表示できます。 
+---
+= iSCSI統計パッケージを表示します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイへのiSCSI接続に関するデータを表示できます。
+
+System Managerには、次のタイプのiSCSI統計が表示されます。統計はすべて読み取り専用で、設定することはできません。
+
+* *イーサネットMAC統計*--メディアアクセス制御(MAC)の統計情報を提供します。MACは、物理アドレスまたはMACアドレスと呼ばれるアドレス指定メカニズムも提供します。MACアドレスは、各ネットワークアダプタに割り当てられている一意のアドレスです。MACアドレスは、サブネットワーク内のデスティネーションへのデータパケットの配信に役立ちます。
+* *イーサネットTCP/IP統計*-- iSCSIデバイスのTCP (Transmission Control Protocol)とIP (Internet Protocol)のTCP/IPの統計情報を提供しますTCPを使用すると、ネットワークホスト上のアプリケーションが相互に接続を作成し、パケットでデータを交換できます。IPは、パケット交換インターネットワークを介してデータを通信するデータ指向プロトコルです。IPv4統計とIPv6統計は個別に表示されます。
+* *ローカル・ターゲット/イニシエータ（プロトコル）統計*：ストレージ・メディアへのブロック・レベルのアクセスを提供するiSCSIターゲットの統計情報を表示します非同期ミラーリング処理でイニシエータとして使用される場合は'ストレージ・アレイのiSCSI統計情報を表示します
+* *DCBXの運用状態統計*--さまざまなData Center Bridging Exchange（DCBX）機能の運用状態を表示します。
+* *LLDP TLV statistics *-- Link Layer Discovery Protocol (LLDP) Type Length Value (TLTLV )統計を表示します。
+* *DCBX TLV統計*-- Data Center Bridging（DCB）環境内のストレージアレイのホストポートを識別する情報が表示されます。この情報は、識別や機能のためにネットワークピアと共有されます。
+
+
+これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。統計の生データは、コントローラの起動以降に収集されたすべての統計です。ベースライン統計は、ベースライン時間の設定以降に収集されたポイントインタイムの統計です。
+
+.手順
+. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
+. [View iSCSI Statistics Packages]を選択します。
+. タブをクリックして、さまざまな統計を表示します。
+. ベースラインを設定するには、*新しいベースラインを設定*をクリックします。
++
+ベースラインを設定すると、統計を収集するための新しい開始ポイントが設定されます。すべてのiSCSI統計に同じベースラインが使用されます。
+
+

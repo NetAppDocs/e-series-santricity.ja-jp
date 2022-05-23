@@ -1,0 +1,36 @@
+---
+permalink: um-certificates/import-array-certificates-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, import, certificates, arrays 
+summary: 必要に応じて、SANtricity Unified Managerをホストするシステムで認証できるように、ストレージアレイの証明書をインポートすることができます。証明書には、認証局（CA）が署名した証明書と自己署名の証明書があります。 
+---
+= アレイの証明書をインポートします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+必要に応じて、Unified Managerをホストするシステムで認証できるように、ストレージアレイの証明書をインポートすることができます。証明書には、認証局（CA）が署名した証明書と自己署名の証明書があります。
+
+.作業を開始する前に
+* Security Adminの権限を含むユーザプロファイルでログインする必要があります。そうしないと、証明書の機能は表示されません。
+* 信頼された証明書をインポートする場合は、System Managerを使用してストレージアレイのコントローラの証明書をインポートする必要があります。
+
+
+.手順
+. [証明書管理]を選択します。
+. [*Trusted*]タブを選択します。
++
+このページには、ストレージアレイについて報告されたすべての証明書が表示されます。
+
+. 次のいずれかのメニューを選択します。Import [Certificates] CA certificate or menu：Import [Self-Signed storage array certificates]。自己署名証明書をインポートします。
++
+表示を制限するには、[*次の証明書を表示...]フィルタリングフィールドを使用するか、いずれかの列見出しをクリックして証明書の行をソートします。
+
+. ダイアログボックスで証明書を選択し、*インポート*をクリックします。
++
+証明書がアップロードされて検証されます。
+
+

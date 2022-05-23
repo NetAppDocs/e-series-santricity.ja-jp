@@ -1,0 +1,38 @@
+---
+permalink: sm-settings/which-external-management-tools-may-be-affected-by-this-change.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, external, management, tools, 
+summary: 管理インターフェイスを切り替える、認証方式にSAMLを使用する、などの特定の変更をSystem Managerで行うと、一部の外部ツールや機能が使用できなくなることがあります。 
+---
+= この変更の影響を受ける外部管理ツールはどれですか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+管理インターフェイスを切り替える、認証方式にSAMLを使用する、などの特定の変更をSystem Managerで行うと、一部の外部ツールや機能が使用できなくなることがあります。
+
+
+
+== 管理インターフェイス
+
+SANtricity SMI-S ProviderやOnCommand Insight （OCI）などの従来の管理インターフェイス（SYMbol）と直接通信するツールは、レガシー管理インターフェイスの設定が有効になっていないかぎり機能しません。この設定が無効な場合、従来のCLIコマンドを使用したりミラーリング処理を実行したりすることはできません。
+
+詳細については、テクニカルサポートにお問い合わせください。
+
+
+
+== SAML 認証
+
+SAMLが有効な場合、次のクライアントはストレージアレイのサービスとリソースにアクセスできません。
+
+* Enterprise Management Window（EMW）
+* コマンドラインインターフェイス（ CLI ）
+* ソフトウェア開発キット（SDK）クライアント
+* インバンドクライアント
+* HTTPベーシック認証REST APIクライアント
+* 標準のREST APIエンドポイントを使用してログインします
+
+
+詳細については、テクニカルサポートにお問い合わせください。

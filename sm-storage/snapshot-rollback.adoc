@@ -1,0 +1,28 @@
+---
+permalink: sm-storage/snapshot-rollback.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, rollback 
+summary: ロールバック処理では、ベースボリュームが選択したSnapshotで指定された以前の状態に戻ります。 
+---
+= Snapshotのロールバック
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ロールバック処理では、ベースボリュームが選択したSnapshotで指定された以前の状態に戻ります。
+
+ロールバックでは、次のいずれかのソースからSnapshotイメージを選択できます。
+
+* * Snapshotイメージのロールバック*：ベース・ボリュームのフル・リストア用
+* * Snapshot整合性グループのロールバック*。1つ以上のボリュームのロールバックに使用できます。
+
+
+ロールバック中は、グループ内のすべてのSnapshotイメージがSnapshot機能によって保持されます。また、I/O処理に必要な場合は、このプロセス中にホストからベースボリュームにアクセスできます。
+
+ロールバックが起動すると、バックグラウンドプロセスによってベースボリュームの論理ブロックアドレス（LBA）が検索され、リストア対象となるcopy-on-writeデータがロールバックSnapshotイメージから検出されます。ベースボリュームは読み取りと書き込みのためにホストからアクセス可能であり、以前に書き込まれたすべてのデータをただちに使用できるため、リザーブ容量ボリュームにはロールバック処理中のすべての変更を格納できるだけの十分な容量が必要です。データ転送は、ロールバックが完了するまでバックグラウンド処理として続行されます。
+
+image::../media/sam1130-dwg-snapshots-rollback-overview.gif[sam1130 DWGスナップショットのロールバックの概要]
+
+^1基本ボリューム；^2^グループ内のSnapshotオブジェクト；^3^ Snapshotグループのリザーブ容量

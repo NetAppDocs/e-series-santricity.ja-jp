@@ -1,0 +1,27 @@
+---
+permalink: sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, synchronous mirroring, 
+summary: ミラーペアはUnified Managerインターフェイスで設定し、System Managerで管理します。 
+---
+= 同期ミラーリング-ミラーペアを作成するときは、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラーペアはUnified Managerインターフェイスで設定し、System Managerで管理します。
+
+ミラーペアを作成する際は、次のガイドラインに従ってください。
+
+* 2つのストレージアレイが必要です。
+* 各ストレージアレイに2台のコントローラが必要です。
+* プライマリアレイとセカンダリアレイの各コントローラにイーサネット管理ポートが設定されていて、各コントローラがネットワークに接続されている必要があります。
+* ローカルとリモートのストレージアレイをFibre Channelファブリックを介して接続します。
+* ストレージアレイに必要なファームウェアの最小バージョンは7.84です（それぞれ異なるバージョンのOSを実行できます）。
+* ローカルとリモートのストレージアレイのパスワードを確認しておく必要があります。
+* ミラーリングするプライマリボリューム以上のセカンダリボリュームを作成するには、リモートストレージアレイに十分な空き容量が必要です。
+* Web Services ProxyとUnified Managerをインストールしておきます。Unified Managerインターフェイスでミラーペアが設定されている必要があります。
+* Unified Managerで2つのストレージアレイが検出されている必要があります。
+

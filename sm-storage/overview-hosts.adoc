@@ -1,0 +1,56 @@
+---
+permalink: sm-storage/overview-hosts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hosts 
+summary: ストレージアレイとデータサーバの間の接続を定義するホストとホストクラスタを設定できます。 
+---
+= ホストとホストクラスタの概要
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイとデータサーバの間の接続を定義するホストとホストクラスタを設定できます。
+
+
+
+== ホストおよびホストクラスタとは何ですか？
+
+a_host_は、ストレージアレイ上のボリュームにI/Oを送信するサーバです。a_host cluster_は ホストのグループであり、複数のホストに同じボリュームを割り当てるために作成できます。
+
+詳細はこちら。
+
+* link:host-terminology.html["ホストの用語"]
+* link:access-volumes.html["アクセスボリューム"]
+* link:maximum-number-of-luns.html["LUN の最大数"]
+
+
+
+
+== ホストとホストクラスタを設定するにはどうすればよいですか？
+
+ホスト接続を定義するには、Host Context Agent（HCA）でホストを自動的に検出できるようにするか、メニュー「Storage [Hosts]」に移動してホストを手動で設定します。複数のホストが同じボリュームセットへのアクセスを共有する場合は、クラスタを定義してそのクラスタにボリュームを割り当てることができます。
+
+詳細はこちら。
+
+* link:automatic-versus-manual-host-creation.html["ホストの自動作成と手動作成"]
+* link:how-volumes-are-assigned-to-hosts-and-host-clusters.html["ホストおよびホストクラスタへのボリュームの割り当て方法"]
+* link:workflow-for-creating-hosts-and-assigning-volumes.html["ホストの作成とボリュームの割り当てのワークフロー"]
+* link:create-host-automatically.html["ホストを自動で作成する"]
+* link:create-host-manually.html["ホストを手動で作成する"]
+* link:create-host-cluster.html["ホストクラスタを作成する"]
+* link:assign-volumes.html["ホストにボリュームを割り当てます"]
+
+
+
+
+== 関連情報
+
+ホストに関連するタスクの詳細を確認してください。
+
+* link:../sm-settings/set-automatic-load-balancing.html["自動ロードバランシングを設定する"]
+* link:../sm-settings/set-host-connectivity-reporting.html["ホスト接続レポートの設定"]
+* link:../sm-settings/change-default-host-type.html["デフォルトのホストタイプを変更"]
+

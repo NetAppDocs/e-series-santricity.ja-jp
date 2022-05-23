@@ -1,0 +1,30 @@
+---
+permalink: sm-support/disable-autosupport-maintenance-window.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disable, autosupport, ASUP, maintenance window 
+summary: AutoSupport メンテナンス期間を無効にして、エラーイベント発生時に自動でチケットが作成されるようにします。AutoSupport メンテナンス期間を無効にすると、問題 がある場合にストレージアレイはAutoSupport を使用してサポートケースをオープンします。 
+---
+= AutoSupport メンテナンス期間を無効にします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport メンテナンス期間を無効にして、エラーイベント発生時に自動でチケットが作成されるようにします。AutoSupport メンテナンス期間を無効にすると、問題 がある場合にストレージアレイはAutoSupport を使用してサポートケースをオープンします。
+
+.手順
+. メニューを選択AutoSupport します。[Support Center]>[Support]（サポートセンター）タブ。
+. [* AutoSupport メンテナンス期間を無効にする*]を選択します。
+. メンテナンス期間を無効にする要求が処理されたときに確認のEメールを受け取るEメールアドレスを入力します。
++
+設定によっては、Eメールアドレスを5つまで入力できます。複数のアドレスを追加する場合は、[別の電子メールを追加]を選択して別のフィールドを開きます。
+
+. 「 * はい * 」をクリックします。
++
+AutoSupport では、エラーイベント時の自動チケット作成が有効になっています。
+
+
+
+メンテナンス期間は、ストレージアレイからの要求がAutoSupport サーバで処理された時点で終了します。確認のEメールが届いたことを確認してから次の手順に進んでください。

@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, certificates, external, key, management, 
+summary: 外部キー管理では、ストレージアレイとキー管理サーバが互いに信頼関係を確立できるように、2つのエンティティの間の認証用に2種類の証明書をインポートします。 
+---
+= 外部キー管理を行うためにSystem Managerにアップロードする必要がある証明書を確認するにはどうすればよいですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+外部キー管理では、ストレージアレイとキー管理サーバが互いに信頼関係を確立できるように、2つのエンティティの間の認証用に2種類の証明書をインポートします。
+
+クライアント証明書は、キー管理サーバが自身のKey Management Interoperability Protocol（KMIP）要求を信頼できるよう、ストレージアレイのコントローラを検証します。クライアント証明書を取得するには、System Managerを使用してストレージアレイのCSRを作成します。その後、CSRをキー管理サーバにアップロードし、そこからクライアント証明書を生成できます。クライアント証明書を作成したら、System Managerにアクセスしているホストにそのファイルをコピーします。
+
+キー管理サーバ証明書は、ストレージアレイがサーバのIPアドレスを信頼できるよう、キー管理サーバを検証します。キー管理サーバからサーバ証明書ファイルを取得し、System Managerにアクセスするホストにそのファイルをコピーします。

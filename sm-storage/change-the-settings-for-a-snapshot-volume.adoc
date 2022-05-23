@@ -1,0 +1,92 @@
+---
+permalink: sm-storage/change-the-settings-for-a-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volume, settings, snapshot, volume 
+summary: SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームの設定では、Snapshotボリュームの名前を変更したり、SSDキャッシュを有効または無効にしたり、ホスト、ホストクラスタ、または論理ユニット番号（LUN）の割り当てを変更したりできます。 
+---
+= Snapshotボリュームのボリューム設定を変更します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームの設定では、Snapshotボリュームの名前を変更したり、SSDキャッシュを有効または無効にしたり、ホスト、ホストクラスタ、または論理ユニット番号（LUN）の割り当てを変更したりできます。
+
+.手順
+. メニューを選択します。Storage [Snapshots]。
+. スナップショットボリューム*タブをクリックします。
+. 変更するSnapshotボリュームを選択し、*表示/設定の編集*をクリックします。
++
+Snapshot Volume Settings（スナップショットボリューム設定）ダイアログボックスが表示されます。
+
+. Snapshotボリュームの設定を適宜表示または編集します。
++
+.フィールドの詳細
+====
+[cols="25h,~"]
+|===
+| 設定 | 説明 
+
+
+ a| 
+* Snapshotボリューム*
+
+
+
+ a| 
+名前
+ a| 
+Snapshotボリュームの名前を変更できます。
+
+
+
+ a| 
+割り当て先
+ a| 
+Snapshotボリュームのホストまたはホストクラスタの割り当てを変更できます。
+
+
+
+ a| 
+LUN
+ a| 
+SnapshotボリュームのLUNの割り当てを変更できます。
+
+
+
+ a| 
+SSD キャッシュ
+ a| 
+ソリッドステートディスク（SSD）の読み取り専用キャッシュを有効または無効にできます。
+
+
+
+ a| 
+*関連付けられたオブジェクト*
+
+
+
+ a| 
+Snapshotイメージ
+ a| 
+Snapshotボリュームに関連付けられているSnapshotイメージを表示できます。Snapshot イメージは、ボリュームのデータを特定の時点でキャプチャした論理コピーです。リストアポイントと同様に、 Snapshot イメージを使用して既知の正常なデータセットにロールバックできます。ホストはSnapshotイメージにアクセスできますが、直接読み取ったり書き込んだりすることはできません。
+
+
+
+ a| 
+ベースボリューム
+ a| 
+Snapshotボリュームに関連付けられているベースボリュームを表示できます。ベースボリュームは、Snapshotイメージの作成元のボリュームです。シックボリュームの場合もシンボリュームの場合もあり、通常はホストに割り当てられています。ベースボリュームはボリュームグループまたはディスクプールのどちらかに配置できます。
+
+
+
+ a| 
+Snapshotグループ
+ a| 
+Snapshotボリュームに関連付けられているSnapshotグループを確認できます。Snapshotグループは、1つのベースボリュームのSnapshotイメージの集まりです。
+
+|===
+====
+

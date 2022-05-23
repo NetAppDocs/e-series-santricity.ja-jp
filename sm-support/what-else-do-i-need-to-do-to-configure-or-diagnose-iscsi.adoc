@@ -1,0 +1,103 @@
+---
+permalink: sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, iscsi 
+summary: iSCSIセッションは、非同期ミラー関係にあるホストまたはリモートストレージアレイとの間で確立できます。次の表に、iSCSIセッションの設定と管理に使用するSystem Managerの機能を示します。 
+---
+= iSCSIを設定または診断するためにほかに必要な作業は何ですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSIセッションは、非同期ミラー関係にあるホストまたはリモートストレージアレイとの間で確立できます。次の表に、iSCSIセッションの設定と管理に使用するSystem Managerの機能を示します。
+
+[NOTE]
+====
+iSCSIを設定できるのは、ストレージアレイでiSCSIがサポートされている場合のみです。
+
+====
+
+
+== iSCSIを設定
+
+[cols="1a,1a"]
+|===
+| アクション | 場所 
+
+
+ a| 
+iSCSI設定を管理します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* iscsi settings *を表示し、すべての管理機能を表示します。
+
+
+
+
+ a| 
+iSCSIポートを設定
+ a| 
+. 「 * ハードウェア * 」を選択します。
+. Show back of shelf*を選択します。
+. コントローラを選択します。
+. Configure iSCSI Port* （ iSCSI ポートの設定）を選択します。
+
+
+
+
+ a| 
+ホストのCHAPシークレットを設定します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして「* iSCSI settings *」（* iSCSI設定*）に進み、「Configure Authentication *」（認証の設定*）を選択
+
+
+または
+
+. メニューから「 Storage [Hosts] 」を選択します。
+. ホストメンバーを選択します。
+. メニューの[表示/設定の編集][ホストポート]タブをクリックします。
+
+
+|===
+
+
+== iSCSIを診断する
+
+[cols="1a,1a"]
+|===
+| アクション | 場所 
+
+
+ a| 
+iSCSIセッションを表示または終了します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして「* iSCSI settings *」（* iSCSI設定）に進み、「* View/End iSCSI Sessions *」（* iSCSIセッションの表示/終了）を選択し
+
+
+または
+
+. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
+. 「* iSCSIセッションの表示/終了*」を選択します。
+
+
+
+
+ a| 
+iSCSI統計を表示します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* iSCSI設定*を表示し、* iSCSI統計パッケージの表示*を選択します。
+
+
+または
+
+. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
+. [View iSCSI Statistics Packages]を選択します。
+
+
+|===

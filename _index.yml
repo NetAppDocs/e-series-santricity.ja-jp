@@ -1,0 +1,54 @@
+---
+indexpage:
+  lead: SANtricity ソフトウェアを使用すると、データ分析、ビデオ監視、バックアップとリカバリなどの負荷の高いアプリケーション向けに、EシリーズハイブリッドフラッシュおよびEFシリーズオールフラッシュアレイのパフォーマンスと利用率を最大限に高めることができます。
+  tiles:
+  - title: はじめに
+    links:
+    - title: System Managerインターフェイス
+      url: /sm-interface/overview-interface-sam.html"
+    - title: Unified Managerインターフェイス
+      url: "/um-admin/overview-interface-unified.html"
+    - title: SANtricity ソフトウェアのデータシート
+      url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf
+  - title: Eシリーズのドキュメント
+    links:
+    - title: Eシリーズシステムのドキュメント
+      url: https://docs.netapp.com/us-en/e-series/index.html
+    - title: コマンドラインインターフェイス（ CLI ）リファレンス
+      url: https://docs.netapp.com/us-en/e-series-cli/index.html
+  - title: SANtricity API
+    links:
+    - title: Web サービス
+      url: https://docs.netapp.com/us-en/e-series/web-services-proxy/index.html
+    - title: vCenter 向けプラグイン
+      url: https://docs.netapp.com/us-en/e-series/vcenter-plugin/san-spvc-ic-overview.html
+    - title: SMI-S プロバイダ
+      url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
+  - title: パフォーマンスアプリケーションのアドオン
+    links:
+    - title: Splunk Enterprise 向けの SANtricity アプリです
+      url: https://splunkbase.splunk.com/app/1932/
+    - title: SANtricity 向け Splunk テクノロジアドオン
+      url: https://splunkbase.splunk.com/app/1933/
+    - title: パフォーマンス分析ツールと E シリーズ + Grafana
+      url: https://github.com/NetApp/eseries-perf-analyzer
+    - title: E シリーズ Performance Analyzer に関するブログ
+      url: https://blog.netapp.com/monitoring-netapp-eseries
+  - title: SE 向け
+    links:
+    - title: E シリーズ / EF シリーズテクニカルトレーニング（ログインが必要）
+      url: https://fieldportal.netapp.com/content/199944
+    - title: EF300 の概要と技術的な詳細 ( ログインが必要 )
+      url: https://fieldportal.netapp.com/content/1417672
+    - title: NetApp Fusion （ログインが必要）
+      url: https://fusion.netapp.com/
+  - title: ツールのサポート
+    links:
+    - title: NetApp Interoperability Matrix を参照してください
+      url: http://mysupport.netapp.com/matrix/
+    - title: ネットアップナレッジベース
+      url: https://kb.netapp.com/
+    - title: Active IQ （ログインが必要）
+      url: https://activeiq.netapp.com/?source=aiqnsspage
+    - title: E シリーズ / SANtricity のダウンロード（ログインが必要）
+      url: https://mysupport.netapp.com/site/downloads#E

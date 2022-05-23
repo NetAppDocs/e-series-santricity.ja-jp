@@ -1,0 +1,22 @@
+---
+permalink: sm-storage/what-is-fde-fips-security.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, fde, fips, security, drives, encrypt 
+summary: FDE / FIPSセキュリティとは、一意の暗号化キーを使用して書き込み時にデータを暗号化し、読み取り時に復号化するセキュリティ対応ドライブを指します。セキュリティ対応ドライブは、ストレージアレイから物理的に取り外されたドライブ上のデータへの不正アクセスを防止します。 
+---
+= FDE / FIPSセキュリティとは何ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FDE / FIPSセキュリティとは、一意の暗号化キーを使用して書き込み時にデータを暗号化し、読み取り時に復号化するセキュリティ対応ドライブを指します。セキュリティ対応ドライブは、ストレージアレイから物理的に取り外されたドライブ上のデータへの不正アクセスを防止します。
+
+セキュリティ対応ドライブには、Full Disk Encryption（FDE）ドライブと連邦情報処理標準（FIPS）ドライブがあります。FIPSドライブは認定テストをパスしたドライブです。
+
+[NOTE]
+====
+FIPSのサポートが必要なボリュームには、FIPSドライブのみを使用します。ボリュームグループまたはプールにFIPSドライブとFDEドライブが混在している場合、すべてのドライブがFDEドライブとして扱われます。また、FIPSドライブのみを含むボリュームグループまたはプールでは、FDEドライブを追加したりスペアとして使用したりすることはできません。
+
+====

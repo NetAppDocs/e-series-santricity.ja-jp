@@ -1,0 +1,30 @@
+---
+permalink: sm-settings/delete-trap-destinations.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, trap, destinations, 
+summary: トラップ送信先のアドレスを削除して、ストレージアレイのイベントモニタからSNMPトラップが送信されないようにすることができます。 
+---
+= トラップ送信先を削除します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+トラップ送信先のアドレスを削除して、ストレージアレイのイベントモニタからSNMPトラップが送信されないようにすることができます。
+
+.手順
+. メニューを選択します。Settings [Alerts]（設定[Alerts]）。
+. [*SNMP*]タブを選択します。
++
+トラップ送信先のアドレスが表に表示されます。
+
+. トラップの送信先を選択し、ページ右上の*削除*をクリックします。
+. 操作を確定し、*削除*をクリックします。
++
+宛先アドレスは[Alerts]ページに表示されなくなります。
+
+
+
+削除したトラップ送信先にストレージアレイのイベントモニタからSNMPトラップが届かなくなります。

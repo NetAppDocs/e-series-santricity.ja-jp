@@ -1,0 +1,1442 @@
+---
+settings:
+  name: SANtricity 11.7
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ja-jp,us-en,zh-cn,zh-tw,ko-kr
+sidebar:
+  entries:
+  - title: SANtricity 11.7のドキュメント
+    url: "/index.html"
+  - title: リリースノート
+    entries:
+    - title: 新機能
+      url: "/whats-new.html"
+    - title: リリースノート
+      url: "/known-issues.html"
+  - title: はじめに
+    entries:
+    - title: 概要
+      url: "/san-getstarted/santricity-overview.html"
+    - title: サポートされているブラウザとOS
+      url: "/san-getstarted/supported-browsers-os.html"
+    - title: System Managerのセットアップ
+      entries:
+      - title: System Managerにアクセスします
+        url: "/san-getstarted/access-sam.html"
+      - title: セットアップウィザードの概要
+        url: "/sm-interface/setup-wizard-overview.html"
+      - title: よくある質問です
+        entries:
+        - title: すべてのハードウェアコンポーネントが表示されない場合はどうすればよいですか？
+          url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
+        - title: すべてのホストが表示されない場合はどうすればよいですか？
+          url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
+        - title: アプリケーションを特定するとストレージアレイの管理にどのように役立ちますか？
+          url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
+        - title: ワークロードとは何ですか？
+          url: "/sm-interface/what-is-a-workload.html"
+        - title: AutoSupport の配信方法を設定するにはどうすればよいですか？
+          url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
+        - title: 推奨されるプール構成を承認するかどうかを判断するにはどうすればよいですか？
+          url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
+        - title: ホストが検出されませんでした。どうすればよいですか？
+          url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+    - title: Unified Managerのセットアップを実行します
+      entries:
+      - title: Unified Manager をインストールします
+        url: "/san-getstarted/install-um.html"
+      - title: Unified Managerにアクセスします
+        url: "/san-getstarted/login-um.html"
+  - title: System Manager の略
+    url: "/system-manager/index.html"
+    entries:
+    - title: メインインターフェイス
+      entries:
+      - title: System Managerインターフェイスの概要
+        url: "/sm-interface/overview-interface-sam.html"
+      - title: パフォーマンスデータを表示します
+        entries:
+        - title: 概要
+          url: "/sm-storage/overview-performance.html"
+        - title: パフォーマンスグラフとガイドライン
+          url: "/sm-storage/performance-graphs-guidelines.html"
+        - title: パフォーマンスの用語
+          url: "/sm-storage/performance-terminology.html"
+        - title: グラフィカルなパフォーマンスデータを表示します
+          url: "/sm-storage/view-performance-data-graphical.html"
+        - title: 表形式のパフォーマンスデータを表示および保存する
+          url: "/sm-storage/view-and-save-performance-data-tabular.html"
+        - title: パフォーマンスデータを解釈する
+          url: "/sm-storage/interpret-performance-data.html"
+      - title: ストレージ階層を表示します
+        url: "/sm-interface/view-storage-hierarchy.html"
+      - title: インターフェイスの設定を管理します
+        entries:
+        - title: パスワード保護を管理します
+          url: "/sm-interface/administrator-password-protection.html"
+        - title: 容量のデフォルト値を設定
+          url: "/sm-interface/set-default-units-for-capacity-values.html"
+        - title: パフォーマンスグラフのデフォルトを設定します
+          url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
+        - title: ログインバナーを設定します
+          url: "/sm-settings/configure-login-banner.html"
+        - title: セッションタイムアウトの管理
+          url: "/sm-settings/manage-session-timeouts-sam.html"
+      - title: 通知を管理します
+        entries:
+        - title: 問題通知の概要
+          url: "/sm-interface/problem-notification.html"
+        - title: 実行中の処理を表示して対処します
+          url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+        - title: Recovery Guruを使用して問題からリカバリします
+          url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+      - title: よくある質問です
+        entries:
+        - title: サポートされているブラウザ
+          url: "/sm-interface/what-are-the-supported-browsers.html"
+        - title: どのようなキーボードショートカットを使用できますか？
+          url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
+        - title: 個々のボリュームのパフォーマンス統計と合計値との関係はどうなっていますか？
+          url: "/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html"
+        - title: グラフや表にデータがゼロと表示されるのはなぜですか？
+          url: "/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html"
+        - title: レイテンシグラフにはどのような情報が表示されますか？
+          url: "/sm-storage/what-does-the-latency-graph-show.html"
+        - title: IOPSグラフには何が表示されますか？
+          url: "/sm-storage/what-does-the-iops-graph-show.html"
+        - title: MiB/秒グラフには何が表示されますか。
+          url: "/sm-storage/what-does-the-mib-s-graph-show.html"
+        - title: CPUのグラフは何を示していますか。
+          url: "/sm-storage/what-does-the-cpu-graph-show.html"
+        - title: ヘッドルームグラフには何が表示されますか？
+          url: "/sm-storage/what-does-the-headroom-graph-show.html"
+        - title: 表示環境設定に関する詳しい情報は、どこで入手できますか。
+          url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+    - title: プールとボリュームグループ
+      entries:
+      - title: 概要
+        url: "/sm-storage/overview-pools-volume-groups.html"
+      - title: 概念
+        entries:
+        - title: プールとボリュームグループの仕組み
+          url: "/sm-storage/how-pools-and-volume-groups-work.html"
+        - title: 利用規約
+          url: "/sm-storage/capacity-terminology.html"
+        - title: プールまたはボリュームグループを選択しています
+          url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
+        - title: プールの自動作成と手動作成
+          url: "/sm-storage/automatic-versus-manual-pool-creation.html"
+      - title: ストレージを設定する
+        entries:
+        - title: プールを自動的に作成する
+          url: "/sm-storage/create-pool-automatically.html"
+        - title: プールを手動で作成する
+          url: "/sm-storage/create-pool-manually.html"
+        - title: ボリュームグループを作成します
+          url: "/sm-storage/create-volume-group.html"
+        - title: プールまたはボリュームグループに容量を追加してください
+          url: "/sm-storage/add-capacity-to-a-pool-or-volume-group.html"
+      - title: ストレージを管理します
+        entries:
+        - title: ボリュームの冗長性をチェックします
+          url: "/sm-storage/check-volume-redundancy.html"
+        - title: プールまたはボリュームグループを削除します
+          url: "/sm-storage/delete-pool-or-volume-group.html"
+        - title: ボリュームグループの空き容量を統合します
+          url: "/sm-storage/consolidate-volume-group-free-capacity.html"
+        - title: ボリュームグループをエクスポート/インポートする
+          url: "/sm-storage/export-import-volume-groups.html"
+        - title: ストレージに使用するドライブを特定します
+          url: "/sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html"
+        - title: 容量を削除
+          url: "/sm-storage/remove-capacity-from-a-pool-or-ssd-cache.html"
+      - title: プールとグループの設定を変更します
+        entries:
+        - title: プールの設定を変更します
+          url: "/sm-storage/change-configuration-settings-for-a-pool.html"
+        - title: ボリュームグループの設定を変更します
+          url: "/sm-storage/change-configuration-settings-for-a-volume-group.html"
+        - title: リソースのプロビジョニング（既存のボリューム）の有効化または無効化
+          url: "/sm-storage/disable-resource-provisioning-on-existing-volumes.html"
+        - title: リソースのプロビジョニング（新しいボリューム）の有効化または無効化
+          url: "/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html"
+        - title: セキュリティを有効化
+          url: "/sm-storage/enable-security.html"
+      - title: SSDキャッシュを管理する
+        entries:
+        - title: SSDキャッシュの仕組み
+          url: "/sm-storage/how-ssd-cache-works.html"
+        - title: SSDキャッシュの制限事項
+          url: "/sm-storage/ssd-cache-restrictions.html"
+        - title: SSDキャッシュを作成する
+          url: "/sm-storage/create-ssd-cache.html"
+        - title: SSDキャッシュの設定を変更する
+          url: "/sm-storage/change-ssd-cache-settings.html"
+        - title: SSDキャッシュの統計を表示します
+          url: "/sm-storage/view-ssd-cache-statistics.html"
+      - title: リザーブ容量を管理します
+        entries:
+        - title: リザーブ容量の仕組み
+          url: "/sm-storage/how-reserved-capacity-works.html"
+        - title: 容量を拡張
+          url: "/sm-storage/increase-reserved-capacity.html"
+        - title: 容量の削減
+          url: "/sm-storage/decrease-reserved-capacity.html"
+        - title: Snapshotグループの容量を変更します
+          url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-group.html"
+        - title: Snapshotボリュームの容量を変更します
+          url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html"
+        - title: 容量整合性グループのメンバーボリュームを変更してください
+          url: "/sm-storage/change-the-reserved-capacity-settings-for-a-consistency-group-member-volume.html"
+        - title: ミラーペアボリュームの容量設定を変更します
+          url: "/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+        - title: 保留中のSnapshotイメージをキャンセルします
+          url: "/sm-storage/cancel-pending-snapshot-image.html"
+        - title: Snapshotグループを削除します
+          url: "/sm-storage/delete-snapshot-group.html"
+      - title: よくある質問です
+        entries:
+        - title: ボリュームグループとは何ですか？
+          url: "/sm-storage/what-is-a-volume-group.html"
+        - title: プールとは何ですか？
+          url: "/sm-storage/what-is-a-pool.html"
+        - title: リザーブ容量とは何ですか？
+          url: "/sm-storage/what-is-reserved-capacity.html"
+        - title: FDE / FIPSセキュリティとは何ですか？
+          url: "/sm-storage/what-is-fde-fips-security.html"
+        - title: 冗長性チェックとは何ですか？
+          url: "/sm-storage/what-is-redundancy-check.html"
+        - title: プールとボリュームグループの違いは何ですか？
+          url: "/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html"
+        - title: プールを手動で設定するのはどのような場合ですか？
+          url: "/sm-storage/why-would-i-want-to-manually-configure-a-pool.html"
+        - title: 容量アラートが重要なのはなぜですか？
+          url: "/sm-storage/why-are-capacity-alerts-important.html"
+        - title: 予約済み容量を増やせない場合、どのような理由が考えられますか？
+          url: "/sm-storage/why-cant-i-increase-my-preservation-capacity.html"
+        - title: プールから削除できるドライブの数に制限はありますか。
+          url: "/sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html"
+        - title: ドライブでサポートされているメディアタイプを教えてください。
+          url: "/sm-storage/what-media-types-are-supported-for-a-drive.html"
+        - title: 一部のドライブが表示されないのはなぜですか？
+          url: "/sm-storage/why-are-some-drives-not-showing-up.html"
+        - title: シェルフ/ドロワー損失の保護を維持するにはどうすればよいですか？
+          url: "/sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html"
+        - title: プールとボリュームグループの最適なドライブ配置は何ですか？
+          url: "/sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html"
+        - title: アプリケーションに最適なRAIDレベルはどれですか？
+          url: "/sm-storage/what-raid-level-is-best-for-my-application.html"
+        - title: Data Assuranceとは何ですか？
+          url: "/sm-storage/what-is-data-assurance.html"
+        - title: セキュリティ対応（ドライブセキュリティ）とは何ですか？
+          url: "/sm-storage/what-is-security-capable-drive-security.html"
+        - title: リザーブ容量を増やすときは、どのような点に注意する必要がありますか？
+          url: "/sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html"
+        - title: 削減する量を選択できないのはなぜですか？
+          url: "/sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html"
+        - title: メンバーボリュームごとにリザーブ容量が必要なのはなぜですか？
+          url: "/sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html"
+        - title: SSDキャッシュのすべての統計情報を表示するにはどうすればよいですか？また、何が
+          url: "/sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html"
+        - title: プールの最適化容量とは何ですか？
+          url: "/sm-storage/what-is-optimization-capacity-pools.html"
+        - title: ボリュームグループの最適化容量とは何ですか？
+          url: "/sm-storage/what-is-optimization-capacity-volume-groups.html"
+        - title: リソースプロビジョニング機能とは何ですか？
+          url: "/sm-storage/what-is-resource-provisioning-capable.html"
+        - title: リソースでプロビジョニングされるボリューム機能について、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+    - title: ボリュームとワークロード
+      entries:
+      - title: 概要
+        url: "/sm-storage/overview-volumes.html"
+      - title: 概念
+        entries:
+        - title: ボリュームの仕組み
+          url: "/sm-storage/how-volumes-work.html"
+        - title: ワークロードの仕組み
+          url: "/sm-storage/how-workloads-work.html"
+        - title: 利用規約
+          url: "/sm-storage/volume-terminology.html"
+        - title: ボリュームを作成するためのワークフロー
+          url: "/sm-storage/workflow-for-creating-volumes.html"
+        - title: データの整合性と データ セキュリティ
+          url: "/sm-storage/data-integrity-and-data-security-for-volumes.html"
+        - title: SSDキャッシュとボリューム
+          url: "/sm-storage/ssd-cache-and-volumes.html"
+        - title: ボリュームで実行できる操作
+          url: "/sm-storage/actions-you-can-perform-on-volumes.html"
+        - title: ボリュームの容量
+          url: "/sm-storage/capacity-for-volumes.html"
+        - title: シンボリュームの監視
+          url: "/sm-storage/thin-volume-monitoring.html"
+        - title: シックボリュームとシンボリュームの比較
+          url: "/sm-storage/comparison-between-thick-volumes-and-thin-volumes.html"
+      - title: ストレージを設定する
+        entries:
+        - title: ワークロードの作成
+          url: "/sm-storage/create-workloads.html"
+        - title: ボリュームを作成します
+          url: "/sm-storage/create-volumes.html"
+        - title: ワークロードに追加
+          url: "/sm-storage/add-to-workload.html"
+      - title: ボリュームを管理します
+        entries:
+        - title: 容量を拡張
+          url: "/sm-storage/increase-capacity-of-a-volume.html"
+        - title: ボリュームを初期化
+          url: "/sm-storage/initialize-volumes.html"
+        - title: ボリュームを再配置する
+          url: "/sm-storage/redistribute-volumes.html"
+        - title: コントローラ所有権を変更します
+          url: "/sm-storage/change-controller-ownership-of-a-volume.html"
+        - title: ボリュームを削除します
+          url: "/sm-storage/delete-volume.html"
+        - title: シンボリュームの割り当て容量を変更します
+          url: "/sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html"
+      - title: 設定を管理します
+        entries:
+        - title: ボリュームの設定を変更します
+          url: "/sm-storage/change-settings-for-a-volume.html"
+        - title: ワークロードの設定を変更する
+          url: "/sm-storage/change-workload-settings.html"
+        - title: キャッシュ設定を変更します
+          url: "/sm-storage/change-cache-settings.html"
+        - title: メディアスキャン設定の変更
+          url: "/sm-storage/change-media-scan-settings.html"
+      - title: コピーサービスを使用する
+        entries:
+        - title: ボリュームコピー機能
+          url: "/sm-storage/copy-volume-function.html"
+        - title: 処理のタイプ
+          url: "/sm-storage/types-of-copy-volume-operations.html"
+        - title: ボリュームをコピーする
+          url: "/sm-storage/copy-volume.html"
+        - title: 処理の管理
+          url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
+      - title: よくある質問です
+        entries:
+        - title: ボリュームとは何ですか？
+          url: "/sm-storage/what-is-a-volume.html"
+        - title: ボリュームグループにボリュームの作成に十分な空き容量があるにもかかわらず、容量の過剰割り当てエラーが表示されるのはなぜですか？
+          url: "/sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html"
+        - title: 選択したワークロードはボリュームの作成にどのように影響しますか？
+          url: "/sm-storage/how-does-my-selected-workload-impact-volume-creation.html"
+        - title: ボリュームがワークロードに関連付けられていないのはなぜですか？
+          url: "/sm-storage/why-arent-these-volumes-associated-with-a-workload.html"
+        - title: 選択したワークロードを削除できないのはなぜですか？
+          url: "/sm-storage/why-cant-i-delete-the-selected-workload.html"
+        - title: アプリケーション固有のワークロードはストレージアレイの管理にどのように役立ちますか？
+          url: "/sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html"
+        - title: この情報はストレージの作成にどのように役立ちますか？
+          url: "/sm-storage/how-does-providing-this-information-help-create-storage.html"
+        - title: 拡張後の容量を認識させるにはどうすればよいですか？
+          url: "/sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html"
+        - title: プールやボリュームグループが一部表示されないのはなぜですか？
+          url: "/sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html"
+        - title: セグメントサイズとは何ですか？
+          url: "/sm-storage/what-is-segment-sizing.html"
+        - title: 優先コントローラ所有権とは何ですか？
+          url: "/sm-storage/what-is-preferred-controller-ownership.html"
+        - title: ホストの割り当てをあとで実行する場合に選択します。
+          url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
+        - title: ホストブロックサイズの要件について、どのような点に注意する必要がありますか？
+          url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
+    - title: ホストとホストクラスタ
+      entries:
+      - title: 概要
+        url: "/sm-storage/overview-hosts.html"
+      - title: 概念
+        entries:
+        - title: 利用規約
+          url: "/sm-storage/host-terminology.html"
+        - title: ホストの作成とボリュームの割り当てのワークフロー
+          url: "/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html"
+        - title: ホストの自動作成と手動作成
+          url: "/sm-storage/automatic-versus-manual-host-creation.html"
+        - title: ボリュームの割り当て方法
+          url: "/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html"
+        - title: アクセスボリューム
+          url: "/sm-storage/access-volumes.html"
+        - title: LUN の最大数
+          url: "/sm-storage/maximum-number-of-luns.html"
+        - title: デフォルトのホストオペレーティングシステムタイプ
+          url: "/sm-settings/default-host-operating-system-type.html"
+      - title: ホストアクセスを設定
+        entries:
+        - title: ホストを自動で作成する
+          url: "/sm-storage/create-host-automatically.html"
+        - title: ホストを手動で作成する
+          url: "/sm-storage/create-host-manually.html"
+        - title: ホストクラスタを作成する
+          url: "/sm-storage/create-host-cluster.html"
+        - title: ホストにボリュームを割り当てます
+          url: "/sm-storage/assign-volumes.html"
+      - title: ホストとクラスタを管理
+        entries:
+        - title: デフォルトのホストタイプを変更
+          url: "/sm-settings/change-default-host-type.html"
+        - title: ボリュームの割り当てを解除する
+          url: "/sm-storage/unassign-volumes.html"
+        - title: ホストまたはホストクラスタを削除
+          url: "/sm-storage/delete-host-or-host-cluster.html"
+        - title: ホスト接続レポートの設定
+          url: "/sm-settings/set-host-connectivity-reporting.html"
+      - title: 設定を管理します
+        entries:
+        - title: ホストの設定を変更します
+          url: "/sm-storage/change-the-settings-for-a-host.html"
+        - title: ホストクラスタの設定を変更します
+          url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
+        - title: ホストのホストポート識別子を変更します
+          url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
+      - title: よくある質問です
+        entries:
+        - title: ホストおよびホストクラスタとは何ですか？
+          url: "/sm-storage/what-are-hosts-and-host-clusters.html"
+        - title: ホストクラスタを作成する必要があるのはどのような場合ですか？
+          url: "/sm-storage/why-would-i-need-to-create-a-host-cluster.html"
+        - title: 正しいホストオペレーティングシステムタイプを特定するにはどうすればよいですか？
+          url: "/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html"
+        - title: HBAおよびアダプタポートとは何ですか？
+          url: "/sm-storage/what-are-hbas-and-adapter-ports.html"
+        - title: ホストポートをホストに一致させるにはどうすればよいですか？
+          url: "/sm-storage/how-do-i-match-the-host-ports-to-a-host.html"
+        - title: CHAPシークレットを作成するにはどうすればよいですか？
+          url: "/sm-storage/how-do-i-create-chap-secrets.html"
+        - title: デフォルトクラスタとは何ですか？
+          url: "/sm-storage/what-is-the-default-cluster.html"
+        - title: ホスト接続レポートとは何ですか？
+          url: "/sm-settings/what-is-host-connectivity-reporting.html"
+    - title: Snapshot
+      entries:
+      - title: 概要
+        url: "/sm-storage/overview-snapshots.html"
+      - title: 概念
+        entries:
+        - title: Snapshotストレージの仕組み
+          url: "/sm-storage/how-snapshot-storage-works.html"
+        - title: 利用規約
+          url: "/sm-storage/snapshot-terminology.html"
+        - title: Snapshotイメージとボリュームを作成するためのワークフロー
+          url: "/sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html"
+        - title: 要件
+          url: "/sm-storage/requirements-and-guidelines-for-snapshots.html"
+        - title: ベースボリューム、リザーブ容量、およびSnapshotグループ
+          url: "/sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html"
+        - title: SnapshotスケジュールとSnapshot整合性グループ
+          url: "/sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html"
+        - title: Snapshotボリューム
+          url: "/sm-storage/snapshot-volumes.html"
+        - title: Snapshotのロールバック
+          url: "/sm-storage/snapshot-rollback.html"
+      - title: SnapshotおよびSnapshotオブジェクトを作成します
+        entries:
+        - title: Snapshotイメージを作成する
+          url: "/sm-storage/create-snapshot-image.html"
+        - title: Snapshotイメージのスケジュールを設定
+          url: "/sm-storage/schedule-snapshot-images.html"
+        - title: Snapshot整合性グループを作成します
+          url: "/sm-storage/create-snapshot-consistency-group.html"
+        - title: Snapshotボリュームの作成
+          url: "/sm-storage/create-snapshot-volume.html"
+      - title: Snapshotスケジュールを管理します
+        entries:
+        - title: 設定を変更します
+          url: "/sm-storage/change-the-settings-for-a-snapshot-schedule.html"
+        - title: アクティブ化と一時停止
+          url: "/sm-storage/activate-or-suspend-snapshot-schedule.html"
+        - title: Snapshotスケジュールを削除します
+          url: "/sm-storage/delete-snapshot-schedule.html"
+      - title: Snapshotイメージを管理します
+        entries:
+        - title: Snapshotイメージの設定を表示します
+          url: "/sm-storage/view-snapshot-image-settings.html"
+        - title: ベースボリュームのSnapshotイメージのロールバックを開始します
+          url: "/sm-storage/start-snapshot-image-rollback-for-base-volume.html"
+        - title: Snapshot整合性グループのメンバーボリュームのSnapshotイメージのロールバックを開始します
+          url: "/sm-storage/start-snapshot-image-rollback-for-consistency-group-member-volumes.html"
+        - title: Snapshotイメージのロールバックを再開します
+          url: "/sm-storage/resume-snapshot-image-rollback.html"
+        - title: Snapshotイメージのロールバックをキャンセルします
+          url: "/sm-storage/cancel-snapshot-image-rollback.html"
+        - title: Snapshotイメージを削除します
+          url: "/sm-storage/delete-snapshot-image.html"
+      - title: Snapshot整合性グループを管理します
+        entries:
+        - title: メンバーボリュームを追加します
+          url: "/sm-storage/add-member-volumes-to-a-snapshot-consistency-group.html"
+        - title: メンバーボリュームを削除します
+          url: "/sm-storage/remove-member-volumes-from-a-consistency-group.html"
+        - title: 設定を変更します
+          url: "/sm-storage/change-the-settings-for-a-snapshot-consistency-group.html"
+        - title: Snapshot整合性グループを削除します
+          url: "/sm-storage/delete-snapshot-consistency-group.html"
+      - title: Snapshotボリュームを管理します
+        entries:
+        - title: Snapshotボリュームを読み取り/書き込みモードに変換します
+          url: "/sm-storage/convert-a-snapshot-volume-to-read-write-mode.html"
+        - title: Snapshotボリュームのボリューム設定の変更
+          url: "/sm-storage/change-the-settings-for-a-snapshot-volume.html"
+        - title: Snapshotボリュームをコピーします
+          url: "/sm-storage/copy-snapshot-volume.html"
+        - title: Snapshotボリュームを再作成します
+          url: "/sm-storage/re-create-snapshot-volume.html"
+        - title: Snapshotボリュームを無効にします
+          url: "/sm-storage/disable-snapshot-volume.html"
+        - title: Snapshotボリュームを削除します
+          url: "/sm-storage/delete-snapshot-volume.html"
+      - title: よくある質問です
+        entries:
+        - title: ボリューム、ホスト、またはホストクラスタが一部表示されないのはなぜですか？
+          url: "/sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html"
+        - title: Snapshotイメージとは何ですか？
+          url: "/sm-storage/what-is-a-snapshot-image.html"
+        - title: Snapshotイメージを使用するのはなぜですか？
+          url: "/sm-storage/why-use-snapshot-images.html"
+        - title: Snapshotにはどのような種類のボリュームを使用できますか？
+          url: "/sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html"
+        - title: Snapshot整合性グループを作成するのはどのような場合ですか？
+          url: "/sm-storage/why-would-i-create-a-snapshot-consistency-group.html"
+        - title: Snapshotボリュームとは何ですか？また、Snapshotボリュームにリザーブ容量が必要になるのはいつですか？
+          url: "/sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html"
+        - title: Snapshotグループとは何ですか？
+          url: "/sm-storage/what-is-a-snapshot-group.html"
+        - title: Snapshotボリュームを無効にするのはどのような場合ですか？
+          url: "/sm-storage/why-would-i-disable-a-snapshot-volume.html"
+        - title: 無効状態とは何ですか？
+          url: "/sm-storage/what-is-the-disabled-state.html"
+        - title: Snapshotスケジュールを一時停止するのはどのような場合ですか？
+          url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"
+    - title: ミラーリング
+      entries:
+      - title: 概要
+        entries:
+        - title: 非同期ミラーリング
+          url: "/sm-mirroring/overview-mirroring-async.html"
+        - title: 同期ミラーリング
+          url: "/sm-mirroring/overview-mirroring-sync.html"
+      - title: 非同期の概念
+        entries:
+        - title: 非同期ミラーリングの仕組み
+          url: "/sm-mirroring/how-asynchronous-mirroring-works.html"
+        - title: 利用規約
+          url: "/sm-mirroring/asynchronous-terminology.html"
+        - title: ワークフロー
+          url: "/sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html"
+        - title: 要件
+          url: "/sm-mirroring/requirements-for-using-asynchronous-mirroring.html"
+        - title: 非同期ミラーのステータス
+          url: "/sm-mirroring/asynchronous-mirror-status.html"
+        - title: ボリューム所有権
+          url: "/sm-mirroring/volume-ownership-async.html"
+        - title: ミラー整合性グループのロール変更
+          url: "/sm-mirroring/role-change-of-a-mirror-consistency-group.html"
+      - title: 概念を同期します
+        entries:
+        - title: 同期ミラーリングの仕組み
+          url: "/sm-mirroring/how-synchronous-mirroring-works.html"
+        - title: 利用規約
+          url: "/sm-mirroring/synchronous-mirroring-terminology.html"
+        - title: ワークフロー
+          url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
+        - title: 要件
+          url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
+        - title: 同期ミラーリングのステータス
+          url: "/sm-mirroring/synchronous-mirroring-status.html"
+        - title: ボリューム所有権
+          url: "/sm-mirroring/volume-ownership-sync.html"
+        - title: ミラーペア内のボリューム間でのロール変更
+          url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
+      - title: 非同期ミラー整合性グループを管理します
+        entries:
+        - title: 通信をテストします
+          url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
+        - title: 同期を中断または再開します
+          url: "/sm-mirroring/suspend-or-resume-mirror-consistency-group.html"
+        - title: 同期設定を変更します
+          url: "/sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html"
+        - title: ミラー整合性グループを再同期します
+          url: "/sm-mirroring/re-synchronize-mirror-consistency-group-manually.html"
+        - title: 同期されていないデータ量を表示します
+          url: "/sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html"
+        - title: リモートIPアドレスを更新します
+          url: "/sm-mirroring/update-remote-ip-address.html"
+        - title: ミラー整合性グループのロールを変更します
+          url: "/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html"
+        - title: ミラー整合性グループを削除します
+          url: "/sm-mirroring/delete-mirror-consistency-group.html"
+      - title: 非同期ミラーペアを管理します
+        entries:
+        - title: 非同期ミラー関係を削除します
+          url: "/sm-mirroring/remove-mirrored-pair.html"
+        - title: リザーブ容量を増やします
+          url: "/sm-mirroring/increase-reserved-capacity.html"
+        - title: ミラーペアボリュームのリザーブ容量を変更します
+          url: "/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+        - title: 従来型システムで作成されたプライマリボリュームのミラーペアを作成します
+          url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
+      - title: 同期ミラーペアを管理します
+        entries:
+        - title: 通信をテストします
+          url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
+        - title: 同期の中断と再開
+          url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
+        - title: ボリューム間でロールを変更します
+          url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
+        - title: 同期設定を変更します
+          url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
+        - title: ミラー関係を削除する
+          url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
+      - title: ミラーリングを非アクティブ化する
+        entries:
+        - title: 非同期ミラーリングを非アクティブ化する
+          url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
+        - title: 同期ミラーリングを非アクティブ化する
+          url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
+      - title: 非同期に関するFAQです
+        entries:
+        - title: 非同期ミラーリングと同期ミラーリングの違いは何ですか？
+          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
+        - title: 選択したミラーリング機能にアクセスできないのはなぜですか？
+          url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
+        - title: ミラー整合性グループを作成するときは、どのような点に注意する必要がありますか？
+          url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
+        - title: 非同期ミラーリング-ミラーペアを作成するときは、どのような点に注意する必要がありますか？
+          url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+        - title: ミラーペアボリュームでリザーブ容量を増やすときは、どのような点に注意する必要がありますか？
+          url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
+        - title: リザーブ容量を要求した量で増やせない場合、どのような理由が考えられますか？
+          url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
+        - title: この割合を変更するのはどのような場合ですか？
+          url: "/sm-mirroring/why-would-i-change-this-percentage.html"
+        - title: リザーブ容量の候補が複数表示されるのはなぜですか？
+          url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
+        - title: 表に「該当なし」と表示される場合、どのような理由が考えられますか？
+          url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
+        - title: プールとボリュームグループが一部表示されないのはなぜですか？
+          url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
+        - title: 非同期ミラーリング-ボリュームが一部表示されないのはなぜですか？
+          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+        - title: 非同期ミラーリング-リモートストレージアレイのボリュームが一部表示されないのはなぜですか？
+          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+        - title: リモートストレージアレイのIPアドレスを更新するのはどのような場合ですか？
+          url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
+      - title: 同期に関するFAQ
+        entries:
+        - title: 同期ミラーリングと非同期ミラーリングの違いは何ですか？
+          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
+        - title: 同期ミラーリング-ボリュームが一部表示されないのはなぜですか？
+          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+        - title: 同期ミラーリング-リモートストレージアレイのボリュームが一部表示されないのはなぜですか？
+          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+        - title: 同期ミラーリング-ミラーペアを作成するときは、どのような点に注意する必要がありますか？
+          url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+        - title: 同期優先度は同期速度にどのような影響を与えますか？
+          url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
+        - title: 手動同期ポリシーの使用が推奨されるのはなぜですか？
+          url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
+    - title: リモートストレージ
+      entries:
+      - title: 概要
+        url: "/sm-storage/overview-remote-storage.html"
+      - title: 概念
+        entries:
+        - title: リモートストレージの仕組み
+          url: "/sm-storage/rtv-how-remote-storage-works.html"
+        - title: 利用規約
+          url: "/sm-storage/rtv-terminology.html"
+        - title: 機能の要件
+          url: "/sm-storage/rtv-remote-storage-requirements.html"
+        - title: ボリューム要件：
+          url: "/sm-storage/rtv-remote-storage-volume-requirements.html"
+      - title: リモートストレージを管理します
+        entries:
+        - title: リモートストレージをインポートします
+          url: "/sm-storage/rtv-import-remote-storage.html"
+        - title: リモートストレージのインポートの進捗状況を管理します
+          url: "/sm-storage/rtv-manage-progress-of-remote-volume-import.html"
+        - title: リモートストレージの接続設定を変更します
+          url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
+        - title: リモートストレージオブジェクトを削除する
+          url: "/sm-storage/rtv-remove-remote-storage.html"
+      - title: よくある質問です
+        entries:
+        - title: リモートストレージ接続を作成するときは、どのような点に注意する必要がありますか？
+          url: "/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html"
+        - title: リモートボリュームの削除を求めるプロンプトが表示されるのはなぜですか？
+          url: "/sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html"
+        - title: デスティネーションアレイにボリュームが一部表示されないのはなぜですか？
+          url: "/sm-storage/rtv-why-dont-i-see-all-my-volumes.html"
+        - title: インポートでリモートボリュームについて、どのような点に注意する必要がありますか？
+          url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
+        - title: リモートストレージのインポートを開始するときは、どのような点に注意する必要がありますか？
+          url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
+    - title: ハードウェアコンポーネント
+      entries:
+      - title: 概要
+        url: "/sm-hardware/overview-hardware.html"
+      - title: 概念
+        entries:
+        - title: ハードウェアページ
+          url: "/sm-hardware/hardware-page-overview.html"
+        - title: 利用規約
+          url: "/sm-hardware/hardware-terminology.html"
+      - title: シェルフコンポーネントを管理します
+        entries:
+        - title: ハードウェアコンポーネントを表示します
+          url: "/sm-hardware/view-hardware-components.html"
+        - title: 構成部品のステータスを表示または非表示にします
+          url: "/sm-hardware/show-or-hide-component-status.html"
+        - title: 正面図と背面図を切り替えます
+          url: "/sm-hardware/switch-between-front-and-back-views.html"
+        - title: シェルフの表示順序を変更します
+          url: "/sm-hardware/change-view-order-of-shelves.html"
+        - title: シェルフのロケーターライトを点灯します
+          url: "/sm-hardware/turn-on-shelf-locator-light.html"
+        - title: シェルフIDを変更します
+          url: "/sm-hardware/change-shelf-ids.html"
+        - title: シェルフコンポーネントのステータスと設定を表示します
+          url: "/sm-hardware/view-shelf-component-status-and-settings.html"
+        - title: バッテリ学習サイクルを更新します
+          url: "/sm-hardware/update-battery-learn-cycles.html"
+      - title: コントローラを管理する
+        entries:
+        - title: コントローラの状態
+          url: "/sm-hardware/controller-states.html"
+        - title: IPアドレスの割り当てに関する考慮事項
+          url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+        - title: 管理ポートを設定します
+          url: "/sm-hardware/configure-management-ports.html"
+        - title: NTPサーバアドレスを設定する
+          url: "/sm-hardware/configure-ntp-server-addresses.html"
+        - title: DNSサーバアドレスを設定する
+          url: "/sm-hardware/configure-dns-server-addresses.html"
+        - title: コントローラの設定を表示します
+          url: "/sm-hardware/view-controller-settings.html"
+        - title: リモートログインを許可します
+          url: "/sm-hardware/allow-remote-login.html"
+        - title: コントローラをオンラインにします
+          url: "/sm-hardware/place-controller-online.html"
+        - title: コントローラをオフラインにします
+          url: "/sm-hardware/place-controller-offline.html"
+        - title: コントローラをサービスモードにします
+          url: "/sm-hardware/place-controller-in-service-mode.html"
+        - title: コントローラをリセット（リブート）します
+          url: "/sm-hardware/reset-reboot-controller.html"
+      - title: iSCSIポートを管理します
+        entries:
+        - title: iSCSIポートを設定
+          url: "/sm-hardware/configure-iscsi-ports-hardware.html"
+        - title: iSCSI認証を設定
+          url: "/sm-settings/configure-iscsi-authentication.html"
+        - title: iSCSI検出設定を有効にします
+          url: "/sm-settings/enable-iscsi-discovery-settings.html"
+        - title: iSCSI統計パッケージを表示します
+          url: "/sm-support/view-iscsi-statistics-packages-support.html"
+        - title: iSCSI セッションを表示します
+          url: "/sm-settings/view-iscsi-sessions-system.html"
+        - title: iSCSIセッションを終了します
+          url: "/sm-settings/end-iscsi-session-system.html"
+        - title: iSER over InfiniBandポートを設定します
+          url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
+        - title: iSER over InfiniBandの統計を表示します
+          url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
+      - title: NVMeポートを管理します
+        entries:
+        - title: NVMe の概要
+          url: "/sm-settings/nvme-overview.html"
+        - title: NVMe over InfiniBandポートを設定する
+          url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
+        - title: NVMe over RoCEポートを設定します
+          url: "/sm-hardware/configure-nvme-over-roce-ports-hardware.html"
+        - title: NVMe over Fabricsの統計を表示します
+          url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
+      - title: ドライブを管理します
+        entries:
+        - title: ドライブの状態
+          url: "/sm-hardware/drive-states.html"
+        - title: ソリッドステートディスク（SSD）
+          url: "/sm-hardware/solid-state-disks-ssds.html"
+        - title: ドライブ表示を制限します
+          url: "/sm-hardware/limit-the-drive-view.html"
+        - title: ドライブのロケーターライトを点灯します
+          url: "/sm-hardware/turn-on-drive-locator-light.html"
+        - title: ドライブのステータスと設定を表示します
+          url: "/sm-hardware/view-drive-status-and-settings.html"
+        - title: ドライブを論理的に交換します
+          url: "/sm-hardware/replace-drive-logically-hardware.html"
+        - title: ドライブを手動で再構築
+          url: "/sm-hardware/reconstruct-drive-manually.html"
+        - title: ドライブを初期化（フォーマット）します
+          url: "/sm-hardware/initialize-format-drive.html"
+        - title: ドライブを使用停止にする
+          url: "/sm-hardware/fail-drive.html"
+        - title: ドライブを消去します
+          url: "/sm-hardware/erase-drive.html"
+        - title: ロックされたNVMeドライブまたはFIPSドライブのロックを解除またはリセットします
+          url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+      - title: ホットスペアを管理します
+        entries:
+        - title: ホットスペアドライブの概要
+          url: "/sm-hardware/hot-spare-drives.html"
+        - title: ホットスペアを割り当てます
+          url: "/sm-hardware/assign-hot-spares-hardware.html"
+        - title: ホットスペアの割り当てを解除します
+          url: "/sm-hardware/unassign-hot-spares.html"
+      - title: シェルフに関するFAQです
+        entries:
+        - title: シェルフ損失の保護およびドロワー損失の保護とは何ですか？
+          url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
+        - title: バッテリ学習サイクルとは何ですか？
+          url: "/sm-hardware/what-are-battery-learn-cycles.html"
+      - title: コントローラに関するFAQ
+        entries:
+        - title: 自動ネゴシエーションとは何ですか？
+          url: "/sm-hardware/what-is-auto-negotiation.html"
+        - title: IPv6ステートレスアドレス自動設定とは何ですか。
+          url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
+        - title: DHCPと手動設定のどちらを選択しますか。
+          url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
+        - title: DHCPサーバとは何ですか。
+          url: "/sm-hardware/what-is-a-dhcp-server.html"
+        - title: DHCPサーバを設定するにはどうすればよいですか。
+          url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
+        - title: コントローラのネットワーク設定を変更する必要があるのはなぜですか？
+          url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
+        - title: ネットワーク設定はどこで入手できますか。
+          url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
+        - title: ICMP PING応答とは何ですか？
+          url: "/sm-hardware/what-are-icmp-ping-responses.html"
+        - title: ポート設定を更新する必要があるのはいつですか？
+          url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
+        - title: 管理ポートを設定したあとに何をすればよいですか？
+          url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
+        - title: ストレージシステムが最適モードでないのはなぜですか？
+          url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
+      - title: iSCSIに関するFAQ
+        entries:
+        - title: iSNSサーバを登録に使用するとどうなりますか？
+          url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
+        - title: iSCSIではどの登録方法が自動的にサポートされますか。
+          url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
+        - title: iSER over InfiniBand統計には何が表示されますか？
+          url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
+        - title: iSER over InfiniBandを設定または診断するためにほかに必要な作業は何ですか？
+          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+        - title: iSCSIを設定または診断するためにほかに必要な作業は何ですか？
+          url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
+      - title: NVMeに関するFAQです
+        entries:
+        - title: NVMe over Fabrics統計には何が表示されますか？
+          url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
+        - title: NVMe over InfiniBandを設定または診断するためにほかに必要な作業は何ですか？
+          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
+        - title: NVMe over RoCEを設定または診断するためにほかに必要な作業は何ですか？
+          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
+        - title: 1つの物理ポートに2つのIPアドレスがあるのはなぜですか。
+          url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
+        - title: 1つの物理ポートに2セットのパラメータがあるのはなぜですか。
+          url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+      - title: ドライブに関するFAQ
+        entries:
+        - title: ホットスペアドライブとは何ですか？
+          url: "/sm-storage/what-is-a-hot-spare-drive.html"
+        - title: 予約済み容量とは何ですか？
+          url: "/sm-hardware/what-is-preservation-capacity.html"
+        - title: ドライブを論理的に交換するのはどのような場合ですか？
+          url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
+        - title: 再構築中のドライブのステータスはどこで確認できますか。
+          url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"
+    - title: アラート
+      entries:
+      - title: 概要
+        url: "/sm-settings/overview-alerts.html"
+      - title: 概念
+        entries:
+        - title: アラートの仕組み
+          url: "/sm-settings/how-alerts-work.html"
+        - title: 利用規約
+          url: "/sm-settings/alerts-terminology.html"
+      - title: Eメールアラートの管理
+        entries:
+        - title: メールサーバと受信者を設定します
+          url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
+        - title: Eメールアドレスを編集
+          url: "/sm-settings/edit-alert-email-addresses.html"
+        - title: Eメールアドレスを追加
+          url: "/sm-settings/add-alert-email-addresses.html"
+        - title: メールサーバまたはEメールアドレスを削除します
+          url: "/sm-settings/delete-alert-email-addresses.html"
+        - title: メールサーバを編集します
+          url: "/sm-settings/edit-mail-server-for-alerts.html"
+      - title: SNMPアラートの管理
+        entries:
+        - title: SNMPアラートを設定する
+          url: "/sm-settings/configure-snmp-alerts.html"
+        - title: トラップ送信先を追加します
+          url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
+        - title: SNMP MIB変数を設定します
+          url: "/sm-settings/configure-snmp-mib-variables.html"
+        - title: コミュニティを編集します
+          url: "/sm-settings/edit-community-names-for-snmp-traps.html"
+        - title: ユーザ設定を編集します
+          url: "/sm-settings/edit-user-names-for-snmp-traps.html"
+        - title: コミュニティを追加します
+          url: "/sm-settings/add-community-names-for-snmp-traps.html"
+        - title: ユーザを追加します
+          url: "/sm-settings/add-user-names-for-snmp-traps.html"
+        - title: コミュニティを削除します
+          url: "/sm-settings/remove-community-name-for-snmp-traps.html"
+        - title: ユーザを削除します
+          url: "/sm-settings/remove-user-for-snmp-traps.html"
+        - title: トラップ送信先を削除します
+          url: "/sm-settings/delete-trap-destinations.html"
+      - title: syslogアラートの管理
+        entries:
+        - title: syslogサーバを設定します
+          url: "/sm-settings/configure-syslog-server-for-alerts.html"
+        - title: syslogサーバを編集します
+          url: "/sm-settings/edit-syslog-servers-for-alerts.html"
+        - title: syslogサーバを追加します
+          url: "/sm-settings/add-syslog-servers-for-alerts.html"
+        - title: syslogサーバを削除します
+          url: "/sm-settings/delete-syslog-servers-for-alerts.html"
+      - title: よくある質問です
+        entries:
+        - title: アラートが無効になっている場合
+          url: "/sm-settings/what-if-alerts-are-disabled.html"
+        - title: SNMPまたはsyslogのアラートを設定するにはどうすればよいですか？
+          url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
+        - title: アレイとアラートでタイムスタンプが異なるのはなぜですか？
+          url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+    - title: アレイ設定
+      entries:
+      - title: 設定の概要
+        url: "/sm-settings/overview-settings.html"
+      - title: 概念
+        entries:
+        - title: キャッシュの設定とパフォーマンス
+          url: "/sm-settings/cache-settings-and-performance.html"
+        - title: 自動ロードバランシングの概要
+          url: "/sm-settings/automatic-load-balancing-overview.html"
+      - title: アレイを設定します
+        entries:
+        - title: ストレージアレイ名を編集します
+          url: "/sm-settings/edit-storage-array-name.html"
+        - title: ストレージアレイのロケーターライトを点灯します
+          url: "/sm-settings/turn-on-storage-array-locator-lights.html"
+        - title: ストレージアレイのクロックを同期する
+          url: "/sm-settings/synchronize-storage-array-clocks.html"
+        - title: ストレージアレイの構成を保存します
+          url: "/sm-settings/save-storage-array-configuration.html"
+        - title: ストレージアレイの構成のクリア
+          url: "/sm-settings/clear-storage-array-configuration.html"
+        - title: キャッシュ設定を変更します
+          url: "/sm-settings/change-cache-settings-for-storage-array.html"
+        - title: 自動ロードバランシングを設定する
+          url: "/sm-settings/set-automatic-load-balancing.html"
+        - title: 従来の管理インターフェイスを有効または無効にします
+          url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
+      - title: アドオン機能を設定
+        entries:
+        - title: アドオン機能の仕組み
+          url: "/sm-settings/how-add-on-features-work.html"
+        - title: アドオン契約条項
+          url: "/sm-settings/add-on-feature-terminology.html"
+        - title: 機能キーファイルを取得します
+          url: "/sm-settings/obtain-a-feature-key-file.html"
+        - title: プレミアム機能を有効にします
+          url: "/sm-settings/enable-premium-feature.html"
+        - title: 機能パックを有効にします
+          url: "/sm-settings/enable-feature-pack.html"
+      - title: CLIをダウンロードします
+        url: "/sm-settings/download-cli.html"
+      - title: よくある質問です
+        entries:
+        - title: 自動ロードバランシングとは何ですか？
+          url: "/sm-storage/what-is-automatic-load-balancing.html"
+        - title: コントローラキャッシュとは何ですか？
+          url: "/sm-settings/what-is-controller-cache.html"
+        - title: キャッシュフラッシュとは何ですか？
+          url: "/sm-settings/what-is-cache-flushing.html"
+        - title: キャッシュブロックサイズとは何ですか？
+          url: "/sm-settings/what-is-cache-block-size.html"
+        - title: ストレージアレイのクロックを同期する必要があるのはいつですか？
+          url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+    - title: ドライブセキュリティ
+      entries:
+      - title: 概要
+        url: "/sm-settings/overview-drive-security.html"
+      - title: 概念
+        entries:
+        - title: ドライブセキュリティ機能の仕組み
+          url: "/sm-settings/how-the-drive-security-feature-works.html"
+        - title: セキュリティキー管理の仕組み
+          url: "/sm-settings/how-security-key-management-works.html"
+        - title: 利用規約
+          url: "/sm-settings/drive-security-terminology.html"
+      - title: セキュリティキーを設定する
+        entries:
+        - title: 内部セキュリティキーを作成します
+          url: "/sm-settings/create-internal-security-key.html"
+        - title: 外部セキュリティキーを作成します
+          url: "/sm-settings/create-external-security-key.html"
+      - title: セキュリティキーを管理します
+        entries:
+        - title: セキュリティキーを変更する
+          url: "/sm-settings/change-security-key.html"
+        - title: 外部キー管理から内部キー管理に切り替えます
+          url: "/sm-settings/switch-from-external-to-internal-key-management.html"
+        - title: キー管理サーバの設定を編集します
+          url: "/sm-settings/edit-key-management-server-settings.html"
+        - title: セキュリティキーをバックアップする
+          url: "/sm-settings/back-up-security-key.html"
+        - title: セキュリティキーを検証する
+          url: "/sm-settings/validate-security-key.html"
+        - title: 内部キー管理を使用する場合は、ドライブのロックを解除します
+          url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
+        - title: 外部キー管理を使用する場合は、ドライブのロックを解除します
+          url: "/sm-settings/unlock-drives-using-an-external-security-key.html"
+      - title: よくある質問です
+        entries:
+        - title: セキュリティキーを作成するときは、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
+        - title: パスフレーズを定義する必要があるのはなぜですか？
+          url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
+        - title: セキュリティキー情報を記録することが重要なのはなぜですか。
+          url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
+        - title: セキュリティキーをバックアップするときは、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
+        - title: セキュアドライブのロックを解除するときは、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
+        - title: 読み取り/書き込みアクセスとは何ですか？
+          url: "/sm-settings/what-is-read-write-accessibility.html"
+        - title: セキュリティキーを検証するときは、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
+        - title: 内部セキュリティキー管理と外部セキュリティキー管理の違いは何ですか？
+          url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+    - title: アクセス管理
+      entries:
+      - title: 概要
+        url: "/sm-settings/overview-access-management.html"
+      - title: 概念
+        entries:
+        - title: アクセス管理の仕組み
+          url: "/sm-settings/how-access-management-works.html"
+        - title: 利用規約
+          url: "/sm-settings/access-management-terminology.html"
+        - title: マッピングされたロールの権限
+          url: "/sm-settings/permissions-for-mapped-roles.html"
+        - title: ローカルユーザロール
+          url: "/sm-settings/access-management-with-local-user-roles.html"
+        - title: ディレクトリサービス
+          url: "/sm-settings/access-management-with-directory-services.html"
+        - title: SAML
+          url: "/sm-settings/access-management-with-saml.html"
+      - title: ローカルユーザロールを使用する
+        entries:
+        - title: ローカルユーザロールを表示します
+          url: "/sm-settings/view-local-user-roles.html"
+        - title: パスワードを変更します
+          url: "/sm-settings/change-passwords.html"
+        - title: ローカルユーザパスワードの設定を変更します
+          url: "/sm-settings/change-local-user-passwords-settings.html"
+      - title: ディレクトリサービスを使用する
+        entries:
+        - title: ディレクトリサーバを追加します
+          url: "/sm-settings/add-directory-server.html"
+        - title: ディレクトリサーバ設定とロールマッピングを編集します
+          url: "/sm-settings/edit-directory-server-settings.html"
+        - title: ディレクトリサーバを削除します
+          url: "/sm-settings/remove-directory-server.html"
+      - title: SAMLを使用する
+        entries:
+        - title: SAMLを設定する
+          url: "/sm-settings/configure-saml.html"
+        - title: SAMLのロールマッピングを変更する
+          url: "/sm-settings/change-saml-role-mappings.html"
+        - title: SAMLサービスプロバイダファイルをエクスポートする
+          url: "/sm-settings/export-saml-service-provider-files.html"
+      - title: syslogを管理します
+        entries:
+        - title: 監査ログアクティビティを表示します
+          url: "/sm-settings/view-audit-log-activity.html"
+        - title: 監査ログポリシーを定義する
+          url: "/sm-settings/define-log-policies.html"
+        - title: 監査ログからイベントを削除します
+          url: "/sm-settings/delete-events-from-the-audit-log.html"
+        - title: 監査ログ用のsyslogサーバを設定します
+          url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
+        - title: 監査ログレコード用のsyslogサーバ設定の編集
+          url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
+      - title: よくある質問です
+        entries:
+        - title: ログインできないのはなぜですか？
+          url: "/sm-settings/why-cant-i-log-in.html"
+        - title: ディレクトリサーバを追加するときは、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
+        - title: ストレージアレイのロールをマッピングするときは、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
+        - title: この変更の影響を受ける外部管理ツールはどれですか。
+          url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
+        - title: SAMLを設定および有効にするときは、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
+        - title: 監査ログにはどのようなタイプのイベントが記録されますか？
+          url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
+        - title: syslogサーバを設定するときは、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
+        - title: syslogサーバが監査ログを受信しなくなりました。どうすればよいですか？
+          url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+    - title: 証明書
+      entries:
+      - title: 概要
+        url: "/sm-settings/overview-certificates.html"
+      - title: 概念
+        entries:
+        - title: 証明書の仕組み
+          url: "/sm-settings/how-certificates-work-sam.html"
+        - title: 利用規約
+          url: "/sm-settings/certificate-terminology.html"
+      - title: 証明書を使用する
+        entries:
+        - title: コントローラのCA署名証明書を使用する
+          url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
+        - title: 管理証明書をリセットします
+          url: "/sm-settings/reset-management-certificates.html"
+        - title: インポートされた証明書情報を表示し
+          url: "/sm-settings/view-imported-certificates.html"
+        - title: クライアントとして機能するコントローラの証明書をインポートする
+          url: "/sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html"
+        - title: 証明書失効チェックを有効にします
+          url: "/sm-settings/enable-certificate-revocation-checking.html"
+        - title: 信頼された証明書を削除する
+          url: "/sm-settings/delete-trusted-certificates.html"
+        - title: 認証サーバにCA署名証明書を使用する
+          url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
+        - title: キー管理サーバ証明書をエクスポートする
+          url: "/sm-settings/export-key-management-certificates.html"
+      - title: よくある質問です
+        entries:
+        - title: Cannot Access Other Controllerダイアログボックスが表示されるのはなぜですか。
+          url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
+        - title: 外部キー管理を行うためにSystem Managerにアップロードする必要がある証明書を確認するにはどうすればよいですか？
+          url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
+        - title: 証明書失効チェックについて、どのような点に注意する必要がありますか？
+          url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
+        - title: 失効チェックが有効になるのはどのタイプのサーバですか？
+          url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"
+    - title: サポート
+      entries:
+      - title: 概要
+        url: "/sm-support/overview-support.html"
+      - title: 情報と診断を表示します
+        entries:
+        - title: ストレージアレイプロファイルを表示します
+          url: "/sm-support/view-storage-array-profile.html"
+        - title: ソフトウェアとファームウェアのインベントリを表示します
+          url: "/sm-support/view-software-and-firmware-inventory.html"
+      - title: 診断データを収集します
+        entries:
+        - title: サポートデータを手動で収集する
+          url: "/sm-support/collect-support-data-manually.html"
+        - title: 構成データを収集
+          url: "/sm-support/collect-configuration-data.html"
+        - title: リカバリサポートファイルを取得します
+          url: "/sm-support/retrieve-recovery-support-files.html"
+        - title: トレースバッファを取得します
+          url: "/sm-support/retrieve-trace-buffers.html"
+        - title: I/Oパスの統計を収集
+          url: "/sm-support/collect-i-o-path-statistics.html"
+        - title: ヘルスイメージを取得します
+          url: "/sm-support/retrieve-health-image.html"
+      - title: リカバリ操作の実行
+        entries:
+        - title: 読み取り不能セクターのログを表示します
+          url: "/sm-support/view-unreadable-sectors-log.html"
+        - title: ドライブポートを再度有効にします
+          url: "/sm-support/re-enable-drive-ports.html"
+        - title: リカバリモードをクリアします
+          url: "/sm-support/clear-recovery-mode.html"
+      - title: AutoSupport を管理します
+        entries:
+        - title: AutoSupport 機能の概要
+          url: "/sm-support/autosupport-feature-overview.html"
+        - title: AutoSupport 機能のワークフロー
+          url: "/sm-support/workflow-for-autosupport.html"
+        - title: AutoSupport 機能を有効または無効にします
+          url: "/sm-support/enable-or-disable-autosupport-features.html"
+        - title: AutoSupport の配信方法を設定する
+          url: "/sm-support/configure-autosupport-delivery-method.html"
+        - title: AutoSupport ディスパッチのスケジュールを設定します
+          url: "/sm-support/schedule-autosupport-dispatches.html"
+        - title: AutoSupport ディスパッチを送信します
+          url: "/sm-support/send-autosupport-dispatches.html"
+        - title: AutoSupport のステータスを確認します
+          url: "/sm-support/view-autosupport-status.html"
+        - title: AutoSupport ログを表示します
+          url: "/sm-support/view-autosupport-log.html"
+        - title: AutoSupport メンテナンス期間を有効にします
+          url: "/sm-support/enable-autosupport-maintenance-window.html"
+        - title: AutoSupport メンテナンス期間を無効にします
+          url: "/sm-support/disable-autosupport-maintenance-window.html"
+      - title: イベントを表示します
+        entries:
+        - title: イベントログの概要
+          url: "/sm-support/overview-event-log.html"
+        - title: イベントログを表示します
+          url: "/sm-support/view-events-using-the-event-log.html"
+      - title: アップグレードを管理する
+        entries:
+        - title: 概要
+          url: "/sm-support/overview-upgrade-center.html"
+        - title: ソフトウェアとファームウェアをアップグレードします
+          url: "/sm-support/upgrade-controller-software-and-firmware.html"
+        - title: コントローラソフトウェアとファームウェアをアクティブ化します
+          url: "/sm-support/activate-controller-software-and-firmware.html"
+        - title: ドライブファームウェアをアップグレードします
+          url: "/sm-support/upgrade-drive-firmware.html"
+        - title: ソフトウェアとファームウェアのアップグレードエラーの可能性を確認します
+          url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+      - title: よくある質問です
+        entries:
+        - title: 収集するデータ
+          url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
+        - title: 読み取り不能セクターについて、どのようなデータが表示されますか？
+          url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
+        - title: ヘルスイメージとは何ですか？
+          url: "/sm-support/what-is-a-health-image.html"
+        - title: AutoSupport の機能について教えてください。
+          url: "/sm-support/what-do-the-autosupport-features-do.html"
+        - title: AutoSupport 機能ではどのような種類のデータが収集されますか。
+          url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
+        - title: AutoSupport 機能の配信方法を設定するにはどうすればよいですか？
+          url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
+        - title: 構成データとは何ですか？
+          url: "/sm-support/what-is-configuration-data.html"
+        - title: SANtricity OSソフトウェアをアップグレードするときは、どのような点に注意する必要がありますか？
+          url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
+        - title: IOMの自動同期を一時停止するときは、どのような点に注意する必要がありますか？
+          url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
+        - title: ファームウェアアップグレードに時間がかかる場合、どのような理由が考えられますか？
+          url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
+        - title: ドライブファームウェアをアップグレードするときは、どのような点に注意する必要がありますか？
+          url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
+        - title: 実行するアップグレードのタイプを選択するにはどうすればよいですか？
+          url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
+  - title: Unified Manager の略
+    url: "/unified-manager/index.html"
+    entries:
+    - title: メインインターフェイス
+      entries:
+      - title: Unified Managerインターフェイスの概要
+        url: "/um-admin/overview-interface-unified.html"
+      - title: サポートされているブラウザ
+        url: "/um-admin/supported-browsers-unified.html"
+      - title: 管理者パスワード保護を設定します
+        url: "/um-admin/administrator-password-protection-unified.html"
+      - title: adminパスワードを変更
+        url: "/um-admin/change-admin-password-unified.html"
+      - title: セッションタイムアウトの管理
+        url: "/um-admin/manage-session-timeouts-unified.html"
+    - title: ストレージアレイ
+      entries:
+      - title: 概要
+        url: "/um-manage/overview-storage-arrays.html"
+      - title: 概念
+        entries:
+        - title: アレイの検出に関する考慮事項
+          url: "/um-manage/considerations-for-discovering-arrays.html"
+        - title: System Managerにアクセスする際の考慮事項
+          url: "/um-manage/launch-considerations.html"
+      - title: アレイを検出します
+        entries:
+        - title: 複数のストレージアレイを検出する
+          url: "/um-manage/discover-multiple-arrays.html"
+        - title: 単一のアレイを検出します
+          url: "/um-manage/discover-single-array.html"
+      - title: アレイを管理します
+        entries:
+        - title: アレイのステータスを表示します
+          url: "/um-manage/storage-array-status.html"
+        - title: System Manager を起動します
+          url: "/um-manage/launch-system-manager.html"
+        - title: アレイのパスワードを変更します
+          url: "/um-admin/change-storage-array-passwords.html"
+        - title: アレイをビューから削除します
+          url: "/um-manage/remove-storage-array.html"
+    - title: 設定をインポートします
+      entries:
+      - title: 概要
+        url: "/um-manage/overview-import-settings.html"
+      - title: 概念
+        entries:
+        - title: 設定のインポートの仕組み
+          url: "/um-manage/how-import-settings-works.html"
+        - title: ストレージ構成のレプリケートに関する要件
+          url: "/um-manage/requirements-for-replicating-storage-configurations.html"
+      - title: バッチインポートを使用します
+        entries:
+        - title: アラート設定をインポートします
+          url: "/um-manage/import-alert-settings.html"
+        - title: AutoSupport 設定をインポートします
+          url: "/um-manage/import-autosupport-settings.html"
+        - title: ディレクトリサービス設定をインポートします
+          url: "/um-manage/import-directory-services-settings.html"
+        - title: システム設定をインポートします
+          url: "/um-manage/import-system-settings.html"
+        - title: ストレージ構成の設定をインポートします
+          url: "/um-manage/import-storage-configuration-settings.html"
+      - title: よくある質問です
+        entries:
+        - title: どの設定がインポートされますか？
+          url: "/um-manage/what-settings-will-be-imported.html"
+        - title: ストレージアレイが一部表示されないのはなぜですか？
+          url: "/um-manage/why-dont-i-see-all-of-my-storage-arrays.html"
+    - title: アレイグループ
+      entries:
+      - title: 概要
+        url: "/um-manage/overview-manage-groups.html"
+      - title: グループを設定します
+        url: "/um-manage/create-storage-array-group.html"
+      - title: グループからアレイを削除します
+        url: "/um-manage/remove-storage-arrays-from-group.html"
+      - title: グループを削除します
+        url: "/um-manage/delete-storage-array-group.html"
+      - title: グループ名を変更します
+        url: "/um-manage/rename-storage-array-group.html"
+    - title: アップグレード
+      entries:
+      - title: 概要
+        url: "/um-manage/overview-upgrade-center-um.html"
+      - title: ソフトウェアとファームウェアをアップグレードします
+        entries:
+        - title: アップグレード前の健常性チェックを実行
+          url: "/um-manage/perform-pre-upgrade-health-check.html"
+        - title: SANtricity OSをアップグレードします
+          url: "/um-manage/upgrade-controller-firmware.html"
+        - title: ステージング済みOSソフトウェアをアクティブ化します
+          url: "/um-manage/activate-pending-firmware.html"
+        - title: ソフトウェアリポジトリを管理します
+          url: "/um-manage/manage-repository.html"
+        - title: ステージング済みOSソフトウェアをクリアします
+          url: "/um-manage/clear-staged-os-software.html"
+    - title: ミラーリング
+      entries:
+      - title: 概要
+        url: "/um-manage/overview-mirroring-um.html"
+      - title: 概念
+        entries:
+        - title: ミラーリングの仕組み
+          url: "/um-manage/mirroring-overview.html"
+        - title: 設定ワークフロー
+          url: "/um-manage/mirroring-configuration-workflow.html"
+        - title: 利用規約
+          url: "/um-manage/mirroring-terminology.html"
+        - title: 要件
+          url: "/um-manage/requirements-for-using-mirroring.html"
+      - title: ミラーリングを設定します
+        entries:
+        - title: 非同期ミラーペアを作成する
+          url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
+        - title: 同期ミラーペアを作成する
+          url: "/um-manage/create-synchronous-mirrored-pair-um.html"
+      - title: よくある質問です
+        entries:
+        - title: ミラー整合性グループを作成するときは、どのような点に注意する必要がありますか？
+          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html"
+        - title: ミラーペアを作成するときは、どのような点に注意する必要がありますか？
+          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html"
+        - title: この割合を変更するのはどのような場合ですか？
+          url: "/um-manage/why-would-i-change-this-percentage-um.html"
+        - title: リザーブ容量の候補が複数表示されるのはなぜですか？
+          url: "/um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html"
+        - title: ボリュームが一部表示されないのはなぜですか？
+          url: "/um-manage/why-dont-i-see-all-my-volumes-um.html"
+        - title: リモートストレージアレイのボリュームが一部表示されないのはなぜですか？
+          url: "/um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html"
+        - title: 同期優先度は同期速度にどのような影響を与えますか？
+          url: "/um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html"
+        - title: 手動同期ポリシーの使用が推奨されるのはなぜですか？
+          url: "/um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html"
+    - title: 証明書
+      entries:
+      - title: 概要
+        url: "/um-certificates/overview-certificates-um.html"
+      - title: 概念
+        entries:
+        - title: 証明書の仕組み
+          url: "/um-certificates/how-certificates-work-unified.html"
+        - title: 利用規約
+          url: "/um-certificates/certificate-terminology-unified.html"
+      - title: 管理ホスト証明書を使用する
+        url: "/um-certificates/use-ca-signed-certificate-um.html"
+      - title: 管理証明書をリセットします
+        url: "/um-certificates/reset-management-certificates-unified.html"
+      - title: アレイ証明書を使用する
+        entries:
+        - title: アレイの証明書をインポートします
+          url: "/um-certificates/import-array-certificates-unified.html"
+        - title: 信頼された証明書を削除する
+          url: "/um-certificates/delete-trusted-certificates-unified.html"
+        - title: 信頼されていない証明書を
+          url: "/um-certificates/resolve-untrusted-certificates-certificate-page.html"
+      - title: 証明書を管理します
+        entries:
+        - title: 証明書を表示します
+          url: "/um-certificates/view-certificates-unified.html"
+        - title: 証明書をエクスポートします
+          url: "/um-certificates/export-certificates-unified.html"
+    - title: アクセス管理
+      entries:
+      - title: 概要
+        url: "/um-certificates/overview-access-management-um.html"
+      - title: 概念
+        entries:
+        - title: アクセス管理の仕組み
+          url: "/um-certificates/how-access-management-works-unified.html"
+        - title: 利用規約
+          url: "/um-certificates/access-management-terminology-unified.html"
+        - title: マッピングされたロールの権限
+          url: "/um-certificates/permissions-for-mapped-roles-unified.html"
+        - title: ローカルユーザロール
+          url: "/um-certificates/access-management-with-local-user-roles-unified.html"
+        - title: ディレクトリサービス
+          url: "/um-certificates/access-management-with-directory-services-unified.html"
+      - title: ローカルユーザロールを使用する
+        entries:
+        - title: ローカルユーザロールを表示します
+          url: "/um-certificates/view-local-user-roles-unified.html"
+        - title: パスワードを変更します
+          url: "/um-certificates/change-passwords-unified.html"
+        - title: ローカルユーザパスワードの設定を変更します
+          url: "/um-certificates/change-local-user-passwords-settings-unified.html"
+      - title: ディレクトリサービスを使用する
+        entries:
+        - title: ディレクトリサーバを追加します
+          url: "/um-certificates/add-directory-server-unified.html"
+        - title: ディレクトリサーバ設定とロールマッピングを編集します
+          url: "/um-certificates/edit-directory-server-settings-unified.html"
+        - title: ディレクトリサーバを削除します
+          url: "/um-certificates/remove-directory-server-unified.html"
+      - title: よくある質問です
+        entries:
+        - title: ログインできないのはなぜですか？
+          url: "/um-certificates/why-cant-i-log-in-unified.html"
+        - title: ディレクトリサーバを追加するときは、どのような点に注意する必要がありますか？
+          url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
+        - title: ストレージアレイのロールをマッピングするときは、どのような点に注意する必要がありますか？
+          url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+        - title: ローカルユーザとは何ですか？
+          url: "/um-certificates/what-are-the-local-users.html"
+  - title: 以前のバージョン
+    url: "/early-versions.html"
+  - title: 法的通知
+    url: "/legal-notices.html"
+product-family:
+  name: E-Series
+  repo: e-series-family

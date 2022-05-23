@@ -1,0 +1,16 @@
+---
+permalink: sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, 
+summary: アプリケーションを特定すると、アプリケーションタイプに基づいて、ストレージを最適化するボリューム構成がSystem Managerによって自動的に提示されます。 
+---
+= アプリケーションを特定するとストレージアレイの管理にどのように役立ちますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アプリケーションを特定すると、アプリケーションタイプに基づいて、ストレージを最適化するボリューム構成がSystem Managerによって自動的に提示されます。
+
+アプリケーションによってボリュームを最適化することで、データストレージの処理効率を高めることができます。ボリューム構成には、I/Oタイプ、セグメントサイズ、コントローラ所有権、読み取りと書き込みのキャッシュなどの特性が含まれます。また、アプリケーションごと、ワークロードごとにパフォーマンスデータを表示して、アプリケーションおよび関連するワークロードのレイテンシ、IOPS、MiB/秒を評価できます。

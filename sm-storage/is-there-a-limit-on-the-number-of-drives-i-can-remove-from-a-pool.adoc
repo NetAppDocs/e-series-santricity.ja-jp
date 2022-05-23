@@ -1,0 +1,19 @@
+---
+permalink: sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, limit, number, pool, drive, 
+summary: System Managerでは、プールから削除できるドライブ数が制限されています。 
+---
+= プールから削除できるドライブの数に制限はありますか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerでは、プールから削除できるドライブ数が制限されています。
+
+* プール内のドライブの数を11本より少なくすることはできません。
+* 削除対象のドライブに含まれるデータがプール内の残りのドライブに再配置される場合、そのデータを十分に格納できる空き容量がプール内にない場合は、そのドライブは削除できません。
+* 一度に削除できるドライブは最大60本です。60本を超えるドライブを選択した場合、ドライブの削除オプションは無効になります。60本を超えるドライブを取り外す必要がある場合は、ドライブの取り外し処理を繰り返します。
+

@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, remote, volumes 
+summary: リモートボリュームの最大数に達すると、ストレージシステムは未使用のリモートボリュームを自動的に検出し、削除するように求めます。 
+---
+= リモートボリュームの削除を求めるプロンプトが表示されるのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リモートボリュームの最大数に達すると、ストレージシステムは未使用のリモートボリュームを自動的に検出し、削除するように求めます。
+
+場合によっては、作成プロセス中に未使用のリモートボリュームがクリーンアップされないことがあります。追加のインポート処理を開始する前に、システムが最適で、ネットワーク接続が安定していることを確認してください。

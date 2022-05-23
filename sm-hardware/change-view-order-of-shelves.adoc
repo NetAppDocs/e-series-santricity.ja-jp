@@ -1,0 +1,19 @@
+---
+permalink: sm-hardware/change-view-order-of-shelves.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, change, view, order, shelves 
+summary: ハードウェアのページに表示されるシェルフの順序は、キャビネット内のシェルフの物理的な順序に合わせて変更できます。 
+---
+= シェルフの表示順序を変更します
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ハードウェアのページに表示されるシェルフの順序は、キャビネット内のシェルフの物理的な順序に合わせて変更できます。
+
+.手順
+. 「 * ハードウェア * 」を選択します。
+. シェルフビューの右上から、上下の矢印を選択して、ハードウェアページに表示されるシェルフの順序を変更します。
+

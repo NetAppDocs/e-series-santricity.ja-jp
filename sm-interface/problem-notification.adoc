@@ -1,0 +1,71 @@
+---
+permalink: sm-interface/problem-notification.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, notifications 
+summary: System Managerは、アイコンおよびその他のいくつかの方法を使用して、ストレージアレイに問題が存在することを通知します。 
+---
+= 問題通知の概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerは、アイコンおよびその他のいくつかの方法を使用して、ストレージアレイに問題が存在することを通知します。
+
+
+
+== アイコン
+
+System Managerでは、以下のアイコンを使用してストレージアレイおよびそのコンポーネントのステータスが表示されます。
+
+[cols="1a,1a"]
+|===
+| をクリックします。 | 説明 
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-success.gif[""]
+ a| 
+最適
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-failure.gif[""]
+ a| 
+最適でないか、障害が発生しています
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-service.gif[""]
+ a| 
+対応または修正が必要です
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-caution.gif[""]
+ a| 
+注意
+
+|===
+これらのアイコンはSystem Managerのさまざまな場所に表示されます。
+
+* ホームページの通知領域には、失敗したアイコンとメッセージが表示されます。
+* ナビゲーション領域のホームページアイコンに失敗したアイコンが表示されます。
+* [コンポーネント]ページで、ドライブとコントローラのグラフィックスに障害アイコンが表示されます。
+
+
+
+
+== アラートとLED
+
+System Managerでは、アイコン以外の方法でも問題が通知されます。
+
+* System ManagerはSNMP通知またはEメールのエラーメッセージを送信します。
+* ハードウェアの保守操作必要LEDが点灯します。
+
+
+問題の通知を受け取ったら、Recovery Guruを使用して問題を修正します。必要に応じて、リカバリ手順について説明しているハードウェアのドキュメントを参照し、障害が発生したコンポーネントを交換します。

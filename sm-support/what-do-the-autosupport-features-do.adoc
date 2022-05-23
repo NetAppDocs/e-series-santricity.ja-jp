@@ -1,0 +1,19 @@
+---
+permalink: sm-support/what-do-the-autosupport-features-do.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, autosupport features, ASUP 
+summary: AutoSupport 機能は、個別に有効にする3つの機能で構成されています。 
+---
+= AutoSupport の機能について教えてください。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 機能は、個別に有効にする3つの機能で構成されています。
+
+* *Basic AutoSupport *--ストレージ・アレイが自動的にデータを収集してテクニカル・サポートに送信することを可能にします
+* * AutoSupport OnDemand*--問題 のトラブルシューティングに必要なときに、テクニカルサポートが以前のAutoSupport ディスパッチの再送信を要求できるようにします。送信はすべて、AutoSupport サーバではなくストレージアレイから開始されます。ストレージアレイはAutoSupport サーバに定期的にコンタクトし、保留中の再送信要求がないかどうかをチェックし、適切に応答します。
+* *リモート診断*--問題 のトラブルシューティングに必要な場合に、テクニカルサポートが最新のAutoSupport ディスパッチをリクエストできるようにします。送信はすべて、AutoSupport サーバではなくストレージアレイから開始されます。ストレージアレイはAutoSupport サーバに定期的にコンタクトし、保留中の新規要求がないかどうかをチェックし、適切に応答します。
+

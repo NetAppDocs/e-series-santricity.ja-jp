@@ -1,0 +1,59 @@
+---
+permalink: sm-storage/re-create-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, re-create, snapshot, volume 
+summary: 以前に無効にしたSnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームを再作成できます。Snapshotボリュームの再作成は、新規作成よりも短時間で完了します。 
+---
+= Snapshotボリュームを再作成します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+以前に無効にしたSnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームを再作成できます。Snapshotボリュームの再作成は、新規作成よりも短時間で完了します。
+
+.作業を開始する前に
+* Snapshotボリュームが最適または無効のいずれかの状態である必要があります。
+* Snapshot整合性グループのSnapshotボリュームを再作成するには、メンバーであるSnapshotボリュームがすべて無効の状態である必要があります。
+
+
+メンバーであるSnapshotボリュームを個別に作成することはできません。再作成できるのは、Snapshot整合性グループのSnapshotボリューム全体のみです。
+
+[NOTE]
+====
+SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームがオンラインコピー関係の一部である場合は、そのボリュームに対して再作成オプションを実行することはできません。
+
+====
+.手順
+. メニューを選択します。Storage [Snapshots]。
+. スナップショットボリューム*タブを選択します。
++
+Snapshot Volumesテーブルが表示され、ストレージアレイに関連付けられているすべてのSnapshotボリュームが表示されます。
+
+. 再作成するSnapshotボリュームを選択し、メニューから「一般的でないタスク」「再作成」を選択します。
++
+Recreate Snapshot Volume（スナップショットボリュームの再作成）ダイアログボックスが表示されます
+
+. 次のいずれかのオプションを選択します。
++
+** *ボリューム<name>*から作成された既存のSnapshotイメージ
++
+既存のSnapshotイメージを指定し、そこからSnapshotボリュームを再作成する場合は、このオプションを選択します。
+
+** *ボリューム<name>*の新しい（インスタント）Snapshotイメージ
++
+新しいSnapshotイメージを作成してSnapshotボリュームの再作成する場合は、このオプションを選択します。
+
+
+
+. [* Recreate *（再作成）]を
+
+
+System Managerは次の処理を実行します。
+
+* 関連づけられているスナップショット・リポジトリ・ボリューム上のすべての書き込みデータを削除します
+* SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームのパラメータは、以前無効にしたボリュームのパラメータから変更しません。
+* SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームの元の名前は変更しません。
+

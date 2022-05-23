@@ -1,0 +1,30 @@
+---
+permalink: sm-support/view-software-and-firmware-inventory.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, software, firmware, inventory 
+summary: ソフトウェアとファームウェアのインベントリには、ストレージアレイ内の各コンポーネントのファームウェアバージョンが表示されます。 
+---
+= ソフトウェアとファームウェアのインベントリを表示します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ソフトウェアとファームウェアのインベントリには、ストレージアレイ内の各コンポーネントのファームウェアバージョンが表示されます。
+
+ストレージアレイは、コントローラ、ドライブ、ドロワー、入出力モジュール（IOM）などの多数のコンポーネントで構成されます。これらの各コンポーネントにはファームウェアが含まれています。ファームウェアのバージョンによっては、他のバージョンのファームウェアに依存しているものもあります。ストレージアレイ内のすべてのファームウェアバージョンに関する情報を取得するには、ソフトウェアとファームウェアのインベントリを表示します。テクニカルサポートは、ソフトウェアとファームウェアのインベントリを分析してファームウェアの不一致を検出できます。
+
+.手順
+. メニューを選択します。Support [サポートセンター]>[サポートリソース]タブ。
+. 下にスクロールして「Launch detailed storage array information」*と進み、「* Software and Firmware Inventory」を選択します。
++
+Software and Firmware Inventoryレポートが画面に表示されます。
+
+. ソフトウェアとファームウェアのインベントリを保存するには、*保存*をクリックします。
++
+ブラウザのDownloadsフォルダに、「firmware-inventory.txt」というファイル名でファイルが保存されます。
+
+. テクニカルサポートからの指示に従ってファイルを送信します。
+

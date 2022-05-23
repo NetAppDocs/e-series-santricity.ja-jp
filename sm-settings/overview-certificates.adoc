@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/overview-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, certificates, 
+summary: System Managerを使用して、証明書署名要求（CSR）の作成、証明書のインポート、および既存の証明書の管理を行うことができます。 
+---
+= 証明書の概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerを使用して、証明書署名要求（CSR）の作成、証明書のインポート、および既存の証明書の管理を行うことができます。
+
+
+
+== 証明書とは何ですか？
+
+_証明書_は、Webサイトやサーバなどのオンラインエンティティを識別し、インターネット上のセキュアな通信を実現するデジタルファイルです。証明書には2種類あります。A_Signed certificate_is validated by a Certificate Authority（CA；認証局）とa_self-signed certificate_is validated by the entity of the entity instead of a third party。
+
+詳細はこちら。
+
+* link:how-certificates-work-sam.html["証明書の仕組み"]
+* link:certificate-terminology.html["証明書の用語"]
+
+
+
+
+== 署名済み証明書の設定方法
+
+最初にSystem Managerから署名要求を生成し、そのファイルをCAに送信します。CAから返された証明書ファイルは、System Managerを使用してインポートします。
+
+詳細はこちら。
+
+* link:use-ca-signed-certificates-for-controllers.html["コントローラのCA署名証明書を使用する"]
+* link:use-ca-signed-certificates-for-authentication-with-a-key-management-server.html["キー管理サーバでの認証にCA署名証明書を使用する"]
+
+
+
+
+== 関連情報
+
+証明書に関連するタスクの詳細：
+
+* link:view-imported-certificates.html["インポートされた証明書の情報を表示"]
+* link:enable-certificate-revocation-checking.html["証明書失効チェックを有効にします"]
+

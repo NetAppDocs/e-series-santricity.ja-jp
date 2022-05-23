@@ -1,0 +1,43 @@
+---
+permalink: um-certificates/access-management-with-local-user-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, local, user, roles 
+summary: 管理者は、SANtricity Unified Managerに組み込みのロールベースアクセス制御（RBAC）機能を使用できます。これらの機能のことをローカルユーザロールと呼びます。 
+---
+= ローカルユーザロールを使用したアクセス管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+管理者は、Unified Managerに組み込みのロールベースアクセス制御（RBAC）機能を使用できます。これらの機能のことを「ローカルユーザロール」と呼びます。
+
+
+
+== 設定ワークフロー
+
+ローカルユーザロールはシステムで事前に設定されています。認証にローカルユーザロールを使用する場合、管理者は次の操作を行うことができます。
+
+. Security Adminの権限を含むユーザプロファイルでUnified Managerにログインします。
++
+[NOTE]
+====
+adminユーザは'システムのすべての機能にフル・アクセスできます
+
+====
+. ユーザプロファイルを確認します。ユーザプロファイルは事前に定義されており、変更することはできません。
+. 必要に応じて、各ユーザプロファイルに新しいパスワードを割り当てます。
+. ユーザは各自に割り当てられたクレデンシャルでシステムにログインします。
+
+
+
+
+== 管理
+
+認証にローカルユーザロールのみを使用する場合、管理者は次の管理タスクを実行できます。
+
+* パスワードを変更します。
+* パスワードの最小文字数を設定する。
+* パスワードなしでのログインをユーザに許可します。
+

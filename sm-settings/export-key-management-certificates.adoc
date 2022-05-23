@@ -1,0 +1,30 @@
+---
+permalink: sm-settings/export-key-management-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, export, key, management, server, certificates, 
+summary: キー管理サーバ用の証明書をローカルマシンに保存できます。 
+---
+= キー管理サーバ証明書をエクスポートする
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+キー管理サーバ用の証明書をローカルマシンに保存できます。
+
+.作業を開始する前に
+* Security Adminの権限を含むユーザプロファイルでログインする必要があります。そうしないと、証明書の機能は表示されません。
+* 証明書をインポートしておく必要があります。
+
+
+.手順
+. メニューから[設定][証明書]を選択します。
+. [*キー管理*（Key Management *）]タブを選択します。
+. 表からエクスポートする証明書を選択し、* Export *（エクスポート）をクリックします。
++
+[保存（Save）]ダイアログボックスが開きます。
+
+. ファイル名を入力し、*保存*をクリックします。
+

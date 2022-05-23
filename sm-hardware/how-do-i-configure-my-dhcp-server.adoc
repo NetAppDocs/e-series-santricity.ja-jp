@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/how-do-i-configure-my-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, dhcp, server, static, internet, protocol, 
+summary: ストレージアレイのコントローラに静的インターネットプロトコル（IP）アドレスを使用するには、動的ホスト構成プロトコル（DHCP）サーバを設定する必要があります。 
+---
+= DHCPサーバを設定するにはどうすればよいですか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイのコントローラに静的インターネットプロトコル（IP）アドレスを使用するには、動的ホスト構成プロトコル（DHCP）サーバを設定する必要があります。
+
+DHCPサーバが割り当てるIPアドレスは一般に動的で、有効期限が切れるリース期間があるため変更できます。サーバやルータなどの一部のデバイスは、静的アドレスを使用する必要があります。ストレージアレイ内のコントローラにも、静的IPアドレスが必要です。
+
+静的アドレスの割り当て方法については、DHCPサーバのドキュメントを参照してください。

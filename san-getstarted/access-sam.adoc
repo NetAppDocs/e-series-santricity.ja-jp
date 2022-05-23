@@ -1,0 +1,59 @@
+---
+permalink: san-getstarted/access-sam.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access System Manager 
+summary: System Managerのユーザインターフェイスにアクセスするには、ブラウザでコントローラのIPアドレスを指定します。セットアップウィザードを使用してシステムを設定できます。 
+---
+= System Managerにアクセスします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerのユーザインターフェイスにアクセスするには、ブラウザでコントローラのIPアドレスを指定します。セットアップウィザードを使用してシステムを設定できます。
+
+.作業を開始する前に
+* 次のいずれかのエクスプレス構成ガイドの説明に従って、ハードウェアを設置して設定します。
++
+** https://docs.netapp.com/us-en/e-series/config-linux/index.html["Linux の簡単な設定"^]
+** https://docs.netapp.com/us-en/e-series/config-vmware/index.html["VMware の簡単な設定"^]
+** https://docs.netapp.com/us-en/e-series/config-windows/index.html["Windows の簡単な設定"^]
+
+
+* 次の要件を満たす管理ステーションを設定します。
++
+** 1Gbps以上の速度のネットワークに接続されている。
+** ストレージ管理ポートと同じサブネットに接続されています。
+** データ管理に使用するホスト（I/O接続）ではなく、別のステーションとして使用します。
+** アウトオブバンド管理用にセットアップします。アウトオブバンド管理では、ストレージ管理ステーションからコントローラへのイーサネット接続を介してストレージシステムにコマンドが送信されます。
+** サポートされているブラウザを使用してをセットアップします。を参照してください link:supported-browsers-os.html["サポートされているブラウザとオペレーティングシステム"]。
+
+
+
+
+.手順
+. ブラウザで、「+ https://<IPAddress>+`」というURLを入力します
++
+「 IPAddress 」は、ストレージアレイコントローラの 1 つのアドレスです。
+
++
+設定されていないアレイでSystem Managerを初めて開くと、Set Administrator Password（管理者パスワードの設定）プロンプトが表示されます。
+
+. 管理者パスワードの設定フィールドとパスワードの確認フィールドに管理者ロールの System Manager パスワードを入力し、 * パスワードの設定 * をクリックします。
++
+初回ログイン時にセットアップウィザードが起動します。
+
+. セットアップウィザードを使用して、次のタスクを実行します。
++
+** * ハードウェア（コントローラとドライブ）の確認 * -- ストレージアレイ内のコントローラとドライブの数を確認しますアレイに名前を割り当てます。
+** * ホストとオペレーティング・システムの確認 * -- ストレージ・アレイがアクセスできるホストとオペレーティング・システムの種類を確認します
+** *Accept pools * -- 高速インストール方法の推奨されるプール構成を受け入れますプールはドライブの論理グループです。
+** * アラートの設定 * -- ストレージアレイで問題が発生した場合に、 System Manager が自動通知を受信できるようにします。
+** * AutoSupport を有効にする * -- ストレージアレイの状態を自動的に監視し、テクニカルサポートにディスパッチを送信します。
+
+
+
+
+セットアップ・ウィザードの詳細については、を参照してください link:../sm-interface/setup-wizard-overview.html["セットアップウィザードの概要"]。

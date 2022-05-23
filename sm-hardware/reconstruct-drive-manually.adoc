@@ -1,0 +1,32 @@
+---
+permalink: sm-hardware/reconstruct-drive-manually.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reconstruct, drive, manually, 
+summary: ドライブの再構築は、ドライブの交換後に通常は自動的に開始されます。ドライブの再構築が自動的に開始されない場合は、再構築を手動で開始できます。 
+---
+= ドライブを手動で再構築
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ドライブの再構築は、ドライブの交換後に通常は自動的に開始されます。ドライブの再構築が自動的に開始されない場合は、再構築を手動で開始できます。
+
+[NOTE]
+====
+この処理は、テクニカルサポートまたは Recovery Guru から指示があった場合にのみ実行してください。
+
+====
+.手順
+. 「 * ハードウェア * 」を選択します。
+. 図にコントローラが表示されている場合は、*シェルフの前面を表示*をクリックします。
++
+図の表示が切り替わり、コントローラではなくドライブが表示されます。
+
+. 手動で再構築するドライブをクリックします。
++
+ドライブのコンテキストメニューが表示されます。
+
+. 「* Reconstruct *」を選択して、処理を実行することを確認します。
+

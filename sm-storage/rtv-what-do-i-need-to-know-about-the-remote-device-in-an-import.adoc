@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, volume, import 
+summary: リモートストレージ機能を使用する場合は、リモートボリュームがデータのソースであることに注意してください。 
+---
+= インポートでリモートボリュームについて、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リモートストレージ機能を使用する場合は、リモートボリュームがデータのソースであることに注意してください。
+
+インポートの実行中は、リモートボリュームからデスティネーションストレージシステム上のターゲットボリュームにデータが転送されます。この2つのボリュームは、同じブロックサイズである必要があります。

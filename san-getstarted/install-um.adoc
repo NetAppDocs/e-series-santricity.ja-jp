@@ -1,0 +1,20 @@
+---
+permalink: san-getstarted/install-um.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Unified Manager installation 
+summary: Unified Managerのインストールの概要を参照してください 
+---
+= Unified Manager をインストールします
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified ManagerはWeb Services Proxyに含まれています。Web Services Proxyは、NetApp Eシリーズストレージシステムを管理するためにホストシステムに別途インストールするRESTful APIサーバです。
+
+Web Services ProxyとUnified Managerをインストールするには、Eシリーズ/ SANtricity ドキュメントセンターで次の手順を参照してください。
+
+. https://docs.netapp.com/us-en/e-series/web-services-proxy/install-reqs-task.html["インストールとアップグレードの要件を確認"^]
+. https://docs.netapp.com/us-en/e-series/web-services-proxy/install-wsp-task.html["Web Services Proxy ファイルをダウンロードしてインストール"^]
+

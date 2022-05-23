@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity 
+summary: リザーブ容量は物理的に割り当てられた容量で、Snapshotイメージ、整合性グループメンバーボリューム、ミラーペアボリュームなどのコピーサービスオブジェクトのデータの格納に使用されます。 
+---
+= リザーブ容量とは何ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リザーブ容量は物理的に割り当てられた容量で、Snapshotイメージ、整合性グループメンバーボリューム、ミラーペアボリュームなどのコピーサービスオブジェクトのデータの格納に使用されます。
+
+コピーサービス処理に関連付けられているリザーブ容量ボリュームは、プールまたはボリュームグループに配置されます。リザーブ容量は、プールまたはボリュームグループから作成します。

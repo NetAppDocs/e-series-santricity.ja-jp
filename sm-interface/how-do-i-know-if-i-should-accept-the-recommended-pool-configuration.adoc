@@ -1,0 +1,23 @@
+---
+permalink: sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pool config 
+summary: 推奨されるプール構成を承認するかどうかは、いくつかの要因によって決まります。 
+---
+= 推奨されるプール構成を承認するかどうかを判断するにはどうすればよいですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+推奨されるプール構成を承認するかどうかは、いくつかの要因によって決まります。
+
+次の質問に答えて、要件に最も適したストレージのタイプを特定します。
+
+* できるだけ大きいプールではなく、容量の小さいプールを複数使用することを希望しますか？
+* プールよりもRAIDボリュームグループを使用することを希望しますか？
+* 推奨される構成を使用するのではなく、ドライブを手動でプロビジョニングすることを希望しますか？
+
+
+これらのいずれかの質問に対する「はい」と答えた場合は、推奨されるプール構成を拒否することを検討してください。

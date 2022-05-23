@@ -1,0 +1,16 @@
+---
+permalink: sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, manual, resynchronization 
+summary: 手動再同期が推奨されるのは、データがリカバリされる可能性が最も高い方法で再同期プロセスを管理できるためです。 
+---
+= 手動同期ポリシーの使用が推奨されるのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+手動再同期が推奨されるのは、データがリカバリされる可能性が最も高い方法で再同期プロセスを管理できるためです。
+
+自動再同期ポリシーを使用していて、再同期中に通信が中断する問題が発生した場合は、セカンダリボリューム上のデータが一時的に破損する可能性があります。再同期が完了すると、データは修正されます。

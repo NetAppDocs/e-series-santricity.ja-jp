@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, volume, reserved, capacity 
+summary: Snapshotボリュームを使用すると、ホストはSnapshotイメージのデータにアクセスできます。Snapshotボリュームには独自のリザーブ容量があり、元のSnapshotイメージに影響を与えることなくベースボリュームへの変更が保存されます。Snapshotイメージに対するホストからの読み取りや書き込みはできません。Snapshotデータの読み取りまたは書き込みを行う場合は、Snapshotボリュームを作成してホストに割り当てます。 
+---
+= Snapshotボリュームとは何ですか？また、Snapshotボリュームにリザーブ容量が必要になるのはいつですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotボリュームを使用すると、ホストはSnapshotイメージのデータにアクセスできます。Snapshotボリュームには独自のリザーブ容量があり、元のSnapshotイメージに影響を与えることなくベースボリュームへの変更が保存されます。Snapshotイメージに対するホストからの読み取りや書き込みはできません。Snapshotデータの読み取りまたは書き込みを行う場合は、Snapshotボリュームを作成してホストに割り当てます。
+
+2種類のSnapshotボリュームを作成できます。Snapshotボリュームのタイプによって、リザーブ容量が使用されるかどうかが決まります。
+
+* *読み取り専用*--読み取り専用として作成されたスナップショット・ボリュームは'スナップショット・イメージに含まれるデータのコピーへの読み取りアクセスをホスト・アプリケーションに提供します読み取り専用のSnapshotボリュームはリザーブ容量を使用しません。
+* *読み取り/書き込み*-読み書き可能として作成されたSnapshotボリュームでは、参照されているSnapshotイメージに影響を与えることなくSnapshotボリュームに変更を加えることができます。読み書き可能なSnapshotボリュームは、リザーブ容量を使用してこの変更を格納します。読み取り専用のSnapshotボリュームは、いつでも読み書き可能ボリュームに変換できます。
+
