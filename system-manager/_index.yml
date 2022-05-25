@@ -38,7 +38,7 @@ indexpage:
     - title: 同期ミラーリング
       url: "../sm-mirroring/how-synchronous-mirroring-works.html"
     - title: Snapshotストレージ
-      url: "../sm-storage/overview-of-snapshot-storage.html"
+      url: "../sm-storage/overview-snapshots.html"
     - title: リモートストレージ
       url: "../sm-storage/rtv-how-remote-storage-works.html"
   - title: 診断
