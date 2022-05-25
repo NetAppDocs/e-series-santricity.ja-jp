@@ -15,6 +15,6 @@ summary: リモートストレージ機能を設定するには、リモート�
 
 iSCSIシステム接続をセットアップするには、以下を参照してください。
 
-* link:..sm-hardware/configure-iscsi-ports-hardware.html["iSCSIポートを設定"]
+* link:../sm-hardware/configure-iscsi-ports-hardware.html["iSCSIポートを設定"]
 * https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["Remote Storageテクニカルレポート"^]
 
