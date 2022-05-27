@@ -6,6 +6,16 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
+  versions:
+  - name: SANtricity ソフトウェア
+    url: "/e-series-santricity"
+    version-number: '11.7'
+  - name: SANtricity ソフトウェア
+    url: "/e-series-santricity-116"
+    version-number: '11.6'
+  - name: SANtricity ソフトウェア
+    url: "/e-series-santricity-115"
+    version-number: '11.5'
   langs: ja-jp,us-en,zh-cn,zh-tw,ko-kr
 sidebar:
   entries:
