@@ -7323,7 +7323,6 @@
   <block id="6ba3fbf7a6558dc81522aedb59e1d590" category="paragraph">_Synchronousミラーリング_データボリュームをリアルタイムで複製して、継続的な可用性を確保します。ストレージアレイコントローラがミラーリング処理を管理します。この処理は、ホストマシンとソフトウェアアプリケーションに対して透過的に行われます。</block>
   <block id="beb80eb40ddf731a8581da9d26fa3fbb" category="paragraph">このタイプのミラーリングは、ディザスタリカバリなどのビジネス継続性の確保に最適です。</block>
   <block id="056f32c2f708736098c46799ad3bd5e2" category="inline-link-macro">同期ミラーリングの仕組み</block>
-  <block id="3f87a6fb2bf2e7a865732ffe4b1863ae" category="list-text"><block ref="3f87a6fb2bf2e7a865732ffe4b1863ae" category="inline-link-macro-rx"></block></block>
   <block id="d1df34d340a8d718208af99317ded277" category="list-text"><block ref="d1df34d340a8d718208af99317ded277" category="inline-link-macro-rx"></block></block>
   <block id="91bd7ce763dd044694ea61889c5d7028" category="inline-link-macro">同期ミラーリングのステータス</block>
   <block id="7ceac40f87530ca4b68fb592e3bf164a" category="list-text"><block ref="7ceac40f87530ca4b68fb592e3bf164a" category="inline-link-macro-rx"></block></block>
@@ -8624,4 +8623,5 @@
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">アレイ証明書を使用する</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">証明書を管理します</block>
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity ソフトウェア</block>
+  <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
 </blocks>

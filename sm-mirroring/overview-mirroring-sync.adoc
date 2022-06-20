@@ -28,7 +28,7 @@ _Synchronousミラーリング_データボリュームをリアルタイムで�
 
 詳細はこちら。
 
-* link:how-asynchronous-mirroring-works.html["同期ミラーリングの仕組み"]
+* link:how-synchronous-mirroring-works.html["同期ミラーリングの仕組み"]
 * link:synchronous-mirroring-terminology.html["同期ミラーリングに関する用語"]
 * link:synchronous-mirroring-status.html["同期ミラーリングのステータス"]
 * link:volume-ownership-sync.html["ボリューム所有権"]
