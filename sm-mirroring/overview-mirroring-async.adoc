@@ -28,7 +28,7 @@ summary: 非同期ミラーリング機能は、ローカルストレージア�
 
 詳細はこちら。
 
-* link:how-synchronous-mirroring-works.html["非同期ミラーリングの仕組み"]
+* link:how-asynchronous-mirroring-works.html["非同期ミラーリングの仕組み"]
 * link:asynchronous-terminology.html["非同期ミラーリングに関する用語"]
 * link:asynchronous-mirror-status.html["非同期ミラーのステータス"]
 * link:volume-ownership-sync.html["ボリューム所有権"]
