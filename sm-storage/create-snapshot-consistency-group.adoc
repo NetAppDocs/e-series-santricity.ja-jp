@@ -36,7 +36,7 @@ Snapshot整合性グループを作成するプロセスは複数の手順で構
 Create Snapshot Consistency Group（Snapshot整合グループの作成）ダイアログボックスが表示されます。
 
 . Snapshot整合性グループにメンバーボリュームとして追加するボリュームを選択します。
-. 「*次へ*」をクリックして、に進みます <<Step 2: Reserve capacity for snapshot consistency group>>。
+. 「*次へ*」をクリックして、に進みます  2: Reserve capacity for snapshot consistency group。
 
 
 
@@ -66,7 +66,7 @@ Snapshot整合性グループにリザーブ容量を関連付けます。Snapsh
 
 
 . *オプション：*デフォルトのリザーブ容量設定を変更した場合は、*候補の更新*をクリックして、指定したリザーブ容量の候補リストを更新します。
-. 「*次へ*」をクリックして、に進みます <<Step 3: Edit settings for snapshot consistency group>>。
+. 「*次へ*」をクリックして、に進みます  3: Edit settings for snapshot consistency group。
 
 
 

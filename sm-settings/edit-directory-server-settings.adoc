@@ -51,7 +51,7 @@ LDAPサーバのドメイン名。ドメインを複数入力する場合は、�
  a| 
 サーバURL
  a| 
-LDAPサーバにアクセスするためのURL。形式は_ldap[s]：// host：port_.
+LDAPサーバにアクセスするためのURL。形式はです `ldap[s]://host:port`。
 
 
 
@@ -84,7 +84,7 @@ LDAPサーバに対する検索クエリやグループ内の検索で使用す�
  a| 
 検索ベースDN
  a| 
-ユーザを検索するLDAPコンテキスト。通常は「CN=Users」、DC=copc、DC=local」の形式で入力します。
+ユーザを検索するLDAPコンテキスト。通常は、の形式です `CN=Users, DC=cpoc, DC=local`。
 
 
 

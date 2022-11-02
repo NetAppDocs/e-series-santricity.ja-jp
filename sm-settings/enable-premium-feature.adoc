@@ -23,7 +23,7 @@ summary: プレミアム機能は追加オプションであり、有効にす�
 
 [NOTE]
 ====
-プレミアム機能を無効にする場合は、コマンドラインインターフェイス（CLI）でDisable Storage Array Featureコマンド（disable storageArray（featurePack | featureAttributeList）を使用する必要があります。
+プレミアム機能を無効にする場合は、Disable Storage Array Featureコマンドを使用する必要があります (`disable storageArray) (featurePack | feature=featureAttributeList`）をCommand Line Interface（CLI；コマンドラインインターフェイス）でクリックします。
 
 ====
 .手順

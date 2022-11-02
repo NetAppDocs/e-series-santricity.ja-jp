@@ -1772,7 +1772,6 @@
   <block id="b1eda43b44b6c7841e28428a185d47f1" category="list-text">4K -- 4、096バイトのセクターサイズ。</block>
   <block id="f61192de093e66446fac109e76f10b37" category="paragraph">このボリュームグループ候補がセキュリティ対応ドライブだけで構成されているかどうかを示します。セキュリティ対応ドライブには、Full Disk Encryption（FDE）ドライブと連邦情報処理標準（FIPS）ドライブがあります。</block>
   <block id="938194660756ee8e0ec2e6ff25f1469d" category="list-text">ボリュームグループはドライブセキュリティを使用して保護できますが、この機能を使用するには、すべてのドライブがセキュリティ対応である必要があります。</block>
-  <block id="f81786effa1738309ce55dd6d13b9b6b" category="list-text">FDEのみのボリュームグループを作成する場合は、SecureCapable列で「* Yes-fde」が検索されています。FIPSのみのボリュームグループを作成する場合は、Secure-enabled列で「* Yes-FIPS *」を探します。</block>
   <block id="a3655b3b7378daa4a0e080de026cca74" category="list-text">セキュリティ対応かどうかがドライブによって異なるボリュームグループや、セキュリティレベルが異なるドライブが混在したボリュームグループを作成することもできます。ボリュームグループにセキュリティ対応でないドライブが含まれている場合、ボリュームグループをセキュリティ対応にすることはできません。</block>
   <block id="b75e12d3bf891eeff4e4a2f5289ab643" category="paragraph">セキュリティを有効化</block>
   <block id="68e04423a15891d77312197fa4d54090" category="paragraph">セキュリティ対応ドライブでドライブセキュリティ機能を有効にするオプションです。ボリュームグループがセキュリティ対応で、セキュリティキーを設定している場合、チェックボックスを選択してドライブセキュリティを有効にできます。</block>
@@ -2026,7 +2025,6 @@
   <block id="f42e2811e3ac908eee60f66d1397b5c2" category="list-text">マルチパスドライバが新しいパスを認識するように再設定されるまで、ボリュームで新しいI/Oパスが使用されない場合があります。この処理にかかる時間は通常5分未満です。</block>
   <block id="a4a310633996fa9be3dad1a7e1c6bf6d" category="summary">シックボリュームは常にフルプロビジョニングされます。つまり、ボリューム作成時にすべての容量が割り当てられます。シンボリュームは常にシンプロビジョニングされます。つまり、ボリュームにデータが書き込まれるときに容量が割り当てられます。</block>
   <block id="deb88f045b03680286bbcfe06796807a" category="doc">シックボリュームとシンボリュームの比較</block>
-  <block id="2efc4be90cd29be539e05d8de3597c6d" category="paragraph">シックボリュームは、プールまたはボリュームグループから作成できます。シンボリュームはプールからのみ作成でき、ボリュームグループからは作成できません。</block>
   <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="cell">ボリュームタイプ</block>
   <block id="69e0ddbfb36c4abd5009e90597425304" category="paragraph">シックボリューム</block>
   <block id="a77fb91a3a86b9022911d7df936c326c" category="list-text">シックボリュームでは、将来のストレージニーズを見越して、大容量のストレージスペースが事前に確保されます。</block>
@@ -2777,7 +2775,6 @@
   <block id="a14d3e9fdf5599c64a2a40b7986baf14" category="paragraph">プール内のドライブが書き込めるブロックサイズ（セクターサイズ）が表示されます。値は次のとおりです。</block>
   <block id="435543dd5b111649d2821616c83647ce" category="paragraph">プール候補がセキュリティ対応ドライブだけで構成されているかどうかを示します。セキュリティ対応ドライブには、Full Disk Encryption（FDE）ドライブと連邦情報処理標準（FIPS）ドライブがあります。</block>
   <block id="080327d2091575570e1def70546d4d65" category="list-text">プールはドライブセキュリティを使用して保護できますが、この機能を使用するには、すべてのドライブがセキュリティ対応である必要があります。</block>
-  <block id="d62aa67b163b07ac7261dc3e5f1a1827" category="list-text">FDEのみのプールを作成する場合は、SecureCapable列で「* Yes-fde」を検索してください。FIPSのみのプールを作成する場合は、セキュア対応列で「はい- FIPS *」を探します。</block>
   <block id="a07e4ec3d35f9d82a516e126157104a3" category="list-text">セキュリティ対応かどうかがドライブによって異なるプールや、セキュリティレベルが異なるドライブが混在したプールを作成することもできます。プールにセキュリティ対応でないドライブが含まれている場合、プールをセキュリティ対応にすることはできません。</block>
   <block id="85729c6c15dbbffe9072f1b86eac0746" category="paragraph">セキュリティ対応ドライブでドライブセキュリティ機能を有効にするオプションです。プールがセキュリティ対応で、セキュリティキーを作成している場合、チェックボックスを選択してセキュリティを有効にできます。</block>
   <block id="84e59fc152a2578a5896587796bb5232" category="paragraph">一度有効にしたドライブセキュリティは、プールを削除してドライブを消去しないかぎり解除できません。</block>
@@ -4505,7 +4502,6 @@
   <block id="3a0270e6dc15e0c2bf5e7d7d192b588b" category="list-text">機能キーを入手しておきます。キーについては、必要に応じてテクニカルサポートにお問い合わせください。</block>
   <block id="bef93897f05cb630cba87e4a70e4c7d5" category="list-text">管理クライアント（System Managerにアクセスするためのブラウザを備えたシステム）上にキーファイルをロードしておきます。</block>
   <block id="b27ff17d22d04a5e1fb46f1de244ba56" category="paragraph">このタスクでは、System Managerを使用してプレミアム機能を有効にする方法について説明します。</block>
-  <block id="16cf844de4d72d82afe3d732f912ab29" category="paragraph">プレミアム機能を無効にする場合は、コマンドラインインターフェイス（CLI）でDisable Storage Array Featureコマンド（disable storageArray（featurePack | featureAttributeList）を使用する必要があります。</block>
   <block id="ace177d8ab15f91a9dd69a46b9cecfd5" category="list-text">「*アドオン*」で、「*プレミアム機能を有効にする*」を選択します。</block>
   <block id="7e88d18b97e81dbab278fa337f3d3f74" category="paragraph">プレミアム機能を有効にするダイアログボックスが開きます。</block>
   <block id="2323fcc4f645baffed3c764c515b4bd0" category="list-text">[*Browse*](参照)をクリックし、キーファイルを選択します。</block>
@@ -4825,7 +4821,6 @@
   <block id="979f20c9c837f4321f136dc2072d208b" category="paragraph">入力したLDAPサーバの設定でストレージアレイと通信できるかどうかを確認するには、このチェックボックスを選択します。このテストは、ダイアログボックスの下部にある*追加*（* Add *）をクリックした後に実行されます。このチェックボックスをオンにした場合、テストに失敗すると設定は追加されません。設定を追加するには、エラーを解決するか、チェックボックスを選択解除してテストをスキップする必要があります。</block>
   <block id="6aa4a1112969a67959eaf8876c01f097" category="paragraph">**権限の設定**</block>
   <block id="e9cbbf722215efee1b875c13217e2f95" category="paragraph">検索ベースDN</block>
-  <block id="2c89f4504fb9c64184ac776dc40830a0" category="paragraph">ユーザーを検索するLDAPコンテキストを入力します通常は'CN=Users'DC=copc'DC=local'の形式で入力します</block>
   <block id="3ce2098166f1c3743b7e7e8aa017593d" category="paragraph">ユーザー名属性</block>
   <block id="919d4cd60ae61c2f042a8153bfb10a15" category="paragraph">認証用のユーザIDにバインドされた属性を入力します。例:「sAMAccountName」。</block>
   <block id="1da4f8c90edff96b5e53bf82f2aaee04" category="paragraph">グループ属性\（s \）</block>
@@ -4966,19 +4961,16 @@
   <block id="8807999b3eb8885075982bc45d9d0db2" category="paragraph">[ディレクトリサーバーの設定]ダイアログボックスが開きます。</block>
   <block id="87be5a175c6911a35fc8f00390f4c7b4" category="list-text">[サーバーの設定]タブで、目的の設定を変更します。</block>
   <block id="5662a226564835ba8715bfdd18a8b0e6" category="paragraph">LDAPサーバのドメイン名。ドメインを複数入力する場合は、カンマで区切って入力します。ドメイン名は、ログイン（_username_@_domain_）で、認証するディレクトリサーバを指定するために使用されます。</block>
-  <block id="5d261017762ca93863c318b1613f98ca" category="paragraph">LDAPサーバにアクセスするためのURL。形式は_ldap[s]：// host：port_.</block>
   <block id="ca910f8da9777b3fa0b507af1550df55" category="paragraph">LDAPサーバに対する検索クエリやグループ内の検索で使用する読み取り専用のユーザアカウント。</block>
   <block id="b50af5decfbadacc63d4876021755004" category="paragraph">バインドアカウントのパスワード（このフィールドはバインドアカウントを入力した場合に表示されます）。</block>
   <block id="e3f02ab67b919eec7575b8404b0581dd" category="paragraph">保存する前にサーバ接続をテストします</block>
   <block id="9d43682c0a653c83ecbb7c1fd62095d1" category="paragraph">ストレージアレイがLDAPサーバの設定と通信できることを確認します。このテストは、ダイアログボックスの下部にある*保存*（* Save *）をクリックすると実行されます。このチェックボックスをオンにした場合、テストに失敗すると設定は変更されません。設定を編集するには、エラーを解決するか、チェックボックスを選択解除してテストをスキップする必要があります。</block>
   <block id="6e23b42f25cba9a7caedee8bb1a725a4" category="paragraph">*権限の設定*</block>
-  <block id="f415b5cb34059586fa23f269aba947f4" category="paragraph">ユーザを検索するLDAPコンテキスト。通常は「CN=Users」、DC=copc、DC=local」の形式で入力します。</block>
   <block id="5c95d1ae609281b3530c8e2a0d4002a1" category="paragraph">認証用のユーザIDにバインドされた属性。例:「sAMAccountName」。</block>
   <block id="5db46ff79caf5847716884dd12544e60" category="paragraph">グループ属性</block>
   <block id="f0a2b3957d34509cc1c940c02d1a0fdf" category="paragraph">グループとロールのマッピングに使用される、ユーザのグループ属性のリスト。例: memberOf, managedObjects`</block>
   <block id="6cc77cae0c6b1bdf04aece9941cf91f1" category="list-text">[Role Mapping]タブで、目的のマッピングを変更します。</block>
   <block id="8dff636149ee4d86d8a3afbc3def4c75" category="paragraph">マッピングするLDAPユーザグループのドメイン名。正規表現がサポートされます。正規表現パターンの一部でない場合は、これらの特殊な正規表現文字をバックスラッシュ（「\」）でエスケープする必要があります</block>
-  <block id="3bc1640ed113d51e7ab74c9db37565b2" category="paragraph">グループDNにマッピングするストレージアレイのロール。このグループに含めるロールを個別に選択する必要があります。MonitorロールはSANtricity System Managerにログインするため必要なロールであり、他のロールと一緒に指定する必要があります。ストレージアレイのロールには次のものがあります。</block>
   <block id="3bf83ae469052abbe83e2ea8b4f6bef1" category="summary">CA証明書に関連する特定の処理（証明書のインポートなど）を実行すると、2台目のコントローラの自己署名証明書を受け入れるよう求めるダイアログボックスが表示されることがあります。</block>
   <block id="0e6118aad0fc972047356c13887525c8" category="doc">Cannot Access Other Controllerダイアログボックスが表示されるのはなぜですか。</block>
   <block id="ddc0dbb59ab35307d93df30e53562fd2" category="paragraph">2台のコントローラを搭載したストレージアレイ（デュプレックス構成）では、SANtricity System Managerが2台目のコントローラと通信できない場合、または処理の特定の段階でブラウザが証明書を受け入れられない場合に、このダイアログボックスが表示されることがあります。</block>
@@ -5585,7 +5577,6 @@
   <block id="5cc49466be193485a01cc1fad4dbb876" category="paragraph">セキュリティ有効ドライブを別のアレイに再インストールすると、そのアレイでドライブが検出され、「Needs Attention」状態と「Security Key Needed」ステータスが表示されます。 ドライブデータのロックを解除するには、セキュリティキーファイルを選択し、キーのパスフレーズを入力します。（このパスフレーズはストレージアレイの管理者パスワードとは異なります）。</block>
   <block id="67df9e4d8fc6a2a01205045d14761593" category="list-text">セキュリティキー管理*で、*セキュアドライブのロック解除*を選択します。</block>
   <block id="ee9b42f5cc6af3732a1dea7c629905a8" category="summary">証明書ページでは、ストレージアレイの証明書タイプ、発行元、および有効な証明書の日付範囲を確認できます。</block>
-  <block id="7db97910fb48f1d9522a0e88a9c48e4d" category="list-text">メニューから[設定][チェルト]を選択します。</block>
   <block id="0c016b999af42b393c4fc12030e15eb2" category="list-text">いずれかのタブを選択して、証明書に関する情報を表示します。</block>
   <block id="e5241d50786820ff1f9844a97ff37ada" category="paragraph">アレイ管理</block>
   <block id="f6656152f5238ad783b7f163a09de1cf" category="paragraph">ルートファイル、中間ファイル、サーバファイルなど、各コントローラ用にインポートしたCA署名証明書に関する情報が表示されます。</block>
@@ -5974,7 +5965,6 @@
   <block id="934757b9623717972adcc349e85d6283" category="paragraph">System Managerから、コマンドラインインターフェイス（CLI）パッケージをダウンロードできます。</block>
   <block id="f0edcadd28eaa53b81b22a31b44b45b9" category="paragraph">CLIでは、テキストベースの方法でストレージアレイを設定および監視できます。このCLIはHTTPS経由で通信し、外部にインストールされた管理ソフトウェアパッケージのCLIと同じ構文を使用します。CLIをダウンロードするためにキーは必要ありません。</block>
   <block id="75842716a65060950b20cba161cbac95" category="paragraph">CLIコマンドを実行する管理システムに、Java Runtime Environment（JRE）バージョン8以降がインストールされている必要があります。</block>
-  <block id="9a1a880d549166e9e4d319a6c078b143" category="list-text">メニューを選択します。[設定][システム]。</block>
   <block id="bd5b00551ee618ada817137a1272291f" category="list-text">[*アドオン*（* Add-ons *）]で、[*コマンドラインインターフェイス*（* Command Line Interface）]を選択</block>
   <block id="bf60a5340d4e0e6baf9e89397fd1ffb3" category="paragraph">ZIPパッケージがブラウザにダウンロードされます。</block>
   <block id="f98f7c60dd672d6401fc963791cef040" category="list-text">ストレージアレイに対してCLIコマンドを実行する管理システムにZIPファイルを保存し、ファイルを展開します。</block>
@@ -6445,11 +6435,6 @@
   <block id="871c215b16db9ef0e32b6ede330a07dd" category="paragraph">ドライブをデータの格納に使用できません。通常は、ドライブがエクスポート中のボリュームグループに属しているか、ファームウェアのアップグレードを実行中であることが原因です。</block>
   <block id="fffb2fe3525452181282c08445bd214a" category="paragraph">ドライブは正常に動作しています。</block>
   <block id="b0e63b5d480c980ed92487704be38394" category="summary">リモートログインを使用すると、ローカルエリアネットワーク外のユーザがコントローラ上でSSHセッションを開始し、設定を変更できます。</block>
-  <block id="5570bb77e631c7eaa9d865ec47fde197" category="doc">リモートログインを許可します</block>
-  <block id="3042bdde7f2fb8d67b7da434d43af56e" category="paragraph">*セキュリティ上のリスク*--セキュリティ上の理由から、リモートログインを有効にして、テクニカルサポートのみが使用できるようにします。</block>
-  <block id="e155b5976c9b59fa5adee7c1da877efa" category="list-text">リモートログインを有効にするコントローラをクリックします。</block>
-  <block id="f4dc63e7d86e041954b7952c6d54fee6" category="list-text">「*リモートログインの変更*」を選択し、操作を確定します。</block>
-  <block id="8d229d9ea9494d5a63cb40ce02e6b7fb" category="paragraph">テクニカルサポートのトラブルシューティングが完了したら、同じ手順 に従ってリモートログインを無効にします。リモートログインを無効にすると、現在のSSHセッションがすべて終了し、新しいログイン要求はすべて拒否されます。</block>
   <block id="eef455d740e0e1992e8f897823999e39" category="summary">Internet Control Message Protocol（ICMP）は、TCP / IPスイートのプロトコルの1つです。</block>
   <block id="77631831ed9caaf68539f6f6ff6c48f1" category="doc">ICMP PING応答とは何ですか？</block>
   <block id="7b55ccc33597e36ab338a7142bcff9df" category="paragraph">「ICMPエコー要求」および「ICMPエコー応答」メッセージは、一般的に「ping」メッセージと呼ばれます。Pingは'システム管理者がネットワーク・デバイス間の接続を手動でテストするために使用するトラブルシューティング・ツールであり'ネットワーク遅延やパケット損失をテストするためにも使用されますpingコマンドは'ICMPエコー要求をネットワーク上のデバイスに送信し'デバイスはただちにICMPエコー応答で応答します企業のネットワークセキュリティポリシーでは、許可されていない人が検出しにくいように、すべてのデバイスで「ping」（「ICMPエコー応答」）を無効にする必要がある場合があります。</block>
@@ -6855,7 +6840,6 @@
   <block id="28511896b85e22b86d14544cc06a3e85" category="paragraph">製造日</block>
   <block id="ae2a5312f6343d4bf42cb78fb80dd8a1" category="paragraph">ドライブがビルドされた日付が表示されます。</block>
   <block id="d7081ae6ff35b1c76e53319442a2ebe9" category="admonition">NVMeドライブでは使用できません。</block>
-  <block id="455e831fcfa4cc78b3de8d9c3f6ad79e" category="paragraph">セキュリティ対応ドライブであるかどうか（「はい」または「いいえ」）が表示されます。セキュリティ対応ドライブには、Full Disk Encryption（FDE）ドライブと連邦情報処理標準（FIPS）ドライブがあります。これらのドライブでは、書き込み時にデータが暗号化され、読み取り時に復号化されます。ドライブセキュリティ機能を使用したセキュリティの強化に使用できるため、これらのドライブはsecured_capable_とみなされます。これらのドライブを使用するボリュームグループやプールでドライブセキュリティ機能を有効にすると、ドライブはsecure-_enabled_になります。</block>
   <block id="c2cb8d8a9628b0449f5fae233f17169b" category="paragraph">セキュリティ有効</block>
   <block id="57cac9f7f45fc113fc3e21a7f1926577" category="paragraph">セキュリティ有効ドライブであるかどうか（「はい」または「いいえ」）が表示されます。セキュリティ有効ドライブは、ドライブセキュリティ機能で使用されます。ドライブセキュリティ機能を有効にし、かつsecure-_enabled_drivesにあるプールまたはボリュームグループにドライブセキュリティを適用すると、ドライブはsecure-_enabled_になります。読み取りおよび書き込みアクセスは、正しいセキュリティキーが設定されたコントローラからしか実行できません。この追加のセキュリティ機能により、ストレージアレイから物理的に取り外されたドライブ上のデータへの不正アクセスを防止できます。</block>
   <block id="a4f2c7a50453a086d2b145d4af5535cf" category="paragraph">Data Assurance（DA）対応</block>
@@ -8292,7 +8276,6 @@
   <block id="60a610051a0ea44e4970777b77bdffb3" category="list-text">選択したユーザの新しいパスワードを2つのフィールドに入力します。</block>
   <block id="43c89fc5fe5d2c881ed9925877f8a342" category="list-text">サーバー設定*タブで、必要な設定を変更します。</block>
   <block id="6e5ba56be64f15913cd20e36faa56412" category="paragraph">LDAPサーバのドメイン名。ドメインを複数入力する場合は、カンマで区切って入力します。ドメイン名は、ログイン（_username_@_domain_）で、認証するディレクトリサーバを指定するために使用されます。</block>
-  <block id="c8038333051e29b98507b8aa9c254820" category="paragraph">LDAPサーバにアクセスするためのURL。形式は「ldap[s]：//* host *：* port *」です。</block>
   <block id="fff46bc324e184ed03a4aa2f6069b8d3" category="paragraph">システムがLDAPサーバの設定と通信できることを確認します。[保存（Save）]をクリックすると、テストが実行されます。このチェックボックスをオンにした場合、テストに失敗すると設定は変更されません。設定を編集するには、エラーを解決するか、チェックボックスを選択解除してテストをスキップする必要があります。</block>
   <block id="4b629ca4dac96503c268bcce005e028b" category="paragraph">認証用のユーザIDにバインドされた属性。例:「sAMAccountName」。</block>
   <block id="7f5bf943d0251c031e690cc2ca8d13ab" category="paragraph">グループとロールのマッピングに使用される、ユーザのグループ属性のリスト。例: memberOf, managedObjects`</block>
@@ -8624,4 +8607,110 @@
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity ソフトウェア</block>
   <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
   <block id="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="list-text"><block ref="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="inline-link-macro-rx"></block></block>
+  <block id="cfcb95dc970984a5b2213167afd26e67" category="list-text">これらのASUPディスパッチの配信をブロックするファイアウォールがある場合は、ホワイトリストに次のURLを追加します。<block ref="afb8e6b8ab745bba44a27ba547edbe22" prefix=" " category="inline-code"></block></block>
+  <block id="674d4f257685239817a1d8bbfdbcbf8b" category="list-text">*概要 *--イベントに関する追加情報 （該当する場合）。</block>
+  <block id="73052dd870a19b2dc5141930065b6bed" category="list-text">*認証タイプ*--ローカルユーザー、LDAP、SAML、およびアクセストークンを含むことができます。</block>
+  <block id="b87bd6aac06ddb237e7299fad93cbef7" category="list-text">*認証ID *--認証されたセッションのID。</block>
+  <block id="2a4d91302090eb8b3301887b79f8856e" category="summary">アクセストークンの設定を編集できます。これには、有効期限や新しいトークンを作成する機能が含まれます。</block>
+  <block id="2edc23268c5348c8fd858ff983534b75" category="doc">アクセストークンの設定を編集します</block>
+  <block id="957a66aaa906bf52b1f835f43429459f" category="list-text">［* Access Tokens *］タブを選択します。</block>
+  <block id="6de64002a4a878ad911d2bbb8c213d33" category="list-text">[アクセストークン設定の表示/編集]を選択します。</block>
+  <block id="aa45e8c3ff6b956a24aff0e3db42fa35" category="list-text">ダイアログボックスで、次のいずれかまたは両方のタスクを実行できます。</block>
+  <block id="87f085d538f34807c555a0f94bdf9361" category="list-text">トークンの作成を有効または無効にします。</block>
+  <block id="c4068a76b8a5cb9010408f8a2c7a5512" category="list-text">既存のトークンの有効期限を変更します。</block>
+  <block id="c9813731b66a3796057b75293ae67f47" category="inline-link-macro">アクセストークンを取り消します</block>
+  <block id="00f276e6a7902781e780ade93c48c852" category="admonition">［*アクセストークンを有効にする*］設定をオフにすると、トークンの作成とトークン認証の両方が無効になります。後でこの設定を再度有効にすると、期限切れ前のトークンを再使用できます。既存のトークンをすべて完全に無効にする場合は、を参照してください <block ref="9173d4e408bd89ef74172b82bdcf9f04" category="inline-link-macro-rx"></block>。</block>
+  <block id="5bc7ab301074148dc708229c5ad54fc6" category="paragraph">アクセストークン</block>
+  <block id="6f3cb47ebfa36fa8ac3a9f5679b4c403" category="paragraph">アクセストークンは、ユーザ名とパスワードの代わりに、REST APIまたはコマンドラインインターフェイス（CLI）での認証に使用されます。トークンは特定のユーザ（LDAPユーザを含む）に関連付けられており、一連の権限と有効期限が含まれています。</block>
+  <block id="de6aae2c7b68f491759670b8732a576f" category="summary">トークンが侵害されたと判断した場合は、すべてのアクセストークンを取り消すことができます。</block>
+  <block id="a95956e8ba0de7a0a89c175f64ddcc8f" category="paragraph">トークンが侵害されていると判断した場合、またはアクセストークンの署名と検証に使用した暗号キーの手動キーローテーションを実行する場合は、すべてのアクセストークンを取り消すことができます。</block>
+  <block id="3f52e6ce99598b952f44bdcc2c7a4b73" category="paragraph">この操作では、トークンの署名に使用するキーが再生成されます。キーをリセットすると、_ALL_Issuedトークンがただちに無効になります。ストレージアレイがトークンを追跡しないため、個々のトークンを取り消すことはできません。</block>
+  <block id="43118581ed013cd97980f01256f5e60c" category="list-text">「* Revoke all Access Tokens（すべてのアクセストークンを無効にする</block>
+  <block id="80d67a7083770a1b1084819306dc6e00" category="list-text">ダイアログボックスで、*はい*をクリックします。</block>
+  <block id="566aba70ee8c167dfba34cf46cd5939f" category="paragraph">すべてのトークンを無効にした後、新しいトークンを作成してすぐに使用できます。</block>
+  <block id="156fdf1591a1ac1bc4b4707d24c1e3e9" category="summary">ユーザ名とパスワードの代わりに、REST APIまたはコマンドラインインターフェイスでの認証に使用するアクセストークンを作成できます。</block>
+  <block id="78fe365b7215dc3071dee1ad6a568023" category="doc">アクセストークンを作成します</block>
+  <block id="f0ac81da904eece28164c559432ff237" category="paragraph">ユーザ名とパスワードの代わりに、REST APIまたはコマンドラインインターフェイス（CLI）で認証するアクセストークンを作成できます。</block>
+  <block id="5add4482e702e41a90c793f56fcb47ce" category="admonition">トークンにはパスワードがないため、注意して管理する必要があります。</block>
+  <block id="1d48b32ebf9d0c0f0f2122a84a33c5c5" category="list-text">[アクセストークン設定の表示/編集]を選択します。ダイアログボックスで、*アクセストークンを有効にする*チェックボックスが選択されていることを確認します。[保存（Save）]をクリックして、ダイアログボックスを閉じます。</block>
+  <block id="1e00df7af5fe5ce57b25e6f9a658a33c" category="list-text">[アクセストークンの作成*]を選択します。</block>
+  <block id="b63461d2e8385412ad04239656a519f1" category="list-text">ダイアログボックスで、トークンの有効期間を選択します。</block>
+  <block id="6efb72ae14d7c2cc9314283adff1ca19" category="admonition">トークンの期限が切れると、ユーザの認証は失敗します。</block>
+  <block id="2c04837bc2b5608d8f19123cf46c8c67" category="list-text">[* 作成 .*] をクリックします</block>
+  <block id="36ebc70fbfeffeade88051ef9b69ddd7" category="list-text">ダイアログボックスで、次のいずれかを選択します。</block>
+  <block id="2dba8efb618d207af93bfd64d173d479" category="list-text">*コピー*をクリックしてトークンテキストをクリップボードに保存します。</block>
+  <block id="9e9e48b8d7c618d98f96b7095ecb6f50" category="list-text">*ダウンロード*：トークンテキストをファイルに保存します。</block>
+  <block id="4d4e6f1520574b22ce00d99e1b8a4ca7" category="admonition">必ずトークンテキストを保存してください。これは、ダイアログを閉じる前にテキストを確認する唯一の機会です。</block>
+  <block id="3840e75088e495f363406398fad3bc6d" category="list-text">トークンは次のように使用します。</block>
+  <block id="47fa31dab3c933f3c83037d55525cc6a" category="list-text">* REST API *：REST API要求でトークンを使用するには、要求にHTTPヘッダーを追加します。例：<block ref="9c42352c36b63d073d92890853b35bbd" prefix=" " category="inline-code"></block></block>
+  <block id="8b5a7cf4e27871be02ee93599144a198" category="list-text">* Secure CLI *：CLIでトークンを使用するには、コマンドラインでトークン値を追加するか、トークン値を含むファイルへのパスを使用します。例：</block>
+  <block id="f43c45fc08cea43f01d2982c88607584" category="list-text">コマンドラインのトークン値：<block ref="ebdcecadce927cbd7a31a272b12a8f17" prefix=" " category="inline-code"></block></block>
+  <block id="aa235bbf879ec5642e22aa5b8121a818" category="list-text">トークン値を含むファイルへのパス：<block ref="64e457e61692b8ca9c4bc0d1033604a5" prefix=" " category="inline-code"></block></block>
+  <block id="69030a788cce478a1ecf903ea779fc1a" category="admonition">ユーザ名、パスワード、トークンが指定されていない場合、CLIはユーザにコマンドラインでアクセストークン値の入力を求めるプロンプトを表示します。</block>
+  <block id="02a301d53560426dee323587216347d7" category="paragraph">ユーザを検索するLDAPコンテキストを入力します。通常は、の形式で入力します<block ref="7e4d0b4bf9fc2e182c9ccd0d40499b8d" prefix=" " category="inline-code"></block>。</block>
+  <block id="919aba9b6fe5a70cb04822df357153da" category="paragraph">プレミアム機能を無効にする場合は、Disable Storage Array Featureコマンドを使用する必要があります <block ref="fae23c33caf7e9db773b027b6b8e523b" prefix="(" category="inline-code"></block>）をCommand Line Interface（CLI；コマンドラインインターフェイス）でクリックします。</block>
+  <block id="29bdb2810b315de6c9d0e3f0f1d5010f" category="paragraph">LDAPサーバにアクセスするためのURL。形式はです<block ref="f930dd2cba3141050b853a2a05bf401c" prefix=" " category="inline-code"></block>。</block>
+  <block id="ae3092ac2757ebc2a4ce9ec66498d3c2" category="paragraph">ユーザを検索するLDAPコンテキスト。通常は、の形式です<block ref="7e4d0b4bf9fc2e182c9ccd0d40499b8d" prefix=" " category="inline-code"></block>。</block>
+  <block id="7201af59a06760a88ab299378c7373a4" category="paragraph">グループDNにマッピングするストレージアレイのロール。このグループに含めるロールを個別に選択する必要があります。MonitorロールはSANtricity System Managerにログインするため必要なロールであり、他のロールと一緒に指定する必要があります。ストレージアレイのロールには次のものがあります。</block>
+  <block id="7c483dc440b317fcf93c2c430ac79485" category="summary">アクセストークンは、ユーザー名とパスワードを公開することなくアレイへのアクセスを提供します。</block>
+  <block id="3b5b5feef66adc0768f35b724a334827" category="doc">アクセストークン</block>
+  <block id="a6c1f1723a51ca1364421411e3f57c62" category="paragraph">アクセストークンは、ユーザ名やパスワードを公開することなく、REST APIまたはコマンドラインインターフェイス（CLI）を使用して認証する手段を提供します。トークンは特定のユーザ（LDAPユーザを含む）に関連付けられ、一連の権限と有効期限が含まれます。</block>
+  <block id="3c70e70676017860b98c08b226abab0b" category="section-title">SAMLとJSON Webトークンアクセス</block>
+  <block id="4ce5adcc400de93f50c1fec698418c82" category="paragraph">デフォルトでは、SAMLが有効になっているシステムで従来のコマンドラインツールにアクセスすることはできません。MFAワークフローで認証用にアイデンティティプロバイダサーバへのリダイレクトが必要なため、REST APIとCLIは実質的に操作不能になります。そのため、ユーザがMFAで認証されることを求めるトークンをSystem Managerで生成する必要があります。</block>
+  <block id="daf7db4383400d6300a5dcd380ef98fd" category="admonition">Webトークンを使用するためにSAMLを有効にする必要はありませんが、最高レベルのセキュリティを確保するにはSAMLを推奨します。</block>
+  <block id="14e8b0416072bcfd5e8c62992cbef3a3" category="section-title">トークンを作成および使用するためのワークフロー</block>
+  <block id="3e576a5d2c3ca5b6f7525e9cdb121b33" category="list-text">System Managerでトークンを作成し、有効期限を確認します。</block>
+  <block id="75599d4d0e80b9a5a02700ebd13159b4" category="list-text">トークンテキストをクリップボードにコピーするかファイルにダウンロードして、トークンテキストを安全な場所に保存します。</block>
+  <block id="55e4d55b9613a32db03a926955e032cc" category="list-text"><block ref="55e4d55b9613a32db03a926955e032cc" category="inline-link-macro-rx"></block></block>
+  <block id="1569c9119e1e28e1ec8fab53bfa69339" category="inline-link-macro">アクセストークンを編集します</block>
+  <block id="8da9b6ad291cf45a101b427e56ca3a4f" category="list-text"><block ref="8da9b6ad291cf45a101b427e56ca3a4f" category="inline-link-macro-rx"></block></block>
+  <block id="9173d4e408bd89ef74172b82bdcf9f04" category="list-text"><block ref="9173d4e408bd89ef74172b82bdcf9f04" category="inline-link-macro-rx"></block></block>
+  <block id="f2b72ee0697939206bbf9a554cc366b7" category="paragraph">*オプション：*バックアップ・キー・サーバを構成する場合は、*キー・サーバの追加*をクリックし、そのサーバの情報を入力します。プライマリキーサーバに到達できない場合は、2番目のキーサーバが使用されます。各キーサーバが同じキーデータベースにアクセスできることを確認します。アクセスできないと、エラーが発生し、バックアップサーバを使用できなくなります。</block>
+  <block id="b619226f7496b2687780134401626a39" category="admonition">一度に使用されるキーサーバは1つだけです。ストレージアレイがプライマリキーサーバにアクセスできない場合、アレイはバックアップキーサーバに接続します。両方のサーバ間でパリティを維持する必要があることに注意してください。維持しないとエラーが発生することがあります。</block>
+  <block id="224b075d1cf57e3e4a3b24d3315c1ee7" category="admonition">初期セットアップを続行する前に、アップグレードセンター（メニュー：サポート[Upgrade Center]）に移動し、SANtricity OSソフトウェアが最新であることを確認します。必要に応じて、最新バージョンにアップグレードし、ブラウザを更新してセットアップを続行します。詳細については、を参照してください <block ref="15166618a8636521e84e4608dae61adb" category="inline-link-macro-rx"></block>。</block>
+  <block id="7d9d1232215eb0fc5b42a7bb406367a0" category="paragraph">ドライブに障害が発生した場合や、何らかの理由でドライブを交換する場合は、障害が発生したドライブを未割り当てのドライブまたは完全に統合されたホットスペアと論理的に交換できます。</block>
+  <block id="684a1ab32d88cc1d6cea257f63cd8ee4" category="paragraph">ドライブを論理的に交換すると、ドライブが割り当てられ、関連付けられているプールまたはボリュームグループの永続的なメンバーになります。</block>
+  <block id="8f978151ddbea46dd4ea50236a257374" category="paragraph">次のタイプのドライブを交換するには、論理的交換オプションを使用します。</block>
+  <block id="f3f7e5eecbbda44d56a585304c3a8d15" category="list-text">FIPS に準拠している</block>
+  <block id="c3e107c36324a82163304a51fa5593ea" category="list-text">FIPSに準拠（FIPS 140-2）</block>
+  <block id="7eae2aea23d5d58ac39b011ac209d1fa" category="list-text">FIPSに準拠（FIPS 140-2）</block>
+  <block id="b8d5514b6c363d7622c4335c65020f0c" category="doc">リモートログイン（SSH）の設定</block>
+  <block id="9e6a19334017caf037d216fb852a0cb1" category="paragraph">リモートログインを有効にすると、ローカルエリアネットワーク外のユーザがコントローラ上でSSHセッションを開始し、設定にアクセスできるようになります。</block>
+  <block id="c16fb6cb95d73950e6e3ca73e68f735d" category="paragraph">SANtricity バージョン11.74以降では、SSHキーやSSHパスワードの入力をユーザに求めることで、多要素認証（MFA）を設定することもできます。SANtricity バージョン11.73以前の場合、この機能には、SSHキーとパスワードを使用した多要素認証のオプションは含まれません。</block>
+  <block id="a8d6cb3e5e829f59565c2ae11a29f385" category="paragraph">*セキュリティ上のリスク*--セキュリティ上の理由から、リモートログイン機能を使用するのはテクニカルサポート担当者だけにしてください。</block>
+  <block id="72e047012d72d3be15fc0b67e6b50748" category="list-text">リモートログインを設定するコントローラをクリックします。</block>
+  <block id="d133663ba42583d4ea791fa53d4cf325" category="list-text">Configure remote login (SSH)*を選択します。（SANtricity バージョン11.73以前の場合、このメニュー項目は*リモートログインの変更*です）。</block>
+  <block id="8c421495a247201568d21ac72172c818" category="paragraph">リモートログインを有効にするためのダイアログボックスが表示されます。</block>
+  <block id="5c6b9cfa64b1b52b01653c007db0beb9" category="list-text">[リモートログインを有効にする*]チェックボックスをオンにします。</block>
+  <block id="12f73d464940c78f34c49ee4107d6fca" category="paragraph">この設定では、リモートログインに次の3つの許可オプションが提供されます。</block>
+  <block id="9b238e943ae42327cc81d286beee2ebc" category="list-text">*パスワードのみ*。このオプションでは、完了し、[保存（Save）]をクリックできます。デュプレックスシステムの場合は、前の手順に従って、2台目のコントローラでリモートログインを有効にできます。</block>
+  <block id="2b4edf147ea6e388f35a2769deb239eb" category="list-text">* SSHキーまたはパスワード*。このオプションについては、次の手順に進みます。</block>
+  <block id="4b198d1968aa0b7689d8f9482868a5b7" category="list-text">*パスワードとSSHキー*の両方。このオプションでは、[リモートログインに許可された公開鍵とパスワードを要求する*]チェックボックスをオンにして、次の手順に進みます。</block>
+  <block id="fd6717c9d164ca85bdcb18e1514aeed3" category="list-text">[*Authorized public key*]フィールドに値を入力します。このフィールドには、OpenSSH * authorized_keys *ファイルの形式の、許可された公開鍵のリストが含まれます。</block>
+  <block id="958ec4c65334ee049c9f9834c989feb4" category="paragraph">[*Authorized public key*]フィールドに入力する場合は、次のガイドラインに注意してください。</block>
+  <block id="ecfbb70ca020b3259ca43656f6e0be8b" category="list-text">Authorized Public Key *フィールド環境 は両方のコントローラを対象としており、1台目のコントローラでのみ構成する必要があります。</block>
+  <block id="54017d18c038e6138cae1d76925cd244" category="inline-link-macro">OpenSSHの認証済みキーの設定</block>
+  <block id="c62037dc11d4f5ac4b4680166d42520c" category="list-text">authorized_keys *ファイルには、1行に1つのキーのみを含める必要があります。#で始まる行と空白行は無視されます。ファイル形式の詳細については、を参照してください <block ref="f5190b101948e797ebcdf38ddcb2f915" category="inline-link-macro-rx"></block>。</block>
+  <block id="064f8e4270ca3b7f5f0f79a2ea06974b" category="list-text">*authorized_keys *ファイルは、次の例のようになります。</block>
+  <block id="ab7f417a2385f56bf831b9902a390400" category="list-text">完了したら、*保存*をクリックします。</block>
+  <block id="c3e7db149fe242ddca9997ac42a654c4" category="list-text">デュプレックスシステムでは、上記の手順に従って、2台目のコントローラでリモートログインを有効にできます。パスワードとSSHキーの両方のオプションを設定する場合は、「*リモートログインに許可された公開鍵とパスワードを要求する*」チェックボックスを再度選択してください。</block>
+  <block id="f7b0f586152c7d2bba5e5b934a1acc5d" category="list-text">テクニカルサポートのトラブルシューティングが完了したら、リモートログインの設定ダイアログボックスに戻り、*リモートログインを有効にする*チェックボックスの選択を解除することで、リモートログインを無効にできます。2台目のコントローラでリモートログインが有効になっている場合は、確認ダイアログが開き、2台目のコントローラでもリモートログインを無効にできます。</block>
+  <block id="8dadb2c1d4421308bddc6b5aea60ad17" category="paragraph">リモートログインを無効にすると、現在のSSHセッションがすべて終了し、新しいログイン要求はすべて拒否されます。</block>
+  <block id="ce65e0f974ee00c841cc8cb04dcc0929" category="paragraph">セキュリティ対応ドライブであるかどうか（「はい」または「いいえ」）が表示されます。セキュリティ対応ドライブには、Full Disk Encryption（FDE）ドライブと連邦情報処理標準（FIPS）ドライブ（レベル140-2または140-3）があります。これらのドライブでは、書き込み時にデータが暗号化され、読み取り時に復号化されます。ドライブセキュリティ機能を使用したセキュリティの強化に使用できるため、これらのドライブはsecured_capable_とみなされます。これらのドライブを使用するボリュームグループやプールでドライブセキュリティ機能を有効にすると、ドライブはsecure-_enabled_になります。</block>
+  <block id="1974aafa112f63127faafcfced06eda0" category="list-text">FDEのみのプールを作成する場合は、SecureCapable列で「* Yes-fde」を検索してください。FIPSのみのプールを作成する場合は、「はい- FIPS *」または「はい- FIPS（混在）」を探します。「Mixed」は140-2と140-3レベルのドライブが混在していることを示します。これらのレベルを組み合わせて使用する場合は、プールが下位レベルのセキュリティ（140～2）で動作することに注意してください。</block>
+  <block id="e55f799494378d33bdb123bc4ffa27ed" category="list-text">シックボリュームは、プールまたはボリュームグループから作成されます。</block>
+  <block id="52334a81da7547dbe0a5723b5066a830" category="list-text">シンボリュームはプールからのみ作成され、ボリュームグループからは作成されません。</block>
+  <block id="ea7a3e597c665a39ba483dcd4c6f8800" category="list-text">シンボリュームはRAID 6である必要があります。</block>
+  <block id="ab1005edb422f1f2812bee5e6a3ee9b1" category="list-text">シンボリュームの作成にはCLIを使用する必要があります。</block>
+  <block id="16270243643ed7a37cef9de424ab9bde" category="list-text">FIPSドライブは、レベル140-2または140–3のいずれかで、レベル140-3がより高いセキュリティレベルです。140-2レベルと140-3レベルのドライブを組み合わせて選択した場合、プールまたはボリュームグループは下位のセキュリティレベル（140-2）で動作します。</block>
+  <block id="76ef1c27f2bf0b2286bf7a6a58fb852b" category="list-text">FDEのみのボリュームグループを作成する場合は、SecureCapable列で「* Yes-fde」が検索されています。FIPSのみのボリュームグループを作成する場合は、「はい- FIPS *」または「はい- FIPS（混在）」を探します。「Mixed」は140-2と140-3レベルのドライブが混在していることを示します。これらのレベルを組み合わせて使用する場合、ボリュームグループのセキュリティレベルは低下（140 - 2）することに注意してください。</block>
+  <block id="b2d3e7c610f3962f9a7e3b9baa02c363" category="section-title">バージョン11.74の新機能</block>
+  <block id="158083b77acf87778347dd8cf3138b12" category="paragraph">FIPS 140-3をサポート</block>
+  <block id="93752d0e76882be98725c8b860259db3" category="paragraph">SASベースとNVMeベースの両方のSSDについて、特定のドライブでFIPS 140-3がサポートされるようになりました。FIPS 140-3レベルのSSDドライブは、すべてNVMeベースまたはすべてSASベースのドライブであれば、FIPS 140-2レベルのSSDドライブと共存できます。これらのレベルをボリュームグループとディスクプールで組み合わせて使用する場合は、グループまたはプールが下位レベルのセキュリティ（140 - 2）で動作することに注意してください。</block>
+  <block id="3f470942a1817eaa19da47ff83fd59ca" category="paragraph">MFAとSSHのサポート</block>
+  <block id="272f8c73e52dc0fe2c42cfc42fdbefc9" category="paragraph">SANtricity バージョン11.74以降では、リモートログイン機能を使用して、SSHキーやSSHパスワードの入力をユーザに求めることで多要素認証（MFA）を設定できます。ハードウェアセクションのメニューオプションが*リモートログインの変更*から*リモートログインの設定（SSH）*に変更されました。</block>
+  <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">このリリースには、アクセストークンを作成するための新機能が含まれています。これらのトークンを使用すると、ユーザ名やパスワードを公開することなく、REST APIまたはコマンドラインインターフェイス（CLI）で認証できます。この機能は、アクセス管理セクションで提供されています。</block>
+  <block id="8eb80b537576ff75cd5bd8c229446b07" category="paragraph">米国政府幹部の注文</block>
+  <block id="7b15a260552ea825bd80b5e7eee74344" category="paragraph">このリリースには、エグゼクティブオーダーに準拠するために、セキュリティ上のいくつかの変更が含まれています。</block>
+  <block id="74f708399a048352be94abc06102bfb9" category="sidebar">アクセストークンを使用する</block>
 </blocks>
