@@ -8710,7 +8710,6 @@
   <block id="3f470942a1817eaa19da47ff83fd59ca" category="paragraph">MFAとSSHのサポート</block>
   <block id="272f8c73e52dc0fe2c42cfc42fdbefc9" category="paragraph">SANtricity バージョン11.74以降では、リモートログイン機能を使用して、SSHキーやSSHパスワードの入力をユーザに求めることで多要素認証（MFA）を設定できます。ハードウェアセクションのメニューオプションが*リモートログインの変更*から*リモートログインの設定（SSH）*に変更されました。</block>
   <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">このリリースには、アクセストークンを作成するための新機能が含まれています。これらのトークンを使用すると、ユーザ名やパスワードを公開することなく、REST APIまたはコマンドラインインターフェイス（CLI）で認証できます。この機能は、アクセス管理セクションで提供されています。</block>
-  <block id="8eb80b537576ff75cd5bd8c229446b07" category="paragraph">米国政府幹部の注文</block>
-  <block id="7b15a260552ea825bd80b5e7eee74344" category="paragraph">このリリースには、エグゼクティブオーダーに準拠するために、セキュリティ上のいくつかの変更が含まれています。</block>
   <block id="74f708399a048352be94abc06102bfb9" category="sidebar">アクセストークンを使用する</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
 </blocks>

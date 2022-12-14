@@ -14,6 +14,7 @@ summary: ストレージアレイに関連するハードウェアの用語を�
 ストレージアレイに関連するハードウェアの用語を次に示します。
 
 .一般的なハードウェア用語：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -91,6 +92,7 @@ SFPは、Small Form-factor Pluggable（SFP）トランシーバです。
 |===
 ====
 .コントローラの用語：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -196,6 +198,7 @@ VLAN
 |===
 ====
 .ドライブの用語：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -294,6 +297,7 @@ SSD の場合
 |===
 ====
 .iSCSIの用語：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -392,6 +396,7 @@ Remote Direct Memory Access（RDMA）は、ネットワークコンピュータ�
 |===
 ====
 .NVMeの用語：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

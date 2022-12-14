@@ -30,6 +30,7 @@ summary: コントローラにNVMe over RoCE（RDMA over Converged Ethernet）�
 
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="1a,1a"]
 |===
@@ -68,6 +69,7 @@ MTU サイズ（ * Show more port settings* をクリックすると使用可能
 . IPv4 と IPv6 、またはその両方を自動または手動で設定します。
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="1a,1a"]
 |===

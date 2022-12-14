@@ -19,6 +19,7 @@ AutoSupport 機能は、テクニカルサポートへのAutoSupport ディス�
 * ネットワークにDNSサーバをインストールし、設定する必要があります。DNSサーバのアドレスはSystem Managerで設定する必要があります（このタスクはハードウェアページから実行できます）。
 
 
+.このタスクについて
 各プロトコルを確認します。
 
 * * HTTPS *-- HTTPSを使用して、テクニカル・サポート・サーバーに直接接続できます。AutoSupport OnDemandまたはRemote Diagnosticsを有効にする場合は、AutoSupport の配信方法をHTTPSに設定する必要があります。

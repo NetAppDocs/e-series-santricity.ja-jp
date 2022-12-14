@@ -14,8 +14,10 @@ summary: AutoSupport 機能およびAutoSupport の個々の機能は、初期�
 [role="lead"]
 AutoSupport 機能およびAutoSupport の個々の機能は、初期セットアップ時に有効にするか、あとから有効または無効にすることができます。
 
+.作業を開始する前に
 AutoSupport OnDemandまたはRemote Diagnosticsを有効にする場合は、AutoSupport の配信方法をHTTPSに設定する必要があります。
 
+.このタスクについて
 AutoSupport 機能はいつでも無効にできますが、有効なままにしておくことを強く推奨します。AutoSupport 機能を有効にしておくと、ストレージアレイに問題が発生したときに、迅速に原因を判断して解決できます。
 
 AutoSupport 機能は、個別に有効にする3つの機能で構成されています。

@@ -34,6 +34,7 @@ Controller Settings（コントローラ設定）ダイアログボックスが�
 
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

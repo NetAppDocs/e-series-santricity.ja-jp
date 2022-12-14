@@ -14,6 +14,7 @@ summary: Snapshotボリューム、またはSnapshot整合性グループのSnap
 [role="lead"]
 Snapshotボリューム、またはSnapshot整合性グループのSnapshotボリュームが不要になった場合や一時的に使用を停止する場合は、それらのボリュームを無効にすることができます。
 
+.このタスクについて
 次のいずれかの条件に該当する場合は、Disableオプションを使用します。
 
 * SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームをしばらく使用しない。

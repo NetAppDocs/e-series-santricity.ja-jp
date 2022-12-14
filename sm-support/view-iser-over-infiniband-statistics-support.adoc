@@ -14,6 +14,7 @@ summary: ストレージアレイのコントローラにiSER over InfiniBandポ
 [role="lead"]
 ストレージアレイのコントローラにiSER over InfiniBandポートが搭載されている場合は、ホスト接続に関するデータを表示できます。
 
+.このタスクについて
 System Managerには、次のタイプのiSER over InfiniBand統計が表示されます。統計はすべて読み取り専用で、設定することはできません。
 
 * *ローカルターゲット（プロトコル）統計*- iSER over InfiniBandターゲットの統計を提供し、ストレージメディアへのブロックレベルのアクセスが表示されます。

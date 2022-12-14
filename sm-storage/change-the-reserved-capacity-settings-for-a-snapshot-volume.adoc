@@ -24,6 +24,7 @@ Snapshot Volume Reserved Capacity Settingsダイアログボックスが表示�
 . Snapshotボリュームのリザーブ容量設定を適宜変更します。
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

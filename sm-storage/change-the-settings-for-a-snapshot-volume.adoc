@@ -24,6 +24,7 @@ Snapshot Volume Settings（スナップショットボリューム設定）ダ�
 . Snapshotボリュームの設定を適宜表示または編集します。
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

@@ -50,6 +50,7 @@ Configure iSCSI Ports （ iSCSI ポートの設定）ダイアログボックス
 
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -114,6 +115,7 @@ Internet Control Message Protocol （ ICMP ）を有効にする場合は、こ�
 . IPv4 と IPv6 、またはその両方を自動または手動で設定します。すべてのポート設定を表示するには、ダイアログボックスの右側にある * Show more settings * リンクをクリックします。
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

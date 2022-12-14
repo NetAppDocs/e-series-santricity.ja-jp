@@ -19,6 +19,7 @@ summary: 以前に無効にしたSnapshotボリュームまたはSnapshot整合�
 * Snapshot整合性グループのSnapshotボリュームを再作成するには、メンバーであるSnapshotボリュームがすべて無効の状態である必要があります。
 
 
+.このタスクについて
 メンバーであるSnapshotボリュームを個別に作成することはできません。再作成できるのは、Snapshot整合性グループのSnapshotボリューム全体のみです。
 
 [NOTE]
@@ -51,6 +52,7 @@ Recreate Snapshot Volume（スナップショットボリュームの再作成�
 . [* Recreate *（再作成）]を
 
 
+.結果
 System Managerは次の処理を実行します。
 
 * 関連づけられているスナップショット・リポジトリ・ボリューム上のすべての書き込みデータを削除します

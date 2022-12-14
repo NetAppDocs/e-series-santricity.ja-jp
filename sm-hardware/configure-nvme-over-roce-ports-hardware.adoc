@@ -39,6 +39,7 @@ Configure NVMe over RoCE Ports（NVMe over RoCEポートの設定）ダイアロ
 
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -77,6 +78,7 @@ MTU サイズ（ * Show more port settings* をクリックすると使用可能
 . IPv4 と IPv6 、またはその両方を自動または手動で設定します。
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

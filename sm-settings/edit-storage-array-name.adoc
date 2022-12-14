@@ -37,4 +37,5 @@ SANtricity System Managerのタイトルバーに表示されるストレージ�
 ====
 
 
+.結果
 新しい名前がSANtricity System Managerのタイトルバーに表示されます。

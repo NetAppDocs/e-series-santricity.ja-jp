@@ -14,6 +14,7 @@ summary: ストレージアレイへのiSCSI接続に関するデータを表示
 [role="lead"]
 ストレージアレイへのiSCSI接続に関するデータを表示できます。
 
+.このタスクについて
 System Managerには、次のタイプのiSCSI統計が表示されます。統計はすべて読み取り専用で、設定することはできません。
 
 * *イーサネットMAC統計*--メディアアクセス制御(MAC)の統計情報を提供します。MACは、物理アドレスまたはMACアドレスと呼ばれるアドレス指定メカニズムも提供します。MACアドレスは、各ネットワークアダプタに割り当てられている一意のアドレスです。MACアドレスは、サブネットワーク内のデスティネーションへのデータパケットの配信に役立ちます。
@@ -45,6 +46,7 @@ System Managerには、次のタイプのiSCSI統計が表示されます。統�
 イーサネットMAC統計を選択すると、受信統計と送信統計の両方が表示されます。これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。
 
 .MAC送信統計：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -157,6 +159,7 @@ JF
 |===
 ====
 .MAC受信統計：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -275,6 +278,7 @@ CSE
 イーサネットTCP/IP統計を選択すると、TCP統計とIP統計の両方が表示されます。これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。
 
 .イーサネットTCP統計：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -373,6 +377,7 @@ RxWU
 |===
 ====
 .イーサネットIP統計：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -463,6 +468,7 @@ DRE-TOC
 ターゲット（プロトコル）統計またはローカルイニシエータ（プロトコル）統計を選択すると、iSCSI統計が表示されます。これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。
 
 .iSCSI統計：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -546,6 +552,7 @@ UCT
 Data Center Bridging Exchange（DCBX）Operational State Statisticsを選択すると、DCBXの統計が表示されます。
 
 .DCBX統計：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -604,6 +611,7 @@ NOTE: これらに加え、状態キャプチャファイルで追加のDCBX動�
 Link Layer Discovery Protocol（LLDP）Type Length Value（TLV）Statisticsを選択すると、ローカルデバイス用とリモートデバイス用の2セットの統計が表示されます。ローカルデバイスはコントローラを指します。リモートデバイスは、コントローラが接続されているピアデバイス（通常はスイッチ）を指します。
 
 .LLDP TLV統計：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -667,6 +675,7 @@ Data Center Bridging Exchange（DCBX）Type Length Value（TLV）Statisticsを�
 
 
 .DCBX TLV統計：
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

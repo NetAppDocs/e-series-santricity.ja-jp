@@ -24,6 +24,7 @@ Snapshot Consistency Group Setting（スナップショット整合グループ�
 . Snapshot整合性グループの設定を適宜変更します。
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

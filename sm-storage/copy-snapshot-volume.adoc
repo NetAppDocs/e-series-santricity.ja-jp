@@ -14,6 +14,7 @@ summary: SnapshotボリュームやSnapshot整合性グループのSnapshotボ�
 [role="lead"]
 SnapshotボリュームやSnapshot整合性グループのSnapshotボリュームについて、ボリュームコピープロセスを実行することができます。
 
+.このタスクについて
 Snapshotボリュームは、通常のボリュームコピー処理と同様に、ターゲットボリュームにコピーできます。ただし、Snapshotボリュームはオンラインのままコピープロセスを実行することはできません。
 
 .手順
