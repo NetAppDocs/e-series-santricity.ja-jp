@@ -17,7 +17,7 @@ settings:
   - name: SANtricity ソフトウェア
     url: "/e-series-santricity-115"
     version-number: '11.5'
-  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: SANtricity 11.7のドキュメント
