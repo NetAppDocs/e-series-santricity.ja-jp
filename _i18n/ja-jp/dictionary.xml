@@ -8712,4 +8712,6 @@
   <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">このリリースには、アクセストークンを作成するための新機能が含まれています。これらのトークンを使用すると、ユーザ名やパスワードを公開することなく、REST APIまたはコマンドラインインターフェイス（CLI）で認証できます。この機能は、アクセス管理セクションで提供されています。</block>
   <block id="74f708399a048352be94abc06102bfb9" category="sidebar">アクセストークンを使用する</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
+  <block id="17fbe20fbbd5b537dbcef5b0ec0d1dea" category="section-title">バージョン11.75の新機能</block>
+  <block id="fc663b28a8d6054c2d97e0b897d7291f" category="paragraph">システムを11.80.x以降にアップグレードするには、11.70.5が実行されている必要があります。</block>
 </blocks>
