@@ -8681,7 +8681,6 @@
   <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">SAMLが有効になっている間は権限を削除しないように注意してください。削除すると、Unified Managerにアクセスできなくなります。</block>
   <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">フィールド内をクリックし、属性にマッピングするストレージアレイのロールを選択します。このグループに含めるロールを個別に選択する必要があります。MonitorロールはUnified Managerにログインするために必要な他のロールと一緒に指定する必要があります。少なくとも1つのグループにSecurity Adminロールを割り当てる必要があります。各ロールの権限は次のとおりです。</block>
   <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80の新機能</block>
-  <block id="ee178cd31372157b6b4ef199f32f28e6" category="paragraph">次の表に、SANtricity System Manager 11.8xの新機能を示します。</block>
   <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">バージョン11.80の新機能</block>
   <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">強化されたボリュームパリティスキャン</block>
   <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">REST APIまたはCLIを使用して、ボリュームパリティスキャンをバックグラウンドプロセスとして起動できるようになりました。パリティスキャンは、スキャン処理を完了するために必要な限りバックグラウンドで実行されます。スキャン処理は、コントローラのリブートおよびフェイルオーバー処理の間も維持されます。</block>
@@ -8716,7 +8715,6 @@
   <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">ポート識別子</block>
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">アラート対象のイベントが発生するたびに、イベントモニタからsyslogサーバにアラートが送信されます。監査ログのsyslog設定の詳細については、を参照してください。<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">設定が完了すると、以降すべての監査ログがsyslogサーバに送信されるようになります。以前のログは転送されません。アラートのsyslog設定の詳細については、を参照してください。<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
-  <block id="4bc4384815b2cb7cd1edee10550e5472" category="list-text">_11.80リリースノート（未定）_</block>
   <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricityソフトウェアのドキュメント11.80</block>
   <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">Unified Manager 6による複数のアレイの管理</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager --ネットワーク内の個 々 のストレージアレイの管理に使用するWebベースのインターフェイス。</block>
@@ -8725,4 +8723,7 @@
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">ドライブ、コントローラ、およびコンポーネントのビュー</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">シェルフ前面ビューと背面ビューを切り替えるには、右端から*[ドライブ]*または*[コントローラとコンポーネント]*を選択します（表示されるリンクは現在のビューによって異なります）。[ドライブ]ビューには、ドライブと空のドライブベイが表示されます。[コントローラとコンポーネント]*ビューには、コントローラ、IOM（ESM）モジュール、電源/ファンキャニスター、または空のコントローラベイが表示されます。ページの下部で、*[すべてのドライブを表示]*を選択することもできます。</block>
   <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8のドキュメント</block>
+  <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">次の表に、SANtricity System Manager 11.8の新機能を示します。</block>
+  <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80リリースノート</block>
+  <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
 </blocks>
