@@ -1,0 +1,36 @@
+= 
+:allow-uri-read: 
+
+
+[cols="1a,1a"]
+|===
+| ブラウザ | 最小バージョン 
+
+
+ a| 
+Google Chrome
+ a| 
+八九
+
+
+
+ a| 
+Mozilla Firefox
+ a| 
+8時80分
+
+
+
+ a| 
+Safari
+ a| 
+14
+
+
+
+ a| 
+Microsoft Edge の場合
+ a| 
+90
+
+|===

@@ -21,6 +21,7 @@ summary: アクセス管理では、SANtricity Unified Managerでユーザ認証
 
 * *ローカルユーザーの役割*-- RBAC（役割ベースのアクセス制御）機能を使用して認証を管理しますローカルユーザロールには、事前定義されたユーザプロファイルと、特定のアクセス権限を持つロールが含まれます。
 * *ディレクトリサービス*-- LDAP (Lightweight Directory Access Protocol)サーバとディレクトリサービス(MicrosoftのActive Directoryなど)を介して認証を管理します
+* *saml *-- SAML 2.0を使用して、アイデンティティプロバイダ（IdP）を介して認証を管理します。
 
 
 詳細はこちら。
@@ -28,6 +29,7 @@ summary: アクセス管理では、SANtricity Unified Managerでユーザ認証
 * link:how-access-management-works-unified.html["アクセス管理の仕組み"]
 * link:access-management-terminology-unified.html["アクセス管理の用語"]
 * link:permissions-for-mapped-roles-unified.html["マッピングされたロールの権限"]
+* link:access-management-with-saml.html["SAML"]
 
 
 
@@ -40,4 +42,5 @@ SANtricity ソフトウェアは、ローカルユーザロールを使用する
 
 * link:access-management-with-local-user-roles-unified.html["ローカルユーザロールを使用したアクセス管理"]
 * link:access-management-with-directory-services-unified.html["ディレクトリサービスを使用したアクセス管理"]
+* link:configure-saml.html["SAMLを設定する"]
 

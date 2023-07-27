@@ -1,6 +1,6 @@
 ---
 settings:
-  name: SANtricity 11.7
+  name: SANtricity 11.8
   internal:
     pdf_enabled: true
   prod:
@@ -10,17 +10,17 @@ settings:
   versions:
   - name: SANtricity ソフトウェア
     url: "/e-series-santricity"
+    version-number: '11.8'
+  - name: SANtricity ソフトウェア
+    url: "/e-series-santricity-117"
     version-number: '11.7'
   - name: SANtricity ソフトウェア
     url: "/e-series-santricity-116"
     version-number: '11.6'
-  - name: SANtricity ソフトウェア
-    url: "/e-series-santricity-115"
-    version-number: '11.5'
   langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: SANtricity 11.7のドキュメント
+  - title: SANtricity 11.8のドキュメント
     url: "/index.html"
   - title: リリースノート
     entries:
@@ -1428,6 +1428,8 @@ sidebar:
           url: "/um-certificates/access-management-with-local-user-roles-unified.html"
         - title: ディレクトリサービス
           url: "/um-certificates/access-management-with-directory-services-unified.html"
+        - title: SAML
+          url: "/um-certificates/access-management-with-saml.html"
       - title: ローカルユーザロールを使用する
         entries:
         - title: ローカルユーザロールを表示します
@@ -1444,6 +1446,14 @@ sidebar:
           url: "/um-certificates/edit-directory-server-settings-unified.html"
         - title: ディレクトリサーバを削除します
           url: "/um-certificates/remove-directory-server-unified.html"
+      - title: SAMLを使用する
+        entries:
+        - title: SAMLを設定する
+          url: "/um-certificates/configure-saml.html"
+        - title: SAMLのロールマッピングを変更する
+          url: "/um-certificates/change-saml-role-mappings.html"
+        - title: SAMLサービスプロバイダファイルをエクスポートする
+          url: "/um-certificates/export-saml-service-provider-files.html"
       - title: よくある質問です
         entries:
         - title: ログインできないのはなぜですか？
@@ -1452,6 +1462,8 @@ sidebar:
           url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
         - title: ストレージアレイのロールをマッピングするときは、どのような点に注意する必要がありますか？
           url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+        - title: SAMLを設定および有効にするときは、どのような点に注意する必要がありますか？
+          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
         - title: ローカルユーザとは何ですか？
           url: "/um-certificates/what-are-the-local-users.html"
   - title: 以前のバージョン
