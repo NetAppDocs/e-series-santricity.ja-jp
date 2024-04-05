@@ -1,5 +1,9 @@
 ---
 indexpage:
+  title: Unified Manager 6による複数のアレイの管理
+  summary: SANtricity ソフトウェアのドキュメントでは、ストレージアレイのインストール、セットアップ、およびメンテナンスについて説明しています。
+  keywords: santricity, install, setup, maintain, storage array
+  lead: SANtricity ソフトウェアのドキュメントでは、ストレージアレイのインストール、セットアップ、およびメンテナンスについて説明しています。
   tiles:
   - title: セットアップ
     links:

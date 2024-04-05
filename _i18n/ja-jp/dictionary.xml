@@ -8260,7 +8260,6 @@
   <block id="e9c3b29b15baba5237733178dce80a59" category="paragraph">証明書管理では、Unified Managerをホストする管理ステーションの証明書を設定できるほか、アレイのコントローラの証明書をインポートすることもできます。</block>
   <block id="b744a434fdacfde74eb6273b780f3b83" category="list-text"><block ref="b744a434fdacfde74eb6273b780f3b83" category="inline-link-macro-rx"></block></block>
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
-  <block id="589c6e07e079f4086ec279a5e83c238d" category="sidebar">SANtricity ソフトウェアを使用すると、データ分析、ビデオ監視、バックアップとリカバリなどの負荷の高いアプリケーション向けに、EシリーズハイブリッドフラッシュおよびEFシリーズオールフラッシュアレイのパフォーマンスと利用率を最大限に高めることができます。</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Managerインターフェイス</block>
   <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Managerインターフェイス</block>
@@ -8512,7 +8511,6 @@
   <block id="bc864bcc140c5518082e93d37b396baf" category="sidebar">管理ホスト証明書を使用する</block>
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">アレイ証明書を使用する</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">証明書を管理します</block>
-  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity ソフトウェア</block>
   <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
   <block id="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="list-text"><block ref="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="inline-link-macro-rx"></block></block>
   <block id="cfcb95dc970984a5b2213167afd26e67" category="list-text">これらのASUPディスパッチの配信をブロックするファイアウォールがある場合は、ホワイトリストに次のURLを追加します。<block ref="afb8e6b8ab745bba44a27ba547edbe22" prefix=" " category="inline-code"></block></block>
@@ -8741,4 +8739,5 @@
   <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">ディスクプールの改善</block>
   <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">11.80以降を実行しているコントローラで作成されたディスクプールは、_Version 0_poolsではなく_Version 1_poolsになります。_Version 1_diskプールが存在する場合、ダウングレード操作は制限されます。</block>
   <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">ストレージアレイプロファイルでディスクプールのバージョンを特定できます。</block>
+  <block id="e7ad6d421850c5694f6bdc4321ac3507" category="sidebar">SANtricity 11.80ソフトウェアを使用すると、データ分析、ビデオ監視、バックアップとリカバリなどの高ワークロードアプリケーション向けに、EシリーズのハイブリッドフラッシュおよびEFシリーズのオールフラッシュアレイのパフォーマンスと利用率を最大限に高めることができます。</block>
 </blocks>

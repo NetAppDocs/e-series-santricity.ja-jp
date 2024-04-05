@@ -1,6 +1,10 @@
 ---
 indexpage:
-  lead: SANtricity ソフトウェアを使用すると、データ分析、ビデオ監視、バックアップとリカバリなどの負荷の高いアプリケーション向けに、EシリーズハイブリッドフラッシュおよびEFシリーズオールフラッシュアレイのパフォーマンスと利用率を最大限に高めることができます。
+  title: SANtricityソフトウェアのドキュメント11.80
+  summary: SANtricity システムマネージャとUnified Manager
+  keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
+    data analytics
+  lead: SANtricity 11.80ソフトウェアを使用すると、データ分析、ビデオ監視、バックアップとリカバリなどの高ワークロードアプリケーション向けに、EシリーズのハイブリッドフラッシュおよびEFシリーズのオールフラッシュアレイのパフォーマンスと利用率を最大限に高めることができます。
   tiles:
   - title: はじめに
     links:
