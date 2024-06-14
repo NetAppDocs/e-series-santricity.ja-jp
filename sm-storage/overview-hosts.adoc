@@ -31,14 +31,13 @@ a_host_は、ストレージアレイ上のボリュームにI/Oを送信する�
 
 == ホストとホストクラスタを設定するにはどうすればよいですか？
 
-ホスト接続を定義するには、Host Context Agent（HCA）でホストを自動的に検出できるようにするか、メニュー「Storage [Hosts]」に移動してホストを手動で設定します。複数のホストが同じボリュームセットへのアクセスを共有する場合は、クラスタを定義してそのクラスタにボリュームを割り当てることができます。
+ホスト接続を定義するには、メニュー[ストレージ][ホスト]に移動してホストを手動で設定します。複数のホストが同じボリュームセットへのアクセスを共有する場合は、クラスタを定義してそのクラスタにボリュームを割り当てることができます。
 
 詳細はこちら。
 
-* link:automatic-versus-manual-host-creation.html["ホストの自動作成と手動作成"]
+* link:manual-host-creation.html["ホストの手動作成"]
 * link:how-volumes-are-assigned-to-hosts-and-host-clusters.html["ホストおよびホストクラスタへのボリュームの割り当て方法"]
 * link:workflow-for-creating-hosts-and-assigning-volumes.html["ホストの作成とボリュームの割り当てのワークフロー"]
-* link:create-host-automatically.html["ホストを自動で作成する"]
 * link:create-host-manually.html["ホストを手動で作成する"]
 * link:create-host-cluster.html["ホストクラスタを作成する"]
 * link:assign-volumes.html["ホストにボリュームを割り当てます"]

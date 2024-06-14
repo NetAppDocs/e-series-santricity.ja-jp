@@ -49,3 +49,5 @@ Configure Syslog Serversダイアログボックスが開きます。
 
 .結果
 設定が完了すると、以降すべての監査ログがsyslogサーバに送信されるようになります。以前のログは転送されません。アラートのsyslog設定の詳細については、を参照してください。 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-alerts.html["アラート用のsyslogサーバを設定します"]。
+
+ NOTE: If multiple syslog servers are configured, all configured syslog servers will receive an audit log.

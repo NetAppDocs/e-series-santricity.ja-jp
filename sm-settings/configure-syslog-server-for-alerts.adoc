@@ -43,3 +43,6 @@ syslogサーバがまだ定義されていない場合は、[Alerts]ページに
 
 .結果
 アラート対象のイベントが発生するたびに、イベントモニタからsyslogサーバにアラートが送信されます。監査ログのsyslog設定の詳細については、を参照してください。 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-audit-logs.html["監査ログ用のsyslogサーバを設定します"]。
+
+
+NOTE: 複数のsyslogサーバが設定されている場合は、設定されているすべてのsyslogサーバに監査ログが送信されます。

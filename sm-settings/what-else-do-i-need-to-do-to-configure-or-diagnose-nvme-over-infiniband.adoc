@@ -28,7 +28,7 @@ NVMe over InfiniBandを設定できるのは、ストレージアレイのコン
 NVMe over InfiniBandポートを設定する
  a| 
 . 「 * ハードウェア * 」を選択します。
-. Show back of shelf*を選択します。
+. [コントローラとコンポーネント]*タブを選択します。
 . コントローラを選択します。
 . Configure NVMe over InfiniBand ports] を選択します。
 
