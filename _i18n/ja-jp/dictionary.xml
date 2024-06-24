@@ -2311,12 +2311,7 @@
   <block id="442fc72fb02307d7bb547f3a9e330e5f" category="list-text">同じドライブタイプのプールが複数ある場合は、System Managerでプールに使用するドライブを自動的に推奨できないことを示すメッセージが表示されます。ただし、既存のプールに手動でドライブを追加することはできます。</block>
   <block id="cfd5addb3d7e99111f81d8aa18f9a5aa" category="paragraph">既存のプールにドライブを手動で追加するには：プールとボリュームグループページでプールを選択し、*容量の追加*をクリックします。</block>
   <block id="499a0602905ccb67c6d649daa6d57413" category="summary">あらゆる種類のアプリケーションのワークロードを作成できます。</block>
-  <block id="ef722b0d3f28d401f565985f472c4438" category="paragraph">次のアプリケーションタイプにかぎり、System Managerから最適化されたボリューム構成が提示されます。</block>
-  <block id="f2087899e2afadc125d10b2957ade872" category="list-text">ビデオ監視</block>
-  <block id="7cfedcca8ce6dbe00da8fe3e6fe966f8" category="list-text">VMware ESXi™（仮想マシンファイルシステムで使用するボリューム用）</block>
   <block id="53d52e9f5e84c6e320cab61e6c75088f" category="paragraph">次のガイドラインに注意してください。</block>
-  <block id="d5f2262b63d7e86589dbf70c4e5e35b2" category="list-text">アプリケーション固有のワークロードを使用する場合_は、アプリケーションワークロードのI/Oとアプリケーションインスタンスからの他のトラフィックの競合が最小限になるように最適化されたボリューム構成を推奨します。ボリュームの追加/編集ダイアログボックスを使用して、推奨されるボリューム構成を確認し、システムで推奨されるボリュームや特性を編集、追加、削除できます。</block>
-  <block id="bf4bffd53bcd7e30e99315e12ac6f419" category="list-text">_他のアプリケーションタイプを使用している場合_ボリュームの追加/編集ダイアログボックスを使用して、ボリューム構成を手動で指定します。</block>
   <block id="65d1a857de2802d1a9f3295655aaf36f" category="list-text">メニューを選択します。Create [Workload]。</block>
   <block id="d8b1db89e135bdbc13b725e8d595018b" category="paragraph">[アプリケーションワークロードの作成]ダイアログボックスが表示されます。</block>
   <block id="c587f872ee4cedc5f46714cc4a3af851" category="list-text">ドロップダウンリストを使用してワークロードを作成するアプリケーションのタイプを選択し、ワークロード名を入力します。</block>
@@ -8737,4 +8732,7 @@
   <block id="71f3dfbf2b051795606c83f3a9eae5ae" category="list-text">ドライブを表示する際にコントローラおよび電源/ファンキャニスターコンポーネントが表示される場合は、*[ドライブ]*タブをクリックします。</block>
   <block id="581cfab734318e947b176853c8e56d50" category="paragraph">ストレージアレイの物理コンポーネントをグラフィカルに表示するハードウェアページに移動します。アレイシェルフの前面ビューと背面ビューを切り替えるには、シェルフビューの右上にある*[ドライブ]*タブまたは*[コントローラ]*タブを選択します。</block>
   <block id="c30b45aee772a1884388fa957f41c7d5" category="list-text">*シングルドライブ*--シェルフの図から、アレイ内の物理的な場所に配置するドライブを探します。（図にコントローラが表示されている場合は、*[ドライブ]*タブをクリックします）。 ドライブをクリックしてコンテキストメニューを表示し、*[ロケーターライトを点灯]*を選択します。</block>
+  <block id="043a86bd47391543c74c9ed90a2dde13" category="admonition">ボリューム容量は一度に最大128TiBまで拡張できます。</block>
+  <block id="82d00f5ad15a08dba27d16e49e8748f1" category="paragraph">ワークロードは、アプリケーションをサポートするストレージオブジェクトです。アプリケーションごとに1つ以上のワークロードまたはインスタンスを定義できます。</block>
+  <block id="056bd960f994268c2245e42ab49c22b9" category="paragraph">アプリケーションとは、SQL ServerやExchangeなどのソフトウェアです。アプリケーションごとに、サポートするワークロードを1つ以上定義します。</block>
 </blocks>
