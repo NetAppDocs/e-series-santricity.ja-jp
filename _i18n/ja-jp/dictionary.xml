@@ -8698,8 +8698,6 @@
   <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">イーサネットカーネル統計</block>
   <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link">iSCSI統計パッケージの表示</block>
   <block id="4f8a241c3cb470ed44d71b0d64d57b80" category="paragraph">System Managerの[iSCSI統計パッケージの表示]ページに、新しい[イーサネットカーネル統計]オプションが追加されました。この新しいオプションを使用すると、iSCSIデバイスのプラットフォームカーネルドライバの統計を表示できます。詳細については、を参照してください<block ref="fa652b493edb0147d8d73c9bf12a908b" category="inline-link-rx"></block>。</block>
-  <block id="bf4fed8d63aecfc1a30be488a115892c" category="paragraph">System Managerでの未割り当てドライブとセキュリティ有効ドライブのフィルタリングの改善</block>
-  <block id="22d3d7b49042c93caf0303e50dd503e1" category="paragraph">System Managerで手動ドライブを選択する際に、未割り当てのセキュリティ有効ドライブが除外されるようになりました。そのため、System Managerのドライブ選択数が、CLIおよびREST APIの自動ドライブ選択候補のリストと一致するようになりました。System Manager内の未割り当てドライブとセキュリティ有効ドライブに、一意のアイコンとマウスオーバーテキストが適用されるようになりました。</block>
   <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">REST APIエンドポイントを使用してIPアドレスをブロックする機能を追加</block>
   <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">[Settings]エンドポイントを使用して、特定のIPアドレスをブロックできるようになりました。 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>）。[Settings]エンドポイントで設定すると、ホワイトリストで指定したIPアドレスだけがストレージデバイスと通信できます。この新機能では、IPv4およびIPv6アドレスリストがサポートされます。</block>
   <block id="85873696abedac8fb70b86eef30b99fe" category="paragraph">vCenterストレージプラグイン</block>
@@ -8735,4 +8733,8 @@
   <block id="043a86bd47391543c74c9ed90a2dde13" category="admonition">ボリューム容量は一度に最大128TiBまで拡張できます。</block>
   <block id="82d00f5ad15a08dba27d16e49e8748f1" category="paragraph">ワークロードは、アプリケーションをサポートするストレージオブジェクトです。アプリケーションごとに1つ以上のワークロードまたはインスタンスを定義できます。</block>
   <block id="056bd960f994268c2245e42ab49c22b9" category="paragraph">アプリケーションとは、SQL ServerやExchangeなどのソフトウェアです。アプリケーションごとに、サポートするワークロードを1つ以上定義します。</block>
+  <block id="16d708387aba5ea718421175893bd468" category="list-text">プライマリボリュームとセカンダリボリュームで同じドライブタイプを共有する必要があります。プライマリボリュームとセカンダリボリュームにNVMeドライブとSASドライブを混在させることはできません。</block>
+  <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">リザーブ容量ボリュームは、関連付けられているミラーボリュームと同じドライブタイプを共有する必要があります。</block>
+  <block id="bf9f60c11f9080af705719592217436d" category="list-text">リザーブ容量ボリュームをNVMeドライブに作成する場合は、そのミラーボリュームもNVMeドライブに作成する必要があります。</block>
+  <block id="402b0811b7e491a20af6474c5296c733" category="list-text">リザーブ容量ボリュームをSASドライブに作成する場合は、そのミラーボリュームもSASドライブに作成する必要があります。</block>
 </blocks>
