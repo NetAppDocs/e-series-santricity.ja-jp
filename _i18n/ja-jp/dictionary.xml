@@ -8737,4 +8737,7 @@
   <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">リザーブ容量ボリュームは、関連付けられているミラーボリュームと同じドライブタイプを共有する必要があります。</block>
   <block id="bf9f60c11f9080af705719592217436d" category="list-text">リザーブ容量ボリュームをNVMeドライブに作成する場合は、そのミラーボリュームもNVMeドライブに作成する必要があります。</block>
   <block id="402b0811b7e491a20af6474c5296c733" category="list-text">リザーブ容量ボリュームをSASドライブに作成する場合は、そのミラーボリュームもSASドライブに作成する必要があります。</block>
+  <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">バージョン11.80.1R1の新機能</block>
+  <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">新しい自己署名およびCA署名管理証明書のキーサイズが拡張されました。</block>
+  <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity System ManagerおよびUnified Managerアプリケーションの自己署名証明書の管理証明書キーサイズが、2、048ビットから3、072ビットに変更されました。この変更は、SANtricityアプリケーションから新しく生成された自己署名証明書とCA署名証明書に適用されます。キーの長さは固定であり、NVSRAMのデフォルトのキーサイズ定義の影響を受けません。</block>
 </blocks>
