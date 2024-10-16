@@ -8741,4 +8741,8 @@
   <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">新しい自己署名およびCA署名管理証明書のキーサイズが拡張されました。</block>
   <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity System ManagerおよびUnified Managerアプリケーションの自己署名証明書の管理証明書キーサイズが、2、048ビットから3、072ビットに変更されました。この変更は、SANtricityアプリケーションから新しく生成された自己署名証明書とCA署名証明書に適用されます。キーの長さは固定であり、NVSRAMのデフォルトのキーサイズ定義の影響を受けません。</block>
   <block id="56ef6aeb1657a77ed998f95bff3a67c0" category="paragraph">ARVMを非アクティブ化</block>
+  <block id="bb81ad14bd710a498f194a6ac67fea61" category="paragraph">コピーのソースボリュームとターゲットボリュームで、報告されるホストアドレス指定可能/論理ブロックサイズ（セクターサイズ）が同じである必要があります。</block>
+  <block id="56ce420df3a94d675f30cc6b382c3082" category="paragraph">報告されるボリュームのブロックサイズは次のとおりです。</block>
+  <block id="6451d4e0b30d3e2a2b45dc3de85ffe6d" category="list-text">*ネイティブブロックサイズ*–ボリュームのブロックサイズは、ドライブのブロックサイズ（512または4K）と同じです。</block>
+  <block id="7de7e0688d2ed2bd02ab78f61c88a723" category="list-text">*エミュレートされた512ブロックサイズ*-ドライブは4Kですが、報告されるブロックサイズは512です。</block>
 </blocks>
