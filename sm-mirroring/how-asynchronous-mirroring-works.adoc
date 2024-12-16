@@ -30,7 +30,7 @@ summary: 非同期ミラーリングでは、データボリュームをオン�
 
 アクティブな非同期ミラーリングセッションには主に4つの手順があります。
 
-image::../media/sam-1130-dwg-async-mirroring-session.gif[SAM 1130 DWG非同期ミラーリングセッション]
+image::../media/sam-1130-dwg-async-mirroring-session.gif[非同期ミラーリングセッション]
 
 . 最初にプライマリボリュームのストレージアレイで書き込み処理が実行されます。
 . 処理のステータスがホストに返されます。

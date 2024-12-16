@@ -30,7 +30,7 @@ Snapshotが作成されると、Snapshot機能はイメージデータを次の�
 * Snapshotイメージが作成された時点では、Snapshotイメージはベースボリュームと完全に一致します。Snapshot機能はcopy-on-writeテクノロジを使用します。Snapshotの作成後、ベースボリューム上のブロックまたはブロックセットに対して最初の書き込みが行われると、新しいデータをベースボリュームに書き込む前に元のデータがリザーブ容量にコピーされます。
 * 以降のSnapshotには変更されたデータブロックのみが含まれます。ベースボリュームのデータが上書きされる前に、Snapshot機能はcopy-on-writeテクノロジを使用して影響を受けるセクターの必要なイメージをSnapshotのリザーブ容量に保存します。
 +
-image::../media/sam1130-dwg-snapshots-cow-overview.gif[sam1130 DWGスナップショットCoWの概要]
+image::../media/sam1130-dwg-snapshots-cow-overview.gif[Snapshotの概要]
 
 
 

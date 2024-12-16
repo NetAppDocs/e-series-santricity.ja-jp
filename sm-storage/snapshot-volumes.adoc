@@ -17,6 +17,6 @@ Snapshotデータの読み取りまたは書き込みを行う場合は、Snapsh
 
 読み取り専用のSnapshotボリュームを作成する場合、リザーブ容量を追加する必要はありません。読み書き可能Snapshotボリュームを作成する場合は、リザーブ容量を追加して書き込みアクセスを許可する必要があります。
 
-image::../media/sam1130-dwg-snapshots-volumes-overview.gif[SA1130 DWGスナップショットボリュームの概要]
+image::../media/sam1130-dwg-snapshots-volumes-overview.gif[Snapshotボリュームの概要]
 
 ^1基本ボリューム；^2^ホスト；^3^読み取り専用Snapshotボリューム；^4^読み取り/書き込みSnapshotボリューム；^5^リザーブ容量

@@ -17,10 +17,10 @@ System Managerでは、次の手順でSnapshotイメージとSnapshotボリュ�
 
 == Snapshotイメージの作成ワークフロー
 
-image::../media/sam1130-flw-snapshots-create-ss-images.gif[sam1130 Flwスナップショットはssイメージを作成します]
+image::../media/sam1130-flw-snapshots-create-ss-images.gif[Snapshotイメージの作成ワークフロー]
 
 
 
 == Snapshotボリュームの作成ワークフロー
 
-image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[sam1130 Flwスナップショットはssボリュームを作成します]
+image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[Snapshotボリュームの作成ワークフロー]

@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity System Manager 11.8
+= SANtricity System Manager 11.9
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+システムストレージは、SANtricityシステムマネージャを使用して管理できます。

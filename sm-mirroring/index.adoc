@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity System Manager 11.8
+= SANtricity System Manager 11.9
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+非同期ミラーリングと同期ミラーリングは、SANtricity System Managerを使用して管理できます。

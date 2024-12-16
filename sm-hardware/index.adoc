@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity System Manager 11.8
+= SANtricity System Manager 11.9
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+ハードウェアページでコンポーネントのステータスを確認し、それらのコンポーネントに関連するいくつかの機能を実行できます。

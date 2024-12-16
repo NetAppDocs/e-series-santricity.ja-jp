@@ -14,4 +14,4 @@ summary: AutoSupport 配信方法の設定タスクにアクセスするには�
 [role="lead"]
 AutoSupport 配信方法の設定タスクにアクセスするには、[Support]（サポートセンター）のメニューに移動し、AutoSupport *]タブをクリックします。
 
-サポートされているプロトコルは、HTTPS、HTTP、およびSMTPです。
+サポートされているプロトコルはHTTPSとSMTPです。

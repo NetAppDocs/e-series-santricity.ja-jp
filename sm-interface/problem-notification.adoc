@@ -25,28 +25,28 @@ System Managerでは、以下のアイコンを使用してストレージアレ
 
 
  a| 
-image:../media/sam1130-ss-icon-status-success.gif[""]
+image:../media/sam1130-ss-icon-status-success.gif["最適"]
  a| 
 最適
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-failure.gif[""]
+image:../media/sam1130-ss-icon-status-failure.gif["最適でないか、障害が発生しています"]
  a| 
 最適でないか、障害が発生しています
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-service.gif[""]
+image:../media/sam1130-ss-icon-status-service.gif["対応または修正が必要です"]
  a| 
 対応または修正が必要です
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-caution.gif[""]
+image:../media/sam1130-ss-icon-status-caution.gif["注意"]
  a| 
 注意
 

@@ -23,7 +23,7 @@ a_base volume_は、Snapshotイメージのソースとして使用されるボ�
 
 次の図は、Snapshotオブジェクトとベースボリュームの関係を示しています。
 
-image::../media/sam1130-dwg-snapshots-images-overview.gif[SA1130 DWGスナップショットイメージの概要]
+image::../media/sam1130-dwg-snapshots-images-overview.gif[Snapshotオブジェクトとベースボリューム]
 
 ^1基本ボリューム；^2^グループ内のSnapshotオブジェクト（イメージおよびリザーブ容量）；^3^ Snapshotグループのリザーブ容量。
 

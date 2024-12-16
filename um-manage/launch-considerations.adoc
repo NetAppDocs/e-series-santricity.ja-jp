@@ -21,4 +21,4 @@ System Managerにアクセスするには、以下を準備しておく必要が
 * Webブラウザを使用したネットワーク管理クライアントへのアウトオブバンド接続。
 
 
-image::../media/single2800.gif[Single 2800]
+image::../media/single2800.gif[Webブラウザを使用したネットワーク管理クライアントへのアウトオブバンド接続。]

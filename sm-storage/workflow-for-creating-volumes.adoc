@@ -13,4 +13,4 @@ summary: SANtricity System Managerでは、次の手順でボリュームを作�
 [role="lead"]
 System Managerでは、次の手順でボリュームを作成します。
 
-image::../media/sam1130-flw-volumes-create.gif[sam1130 Flwボリュームが作成されます]
+image::../media/sam1130-flw-volumes-create.gif[ボリューム作成ワークフロー]

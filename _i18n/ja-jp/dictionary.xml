@@ -84,22 +84,17 @@
   <block id="0b06dce9e1b3bc7d8372cf18b3a233ff" category="paragraph">プールまたはボリュームグループで冗長性がサポートされていて、ステータスが最適の場合は、オンライン方式を使用してドライブのファームウェアをアップグレードできます。オンライン方式では、ドライブを使用している関連付けられたボリュームにストレージアレイがI/Oを処理している間に、ファームウェアがダウンロードされます。ドライブを使用している関連付けられたボリュームへのI/Oを停止する必要はありません。ドライブは、ドライブに関連付けられているボリュームに対して一度に1つずつアップグレードされます。プールまたはボリュームグループに割り当てられていないドライブのファームウェアは、オンライン方式でもオフライン方式でも更新できます。オンライン方式を使用してドライブファームウェアをアップグレードすると、システムのパフォーマンスに影響が出る場合があります。</block>
   <block id="82590f18903227ef866c105265e29c64" category="list-text">* オフライン *</block>
   <block id="1b6b2f17142a5a59bae91fead9eea84e" category="paragraph">プールまたはボリュームグループで冗長性がサポートされていない（RAID 0）か、デグレード状態の場合は、オフライン方式を使用してドライブのファームウェアをアップグレードする必要があります。オフライン方式では、すべてのI/Oアクティビティが停止している間にファームウェアのみがアップグレードされ、ドライブを使用している関連付けられたボリュームにアップグレードされます。ドライブを使用している関連付けられたボリュームへのI/Oをすべて停止する必要があります。プールまたはボリュームグループに割り当てられていないドライブのファームウェアは、オンライン方式でもオフライン方式でも更新できます。</block>
-  <block id="3962c67157856b85df4c5309ed0a5d1c" category="summary">AutoSupport 機能は、ディスパッチをテクニカルサポートに配信するために、HTTPS、HTTP、SMTPのプロトコルをサポートしています。</block>
   <block id="37d2d3abeb0c853792589ef5ef3ca6e2" category="doc">AutoSupport の配信方法を設定する</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">作業を開始する前に</block>
   <block id="951f23f38a775d7b989c10f181c6a5fb" category="list-text">AutoSupport 機能を有効にする必要があります。有効になっているかどうかは、AutoSupport ページで確認できます。</block>
   <block id="eafe9700c0de4e0a4bf96ea8a52637c2" category="list-text">ネットワークにDNSサーバをインストールし、設定する必要があります。DNSサーバのアドレスはSystem Managerで設定する必要があります（このタスクはハードウェアページから実行できます）。</block>
   <block id="f869702509af8522ab5a8d9317437a5c" category="paragraph">各プロトコルを確認します。</block>
   <block id="c320b46bad703dba81e017b358d86d07" category="list-text">* HTTPS *-- HTTPSを使用して、テクニカル・サポート・サーバーに直接接続できます。AutoSupport OnDemandまたはRemote Diagnosticsを有効にする場合は、AutoSupport の配信方法をHTTPSに設定する必要があります。</block>
-  <block id="85f5b44a49dc590cf656c27a9db9e5aa" category="list-text">* HTTP *-- HTTPを使用して、テクニカルサポートの宛先サーバーに直接接続できます。</block>
   <block id="5b999ecb8bff8dd3f70944baa491c671" category="list-text">*Email*-- AutoSupport ディスパッチの配信方法として電子メールサーバーを使用できます</block>
-  <block id="4b14e85f50ab6574b52c5f3998e5d090" category="paragraph">* HTTPS / HTTPとEメールの配信方法*の違い。SMTPを使用するEメール配信方法とHTTPSおよびHTTP配信方法の間には、重要な違いがいくつかあります。まず、Eメールではディスパッチのサイズが5MBに制限されるため、ASUPデータ収集の一部はディスパッチされません。次に、AutoSupport OnDemand機能はHTPPおよびHTTPSメソッドでのみ使用できます。</block>
   <block id="ad0299a08f3ae4e0e7821efec30e957c" category="list-text">メニューを選択AutoSupport します。[Support Center]&gt;[Support]（サポートセンター）タブ。</block>
   <block id="d15ef58f591a31679a31fd6a6870c0f9" category="list-text">AutoSupport 配信方法の設定 * を選択します。</block>
   <block id="b0e813c1d02ae767a417776fd8a8e6f9" category="paragraph">ディスパッチの配信方法を示すダイアログボックスが表示されます。</block>
   <block id="c143b9caf0caf400d47403e99931103b" category="list-text">目的の配信方法を選択し、その配信方法のパラメータを選択します。次のいずれかを実行します。</block>
-  <block id="973964a77df9b69b12f27d0b8d26cc36" category="list-text">HTTPSまたはHTTPを選択した場合は、次のいずれかの配信パラメータを選択します。</block>
-  <block id="46c1790980160f29ebbcc3dd7c68f99a" category="list-text">* direct*--このデリバリパラメータはデフォルトで選択されています。このオプションを選択すると、HTTPSまたはHTTPプロトコルを使用して、テクニカルサポートのデスティネーションシステムに直接接続できます。</block>
   <block id="9ba064119aa4adae0694381c00680251" category="list-text">*プロキシ・サーバ経由*--このオプションを選択すると'テクニカル・サポート・システムとの接続を確立するために必要なHTTPプロキシ・サーバの詳細を指定できますホストアドレスとポート番号を指定する必要があります。ただし、ホスト認証の詳細（ユーザ名とパスワード）は必要な場合にのみ入力します。</block>
   <block id="6a5001d36e6f16c8e2ba0dd5fc89f8de" category="list-text">*プロキシ自動設定（PAC）スクリプト経由*-- Proxy Auto-Configuration（PAC）スクリプトファイルの場所を指定します。PACファイルを使用すると、テクニカルサポートのデスティネーションシステムとの接続の確立に適したプロキシサーバをシステムで自動的に選択できます。</block>
   <block id="88816662b2b289f8f26259414739e64d" category="list-text">[電子メール]を選択した場合は、次の情報を入力します。</block>
@@ -129,9 +124,6 @@
   <block id="e6f2dc3aa8152d09abac598a55e9366f" category="list-text">ドライブのオフラインアップグレードのみが可能な場合は、ドライブに関連付けられているすべてのボリュームへのI/Oアクティビティを停止します。</block>
   <block id="a56e70035fdf4b7df936ab775f083aa4" category="list-text">メニューを選択します。Support [Upgrade Center]を選択します。</block>
   <block id="27cbc683bae5b0ae674e1f14b28ba85b" category="list-text">新しいファイルをサポートサイトから管理クライアントにダウンロードします。</block>
-  <block id="1e85b82464e0b22d88d33677019d1e27" category="list-text">Drive Firmware upgrade（ドライブファームウェアのアップグレード）で、*NetApp Support*（ネットアップサポート）をクリック</block>
-  <block id="7c281e9bad492c4969c4b81a96defe2b" category="list-text">ネットアップサポートWebサイトで、「* Downloads *」タブをクリックします。</block>
-  <block id="15e64f7564367057ae54ac605577e0dc" category="list-text">「* Disk Drive &amp; Firmware Matrix *」を選択します。</block>
   <block id="97ee451d6d95940738f8ea5c329f19b4" category="list-text">残りの手順に従います。</block>
   <block id="953a296f7b11258e3941c8cf2edc32a6" category="list-text">ドライブファームウェアのアップグレードで、*アップグレードの開始*をクリックします。</block>
   <block id="dc37cd015f10fb7e350ecaeb555ca0c1" category="paragraph">使用中のドライブファームウェアファイルを示すダイアログボックスが表示されます。</block>
@@ -290,7 +282,6 @@
   <block id="89e45886f102955a4b94fde5cfd472f2" category="list-text">* コントローラ NVSRAM * -- コントローラ NVSRAM は、コントローラのデフォルト設定を指定するコントローラファイルです。</block>
   <block id="9a117d24c5148683876d0d0084de9881" category="list-text">* IOM ファームウェア * - I/O モジュール（ IOM ）ファームウェアは、コントローラとドライブシェルフの間の接続を管理します。また、コンポーネントのステータスも監視します。</block>
   <block id="096ea47ee097c078c09c6a83f880a840" category="list-text">* スーパーバイザー・ソフトウェア * -- スーパーバイザー・ソフトウェアは、ソフトウェアが実行されるコントローラ上の仮想マシンです。</block>
-  <block id="672f902afa2aa052ec3b55b9e3e0dfc2" category="image-alt">SA1130 DWGアップグレードファームウェアの場所</block>
   <block id="d44c72698d05ea141ed24d5313992baa" category="paragraph">^1コントローラシェルフ；^2^ドライブシェルフ；^3^ソフトウェア、コントローラファームウェア、コントローラNVSRAM、 スーパーバイザーソフトウェア、^4^Driveファームウェア、^5^IOMファームウェア、^6^Driveファームウェア</block>
   <block id="f13ad633a10532a718e640963e25ba41" category="paragraph">現在のソフトウェアとファームウェアのバージョンは、Software and Firmware Inventory（ソフトウェアとファームウェアのインベントリ）ダイアログボックスで確認できます。[Upgrade Center] メニューに移動し、 [* Software and Firmware Inventory] のリンクをクリックします。</block>
   <block id="521132bf11403dff3ed68f00e8e5203a" category="inline-link">NetApp Interoperability Matrix Toolで確認できます</block>
@@ -467,11 +458,9 @@
   <block id="fb7e65669e5874b9e0b75fbd623f7da4" category="paragraph">ドライブファームウェアのオンラインアップグレードで、高速の再構築プロセス中にボリュームの転送が実行されると、システムは転送されたボリューム上で完全な再構築を開始します。この処理にはかなりの時間がかかることがあります。完全な再構築に実際にかかる時間は、再構築処理中に発生するI/Oアクティビティの量、ボリュームグループ内のドライブ数、リビルドの優先度設定、ドライブのパフォーマンスなど、いくつかの要因によって異なります。</block>
   <block id="0053cb3da5cd9357da42c9285388e7c5" category="summary">SANtricity System Managerでは、次の手順でコントローラソフトウェアとファームウェアをアップグレードします。</block>
   <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">コントローラソフトウェアとファームウェアのアップグレードのワークフロー</block>
-  <block id="361638f3fa2ab614b999cb442c3951ea" category="image-alt">SA1130 Flwファームウェアのアップグレード</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">SANtricity System Managerでは、次の手順でAutoSupport 機能を設定します。</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">AutoSupport 機能のワークフロー</block>
   <block id="fa1ad6ca18787ce10b28e8361e9f1ad1" category="paragraph">System Managerでは、次の手順でAutoSupport 機能を設定します。</block>
-  <block id="3bd2ffe663bb769bb020a0e8f968a73a" category="image-alt">sam1130 FlwはASUPセットアップをサポートしています</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">AutoSupport メンテナンス期間を無効にして、エラーイベント発生時に自動でチケットが作成されるようにします。AutoSupport メンテナンス期間を無効にすると、問題 がある場合にストレージアレイはAutoSupport を使用してサポートケースをオープンします。</block>
   <block id="ccc1efeb0dcf8c187a812dfc3c4f8ac1" category="doc">AutoSupport メンテナンス期間を無効にします</block>
   <block id="0da69218a13ebfac913ebb21ce1861f6" category="list-text">[* AutoSupport メンテナンス期間を無効にする*]を選択します。</block>
@@ -602,10 +591,8 @@
   <block id="6b82b68ee8e8a0e879e030cb59f06c65" category="list-text">アップグレードするファイルを選択すると、ファイルの名前とサイズが表示されます。</block>
   <block id="b4d85d3d8454e416a479e3769d949502" category="list-text">*オプション：*アップグレードするSANtricity OSソフトウェアファイルを選択した場合、*ファイルを今すぐ転送するが、アップグレードしない（後でアップグレードをアクティブ化する）*チェックボックスをオンにして、ファイルをコントローラに転送することができます。</block>
   <block id="ea05f78407f270e18e03bc081fe2f071" category="paragraph">アップグレード前の健常性チェックの間は処理をキャンセルできますが、転送またはアクティブ化の実行中はキャンセルできません。</block>
-  <block id="46b89af2910d7de7887ff8b8413a9c3c" category="summary">AutoSupport 機能は、テクニカルサポートへのAutoSupport ディスパッチの配信にHTTPS、HTTP、SMTPのプロトコルをサポートしています。</block>
   <block id="bc878a19fc67131e8323da1e755255c2" category="doc">AutoSupport 機能の配信方法を設定するにはどうすればよいですか？</block>
   <block id="3419a57dc78279b5f8f98de3be93468b" category="list-text">*オプション：設定テストを実行する場合。* AutoSupport システムがテストディスパッチを受信したときに確認が送信されるEメールアドレス。</block>
-  <block id="e35d3866f0babedb61a0f1ba9102cafd" category="doc">SANtricity システムマネージャ 11.7</block>
   <block id="86a5e8630ff2e8e28a803ee84068ba6d" category="summary">誤配線状態からリカバリするための修正措置が実行されたことをコントローラに通知できます。</block>
   <block id="78806e8c631b37f7ad8cf035c7be2eac" category="doc">ドライブポートを再度有効にします</block>
   <block id="fb3b0604ba7738bb6c94dfbfcd5c4174" category="list-text">ドライブポートを再度有効にする*を選択し、処理を確定します。</block>
@@ -933,9 +920,7 @@
   <block id="f42ab20723d88e6ffea883aa8f45d665" category="summary">System Managerでは、次の手順でSnapshotイメージとSnapshotボリュームを作成します。</block>
   <block id="b4dcc45d10b6e6d4ae1dc448b727db43" category="doc">SnapshotイメージとSnapshotボリュームを作成するためのワークフロー</block>
   <block id="a97efe42ec88f5615739c5ebf0085fd8" category="section-title">Snapshotイメージの作成ワークフロー</block>
-  <block id="ef8bf440f203714f31690f3269f2a3be" category="image-alt">sam1130 Flwスナップショットはssイメージを作成します</block>
   <block id="bb41f61d9b53608a25e359fed048aa2f" category="section-title">Snapshotボリュームの作成ワークフロー</block>
-  <block id="12da876cc8c4d30e71fe2566936ae1bc" category="image-alt">sam1130 Flwスナップショットはssボリュームを作成します</block>
   <block id="c104faa4e49e8bffe70f2b9aac16e76f" category="summary">ストレージアレイとデータサーバの間の接続を定義するホストとホストクラスタを設定できます。</block>
   <block id="cd811d42b4b9e088e08c83bbb519cbf3" category="doc">ホストとホストクラスタの概要</block>
   <block id="2db1b7a20809af794fad4aa6fe91958b" category="section-title">ホストおよびホストクラスタとは何ですか？</block>
@@ -969,7 +954,6 @@
   <block id="2d14e3e7721fd1f9209015ea0e5f0a3d" category="doc">Snapshotボリューム</block>
   <block id="65ecf2a2337dcf0c18a07aebad2467c3" category="paragraph">作成したSnapshotボリュームは、____トク ミシユリ_onl_yまたは_read-write accessible _として指定できます。</block>
   <block id="6fae9866cf5b41c3c43499004314830d" category="paragraph">読み取り専用のSnapshotボリュームを作成する場合、リザーブ容量を追加する必要はありません。読み書き可能Snapshotボリュームを作成する場合は、リザーブ容量を追加して書き込みアクセスを許可する必要があります。</block>
-  <block id="0826f71e74c63bde050daa130916d6c1" category="image-alt">SA1130 DWGスナップショットボリュームの概要</block>
   <block id="9532d122b8f06dcd16ac244c1dc2cf91" category="paragraph">^1基本ボリューム；^2^ホスト；^3^読み取り専用Snapshotボリューム；^4^読み取り/書き込みSnapshotボリューム；^5^リザーブ容量</block>
   <block id="0119bd5e8a06e57edb9b364c59ac94ab" category="summary">SSDドライブでは、その容量の一部が未割り当ての場合に寿命が長くなり、最大書き込みパフォーマンスが向上します。</block>
   <block id="f220b79cc4513584ba7d4bae43c90357" category="doc">プールの最適化容量とは何ですか？</block>
@@ -1284,7 +1268,6 @@
   <block id="0f5df647ca5dab4ee03a26732709068f" category="list-text">プールで使用できる最大ボリューム数は、ストレージシステムのモデルによって異なります。</block>
   <block id="4c54c92d3510c01a7395053d83e94ed9" category="list-text">2、048ボリューム（EF600およびE5700シリーズ）</block>
   <block id="aff83888aa4f8769518fc32e759fbbe3" category="list-text">1、024ボリューム（EF300）</block>
-  <block id="bbacc09876e48d4a13adc409b0903156" category="list-text">512ボリューム（E2800シリーズ）</block>
   <block id="05b93f6f166f69fe87a016a1bfa75578" category="list-text">プールまたはボリュームグループに含まれているドライブがいずれもセキュリティ対応ドライブの場合、セキュリティ対応ドライブの暗号化機能を引き続き使用するには、セキュリティ対応のドライブだけを追加します。</block>
   <block id="3cebaa2c5445065ae59be02b02aebe90" category="paragraph">セキュリティ対応ドライブには、Full Disk Encryption（FDE）ドライブと連邦情報処理標準（FIPS）ドライブがあります。</block>
   <block id="f62b6a7943693e0c4263ed7095ad9c21" category="paragraph">プールに一度に追加できるドライブは最大60本です。ボリュームグループに一度に追加できるドライブは最大2本です。最大数を超えるドライブを追加する必要がある場合は、手順 を繰り返します。（プールにはストレージシステムの上限を超えるドライブを含めることはできません）。</block>
@@ -1534,7 +1517,6 @@
   <block id="cb3a5458bc09e67d6ef6ce205d17d738" category="paragraph">a_base volume_は、Snapshotイメージのソースとして使用されるボリュームです。シックボリュームまたはシンボリュームをベースボリュームとして使用できます。ベースボリュームはプールまたはボリュームグループに配置できます。</block>
   <block id="1720719bd157b93b853ddc78630f4791" category="paragraph">ベースボリュームのSnapshotを作成するために、インスタントイメージをいつでも作成できます。また、Snapshotの定期的なスケジュールを定義することでプロセスを自動化することもできます。</block>
   <block id="60d9df749d5dab9aa5752ca06b11d535" category="paragraph">次の図は、Snapshotオブジェクトとベースボリュームの関係を示しています。</block>
-  <block id="3c42e408027c4d66c652218a672a0fe9" category="image-alt">SA1130 DWGスナップショットイメージの概要</block>
   <block id="949c7d49ab9f67bc9d5777be798b8db7" category="paragraph">^1基本ボリューム；^2^グループ内のSnapshotオブジェクト（イメージおよびリザーブ容量）；^3^ Snapshotグループのリザーブ容量。</block>
   <block id="1e6dcc27b41dd29b57867b26a6a96089" category="section-title">リザーブ容量とSnapshotグループ</block>
   <block id="26ec84fa5045ca48c0f10d38ca70a090" category="paragraph">System Managerでは、Snapshotイメージを_ Snapshotグループ_に編成します。System Managerは、Snapshotグループの確立時に、グループのSnapshotイメージを保持し、追加のSnapshotに対する以降の変更を追跡するために、Associated _reserved capacity _を自動的に作成します。</block>
@@ -1558,7 +1540,6 @@
   <block id="dc5cedd32cc74ed1dd3f0b48fe2065c3" category="paragraph">予約済み容量は* Pools &amp; Volume Groups *から変更できます。編集するプールを選択します。[設定の表示/編集]をクリックし、[*設定*]タブを選択します。</block>
   <block id="5f1d6366c7ffd99ff1b7c5f05e692914" category="paragraph">予約済み容量はプール内の複数のドライブに分散されますが、予約するときはドライブ数で指定します。</block>
   <block id="46c0ce9f7787b7e7378014c3a3284d40" category="summary">次の図に、ホストアクセスの設定方法を示します。</block>
-  <block id="5b21f20110107659dd5875988b3409f2" category="image-alt">sam1130 Flwホストはホストを作成します</block>
   <block id="122f46bed4564e906a8313a3e36d3a7f" category="summary">選択したボリュームグループに1つ以上の空き容量領域がある可能性があります。空き容量領域は、ボリュームを削除した場合や、ボリュームの作成時に使用可能なすべての空き容量を使用しなかった場合に発生する空き容量です。</block>
   <block id="829adcf34027420aed066d1231af1c87" category="doc">ボリュームグループにボリュームの作成に十分な空き容量があるにもかかわらず、容量の過剰割り当てエラーが表示されるのはなぜですか？</block>
   <block id="5d3f0d326f2cb1c02cf46b35d7f72e22" category="paragraph">1つ以上の空き容量領域があるボリュームグループでボリュームを作成する場合、ボリュームの容量はそのボリュームグループ内で最も大きい空き容量領域以内に制限されます。たとえば、ボリュームグループに合計15GiBの空き容量があり、最も大きい空き容量領域が10GiBであるとすると、作成できるボリュームのサイズは最大10GiBです。</block>
@@ -3367,7 +3348,6 @@
   <block id="ba2db905416fb6910e44524f99d5d8c1" category="doc">シンボリュームを監視する</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">SANtricity System Managerでは、次の手順でボリュームを作成します。</block>
   <block id="26eaac99fa3741d6e7305e93cad51def" category="paragraph">System Managerでは、次の手順でボリュームを作成します。</block>
-  <block id="8774cdb9b7bf373fd360b697dfc73074" category="image-alt">sam1130 Flwボリュームが作成されます</block>
   <block id="fc6b23d453184949603cbf22152f962e" category="summary">既存のSnapshot整合性グループに新しいメンバーボリュームを追加できます。新しいメンバーボリュームを追加する場合、そのメンバーボリュームの容量もリザーブする必要があります。</block>
   <block id="01b0c179dae25a98bc7821b695a8f95c" category="doc">Snapshot整合性グループにメンバーボリュームを追加します</block>
   <block id="a96fdc91a370dc452506e02ceb89f9b7" category="list-text">メンバーボリュームが最適lである必要があります。</block>
@@ -3702,14 +3682,12 @@
   <block id="c256ddae26373a7f962ae46e150c1562" category="list-text">* Snapshot整合性グループのロールバック*。1つ以上のボリュームのロールバックに使用できます。</block>
   <block id="29012892288d1b7c8f199a16332574cb" category="paragraph">ロールバック中は、グループ内のすべてのSnapshotイメージがSnapshot機能によって保持されます。また、I/O処理に必要な場合は、このプロセス中にホストからベースボリュームにアクセスできます。</block>
   <block id="de283d7a9098bcc219049cc5e14d0cc8" category="paragraph">ロールバックが起動すると、バックグラウンドプロセスによってベースボリュームの論理ブロックアドレス（LBA）が検索され、リストア対象となるcopy-on-writeデータがロールバックSnapshotイメージから検出されます。ベースボリュームは読み取りと書き込みのためにホストからアクセス可能であり、以前に書き込まれたすべてのデータをただちに使用できるため、リザーブ容量ボリュームにはロールバック処理中のすべての変更を格納できるだけの十分な容量が必要です。データ転送は、ロールバックが完了するまでバックグラウンド処理として続行されます。</block>
-  <block id="5daf01f3f17796b27d7771d6cb582f2c" category="image-alt">sam1130 DWGスナップショットのロールバックの概要</block>
   <block id="743f86d79c37270dc505fe437c1f1c6c" category="paragraph">^1基本ボリューム；^2^グループ内のSnapshotオブジェクト；^3^ Snapshotグループのリザーブ容量</block>
   <block id="b351750a3483384d9ab2a934dc160e1e" category="summary">ストレージをプロビジョニングするには、ストレージアレイで使用するハードディスクドライブ（HDD）またはソリッドステートディスク（SSD）ドライブを含むプールまたはボリュームグループを作成します。</block>
   <block id="b2a1cbc18a64861cce318c44b2aa52f9" category="paragraph">物理ハードウェアは、データを整理して簡単に取得できるように、論理コンポーネントにプロビジョニングされます。次の2種類のグループ化がサポートされています。</block>
   <block id="283176e6feb211f8532b2c7c9263cd08" category="list-text">プール</block>
   <block id="90b66a5ef079dd6fe113e4666b593730" category="list-text">RAIDボリュームグループ</block>
   <block id="6b4c11beddbb9d9050898c59e3a7253a" category="paragraph">プールとボリュームグループは、ストレージアレイ内の最上位のストレージ単位であり、ドライブの容量を管理可能な区分に分割します。これらの論理区分内に、データが格納される個々のボリュームまたはLUNがあります。次の図に、この概念を示します。</block>
-  <block id="bde5bcac86e6435e52adb5ab2ea9b873" category="image-alt">sam1130 DWGボリュームは、構造プールとボリュームグループをドライブします</block>
   <block id="102f77a09364193fdbcfe0eb0664ecdb" category="paragraph">^1 ^ホストLUN；^2^ボリューム；^3^ボリュームグループまたはプール；^4^ HDDまたはSSDドライブ</block>
   <block id="9bb34d4088b730e51b652e6baa391ce1" category="paragraph">ストレージシステムを導入したら、まず次の処理を実行して使用可能なドライブ容量をさまざまなホストに提供します。</block>
   <block id="161f7520d335e2bd5a9c12746d44848c" category="list-text">十分な容量のプールまたはボリュームグループを作成しています</block>
@@ -3780,7 +3758,6 @@
   <block id="cf1d844a7c0925859af01a6a7723042e" category="paragraph">Snapshotが作成されると、Snapshot機能はイメージデータを次のように格納します。</block>
   <block id="4d597b8796cba4c28f3bbfe445110674" category="list-text">Snapshotイメージが作成された時点では、Snapshotイメージはベースボリュームと完全に一致します。Snapshot機能はcopy-on-writeテクノロジを使用します。Snapshotの作成後、ベースボリューム上のブロックまたはブロックセットに対して最初の書き込みが行われると、新しいデータをベースボリュームに書き込む前に元のデータがリザーブ容量にコピーされます。</block>
   <block id="9dacefe95d818773369a9797ff2a929a" category="list-text">以降のSnapshotには変更されたデータブロックのみが含まれます。ベースボリュームのデータが上書きされる前に、Snapshot機能はcopy-on-writeテクノロジを使用して影響を受けるセクターの必要なイメージをSnapshotのリザーブ容量に保存します。</block>
-  <block id="1886962b4901912e6cd5b15cf8ec8801" category="image-alt">sam1130 DWGスナップショットCoWの概要</block>
   <block id="939b092d6e7a8a3b4a205c55c9e2ae72" category="paragraph">^1基本ボリューム（物理ディスク容量）；^2^スナップショット（論理ディスク容量）；^3^予約容量（物理ディスク容量）</block>
   <block id="d47ce171ec06ec6f652ca0dd7e6f39ae" category="list-text">リザーブ容量には、ベースボリューム上でSnapshotの作成後に変更された部分の元のデータブロックと、変更を追跡するためのインデックスが保存されます。一般に、リザーブ容量のデフォルトサイズはベースボリュームの40%です。（リザーブ容量が足りない場合は拡張できます）。</block>
   <block id="4049e112b53e70c18a06540b7b2c149e" category="list-text">Snapshotイメージは、タイムスタンプに基づいて特定の順序で格納されます。手動で削除できるのは、ベースボリュームの最も古いSnapshotイメージのみです。</block>
@@ -3817,7 +3794,6 @@
   <block id="0df2c1ef0ce0fbcc26d3b077b4376a4c" category="paragraph">ベースボリュームのSnapshotを自動的に作成する場合は、スケジュールを作成できます。たとえば、毎月第1土曜日の午前0時にSnapshotイメージを作成するスケジュールを定義できます。任意の日時を指定することもできます。1つのスケジュールにつき最大32個のSnapshotに達すると、スケジュールされたSnapshotを一時停止して追加のリザーブ容量を作成したり、Snapshotを削除したりできます。Snapshotは手動で削除することも、削除プロセスを自動化することもできます。Snapshotイメージが削除されたあとは、追加のリザーブ容量を再利用できます。</block>
   <block id="2698e3159f430fff009f6ab0419d150a" category="paragraph">Snapshot整合性グループは、複数のボリュームで同時にSnapshotイメージが作成されるようにする場合に作成します。Snapshotイメージの操作は、Snapshot整合性グループに対してまとめて実行されます。たとえば、タイムスタンプが同じすべてのボリュームの同期されたSnapshotのスケジュールを設定できます。Snapshot整合グループは、あるボリュームにログを格納するデータベースアプリケーションや別のボリュームにあるデータベースファイルなど、複数のボリュームにまたがるアプリケーションに最適です。</block>
   <block id="17963740167151a850181d7e3b2adbf4" category="paragraph">Snapshot整合性グループに含まれるボリュームはメンバーボリュームと呼ばれます。ボリュームを整合性グループに追加すると、System Managerはそのメンバーボリュームに対応する新しいリザーブ容量を自動的に作成します。各メンバーボリュームのSnapshotイメージを自動的に作成するスケジュールを定義できます。</block>
-  <block id="6e72b0870329f5e5695688a38e389963" category="image-alt">SA1130 DWGスナップショットコンシステンシグループの概要</block>
   <block id="6e30b92634e631be134cb29b1703e5d9" category="paragraph">^1リザーブ容量；^2^メンバーボリューム；^3^整合グループSnapshotイメージ</block>
   <block id="1d4472085ff5c57f99260a8d83a61773" category="summary">ボリュームを削除する一般的な状況としては、作成したボリュームのパラメータや容量に誤りがあった場合、ストレージ構成のニーズを満たさなくなった場合、バックアップやアプリケーションのテストに必要なくなったSnapshotイメージがある場合などがあります。</block>
   <block id="2a5d42c6975b7c52552f8b0c2c053b53" category="doc">ボリュームを削除します</block>
@@ -3952,38 +3928,23 @@
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">SANtricity システムマネージャ</block>
   <block id="12491fe4846acc1919e62f4155149b40" category="paragraph">System Manager は Web ベースの管理ソフトウェアで、各コントローラに組み込まれています。ユーザインターフェイスにアクセスするには、ブラウザでコントローラの IP アドレスを指定します。セットアップウィザードを使用してシステムを設定できます。</block>
   <block id="e6f420d96363bcc9439b0954a152e61f" category="paragraph">System Manager には、次のようなさまざまな管理機能があります。</block>
-  <block id="37e0eabe0db7567f83a15c51cfc7f62b" category="paragraph"><block ref="61a24b2f3f51ec993b798d3c93abc9a9" category="inline-image-macro-rx" type="image"></block> * パフォーマンス *</block>
   <block id="49ef72f729cb2500435ef1d7e5672053" category="paragraph">I/O レイテンシ、 IOPS 、 CPU 利用率、スループットなど、最大 30 日分のパフォーマンスデータを表示します。</block>
-  <block id="d077770f6c426b33d25496bb584152ca" category="paragraph"><block ref="2b8e9400dd2a90490b7f2301bce6baac" category="inline-image-macro-rx" type="image"></block> * ストレージ *</block>
   <block id="987074589fc47a7aa68d608c3464d41a" category="paragraph">プールまたはボリュームグループを使用してストレージをプロビジョニングし、アプリケーションワークロードを作成</block>
-  <block id="ef25e758b013c77d331d54b5a937ca65" category="paragraph"><block ref="e82b0a1e1e2827556ee65463ed3047a4" category="inline-image-macro-rx" type="image"></block> * データ保護 *</block>
   <block id="ec407aec27145b4ff02c44781ce9e135" category="paragraph">Snapshot 、ボリュームコピー、リモートミラーリングを使用してバックアップやディザスタリカバリを実行できます。</block>
-  <block id="980c8bebfcdb099cc91097e43759f417" category="paragraph"><block ref="1cfcec4b7f25019c12aee363ce7c9444" category="inline-image-macro-rx" type="image"></block> * ハードウェア *</block>
   <block id="3a6878cac28e93bf631464503ea3e934" category="paragraph">コンポーネントのステータスを確認し、ホットスペアドライブの割り当てなど、コンポーネントに関連するいくつかの機能を実行します。</block>
-  <block id="f5c518a85015755d3396b4026585e075" category="paragraph"><block ref="7ff49474879db117ddc1b65a56fce106" category="inline-image-macro-rx" type="image"></block> * アラート *</block>
   <block id="ddd62c374f39f4ab4e5a47f8712f1c7f" category="paragraph">ストレージアレイで発生する重要なイベントを管理者に通知します。アラートは E メール、 SNMP トラップ、 syslog を通じて送信できます。</block>
-  <block id="298faae53f1ac6f667f02b9eb9f5db62" category="paragraph"><block ref="8b3d1866c22370963ba5ee92059dde1f" category="inline-image-macro-rx" type="image"></block> * アクセス管理 *</block>
   <block id="1647e643a86377bf1183456ade80f147" category="paragraph">ユーザ認証を設定し、ユーザがシステムにログインする際に割り当てられたクレデンシャルの入力を求めます。</block>
-  <block id="2181e90bce3fbba0064bba8979a73785" category="paragraph"><block ref="d7bb0967f8390bbd248bce2a64a154c4" category="inline-image-macro-rx" type="image"></block> * システム設定 *</block>
   <block id="ad036b77d0c0303ed4cd8909da482696" category="paragraph">SSD キャッシュや自動ロードバランシングなど、その他のシステムパフォーマンス機能を設定します。</block>
-  <block id="977cf952b67f04593161910be13ac423" category="paragraph"><block ref="a6a7b63c3e542eaa546ff069c241f75d" category="inline-image-macro-rx" type="image"></block> * サポート *</block>
   <block id="7c7aa1597492a4229481882a3be47b81" category="paragraph">診断データを表示し、アップグレードを管理します。また、ストレージアレイの健常性を監視してテクニカルサポートに自動ディスパッチを送信する AutoSupport を設定します。</block>
   <block id="93abfbfe31ac8cb67502c94e622ee8a8" category="section-title">SANtricity Unified Manager の略</block>
   <block id="290c862dcfeff5fefc8c9503485b46d9" category="paragraph">Unified Manager は、 Web Services Proxy とともに管理サーバにインストールされます。Unified Manager にアクセスするには、ブラウザを開き、 Web Services Proxy がインストールされているサーバの URL を入力します。</block>
   <block id="95a409858014f8a46f2239633494b0b4" category="paragraph">Unified Manager には、次のようなさまざまな管理機能があります。</block>
-  <block id="ec15df373d2a99afa12ee47320a598ac" category="paragraph"><block ref="8d2259f5e99b0f05cb6565c4c3a18f32" category="inline-image-macro-rx" type="image"></block> * ストレージ・アレイの検出 *</block>
   <block id="7f20599d33f14ce1ff7f9b70fb7b73be" category="paragraph">組織のネットワークで管理対象のストレージアレイを検索および追加します。1 つのページですべてのストレージアレイのステータスを確認できます。</block>
-  <block id="b75af52589fb3d827f749ab189b58662" category="paragraph"><block ref="89f556efb7ed2a89297bc4c82965906f" category="inline-image-macro-rx" type="image"></block> * 起動 *</block>
   <block id="3fde700fe4a62ce78ac2289fa0a5e46e" category="paragraph">System Manager のインスタンスを開き、特定のストレージアレイについての管理操作を個別に実行します。</block>
-  <block id="b6be670ccf213da236af7b81b5bfb3d2" category="paragraph"><block ref="3dffbd5d736527ecd51b6202313920e7" category="inline-image-macro-rx" type="image"></block> * 設定のインポート *</block>
   <block id="6343245a56c402a6a6194f98f3011e1c" category="paragraph">アラート、 AutoSupport 、ディレクトリサービスなどの設定を 1 つのストレージアレイから複数のアレイに一括でインポートします。</block>
-  <block id="6e9864cc30786ef1aa9a05b3bcbc1f77" category="paragraph"><block ref="e82b0a1e1e2827556ee65463ed3047a4" category="inline-image-macro-rx" type="image"></block> * ミラーリング *</block>
   <block id="b3bcc5301536e767580cb521ea8a9168" category="paragraph">2 つのストレージアレイ間の非同期ミラーペアまたは同期ミラーペアを設定します。</block>
-  <block id="1bd3e4c10268fad374e342773a76ebe0" category="paragraph"><block ref="264f7a0a6d9627b72e0ff1e75bd955e1" category="inline-image-macro-rx" type="image"></block> * グループの管理 *</block>
   <block id="909ebd15eb02815e3d2963dd3edfd9f6" category="paragraph">ストレージアレイを管理しやすくするためにグループにまとめます。</block>
-  <block id="5e703a60d5f347789f2f9c95020041b5" category="paragraph"><block ref="948395b1a333fdf5713da99763fb9a82" category="inline-image-macro-rx" type="image"></block> * アップグレードセンター *</block>
   <block id="cadb34e6a3f0b6fef8b65f6b4f83fbd0" category="paragraph">複数のストレージアレイの SANtricity OS ソフトウェアをアップグレードします。</block>
-  <block id="f2debbf0049c9d07a452e7b8f7f8512e" category="paragraph"><block ref="8e9d51ab38f1ad95d1018824362f594b" category="inline-image-macro-rx" type="image"></block> * 証明書 *</block>
   <block id="d4d6f2044fbcdd351a413cab792d2d9c" category="paragraph">複数のストレージアレイについて、証明書署名要求（ CSR ）の作成、証明書のインポート、既存の証明書の管理を行います。</block>
   <block id="121cd24338b48712373ab15539868779" category="paragraph">ユーザ認証を設定し、ユーザが Unified Manager にログインする際に割り当てられたクレデンシャルの入力を求めます。</block>
   <block id="2267c82d1c72461539c8aaceb4073489" category="summary">SANtricity には、いくつかの種類のブラウザとオペレーティングシステムからアクセスできます。</block>
@@ -4130,12 +4091,8 @@
   <block id="8f67973007158337346584551b093be8" category="section-title">アイコン</block>
   <block id="e59947ee445b1ddcb1b36e841922561d" category="paragraph">System Managerでは、以下のアイコンを使用してストレージアレイおよびそのコンポーネントのステータスが表示されます。</block>
   <block id="817434295a673aed431435658b65d9a7" category="cell">をクリックします。</block>
-  <block id="01e8bed710d86952b17238abf140b392" category="paragraph"><block ref="01e8bed710d86952b17238abf140b392" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2a8cf90c6e77913075cd51690f39183a" category="paragraph"><block ref="2a8cf90c6e77913075cd51690f39183a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e6219fae40a2fc5edda2e7d21837dd11" category="paragraph">最適でないか、障害が発生しています</block>
-  <block id="8b05fcd83de6b1289431c5434b4cd1e4" category="paragraph"><block ref="8b05fcd83de6b1289431c5434b4cd1e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4e5e827d704d9b760ff1b338673a2c44" category="paragraph">対応または修正が必要です</block>
-  <block id="026dd9b4d4767dc7f75d65a335da0f71" category="paragraph"><block ref="026dd9b4d4767dc7f75d65a335da0f71" category="inline-image-macro-rx" type="image"></block></block>
   <block id="764a2caff05993fc0d3eff5de7b225e9" category="paragraph">注意</block>
   <block id="dab64d84f160f1ff1bd1dd11088b61a0" category="paragraph">これらのアイコンはSystem Managerのさまざまな場所に表示されます。</block>
   <block id="9acd806686dd3234546b1446cdcad0cf" category="list-text">ホームページの通知領域には、失敗したアイコンとメッセージが表示されます。</block>
@@ -4203,7 +4160,6 @@
   <block id="38fdb2afc81bf942bd8dcf4208c5c967" category="summary">AutoSupport 配信方法の設定タスクにアクセスするには、サポート&gt;サポートセンターに移動し、AutoSupport タブをクリックします。</block>
   <block id="6d145ddbb4b39d9e20b73518a03bfc4f" category="doc">AutoSupport の配信方法を設定するにはどうすればよいですか？</block>
   <block id="cf5b6a8826dfd986bff2c61c9d14df01" category="paragraph">AutoSupport 配信方法の設定タスクにアクセスするには、[Support]（サポートセンター）のメニューに移動し、AutoSupport *]タブをクリックします。</block>
-  <block id="825eddaaf48335688b9a86b051806f05" category="paragraph">サポートされているプロトコルは、HTTPS、HTTP、およびSMTPです。</block>
   <block id="96830edba2b0d20286d9e38c88f41f0d" category="summary">ハードウェアの検証ダイアログボックスにすべてのハードウェアコンポーネントが表示されない場合は、ドライブシェルフが正しく接続されていないか、ストレージアレイに互換性のないシェルフが設置されている可能性があります。</block>
   <block id="7a3b89af3b52c55d1f98c18d0f91e932" category="doc">すべてのハードウェアコンポーネントが表示されない場合はどうすればよいですか？</block>
   <block id="9446f92493638ff7ef1aefbdc315bdba" category="paragraph">ハードウェアの検証ダイアログボックスにすべてのハードウェアコンポーネントが表示されない場合は、ドライブシェルフが正しく接続されていないか、ストレージアレイに互換性のないシェルフが設置されている可能性があります。</block>
@@ -5261,7 +5217,6 @@
   <block id="4a3f946a5d672e0a36f3e78716d815a7" category="list-text"><block ref="4a3f946a5d672e0a36f3e78716d815a7" category="inline-link-macro-rx"></block></block>
   <block id="a337faa8760a049e5437a14ea0619b53" category="list-text"><block ref="a337faa8760a049e5437a14ea0619b53" category="inline-link-macro-rx"></block></block>
   <block id="6a2301b626e4d2e000e656bf3239c947" category="section-title">署名済み証明書の設定方法</block>
-  <block id="df65c54a9ec9667bc0283e4aa5ad95a8" category="paragraph">最初にSystem Managerから署名要求を生成し、そのファイルをCAに送信します。CAから返された証明書ファイルは、System Managerを使用してインポートします。</block>
   <block id="07b1dc7e9a4e74582b63a798f9592f98" category="inline-link-macro">コントローラのCA署名証明書を使用する</block>
   <block id="f30ef1f319818cb54733253443bc4c9a" category="list-text"><block ref="f30ef1f319818cb54733253443bc4c9a" category="inline-link-macro-rx"></block></block>
   <block id="b84682914017c3d657e4a2beaf4a9364" category="paragraph">証明書に関連するタスクの詳細：</block>
@@ -5470,7 +5425,6 @@
   <block id="3f6d42cf2d512ac8441835feb20c48df" category="list-text">[*キーサーバへの接続*]で、次のフィールドに情報を入力します。</block>
   <block id="e65d78a6632588942ba1e69897ae60a7" category="list-text">*キー管理ポート番号*-- KMIP通信に使用するポート番号を入力しますキー管理サーバの通信に使用される最も一般的なポート番号は5696です。</block>
   <block id="faad8801d23a759f57b190bd195325f9" category="list-text">*クライアント証明書の選択*--最初の*参照*ボタンをクリックして、ストレージアレイのコントローラの証明書ファイルを選択します。</block>
-  <block id="d73961b3c6886eb5d1b015bae50f3a4a" category="list-text">*キー管理サーバのサーバ証明書を選択*-- 2番目の*参照*ボタンをクリックして、キー管理サーバの証明書ファイルを選択します。キー管理サーバのルート証明書、中間証明書、またはサーバ証明書を選択できます。</block>
   <block id="eb604adb06c0a47290c764815fd73159" category="list-text">「*キーの作成/バックアップ*」では、セキュリティ上の理由からバックアップ・キーを作成できます。</block>
   <block id="41706d1306339861705180e1825b2d9a" category="list-text">（推奨）バックアップキーを作成する場合は、チェックボックスを選択したまま、パスフレーズを入力して確認します。8~32文字で指定し、以下の文字をそれぞれ1文字以上含める必要があります。</block>
   <block id="f8ee8cbfde4d939a5c373bfa17a57502" category="paragraph">*後で使用するために、必ず入力を記録しておいてください*。セキュリティ有効ドライブをストレージアレイから移動する必要がある場合、ドライブデータのロックを解除するためにパスフレーズが必要になります。</block>
@@ -5587,7 +5541,6 @@
   <block id="a3fabc0295d776f26ee76798f5e7eecb" category="paragraph">最初に証明書署名要求（CSR）ファイルを生成し、そのCSRを使用して、キー管理サーバで信頼されている認証局（CA）から署名済みのクライアント証明書を要求する必要があります。ダウンロードしたCSRファイルを使用して、キー管理サーバからクライアント証明書を作成およびダウンロードすることもできます。クライアント証明書は、キー管理サーバが自身のKey Management Interoperability Protocol（KMIP）要求を信頼できるよう、ストレージアレイのコントローラを検証します。</block>
   <block id="ee0d5d80706867e431096b62cf3c5e2a" category="list-text">[キー管理]タブで、[*Complete CSR*]を選択します。</block>
   <block id="2c80d3f5692bbddd81bc83e7968f3387" category="list-text">次の情報を入力します。</block>
-  <block id="06c5a678917197769985500f5054ae39" category="list-text">*共通名*--証明書ファイルに表示されるストレージアレイ名など、このCSRを識別する名前。</block>
   <block id="f234c3b12dba6166f60bac9c363f54cc" category="list-text">*組織*--会社または組織の正式名称。Inc.やCorp.などの接尾辞も含めて入力してください</block>
   <block id="69ac902b56aa279ba18618b1e6a972ae" category="list-text">*組織単位（オプション）*--証明書を処理している組織の部門。</block>
   <block id="f6a05afe4452342eb12066e4700bb036" category="list-text">*市区町村*--組織の所在地である市区町村。</block>
@@ -5595,7 +5548,6 @@
   <block id="0210750d504f0f88eaea1d4942a4d806" category="list-text">*国のISOコード*--組織の所在地である米国などの2桁のISO（国際標準化機構）コード。</block>
   <block id="66d341303806090714534fa743e9440f" category="list-text">[ * ダウンロード ] をクリックします。</block>
   <block id="9dfff367ea9fa51616b265ac4bd0119b" category="paragraph">CSRファイルがローカルシステムに保存されます。</block>
-  <block id="edc5180b61662fc1be0150bd95564929" category="list-text">キー管理サーバで信頼されているCAから署名済みのクライアント証明書を要求します。</block>
   <block id="d95c637329a7d9e40b647471e048deee" category="list-text">クライアント証明書がある場合は、に進みます <block ref="1f166b6040d8c5a8d4907b35fb575af0" category="inline-xref-macro-rx"></block>。</block>
   <block id="1603855b9dc7554f1873c8164f918999" category="section-title">手順2：キー管理サーバの証明書をインポートする</block>
   <block id="06c92dfc8076f143375a4f0958f180b2" category="paragraph">次の手順として、ストレージアレイとキー管理サーバの間の認証用に証明書をインポートします。証明書には2種類あります。クライアント証明書はストレージアレイのコントローラを検証し、キー管理サーバ証明書はサーバを検証します。コントローラのクライアント証明書ファイルとキー管理サーバのサーバ証明書ファイルの両方をロードする必要があります。</block>
@@ -5727,7 +5679,6 @@
   <block id="90370a06b1b0571260a5d4550fabea3e" category="paragraph">シングルサインオン（SSO）は、1組のログインクレデンシャルで複数のアプリケーションにアクセスできるようにする認証サービスです。</block>
   <block id="e78959343eccc5753e5a6f69aa17e104" category="summary">外部キー管理では、ストレージアレイとキー管理サーバが互いに信頼関係を確立できるように、2つのエンティティの間の認証用に2種類の証明書をインポートします。</block>
   <block id="6bb1fc83f2153c8e3dfddfa5b556e792" category="doc">外部キー管理を行うためにSystem Managerにアップロードする必要がある証明書を確認するにはどうすればよいですか？</block>
-  <block id="21e61b7b89892f01884cffafc8c86a9c" category="paragraph">クライアント証明書は、キー管理サーバが自身のKey Management Interoperability Protocol（KMIP）要求を信頼できるよう、ストレージアレイのコントローラを検証します。クライアント証明書を取得するには、System Managerを使用してストレージアレイのCSRを作成します。その後、CSRをキー管理サーバにアップロードし、そこからクライアント証明書を生成できます。クライアント証明書を作成したら、System Managerにアクセスしているホストにそのファイルをコピーします。</block>
   <block id="9a4b083823a7c4b7786c0328f4a16e2a" category="paragraph">キー管理サーバ証明書は、ストレージアレイがサーバのIPアドレスを信頼できるよう、キー管理サーバを検証します。キー管理サーバからサーバ証明書ファイルを取得し、System Managerにアクセスするホストにそのファイルをコピーします。</block>
   <block id="6157bc386a497dae1351826703950791" category="summary">監査ログを外部のsyslogサーバにアーカイブする場合は、そのサーバとストレージアレイの間の通信を設定できます。接続が確立されると、監査ログは自動的にsyslogサーバに保存されます。</block>
   <block id="fbd96b600f11b3fec9c557321a19ac3a" category="list-text">サーバがセキュアなプロトコル（TLSなど）を使用している場合は、ローカルシステムに認証局（CA）証明書が配置されている必要があります。CA証明書がWebサイトの所有者を識別することにより、サーバとクライアントの間のセキュアな接続が確立さ</block>
@@ -5867,7 +5818,6 @@
   <block id="99bed7435706b520211df81bb3b833a1" category="paragraph">イベントを削除します</block>
   <block id="60adb5288f069f5a086cbcc875d0a4de" category="paragraph">「*削除*」を選択すると、ページから古いイベントを削除できるダイアログボックスが開きます。</block>
   <block id="9ae16d2c540a91f8169558ca56bb3a04" category="paragraph">列の表示/非表示を切り替えます</block>
-  <block id="0e5d8c77f64632d6949531c8786c2900" category="paragraph">[列を表示/非表示（* Show/Hide * Column）]アイコンをクリックします <block ref="95c275e82bb68f68f11a49bb34fc239c" category="inline-image-macro-rx" type="image"></block> をクリックして、表に表示する列を追加で選択します。その他の列には、次のもの</block>
   <block id="6e66f767222daf4c98d3fd8561adf903" category="list-text">*メソッド*-- HTTPメソッド(POST、GET、削除など)。</block>
   <block id="456081dd7e5bfc028ec74475ecf409dc" category="list-text">*CLIコマンド実行*-- Secure CLI要求に対して実行されるCLIコマンド(文法)。</block>
   <block id="add1a37a426dc01049dba656a8fa8040" category="list-text">*CLI戻りステータス*-- CLIステータスコードまたはクライアントからの入力ファイルの要求。</block>
@@ -5876,9 +5826,7 @@
   <block id="2528c31e6b6280eb42137297929a7451" category="list-text">*SSHセッションPID *-- SSHセッションのプロセスID番号。</block>
   <block id="15b03dee8798d7cc05994bcb42c31990" category="list-text">*SSHセッション期間*--ユーザーがログインした秒数</block>
   <block id="510092612bcfdb2a09c7d8e879ec8e66" category="paragraph">列フィルタを切り替えます</block>
-  <block id="43608f7f822df1b119fb2f0861752bd0" category="paragraph">[切り替え*（Toggle *）]アイコンをクリックします <block ref="c402d3ee0f3c0bdb6f04456c65416b8c" category="inline-image-macro-rx" type="image"></block> をクリックすると、各列のフィルタリングフィールドが開きます。表示されるイベントを特定の文字で限定するには、列フィールドにその文字を入力します。フィルタリングフィールドを閉じるには、アイコンをもう一度クリックします。</block>
   <block id="f15903c586acb55eceb753ce38b6087a" category="paragraph">変更を元に戻します</block>
-  <block id="8c9faddbe29c40713a51a79ae22b6638" category="paragraph">[元に戻す（Undo）]アイコンをクリックします <block ref="d42b2137813f4ca554a17d50c37e9052" category="inline-image-macro-rx" type="image"></block> をクリックすると、テーブルがデフォルトの設定に戻ります。</block>
   <block id="0095a9fa74d1713e43e370a7d7846224" category="paragraph">エクスポート（Export）</block>
   <block id="4f5e62673b0e203ba449b54b3ace5662" category="paragraph">[*Export*]をクリックして、テーブルデータをカンマ区切り値（CSV）ファイルに保存します。</block>
   <block id="9ceb93faef5937a33e4566da3d171696" category="summary">管理者は、ストレージアレイに組み込みのロールベースアクセス制御（RBAC）機能をアクセス管理に使用できます。これらの機能のことをローカルユーザロールと呼びます。</block>
@@ -6236,7 +6184,6 @@
   <block id="ef8d855bb7b58eb13043f4697e633ed7" category="paragraph">コントローラの特定のネットワークポートでDHCPアドレスを取得できない場合はデフォルトのIPアドレスに戻りますが、これには最大3分かかることがあります。デフォルトのIPアドレスは次のとおりです。</block>
   <block id="9dfbd8583086cdf43b044681817c83b8" category="paragraph">IPアドレスを割り当てる場合は、次の点に</block>
   <block id="798c19059ebbea34781e20114772d59b" category="list-text">コントローラのポート2はカスタマーサポート用に予約します。デフォルトのネットワーク設定（DHCPが有効な状態）を変更しないでください。</block>
-  <block id="85a4e345071b9de80c11ae8d3fd44e88" category="list-text">E2800およびE5700のコントローラに静的IPアドレスを設定するには、SANtricity System Managerを使用します。E2700およびE5600のコントローラに静的IPアドレスを設定するには、SANtricity Storage Managerを使用します。静的IPアドレスの設定後は、リンク停止/稼働イベントが発生しても設定が維持されます。</block>
   <block id="631b8d83c6e19c17a00f6c995f136262" category="list-text">DHCPを使用してコントローラのIPアドレスを割り当てるには、DHCP要求を処理できるネットワークにコントローラを接続します。永続的なDHCPリースを使用してください。</block>
   <block id="f0e8cd249b17b159ca6279e1cb49e5e9" category="paragraph">デフォルトアドレスは、リンク停止イベントが発生すると失われます。コントローラのネットワークポートがDHCPを使用するように設定されている場合、ケーブルの差し込み、リブート、電源の再投入など、リンク稼働イベントのたびにDHCPアドレスの取得が試行されます。DHCPの試行に失敗した場合は、そのポートのデフォルトの静的IPアドレスが使用されます。</block>
   <block id="792ded78d469f211955781b362cd4a6c" category="summary">消去オプションを使用して、未割り当てのドライブをシステムから取り外す準備を行うことができます。この手順 はデータを完全に削除し、データを二度と読み取れないようにします。</block>
@@ -6638,7 +6585,6 @@
   <block id="4ed64ffa453acd1e92cad2b525ddd94d" category="paragraph">ドライブを使用停止する前に、ドライブの内容をコピーしてください。構成によっては、ドライブの内容を最初にコピーしないと、関連付けられているプールまたはボリュームグループ上のすべてのデータまたはデータの冗長性が失われる可能性があります。</block>
   <block id="586a5fdfcf92424d25f4b58cb312a532" category="paragraph">コピーオプションを使用すると、再構築よりも短時間でドライブをリカバリできるため、コピー処理中に別のドライブで障害が発生した場合のボリューム障害の可能性を低減できます。</block>
   <block id="6f82e7d1008117fb1e1468824b0d9db5" category="list-text">ドライブを使用停止することを確定します。</block>
-  <block id="d2f974d9ab2113f12a2d0912cae37b90" category="paragraph">ドライブを使用停止したら、30秒以上待ってから取り外します。</block>
   <block id="0508fea0fd0869ac2976db620ff91876" category="summary">一部の問題に対処するには、コントローラのリセット（リブート）が必要です。コントローラに物理的にアクセスできない場合でも、コントローラをリセットできます。</block>
   <block id="27c04524901764e9aff1f2a6d71b4680" category="doc">コントローラをリセット（リブート）します</block>
   <block id="75d907cbe87bbf0b6955b5a1da1c4aac" category="paragraph">一部の問題に対処するには、コントローラのリセット（リブート）が必要です。コントローラに物理的にアクセスできない場合でも、コントローラをリセットできます。</block>
@@ -7297,7 +7243,6 @@
   <block id="6170b65edb40652e04798be920528567" category="section-title">非同期ミラーリングセッション</block>
   <block id="8fb8d903583a69bb2f7020ec24064893" category="paragraph">非同期ミラーリングでは、特定の時点におけるプライマリボリュームの状態がキャプチャされ、前回のイメージキャプチャ以降に変更されたデータだけがコピーされます。非同期ミラーリングを使用すると、プライマリサイトはただちに更新でき、セカンダリサイトは帯域幅に余裕があれば更新できます。情報はキャッシュされ、あとでネットワークリソースが利用可能になったときに送信されます。</block>
   <block id="19b4bf527badd2db202d583a7bd23286" category="paragraph">アクティブな非同期ミラーリングセッションには主に4つの手順があります。</block>
-  <block id="834ed858f1d2c14d8ca3f69c81de7838" category="image-alt">SAM 1130 DWG非同期ミラーリングセッション</block>
   <block id="ea9236b1994427da950532ff1ad6ef63" category="list-text">最初にプライマリボリュームのストレージアレイで書き込み処理が実行されます。</block>
   <block id="1d85d4b999c9737e96173727c950997a" category="list-text">処理のステータスがホストに返されます。</block>
   <block id="97a3671a1a3bdec2619c9f84dcfc1dcb" category="list-text">プライマリボリューム上のすべての変更がログに記録され、追跡されます。</block>
@@ -7367,7 +7312,6 @@
   <block id="319b2d26a90387684f3c24237199e24b" category="paragraph">同期ミラー関係は、別々のストレージアレイ上のプライマリボリュームとセカンダリボリュームで構成されます。プライマリボリュームを含むストレージアレイは、通常はプライマリサイトにあり、アクティブなホストに対応します。セカンダリボリュームを含むストレージアレイは、通常はセカンダリサイトにあり、データのレプリカを格納します。セカンダリボリュームは、プライマリサイトで完全な停電、火災、ハードウェア障害が発生した場合など、プライマリボリュームのストレージアレイが使用できなくなった場合に使用されます。</block>
   <block id="bac2102a46114a248b31ff7c2e7e56c2" category="section-title">同期ミラーリングセッション</block>
   <block id="e4c003afc3c4a600e425c7d2982c0d93" category="paragraph">同期ミラーリングの構成プロセスには、ボリュームをペアとして構成することが含まれます。一方のストレージアレイのプライマリボリュームともう一方のストレージアレイのセカンダリボリュームで構成されるミラーペアを作成したら、同期ミラーリングを開始できます。同期ミラーリングは以下のように実行されます。</block>
-  <block id="15714a7f65c412a1a54f4b69a47c096c" category="image-alt">SAM 1130 DWG同期ミラーリングセッション</block>
   <block id="c491a6ad496588e8cb371fbe517667c6" category="list-text">ホストから書き込みが行われます。</block>
   <block id="f2ad71987234926489fc2a10094f0944" category="list-text">書き込みはプライマリボリュームにコミットされ、リモートシステムに伝播され、セカンダリボリュームにコミットされます。</block>
   <block id="a6f33bea3a5bd85d4e296fd8831b9442" category="list-text">プライマリボリュームのストレージアレイからホストsystem_after_both書き込み処理が完了したときに、I/O完了メッセージが送信されます。</block>
@@ -7738,7 +7682,6 @@
   <block id="d2bf6cf91aae10964c05d43904777ddb" category="inline-link-macro">E シリーズハードウェアの概要</block>
   <block id="44a8ec873829128f9b89b9d2c859f732" category="list-text">次のいずれかのアレイモデルが表示されます。 <block ref="c0f66568c89b9be3af203a2398d42823" category="inline-link-macro-rx"></block></block>
   <block id="ec9c3d4f5f976606ad31387919bcffe8" category="list-text">Webブラウザを使用したネットワーク管理クライアントへのアウトオブバンド接続。</block>
-  <block id="cc4ea9328a87a53029aea9916fc48ae4" category="image-alt">Single 2800</block>
   <block id="64ad5e94a74bf470353e65e27ff90866" category="summary">ストレージリソースを管理するには、まずネットワーク内のストレージアレイを検出する必要があります。</block>
   <block id="8c9906e9b68ac5cbea9bc2e08121491c" category="doc">検出の概要</block>
   <block id="9fd8f65508c1b98e29663a63890ced71" category="section-title">アレイの検出方法</block>
@@ -8012,7 +7955,6 @@
   <block id="fb725bcb780ec50b3fff7a6fcb931c54" category="list-text"><block ref="fb725bcb780ec50b3fff7a6fcb931c54" category="inline-link-rx"></block></block>
   <block id="effd8867201555d9e878c25e6ac1c734" category="inline-link">EMW（E2700、E5600 / EF560）のヘルプ</block>
   <block id="a0b75c365d2e51a35e74402a2c9667cf" category="list-text"><block ref="a0b75c365d2e51a35e74402a2c9667cf" category="inline-link-rx"></block></block>
-  <block id="90e8ac6688c66ac3fc81de93ba27235a" category="summary">SANtricity システムマネージャとUnified Manager</block>
   <block id="8a26f9c1af451d8775363a647445ae49" category="summary">アクセス管理では、SANtricity Unified Managerでユーザ認証を設定することができます。</block>
   <block id="d1cc45589c0084f17d53b1764541acde" category="paragraph">アクセス管理では、Unified Managerでユーザ認証を設定することができます。</block>
   <block id="41315c44be734de1ba40d7ac966572b8" category="paragraph">次の認証方式を使用できます。</block>
@@ -8212,28 +8154,6 @@
   <block id="b744a434fdacfde74eb6273b780f3b83" category="list-text"><block ref="b744a434fdacfde74eb6273b780f3b83" category="inline-link-macro-rx"></block></block>
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
-  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Managerインターフェイス</block>
-  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Managerインターフェイス</block>
-  <block id="e95315401141b931451e32ea694b6d92" category="sidebar">SANtricity ソフトウェアのデータシート</block>
-  <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">Eシリーズのドキュメント</block>
-  <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">Eシリーズシステムのドキュメント</block>
-  <block id="06e7eb701ce804d46bd8c25ab5b395f0" category="sidebar">コマンドラインインターフェイス（ CLI ）リファレンス</block>
-  <block id="8a47162648ffc3ff0cf630036d36f2d6" category="sidebar">SANtricity API</block>
-  <block id="92850b78bdc20bc1df259e9c026d1744" category="sidebar">Web サービス</block>
-  <block id="e925850eee1d36b9012f5887fe6721da" category="sidebar">vCenter 向けプラグイン</block>
-  <block id="b7d21f40b4f600f6d264e065bfc2ef45" category="sidebar">SMI-S プロバイダ</block>
-  <block id="4ad3ac8fcad31828ef9c8a0f6e3612d1" category="sidebar">パフォーマンスアプリケーションのアドオン</block>
-  <block id="340bde3d9f9d57bac1774835ed1203cb" category="sidebar">Splunk Enterprise 向けの SANtricity アプリです</block>
-  <block id="a9a95fb3e7f3ac479078e21d446253a8" category="sidebar">SANtricity 向け Splunk テクノロジアドオン</block>
-  <block id="bb86e40f418d08cd8d7bbeec844246ad" category="sidebar">パフォーマンス分析ツールと E シリーズ + Grafana</block>
-  <block id="78108480bada28e46fb2b45e1f33a4db" category="sidebar">E シリーズ Performance Analyzer に関するブログ</block>
-  <block id="958ff83dbf7d0240d610b02eded954cd" category="sidebar">SE 向け</block>
-  <block id="181d79a3e511e53525d453c7bfd76b1e" category="sidebar">E シリーズ / EF シリーズテクニカルトレーニング（ログインが必要）</block>
-  <block id="5274593635fc2a3195c85eefd393e7e6" category="sidebar">EF300 の概要と技術的な詳細 ( ログインが必要 )</block>
-  <block id="b7d6c20f0b34e1cb56ec4c6629bb1d94" category="sidebar">NetApp Fusion （ログインが必要）</block>
-  <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">ツールのサポート</block>
-  <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ （ログインが必要）</block>
-  <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E シリーズ / SANtricity のダウンロード（ログインが必要）</block>
   <block id="b191593bc602ff910417b3f85bb496ca" category="sidebar">セットアップ</block>
   <block id="ba21515573d28200c3e7eae976812e72" category="sidebar">管理パスワードを設定</block>
   <block id="80b15187c4cef3c7dc145b12616a0357" category="sidebar">アレイを検出します</block>
@@ -8570,13 +8490,11 @@
   <block id="f033ab37c30201f73f142449d037028d" category="paragraph">8時80分</block>
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
   <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
-  <block id="1cf9153cf0b1bfe4b703e41b4509763e" category="summary">SANtricity Unified Manager 6</block>
   <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">アレイに組み込まれたSecurity Assertion Markup Language（SAML）機能を使用してアクセス管理を設定している場合、ユーザのSSOセッションが最大数に達したときにセッションタイムアウトが発生することがあります。これは、System Managerのセッションタイムアウトより前に発生することがあります。</block>
   <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">同期ミラーリングは、EF600またはEF300ストレージシステムでは使用できません。</block>
   <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">同期ミラーリングはEF600またはEF300ストレージアレイでは使用できません。</block>
   <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">EF600およびEF300コントローラでは、非同期ミラーペアのプライマリボリュームとセカンダリボリュームのプロトコル、トレイレベル、セグメントサイズ、セキュリティタイプ、およびRAIDレベルが同じである必要があります。対応していない非同期ミラーペアは、使用可能なボリュームのリストに表示されません。</block>
   <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">この機能は、EF600またはEF300ストレージシステムの同期ミラーリングでは使用できません。</block>
-  <block id="050910c569f1cb9044086ceee795e2f8" category="doc">SANtricity System Manager 11.8</block>
   <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">同期ミラーリングはEF300またはEF600ストレージアレイでは使用できません。</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">はい^3^</block>
   <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^ターゲットボリュームの容量はシンボリュームのレポート容量以上である必要があります。</block>
@@ -8588,7 +8506,6 @@
   <block id="9e6fb4471f8afc13fc87e4a085a3babb" category="admonition">ボリューム設定の変更の実行中は、一部の処理を使用できない可能性があります</block>
   <block id="fd00f06afe550f6cfb8040bc3764c3f4" category="list-text">SSDキャッシュは、データをキャッシュに配置してシステムの全体的なパフォーマンスを向上できる場合にのみ使用されます。</block>
   <block id="b2e269fa841df7525e9667d4a248ed9a" category="paragraph">SSDで読み取り専用のキャッシュを有効にする場合は、このオプションを選択します。</block>
-  <block id="319de80f12a723289ba5d8bb3571caa8" category="doc">System Manager 11.8による単一アレイの管理</block>
   <block id="4da78d22f1b5a94a1c267b5b01354570" category="summary">必要に応じて、ストレージアレイのサービスプロバイダメタデータをエクスポートし、そのファイルをアイデンティティプロバイダ（IdP）システムに再インポートできます。</block>
   <block id="59fbf0c7e58119d248743b557a6f57e7" category="paragraph">このタスクでは、コントローラからメタデータをエクスポートします。このメタデータは、IdPがコントローラとの信頼関係を確立し、認証要求を処理するために必要です。このファイルには、コントローラのドメイン名やIPアドレスなど、IdPで要求の送信に使用できる情報が含まれています。</block>
   <block id="7050266ad7bc7b4de9d49fa25a2e04d7" category="list-text">[エクスポート]*をクリックして、メタデータファイルをローカルシステムに保存します。</block>
@@ -8623,52 +8540,16 @@
   <block id="8fced73c31ae4d255ba5500bd98c8d76" category="paragraph">Security Assertion Markup Language（SAML）は、2つのエンティティ間の認証と許可に使用されるXMLベースの標準規格です。SAMLは、ユーザの認証時に複数の項目（パスワードとフィンガープリントなど）を求める多要素認証に対応しています。ストレージアレイに組み込まれているSAML機能は、アイデンティティのアサーション、認証、および許可に関してSAML2.0に準拠しています。</block>
   <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">SAMLが有効になっている間は権限を削除しないように注意してください。削除すると、Unified Managerにアクセスできなくなります。</block>
   <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">フィールド内をクリックし、属性にマッピングするストレージアレイのロールを選択します。このグループに含めるロールを個別に選択する必要があります。MonitorロールはUnified Managerにログインするために必要な他のロールと一緒に指定する必要があります。少なくとも1つのグループにSecurity Adminロールを割り当てる必要があります。各ロールの権限は次のとおりです。</block>
-  <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80の新機能</block>
-  <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">バージョン11.80の新機能</block>
-  <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">強化されたボリュームパリティスキャン</block>
-  <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">REST APIまたはCLIを使用して、ボリュームパリティスキャンをバックグラウンドプロセスとして起動できるようになりました。パリティスキャンは、スキャン処理を完了するために必要な限りバックグラウンドで実行されます。スキャン処理は、コントローラのリブートおよびフェイルオーバー処理の間も維持されます。</block>
-  <block id="b9a173a4a6a7b368e4cd4fde15879372" category="paragraph">Unified ManagerでのSAMLのサポート</block>
-  <block id="dc505118a542aefe283668ff60bf1633" category="paragraph">Unified ManagerでSecurity Assertion Markup Language（SAML）がサポートされるようになりました。Unified ManagerでSAMLを有効にすると、ユーザインターフェイスを操作するために、アイデンティティプロバイダに対して多要素認証を使用する必要があります。Unified ManagerでSAMLを有効にすると、IdPを経由せずにREST APIを使用して要求を認証することはできません。</block>
-  <block id="43a12a9165de329d02388e8e878f20ca" category="paragraph">自動構成機能</block>
-  <block id="ef6a29a31f9fb810c02278975cd6cd39" category="paragraph">アレイの初期セットアップ時に自動構成機能で使用するボリュームのブロックサイズパラメータを設定できるようになりました。この機能は、CLIでは「blocksize」パラメータとしてのみ使用できます。</block>
-  <block id="017965dda869643c4d632c18853208a2" category="paragraph">コントローラファームウェアの暗号化署名</block>
-  <block id="f9b1cc083f0890b8fff17a83a0360f47" category="paragraph">コントローラファームウェアは暗号署名されています。シグネチャは、初回ダウンロード時および各コントローラのブート時にチェックされます。エンドユーザへの影響はありません。署名は、CAによって発行された拡張検証証明書によって裏付けられます。</block>
-  <block id="637780f8b22fe474ce198ef516dd7d6f" category="paragraph">ドライブファームウェアの暗号化署名</block>
-  <block id="a8c2ab0b22d074faf460a15d6648a3e7" category="paragraph">ドライブファームウェアは暗号署名されています。署名は最初のダウンロード時にチェックされ、CAによって発行された拡張検証証明書によってバックアップされます。ドライブファームウェアの内容がZIPファイルとして提供されるようになりました。ZIPファイルには、署名済みの古いファームウェアと署名済みの新しいファームウェアが含まれています。ユーザーは、ターゲットシステムで実行されているコードのリリースバージョンに基づいて適切なファイルを選択する必要があります。</block>
-  <block id="3c65e3636111523111e45a49a80face3" category="paragraph">外部キーサーバ管理-証明書のキーサイズ</block>
-  <block id="406774a2d5f641d5566318ef7eb88033" category="paragraph">新しいデフォルトの証明書キーサイズは3072ビット（2048から）です。最大4096ビットのキーサイズがサポートされます。デフォルト以外のキーサイズをサポートするには、NVSRAMビットを変更する必要があります。</block>
-  <block id="9a1c6a24950fba4eade84dc9952a77dd" category="paragraph">System ManagerとUnified Managerは、ブラウザの最小要件を満たしていないと起動しません。</block>
-  <block id="09a616fc9241625ec6003f2da3c0cff9" category="paragraph">System ManagerまたはUnified Managerを起動するには、少なくともバージョンのブラウザが必要です。サポートされる最小バージョンは次のとおりです。</block>
-  <block id="6cdb1f943282038a6441359c5c88f812" category="list-text">Firefoxの最小バージョン80</block>
-  <block id="773389fc57f11b52dbe4c622adc51a3b" category="list-text">Chrome最小バージョン89</block>
-  <block id="2ac44b1b15c0ea01cbb812f5c6cf9b1e" category="list-text">エッジ最小バージョン90</block>
-  <block id="3534d42485ecd595e87248bbb2c6fb1b" category="list-text">Safariの最小バージョン14</block>
-  <block id="bb4e0c918ecc32e775e010bc9f6eff59" category="paragraph">FIPS 140-3 NVMe SSDドライブのサポート</block>
-  <block id="eca8285b82a553e8fbe1803bfdeced3e" category="paragraph">NetApp認定のFIPS 140-3 NVMe SSDドライブがサポートされるようになりました。これらは、ストレージアレイプロファイルおよびSystem Managerで正しく識別されます。</block>
-  <block id="fb8aaa0a635cb460bcf41d9303fca571" category="paragraph">EF300およびEF600でのSSD読み取りキャッシュのサポート</block>
-  <block id="14d2cdc88c041d0313b6c691ee27338f" category="paragraph">SAS拡張構成のHDDを使用するEF300およびEF600コントローラでSSD読み取りキャッシュがサポートされるようになりました。</block>
-  <block id="8a00db0b101a6946d9caffef7979d8c4" category="paragraph">EF300およびEF600でのiSCSIとFibre Channelの非同期リモートミラーリングのサポート</block>
-  <block id="8ea61c04007ddc1b703be50a63a1b3ee" category="paragraph">NVMeおよびSASベースのボリュームを使用するEF300およびEF600コントローラで非同期リモートミラーリング（ARVM）がサポートされるようになりました。</block>
-  <block id="d99731ca7d5c671cea9d584100385335" category="paragraph">ベーストレイにドライブを搭載しないEF300およびEF600をサポート</block>
-  <block id="65c8d39e2e73985a77ff0c8a61c30608" category="paragraph">ベーストレイにNVMeドライブを搭載しないEF300およびEF600コントローラ構成がサポートされるようになりました。</block>
-  <block id="248bd33e5007bccdca76e9d0459df99c" category="paragraph">すべてのプラットフォームでUSBポートが無効になっている</block>
-  <block id="3ea3899fea5b85d0cc4b9b3bf6291d51" category="paragraph">すべてのプラットフォームでUSBポートが無効になりました。</block>
   <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">ポート識別子</block>
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">アラート対象のイベントが発生するたびに、イベントモニタからsyslogサーバにアラートが送信されます。監査ログのsyslog設定の詳細については、を参照してください。<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">設定が完了すると、以降すべての監査ログがsyslogサーバに送信されるようになります。以前のログは転送されません。アラートのsyslog設定の詳細については、を参照してください。<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
-  <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricityソフトウェアのドキュメント11.80</block>
-  <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">Unified Manager 6による複数のアレイの管理</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager --ネットワーク内の個 々 のストレージアレイの管理に使用するWebベースのインターフェイス。</block>
   <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600およびEF300ストレージアレイでは、同期ミラーリングまたはシンボリュームはサポートされません。</block>
-  <block id="c717e9da08557631ce6af0db7935e837" category="paragraph">Unified Manager は、ドメイン全体の管理に使用する Web ベースのソフトウェアです。EシリーズおよびEFシリーズの新しいすべてのアレイ（E2800、EF280、EF300、E5700、EF570など）のステータスをまとめて確認できます。 EF600に最適です。選択したストレージアレイに対してバッチ処理を実行することもできます。</block>
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">ドライブ、コントローラ、およびコンポーネントのビュー</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">シェルフ前面ビューと背面ビューを切り替えるには、右端から*[ドライブ]*または*[コントローラとコンポーネント]*を選択します（表示されるリンクは現在のビューによって異なります）。[ドライブ]ビューには、ドライブと空のドライブベイが表示されます。[コントローラとコンポーネント]*ビューには、コントローラ、IOM（ESM）モジュール、電源/ファンキャニスター、または空のコントローラベイが表示されます。ページの下部で、*[すべてのドライブを表示]*を選択することもできます。</block>
-  <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8のドキュメント</block>
-  <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">次の表に、SANtricity System Manager 11.8の新機能を示します。</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80リリースノート</block>
   <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
   <block id="14061ba06990b3ff80809e75e9263c4d" category="admonition">システムを11.80.x以降にアップグレードするには、SANtricity OS 11.70.5が実行されている必要があります。</block>
-  <block id="df9168fd1981b1464f7c0d38b2207c30" category="paragraph"><block ref="df9168fd1981b1464f7c0d38b2207c30" category="inline-link-rx"></block></block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -8677,32 +8558,7 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
-  <block id="deab0ae4ee87e153ce15a1182bf91617" category="paragraph">キーサイズの選択値は次のとおりです。</block>
-  <block id="92c9cd6ce879c70c929395d49566fca3" category="list-text">デフォルト= 0</block>
-  <block id="91d66be9b353d488558a2fc87f866263" category="list-text">長さ2048 = 1</block>
-  <block id="60f95b27118522aa50716737cc578a39" category="list-text">長さ3072 = 2</block>
-  <block id="46b1448aca55d48c198834955f8e6b6a" category="list-text">長さ4096 = 3</block>
-  <block id="80b104f769b8bbef5d4b39ffe2efd816" category="paragraph">SMcliを使用してキーサイズを4096に変更するには、次の手順を実行します。</block>
-  <block id="7f1a49e026d5afc827c5a0184af45fe0" category="paragraph"><block ref="53d52ccae7296ad3c52a5cc86881da22" prefix="" category="inline-code"></block><block ref="52baead6a42dd6532784cc33f69d8d94" prefix=" " category="inline-code"></block></block>
-  <block id="ad7ca0ac2dce92cb837bf072818ce860" category="paragraph">キーのサイズを調べます。</block>
-  <block id="dc8f09004148c8853414b2fe2f19c503" category="paragraph"><block ref="5dfae352b2be729a121ea8024c5dc604" prefix="" category="inline-code"></block></block>
-  <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">ディスクプールの改善</block>
-  <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">11.80以降を実行しているコントローラで作成されたディスクプールは、_Version 0_poolsではなく_Version 1_poolsになります。_Version 1_diskプールが存在する場合、ダウングレード操作は制限されます。</block>
-  <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">ストレージアレイプロファイルでディスクプールのバージョンを特定できます。</block>
-  <block id="e7ad6d421850c5694f6bdc4321ac3507" category="sidebar">SANtricity 11.80ソフトウェアを使用すると、データ分析、ビデオ監視、バックアップとリカバリなどの高ワークロードアプリケーション向けに、EシリーズのハイブリッドフラッシュおよびEFシリーズのオールフラッシュアレイのパフォーマンスと利用率を最大限に高めることができます。</block>
   <block id="f9c81137922296691747f3cff9a92105" category="list-text"><block ref="f9c81137922296691747f3cff9a92105" category="inline-link-rx"></block></block>
-  <block id="07ed085acfb4f203e63427ca4494f863" category="section-title">バージョン11.80.1の新機能</block>
-  <block id="65e6e49c7d0840983a93edfc482a4650" category="paragraph"><block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix="" category="inline-code"></block> パラメータ</block>
-  <block id="2b21cb9530a6c7704a66108d45c196a1" category="inline-link">ダウンロード可能なSMcliコマンドラインパラメータ</block>
-  <block id="99e522a2649e8eb1047cda09b5e2bbd9" category="paragraph">新しい<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> SMcliでパラメータを使用できるようになりました。この新しいパラメータを使用すると、ストレージアレイに関連付けられているすべてのSCSIネイティブブロックデバイスを検索できます。詳細については、を参照してください<block ref="7e8dc17a50219e17a3bfb2effae73889" category="inline-link-rx"></block>。</block>
-  <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">イーサネットカーネル統計</block>
-  <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link">iSCSI統計パッケージの表示</block>
-  <block id="4f8a241c3cb470ed44d71b0d64d57b80" category="paragraph">System Managerの[iSCSI統計パッケージの表示]ページに、新しい[イーサネットカーネル統計]オプションが追加されました。この新しいオプションを使用すると、iSCSIデバイスのプラットフォームカーネルドライバの統計を表示できます。詳細については、を参照してください<block ref="fa652b493edb0147d8d73c9bf12a908b" category="inline-link-rx"></block>。</block>
-  <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">REST APIエンドポイントを使用してIPアドレスをブロックする機能を追加</block>
-  <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">[Settings]エンドポイントを使用して、特定のIPアドレスをブロックできるようになりました。 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>）。[Settings]エンドポイントで設定すると、ホワイトリストで指定したIPアドレスだけがストレージデバイスと通信できます。この新機能では、IPv4およびIPv6アドレスリストがサポートされます。</block>
-  <block id="85873696abedac8fb70b86eef30b99fe" category="paragraph">vCenterストレージプラグイン</block>
-  <block id="c55dbb17c221990804802e322335dc65" category="paragraph">vCenter Storageプラグインは、Eシリーズ11.80.1リリースとの互換性を考慮して更新されています。</block>
-  <block id="b2fe36d045fcd0262e37faca678d17c8" category="paragraph">Web Services Proxyは、Eシリーズ11.80.1リリースとの互換性を確保するためにバージョン6.1に更新されています。</block>
   <block id="e6d11ff06b4fbf2dfe6c6c9c235884bd" category="paragraph">アクセスボリュームは次のインスタンスで使用されます。</block>
   <block id="ea37b1fb3ab53a251f6e5cadc36a4c25" category="summary">ホストの作成は、ストレージアレイが接続されているホストを認識して、ボリュームへのI/Oアクセスを許可するために必要な手順の1つです。ホストは手動でのみ作成できます。</block>
   <block id="a3cd72e3a5590e7769cb2590ecd015eb" category="doc">ホストの手動作成</block>
@@ -8718,7 +8574,6 @@
   <block id="966b5cc0cd53cc056d0a168b8543c134" category="paragraph">ホストがストレージアレイ内の特定のボリュームにアクセスできるようにする場合は、デフォルトクラスタを使用する_は_しない_選択します。代わりに、ホストポート識別子を対応するホストに関連付ける必要があります。このタスクは、ホスト作成処理中に手動で実行できます。その後、ボリュームを個々のホストまたはホストクラスタに割り当てます。</block>
   <block id="a543598a03d2f4a4c65c995fe07c12e1" category="summary">Host Operating System Typeフィールドには、ホストのオペレーティングシステムが表示されます。推奨されるホストタイプをドロップダウンリストから選択できます。</block>
   <block id="8cb031b774a78de2f6be4db3058da109" category="list-text">オペレーティングシステム固有のユーティリティ（サードパーティベンダーから入手可能）を実行してから、SMcliコマンドを実行します。<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> ボリューム名をホストストレージアレイ名に関連付けるには、次の手順を実行します。</block>
-  <block id="0af3ac37d01c9873f79f927554ff17b2" category="paragraph">SMcliは、SANtricityシステムマネージャから直接使用できます。このダウンロード可能なバージョンのSMcliは、EF600、EF300、E5700、EF570、E2800、 およびEF280コントローラの場合：SANtricity システムマネージャからSMcliをダウンロードするには、* Settings *&gt;* System * and * Add-ons *&gt;* Command Line Interface *を選択します。</block>
   <block id="0ea0a94f9ade478fd556172383edecad" category="admonition">System Managerに表示される統計のタイプは、ストレージアレイで使用可能な統計に基づきます。</block>
   <block id="707d82b79d1a69b9d510d00c5aaf1d9e" category="list-text">*イーサネットカーネル統計*-- iSCSIデバイスのプラットフォームカーネルドライバの統計を提供します。カーネル統計には、TCP/IP統計オプションと同様のネットワークデータが表示されます。ただし、カーネル統計データは、iSCSIハードウェアから直接ではなく、プラットフォームのカーネルドライバから収集されます。</block>
   <block id="32555c4aebeed331e68820e3e0ef23ce" category="list-text">[コントローラとコンポーネント]*タブを選択します。</block>
@@ -8737,12 +8592,109 @@
   <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">リザーブ容量ボリュームは、関連付けられているミラーボリュームと同じドライブタイプを共有する必要があります。</block>
   <block id="bf9f60c11f9080af705719592217436d" category="list-text">リザーブ容量ボリュームをNVMeドライブに作成する場合は、そのミラーボリュームもNVMeドライブに作成する必要があります。</block>
   <block id="402b0811b7e491a20af6474c5296c733" category="list-text">リザーブ容量ボリュームをSASドライブに作成する場合は、そのミラーボリュームもSASドライブに作成する必要があります。</block>
-  <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">バージョン11.80.1R1の新機能</block>
-  <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">新しい自己署名およびCA署名管理証明書のキーサイズが拡張されました。</block>
-  <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity System ManagerおよびUnified Managerアプリケーションの自己署名証明書の管理証明書キーサイズが、2、048ビットから3、072ビットに変更されました。この変更は、SANtricityアプリケーションから新しく生成された自己署名証明書とCA署名証明書に適用されます。キーの長さは固定であり、NVSRAMのデフォルトのキーサイズ定義の影響を受けません。</block>
   <block id="56ef6aeb1657a77ed998f95bff3a67c0" category="paragraph">ARVMを非アクティブ化</block>
   <block id="bb81ad14bd710a498f194a6ac67fea61" category="paragraph">コピーのソースボリュームとターゲットボリュームで、報告されるホストアドレス指定可能/論理ブロックサイズ（セクターサイズ）が同じである必要があります。</block>
   <block id="56ce420df3a94d675f30cc6b382c3082" category="paragraph">報告されるボリュームのブロックサイズは次のとおりです。</block>
-  <block id="6451d4e0b30d3e2a2b45dc3de85ffe6d" category="list-text">*ネイティブブロックサイズ*–ボリュームのブロックサイズは、ドライブのブロックサイズ（512または4K）と同じです。</block>
-  <block id="7de7e0688d2ed2bd02ab78f61c88a723" category="list-text">*エミュレートされた512ブロックサイズ*-ドライブは4Kですが、報告されるブロックサイズは512です。</block>
+  <block id="a5739ed07187fa97fb95b86ca98419fc" category="inline-link">コントローラアップグレードガイド-レガシーコントローラモデル</block>
+  <block id="819e472be532c198f4428448f644516b" category="list-text"><block ref="819e472be532c198f4428448f644516b" category="inline-link-rx"></block></block>
+  <block id="056179e9e794d5023a226430ee4efb8d" category="section-title">SANtricityリリース11.8</block>
+  <block id="d16a613e55f21678f189a2fe147619f8" category="list-text"><block ref="d16a613e55f21678f189a2fe147619f8" category="inline-link-rx"></block></block>
+  <block id="e8b164999d03a57227fb0dc4e31b1f9a" category="list-text"><block ref="e8b164999d03a57227fb0dc4e31b1f9a" category="inline-link-rx"></block></block>
+  <block id="7a2b27b2d95b2db288029dec9f945c50" category="inline-link">11.90リリースノート</block>
+  <block id="a780d55204be966b795f04cc4bf22137" category="list-text"><block ref="a780d55204be966b795f04cc4bf22137" category="inline-link-rx"></block></block>
+  <block id="5e40a8e83b3a3f822534bef7faa8799b" category="paragraph"><block ref="5e40a8e83b3a3f822534bef7faa8799b" category="inline-link-rx"></block></block>
+  <block id="01e0b2ba5ead95d64e3071a148f7dc95" category="paragraph"><block ref="9736d9f6dc9242e38869944fa056dfab" category="inline-image-macro-rx" type="image"></block>*パフォーマンス*</block>
+  <block id="730eaa798c5f8a877db1f1518847a4e4" category="paragraph"><block ref="7671c6425a04efd849fb29c1bc3d6f15" category="inline-image-macro-rx" type="image"></block>*ストレージ*</block>
+  <block id="21a1e68164f738b8be1dae11d5a694b3" category="inline-image-macro">データ保護</block>
+  <block id="48101fc47c99f4be00100bd0e24fa482" category="paragraph"><block ref="cf60c16dfd9a457f7706628c1f3e2cf5" category="inline-image-macro-rx" type="image"></block>*データ保護*</block>
+  <block id="cc3a54aae413901b7935f06eb0747fb4" category="paragraph"><block ref="6b9b5b4553280096034f55188a5b3e0f" category="inline-image-macro-rx" type="image"></block>*ハードウェア*</block>
+  <block id="59cb2f7d30c6e815131b958e5caaa07f" category="paragraph"><block ref="4fb44adb8f67b036fd76de34524b3216" category="inline-image-macro-rx" type="image"></block>*アラート*</block>
+  <block id="5dfe8f7b6636e4f45a5e95a77c0529da" category="paragraph"><block ref="bdb34cfbec72a80b17a14942fe759070" category="inline-image-macro-rx" type="image"></block>*アクセス管理*</block>
+  <block id="e4709a73a287a5f033f5b1b5142cb74d" category="inline-image-macro">システム設定</block>
+  <block id="de8011abde4e4344c82af51912b3ce19" category="paragraph"><block ref="2bce2265bb1e82bb0d0858adf2dafedf" category="inline-image-macro-rx" type="image"></block>*システム設定*</block>
+  <block id="9dcfdd4141be874fb7eb13880a5fd525" category="paragraph"><block ref="1cb7eabea009b4b9cfe98093989eadbf" category="inline-image-macro-rx" type="image"></block>*サポート*</block>
+  <block id="a06a26693ca66f654ff2c2dcecc3e13f" category="paragraph">Unified Manager は、ドメイン全体の管理に使用する Web ベースのソフトウェアです。EシリーズおよびEFシリーズの新しいすべてのアレイ（E4000、E2800、EF280、EF300、E5700、EF570、EF600など）のステータスをまとめて確認できます。選択したストレージアレイに対してバッチ処理を実行することもできます。</block>
+  <block id="bb426997d075117a34b0e82e716e9988" category="inline-image-macro">ストレージアレイの検出</block>
+  <block id="49e4791fdcd34bdf6b59ed172268d67f" category="paragraph"><block ref="9ff56b9b0514866913bcdc835ac16829" category="inline-image-macro-rx" type="image"></block>*ストレージアレイの検出*</block>
+  <block id="9506f0fd0f7f1b07960b15b4c9e68d1a" category="inline-image-macro">キドウ</block>
+  <block id="dd5912f8cf835c33b2a3b61d5e141ff0" category="paragraph"><block ref="59d02cad0b7ca821298861a148459521" category="inline-image-macro-rx" type="image"></block>*発売開始*</block>
+  <block id="352a228c155779f9e34542d5c4e945ce" category="inline-image-macro">設定のインポート</block>
+  <block id="3a7809dfe80b7e55e290a69762b376b0" category="paragraph"><block ref="293657c6f46812024123d05cfacb8f5d" category="inline-image-macro-rx" type="image"></block>*設定のインポート*</block>
+  <block id="e55d5139e241eec51cb53b8725b111ae" category="paragraph"><block ref="1d994cafa90bd8534dce98204298c26f" category="inline-image-macro-rx" type="image"></block>*ミラーリング*</block>
+  <block id="aba9f7d7443652e858969bfc280690b1" category="inline-image-macro">グループの管理</block>
+  <block id="8ab578a8eab9df734659a9bbad8fed32" category="paragraph"><block ref="ed1eedd0a4592b9eb8bd506e1ade1b98" category="inline-image-macro-rx" type="image"></block>*グループの管理*</block>
+  <block id="54f78baeb56f558141400626a8f1d3e3" category="inline-image-macro">アップグレードセンター</block>
+  <block id="0d3ce623d8cdbb3fa0594ad836176dcd" category="paragraph"><block ref="35ec5ccd35af7c00f6a01e92abb155fc" category="inline-image-macro-rx" type="image"></block>*アップグレードセンター*</block>
+  <block id="74d5c3d79c00ee94f3d157db1001315d" category="paragraph"><block ref="8fe9c4eb7bbe7403b10e873dc7e654f9" category="inline-image-macro-rx" type="image"></block>*証明書*</block>
+  <block id="db8b7299d08cc04191bf7a98173078ef" category="list-text">E4000、E2800、およびE5700のコントローラに静的IPアドレスを設定するには、SANtricityシステムマネージャを使用します。E2700およびE5600のコントローラに静的IPアドレスを設定するには、SANtricity Storage Managerを使用します。静的IPアドレスを設定すると、リンクの停止/停止イベントが発生しても設定されたままになります。</block>
+  <block id="42004a862976ffc8afcece88d3ed14b7" category="paragraph">ドライブを使用停止したら、60秒以上待ってから取り外します。</block>
+  <block id="27ed3c2f0cc271f3ffd55cef1621928d" category="doc">SANtricity System Manager 11.9</block>
+  <block id="d85604754e30b3e09626f9f9fdbd8c6f" category="paragraph">サポートされているプロトコルはHTTPSとSMTPです。</block>
+  <block id="ab468c035d308f2a8c552c4d5aac08f7" category="paragraph"><block ref="ab468c035d308f2a8c552c4d5aac08f7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2c792e44ea1f01accfca106a5f980c33" category="paragraph"><block ref="2c792e44ea1f01accfca106a5f980c33" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e3ef647d9c4d52f37e6e8692049489f5" category="paragraph"><block ref="e3ef647d9c4d52f37e6e8692049489f5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae04b8c08989c6922154b7c875f1ed28" category="paragraph"><block ref="ae04b8c08989c6922154b7c875f1ed28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa089d11d37f87ad34ea6d956fa1fae8" category="paragraph">非同期ミラーリングと同期ミラーリングは、SANtricity System Managerを使用して管理できます。</block>
+  <block id="b3ff8e795b3d80ba68cbe1156469a2cb" category="list-text">*秘密鍵ファイルの選択*-必要に応じて、2番目の*[参照]*ボタンをクリックして、ストレージアレイのコントローラ用の秘密鍵ファイルを選択します。</block>
+  <block id="ee01112415d197728f20c99202d37eb2" category="list-text">*キー管理サーバのサーバ証明書を選択*-- 3番目の*[参照]*ボタンをクリックして、キー管理サーバの証明書ファイルを選択します。キー管理サーバのルート証明書、中間証明書、またはサーバ証明書を選択できます。</block>
+  <block id="54c0574306f4d58143114e2e0861640f" category="paragraph">クライアント証明書はストレージアレイのコントローラを検証し、キー管理サーバがKey Management Interoperability Protocol（KMIP）要求を信頼できるようにします。</block>
+  <block id="66093664d0d43a7f4fc3ddbad78f691c" category="paragraph">クライアント証明書を取得するには、System Managerを使用してストレージアレイのCSRを作成します。秘密鍵と公開鍵のペアを使用して、CSRを外部で生成することもできます。</block>
+  <block id="ff58caf5069b4eb4a200d0205926b16c" category="paragraph">その後、CSRをキー管理サーバにアップロードし、そこからクライアント証明書を生成できます。クライアント証明書を入手したら、System Managerにアクセスするホストにそのファイルをコピーします。</block>
+  <block id="5378e651b013c9c6feff8ff6044d166f" category="list-text">また、秘密鍵と公開鍵のペアを使用して、外部で証明書署名要求を生成することもできます。</block>
+  <block id="63a0114594ce428e6c9715084a3200f4" category="paragraph">署名要求は、System Managerから生成することも、秘密鍵と公開鍵のペアを使用して外部から生成することもできます。署名要求がCAに送信され、証明書ファイルが生成されます。CAから証明書ファイルが返されたら、System Managerを使用してインポートします。</block>
+  <block id="69d858803139fe61364ff86d43e771de" category="admonition">秘密鍵と公開鍵のペアによって外部で生成されたCSRファイルは、[外部セキュリティキーの作成]ダイアログを使用してインポートできます。外部生成されたCSRファイルのインポートの詳細については、を参照してください<block ref="699b0ddfb388ee73fa0bfd41ac82336b" category="inline-link-rx"></block>。</block>
+  <block id="29d1ee766954d56ae8238b1059bfafc4" category="list-text">*共通名*--クライアントを識別する名前。一般的には、クライアント証明書の命名規則に関するKMSサーバの要件と共通名の内容を一致させることが一般的です。一般的な名前は、ハンドシェイク中にクライアントの証明書が提示されたときに、KMSがクライアントの証明書を識別するのに役立ちます。</block>
+  <block id="92808c67abdc13e7ad24a7cf2c99f924" category="list-text">キー管理サーバによって信頼されているCAから署名済みクライアント証明書を要求します。</block>
+  <block id="b40c23ca4af2991caf4a498caf524281" category="admonition">キー管理サーバは独自のCAとして機能するため、署名済み証明書を直接生成する機能を備えているのが一般的です。</block>
+  <block id="5582a122966615aecf1a59ee9608f3ed" category="list-text">秘密鍵と公開鍵のペアを使用して外部で証明書ファイルを生成した場合は、*[秘密鍵ファイルの選択]*の横にある*[参照]*ボタンをクリックして、ストレージアレイのコントローラの証明書ファイルを選択します。</block>
+  <block id="6f3c867468bb7d88038060f63957303e" category="inline-image-macro">列の表示/非表示</block>
+  <block id="c8624a2d0591434eb4c7d02347e97100" category="paragraph">[列の表示/非表示（Show/Hide * Column）]アイコンをクリックし<block ref="258072d6c284064dc6fedf3bcab73fc0" category="inline-image-macro-rx" type="image"></block>て、テーブルに表示する追加の列を選択します。追加の列は次のとおりです。</block>
+  <block id="a8875bbe4272c0bdd786cfaaedf77921" category="inline-image-macro">切り替え</block>
+  <block id="18a403c983fe9e6fd1b3f6e2ed1177f8" category="paragraph">[切り替え]アイコンをクリックする<block ref="90b70f76e2d4e07fe074ad83e4b0a4f3" category="inline-image-macro-rx" type="image"></block>と、各列のフィルタリングフィールドが開きます。表示されるイベントを制限するには、列フィールドに文字を入力します。フィルタリングフィールドを閉じるには、アイコンをもう一度クリックします。</block>
+  <block id="1cdc076b28f70afac5fcedadf99fa119" category="inline-image-macro">元に戻す</block>
+  <block id="942c04fb3e852a849078bbedc2c563ad" category="paragraph">[元に戻す（Undo）]アイコンをクリックし<block ref="12a3278132f7a92b9e1a0a36d87097d1" category="inline-image-macro-rx" type="image"></block>て、テーブルをデフォルトの構成に戻します。</block>
+  <block id="649c33cda48fb6cab9b779732e33f798" category="list-text">512（E4000およびE2800シリーズ）</block>
+  <block id="9bfa157f06e0cd4bf23f4d7c3522a973" category="image-alt">Snapshotオブジェクトとベースボリューム</block>
+  <block id="f1683bd5111055cff52f3434b437bc43" category="admonition">デフォルトのメディアスキャン期間は120日に設定されています。</block>
+  <block id="630fb851299f40643b158fbf236a2e8c" category="list-text">*ネイティブブロックサイズ*–ボリュームのブロックサイズは、ドライブのブロックサイズ（512または4K）と同じです。</block>
+  <block id="f6c667584c393a129ba0a1a453306311" category="list-text">*エミュレートされた512ブロックサイズ*-ドライブは4Kですが、報告されるブロックサイズは512です。</block>
+  <block id="478ac1c2fc93cbde8a7f38011e1743e9" category="paragraph">SMcliは、SANtricityシステムマネージャから直接使用できます。このダウンロード可能バージョンのSMcliは、E4000、EF600、EF300、E5700、EF570、E2800、EF280の各コントローラで使用できます。SANtricity システムマネージャからSMcliをダウンロードするには、* Settings *&gt;* System * and * Add-ons *&gt;* Command Line Interface *を選択します。</block>
+  <block id="8372cda02b92707718d83873eed70eff" category="image-alt">プールとボリュームグループの構造</block>
+  <block id="861b7c78b853932749bb7fa53551562a" category="image-alt">Snapshotの概要</block>
+  <block id="454b39575eef78952a66832d854eb9a8" category="paragraph">システムストレージは、SANtricityシステムマネージャを使用して管理できます。</block>
+  <block id="ae002d1d58a31e011d63e5c65fdaab56" category="admonition">SANtricityリモートストレージボリュームは、現在E4000システムではサポートされていません。</block>
+  <block id="9b14c33fdc0efe4872fc1eb7154525a9" category="image-alt">Snapshotのロールバックの概要</block>
+  <block id="2f0854f7b2eefd5175e0f07fb053bd67" category="image-alt">Snapshot整合性グループの概要</block>
+  <block id="499c45c544b6972f515b13489cac00c4" category="image-alt">Snapshotボリュームの概要</block>
+  <block id="21bf9a718f1db52f3473f81edb06fb86" category="image-alt">ホストワークフローの設定</block>
+  <block id="6cb1f4545b0ac1779e5099bf499e2257" category="image-alt">Snapshotイメージの作成ワークフロー</block>
+  <block id="d664803ea5bcb8c4b3e5252c810dd7ae" category="image-alt">Snapshotボリュームの作成ワークフロー</block>
+  <block id="00ae53caaeaab10fa6daf374082ce7c1" category="image-alt">ボリューム作成ワークフロー</block>
+  <block id="8f0db69b076bbcdb3c8760d4e3e98835" category="summary">AutoSupport機能では、テクニカルサポートにディスパッチを配信するためにHTTPSプロトコルとSMTPプロトコルがサポートされます。</block>
+  <block id="f519381eb9350988ee8b5119c9b920f9" category="paragraph">* HTTPSとEメール方式の違い*。SMTPを使用するEメール配信方法は、HTTPS配信方法とは重要な違いがいくつかあります。まず、Eメールではディスパッチのサイズが5MBに制限されるため、ASUPデータ収集の一部はディスパッチされません。次に、AutoSupport OnDemand機能は、HTTPS配信方式でのみ使用できます。</block>
+  <block id="16ecd48fe399a494ac52761b115bd8e9" category="list-text">[HTTPS]を選択した場合は、次のいずれかの配信パラメータを選択します。</block>
+  <block id="0a71943276accb62215252f71d3e55e4" category="list-text">* direct*--このデリバリパラメータはデフォルトで選択されています。このオプションを選択すると、HTTPSプロトコルを使用してテクニカルサポートのデスティネーションシステムに直接接続できます。</block>
+  <block id="22ec79b8668bcaf4a33eed694079e8b1" category="summary">AutoSupport機能では、テクニカルサポートへのAutoSupportディスパッチの配信にHTTPSプロトコルとSMTPプロトコルがサポートされます。</block>
+  <block id="dd0ab6e042458857b9d76ede295a637e" category="image-alt">アップグレードファームウェアの場所</block>
+  <block id="da31bdea5b9fdfa2bf077a70c49a1d66" category="image-alt">AutoSupportワークフロー</block>
+  <block id="0ceabfdc68af97f8a0c7393faf135de8" category="image-alt">コントローラのソフトウェアとファームウェアのアップグレードワークフロー</block>
+  <block id="ece14770330886bc2d41238acbfe48aa" category="summary">SANtricity Unified Manager 7</block>
+  <block id="3cd6f83d0a9a8330c077dfc98649ab8a" category="paragraph">SANtricity Unified Managerで使用する設定を行うことができます。</block>
+  <block id="0be150145c60047c6667d2bfbc4085d9" category="image-alt">Webブラウザを使用したネットワーク管理クライアントへのアウトオブバンド接続。</block>
+  <block id="3ea0f7b73838fea25dfb4ff6da50f43a" category="doc">SANtricity OS 11.90の新機能</block>
+  <block id="e6575254726c9c37843a559ef72300fd" category="paragraph">次の表に、SANtricity System Manager 11.9の新機能を示します。</block>
+  <block id="a9ce161f80e5e22b8b95f7f9ca5f67ed" category="section-title">バージョン11.90の新機能</block>
+  <block id="0d49c2d5fa6db45e427d9c6ca6839ac7" category="paragraph">新しいストレージシステムモデル– E4000</block>
+  <block id="f79f2d98fb02cd051399681f3101fbb8" category="paragraph">このリリースでは、E4000低コストストレージシステムが導入されています。E4000は、コントローラごとに12本と60本のドライブと1つのホストインターフェイスカード（HIC）をサポートします。初期リリースでは、サポートされるホストインターフェイスカードにはiSCSIとFibre Channelがあります。E4000ストレージシステムとその他のEシリーズストレージシステムは、Unified Managerで表示および管理できます。</block>
+  <block id="0d05e82ffcabd1bd655a97084285e90d" category="paragraph">Dynamic Disk Poolsの容量の拡張</block>
+  <block id="372fa8b3c2d2e776e7b288a3b8bbd7da" category="paragraph">プール内の個 々 のドライブの容量が23TBを超えるたびに、Dynamic Disk Pools（DDP）の容量が12PBに拡張されました。個 々 のドライブの容量が23TB未満の場合、DDPの容量は6PBになります。</block>
+  <block id="47366514f1926a1d18e6b7ee9660d7f5" category="paragraph">デフォルトのメディアスキャン設定の拡張</block>
+  <block id="9b21ddbc5c4f3b0196cbd88ac900622e" category="paragraph">デフォルトのメディアスキャン速度が120日に引き上げられました。</block>
+  <block id="545cf0306f91cc802f72bee950711b04" category="paragraph">外部キー管理で秘密鍵を承認</block>
+  <block id="45dc1f6fb3b875c733e188121fcc647a" category="paragraph">秘密鍵と公開鍵のペアから外部で生成された証明書署名要求（CSR）ファイルを、System Managerからインポートできるようになりました。</block>
+  <block id="c0f4196deec20490ebf6989158642c34" category="paragraph">Web Servicesでログインロックアウト機能を使用できるようになりました</block>
+  <block id="a30347233ec617731633ca56f8f1b923" category="paragraph">REST APIでのみ設定可能で、組み込みWebサービスとプロキシWebサービスで新しいログインロックアウト設定を使用できるようになりました。</block>
+  <block id="877f007e3f321618e24a9962b07e63fa" category="sidebar">System Manager 11.9による単一アレイの管理</block>
+  <block id="9c2cbf0c1a7244ea333628422695d560" category="sidebar">Unified Manager 7による複数のアレイの管理</block>
+  <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9のドキュメント</block>
 </blocks>

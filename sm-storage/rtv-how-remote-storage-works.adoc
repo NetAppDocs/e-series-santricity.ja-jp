@@ -24,6 +24,9 @@ summary: リモートストレージ機能を使用すると、リモートス�
 
 これらの手順の詳細については、EシリーズおよびSANtricity ドキュメントセンターのユーザガイドで説明しています https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html["Remote Storage Volumes の概要"^]で、を参照してください https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["Remote Storageテクニカルレポート"^]。
 
+
+NOTE: SANtricityリモートストレージボリュームは、現在E4000システムではサポートされていません。
+
 ローカルのEシリーズストレージシステム：
 
 . 各コントローラがリモートストレージシステムにiSCSI接続されていることを確認します。この接続により、ローカルのEシリーズシステムは、リモートシステム上でホストとして設定できるiSCSIイニシエータとして機能します。

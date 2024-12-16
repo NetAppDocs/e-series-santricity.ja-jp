@@ -2,7 +2,7 @@
 permalink: sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, configure, delivery, method, autosupport, 
-summary: AutoSupport 機能は、テクニカルサポートへのAutoSupport ディスパッチの配信にHTTPS、HTTP、SMTPのプロトコルをサポートしています。 
+summary: AutoSupport機能では、テクニカルサポートへのAutoSupportディスパッチの配信にHTTPSプロトコルとSMTPプロトコルがサポートされます。 
 ---
 = AutoSupport 機能の配信方法を設定するにはどうすればよいですか？
 :allow-uri-read: 
@@ -12,7 +12,7 @@ summary: AutoSupport 機能は、テクニカルサポートへのAutoSupport �
 
 
 [role="lead"]
-AutoSupport 機能は、テクニカルサポートへのAutoSupport ディスパッチの配信にHTTPS、HTTP、SMTPのプロトコルをサポートしています。
+AutoSupport機能では、テクニカルサポートへのAutoSupportディスパッチの配信にHTTPSプロトコルとSMTPプロトコルがサポートされます。
 
 .作業を開始する前に
 * AutoSupport 機能を有効にする必要があります。有効になっているかどうかは、AutoSupport ページで確認できます。
@@ -23,13 +23,12 @@ AutoSupport 機能は、テクニカルサポートへのAutoSupport ディス�
 各プロトコルを確認します。
 
 * * HTTPS *-- HTTPSを使用して、テクニカル・サポート・サーバーに直接接続できます。AutoSupport OnDemandまたはRemote Diagnosticsを有効にする場合は、AutoSupport の配信方法をHTTPSに設定する必要があります。
-* * HTTP *-- HTTPを使用して、テクニカルサポートの宛先サーバーに直接接続できます。
 * *Email*-- AutoSupport ディスパッチの配信方法として電子メールサーバーを使用できます
 
 
 [NOTE]
 ====
-* HTTPS / HTTPとEメールの配信方法*の違い。SMTPを使用するEメール配信方法とHTTPSおよびHTTP配信方法の間には、重要な違いがいくつかあります。まず、Eメールではディスパッチのサイズが5MBに制限されるため、ASUPデータ収集の一部はディスパッチされません。次に、AutoSupport OnDemand機能はHTPPおよびHTTPSメソッドでのみ使用できます。
+* HTTPSとEメール方式の違い*。SMTPを使用するEメール配信方法は、HTTPS配信方法とは重要な違いがいくつかあります。まず、Eメールではディスパッチのサイズが5MBに制限されるため、ASUPデータ収集の一部はディスパッチされません。次に、AutoSupport OnDemand機能は、HTTPS配信方式でのみ使用できます。
 
 ====
 .手順
@@ -40,9 +39,9 @@ AutoSupport 機能は、テクニカルサポートへのAutoSupport ディス�
 
 . 目的の配信方法を選択し、その配信方法のパラメータを選択します。次のいずれかを実行します。
 +
-** HTTPSまたはHTTPを選択した場合は、次のいずれかの配信パラメータを選択します。
+** [HTTPS]を選択した場合は、次のいずれかの配信パラメータを選択します。
 +
-*** * direct*--このデリバリパラメータはデフォルトで選択されています。このオプションを選択すると、HTTPSまたはHTTPプロトコルを使用して、テクニカルサポートのデスティネーションシステムに直接接続できます。
+*** * direct*--このデリバリパラメータはデフォルトで選択されています。このオプションを選択すると、HTTPSプロトコルを使用してテクニカルサポートのデスティネーションシステムに直接接続できます。
 *** *プロキシ・サーバ経由*--このオプションを選択すると'テクニカル・サポート・システムとの接続を確立するために必要なHTTPプロキシ・サーバの詳細を指定できますホストアドレスとポート番号を指定する必要があります。ただし、ホスト認証の詳細（ユーザ名とパスワード）は必要な場合にのみ入力します。
 *** *プロキシ自動設定（PAC）スクリプト経由*-- Proxy Auto-Configuration（PAC）スクリプトファイルの場所を指定します。PACファイルを使用すると、テクニカルサポートのデスティネーションシステムとの接続の確立に適したプロキシサーバをシステムで自動的に選択できます。
 

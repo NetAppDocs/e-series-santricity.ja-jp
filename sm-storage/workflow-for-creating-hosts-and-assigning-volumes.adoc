@@ -13,4 +13,4 @@ summary: 次の図に、ホストアクセスの設定方法を示します。
 [role="lead"]
 次の図に、ホストアクセスの設定方法を示します。
 
-image::../media/sam1130-flw-hosts-create-host.gif[sam1130 Flwホストはホストを作成します]
+image::../media/sam1130-flw-hosts-create-host.gif[ホストワークフローの設定]

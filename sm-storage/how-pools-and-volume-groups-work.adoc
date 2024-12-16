@@ -21,7 +21,7 @@ summary: ストレージをプロビジョニングするには、ストレー�
 
 プールとボリュームグループは、ストレージアレイ内の最上位のストレージ単位であり、ドライブの容量を管理可能な区分に分割します。これらの論理区分内に、データが格納される個々のボリュームまたはLUNがあります。次の図に、この概念を示します。
 
-image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[sam1130 DWGボリュームは、構造プールとボリュームグループをドライブします]
+image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[プールとボリュームグループの構造]
 
 ^1 ^ホストLUN；^2^ボリューム；^3^ボリュームグループまたはプール；^4^ HDDまたはSSDドライブ
 

@@ -33,6 +33,6 @@ Snapshot整合性グループは、複数のボリュームで同時にSnapshot�
 
 Snapshot整合性グループに含まれるボリュームはメンバーボリュームと呼ばれます。ボリュームを整合性グループに追加すると、System Managerはそのメンバーボリュームに対応する新しいリザーブ容量を自動的に作成します。各メンバーボリュームのSnapshotイメージを自動的に作成するスケジュールを定義できます。
 
-image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[SA1130 DWGスナップショットコンシステンシグループの概要]
+image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[Snapshot整合性グループの概要]
 
 ^1リザーブ容量；^2^メンバーボリューム；^3^整合グループSnapshotイメージ
