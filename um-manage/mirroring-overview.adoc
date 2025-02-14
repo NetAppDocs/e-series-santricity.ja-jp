@@ -11,7 +11,7 @@ summary: Unified ManagerにはSANtricity ミラーリング機能の設定オプ
 
 
 [role="lead"]
-Unified ManagerにはSANtricity ミラーリング機能の設定オプションが用意されており、管理者は2つのストレージアレイ間でデータをレプリケートしてデータを保護できます。
+SANtricity Unified Managerには、SANtricityのミラーリング機能の設定オプションがあります。この機能を使用すると、管理者は2つのストレージアレイ間でデータをレプリケートしてデータを保護できます。
 
 [NOTE]
 ====

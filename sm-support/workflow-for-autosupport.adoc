@@ -11,6 +11,6 @@ summary: SANtricity System Managerでは、次の手順でAutoSupport 機能を�
 
 
 [role="lead"]
-System Managerでは、次の手順でAutoSupport 機能を設定します。
+SANtricity System Managerでは、次の手順でAutoSupport 機能を設定します。
 
 image::../media/sam1130-flw-support-asup-setup.gif[AutoSupportワークフロー]

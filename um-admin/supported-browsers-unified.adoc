@@ -11,7 +11,7 @@ summary: SANtricity Unified Managerには、いくつかの種類のブラウザ
 
 
 [role="lead"]
-Unified Managerには、いくつかの種類のブラウザからアクセスできます。
+SANtricity Unified Managerには、いくつかの種類のブラウザからアクセスできます。
 
 サポートされるブラウザとバージョンを次に示します。
 

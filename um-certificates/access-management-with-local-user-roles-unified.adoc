@@ -11,7 +11,7 @@ summary: 管理者は、SANtricity Unified Managerに組み込みのロールベ
 
 
 [role="lead"]
-管理者は、Unified Managerに組み込みのロールベースアクセス制御（RBAC）機能を使用できます。これらの機能のことを「ローカルユーザロール」と呼びます。
+管理者は、SANtricity Unified Managerに組み込みのロールベースアクセス制御（RBAC）機能を使用できます。これらの機能は、「ローカルユーザロール」と呼ばれます。
 
 
 

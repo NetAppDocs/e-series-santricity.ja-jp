@@ -11,7 +11,7 @@ summary: Recovery GuruはSystem Managerのコンポーネントです。スト�
 
 
 [role="lead"]
-Recovery GuruはSystem Managerのコンポーネントです。ストレージアレイの問題を診断し、問題を修正するリカバリ手順を推奨します。
+Recovery GuruはSANtricity System Managerのコンポーネントです。ストレージアレイの問題を診断し、問題を解決するためのリカバリ手順を推奨します。
 
 .手順
 . 「* Home *」を選択します。

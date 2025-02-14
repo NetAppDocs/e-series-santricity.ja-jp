@@ -11,7 +11,7 @@ summary: Unified Managerには、検出された各ストレージアレイの�
 
 
 [role="lead"]
-Unified Managerには、検出された各ストレージアレイのステータスが表示されます。
+SANtricity Unified Managerには、検出された各ストレージアレイのステータスが表示されます。
 
 [* Manage-All*]ページに移動します。このページでは、Web Services Proxyとそのストレージアレイ間の接続のステータスを確認できます。
 

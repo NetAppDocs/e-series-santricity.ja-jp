@@ -1,13 +1,13 @@
 ---
 indexpage:
-  title: Unified Manager 7による複数のアレイの管理
+  title: SANtricity Unified Managerを使用した複数のアレイの管理7
   summary: SANtricity ソフトウェアのドキュメントでは、ストレージアレイのインストール、セットアップ、およびメンテナンスについて説明しています。
   keywords: santricity, install, setup, maintain, storage array
   lead: SANtricity ソフトウェアのドキュメントでは、ストレージアレイのインストール、セットアップ、およびメンテナンスについて説明しています。
   tiles:
   - title: セットアップ
     links:
-    - title: Unified Managerインターフェイスの概要
+    - title: SANtricity Unified Managerインターフェイスの概要
       url: "../um-admin/overview-interface-unified.html"
     - title: 管理パスワードを設定
       url: "../um-admin/administrator-password-protection-unified.html"

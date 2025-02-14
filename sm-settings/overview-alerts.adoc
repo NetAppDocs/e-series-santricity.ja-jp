@@ -12,7 +12,7 @@ summary: System Managerでは、ストレージアレイのアラートをEメ�
 
 
 [role="lead"]
-System Managerでは、ストレージアレイのアラートをEメール、SNMPトラップ、syslogメッセージで送信するように設定できます。
+SANtricity System Managerでは、ストレージアレイのアラートをEメール、SNMPトラップ、およびsyslogメッセージで送信するように設定できます。
 
 
 

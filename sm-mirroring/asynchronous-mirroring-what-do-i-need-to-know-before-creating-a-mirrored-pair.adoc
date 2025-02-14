@@ -11,7 +11,7 @@ summary: ミラーペアはUnified Managerインターフェイスで設定し�
 
 
 [role="lead"]
-ミラーペアはUnified Managerインターフェイスで設定し、System Managerで管理します。
+ミラーペアはSANtricity Unified Managerインターフェイスで設定し、SANtricity System Managerで管理します。
 
 ミラーペアを作成する際は、次のガイドラインに従ってください。
 

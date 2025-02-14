@@ -12,7 +12,7 @@ summary: ストレージアレイのIPアドレスを変更した場合は、SAN
 
 
 [role="lead"]
-ストレージアレイのIPアドレスを変更した場合、Unified Managerでグローバルアレイビューを更新できます。
+ストレージアレイのIPアドレスを変更した場合は、SANtricity Unified Managerでグローバルアレイビューを更新できます。
 
 Unified Managerでグローバルアレイビューを更新するには、インターフェイスを開き、メニューから「Manage [Discover]」に移動します。
 

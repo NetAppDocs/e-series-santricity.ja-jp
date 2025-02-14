@@ -11,7 +11,7 @@ summary: Unified Managerで非同期ミラーリングまたは同期ミラー�
 
 
 [role="lead"]
-Unified Managerで非同期ミラーリングまたは同期ミラーリングを設定し、System Managerを使用して同期を管理します。
+SANtricity Unified Managerで非同期ミラーリングまたは同期ミラーリングを設定し、SANtricity System Managerを使用して同期を管理します。
 
 
 

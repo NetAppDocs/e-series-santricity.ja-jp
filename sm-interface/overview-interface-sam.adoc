@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, 
 summary: メインインターフェイスに移動すると、System Managerの機能やタスクにアクセスできます。 
 ---
-= System Managerインターフェイスの概要
+= SANtricity System Managerインターフェイスの概要
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System ManagerはWebベースのインターフェイスで、ストレージアレイを1つのビューで管理できます。
+SANtricity System Managerは、ストレージアレイを単一のビューで管理できるWebベースのインターフェイスです。
 
 
 

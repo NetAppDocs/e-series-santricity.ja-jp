@@ -11,7 +11,7 @@ summary: ミラーリングはUnified Managerインターフェイスで設定�
 
 
 [role="lead"]
-ミラーリングはUnified Managerインターフェイスで設定されます。
+ミラーリングはSANtricity Unified Managerインターフェイスで設定します。
 
 [NOTE]
 ====

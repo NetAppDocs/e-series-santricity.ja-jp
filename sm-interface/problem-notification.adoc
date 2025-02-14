@@ -11,7 +11,7 @@ summary: System Managerは、アイコンおよびその他のいくつかの方
 
 
 [role="lead"]
-System Managerは、アイコンおよびその他のいくつかの方法を使用して、ストレージアレイに問題が存在することを通知します。
+SANtricity System Managerは、アイコンおよびその他のいくつかの方法を使用して、ストレージアレイに問題が発生したことを通知します。
 
 
 

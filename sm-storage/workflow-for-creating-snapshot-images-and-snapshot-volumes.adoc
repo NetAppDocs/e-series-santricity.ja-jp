@@ -11,7 +11,7 @@ summary: System Managerでは、次の手順でSnapshotイメージとSnapshot�
 
 
 [role="lead"]
-System Managerでは、次の手順でSnapshotイメージとSnapshotボリュームを作成します。
+SANtricityシステムマネージャでは、次の手順でSnapshotイメージとSnapshotボリュームを作成できます。
 
 
 

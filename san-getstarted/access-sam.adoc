@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access System Manager 
 summary: System Managerのユーザインターフェイスにアクセスするには、ブラウザでコントローラのIPアドレスを指定します。セットアップウィザードを使用してシステムを設定できます。 
 ---
-= System Managerにアクセスします
+= SANtricityシステムマネージャにアクセスする
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -12,7 +12,7 @@ summary: System Managerのユーザインターフェイスにアクセスする
 
 
 [role="lead"]
-System Managerのユーザインターフェイスにアクセスするには、ブラウザでコントローラのIPアドレスを指定します。セットアップウィザードを使用してシステムを設定できます。
+SANtricity System Managerのユーザインターフェイスにアクセスするには、ブラウザでコントローラのIPアドレスを指定します。セットアップウィザードを使用して、システム設定を開始できます。
 
 .作業を開始する前に
 * 次のいずれかのエクスプレス構成ガイドの説明に従って、ハードウェアを設置して設定します。

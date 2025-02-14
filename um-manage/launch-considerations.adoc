@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager 
 summary: ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、起動オプションを使用してSANtricity System Managerを開きます。 
 ---
-= System Managerにアクセスする際の考慮事項
+= SANtricity System Managerへのアクセスに関する考慮事項
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、Launchオプションを使用してSystem Managerを開きます。
+ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、起動オプションを使用してSANtricity System Managerを開きます。
 
 System Managerは、コントローラに組み込まれたアプリケーションであり、イーサネット管理ポートを介してネットワークに接続されます。アレイベースのすべての関数が含まれています。
 

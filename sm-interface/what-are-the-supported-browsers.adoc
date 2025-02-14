@@ -11,7 +11,7 @@ summary: System Managerでサポートされるブラウザとバージョンは
 
 
 [role="lead"]
-System Managerでサポートされるブラウザとバージョンは次のとおりです。
+SANtricity System Managerでは、次のバージョンのブラウザがサポートされます。
 
 [cols="1a,1a"]
 |===

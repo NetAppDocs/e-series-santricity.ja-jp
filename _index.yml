@@ -8,9 +8,9 @@ indexpage:
   tiles:
   - title: はじめに
     links:
-    - title: System Managerインターフェイス
+    - title: SANtricity System Managerインターフェイス
       url: /sm-interface/overview-interface-sam.html"
-    - title: Unified Managerインターフェイス
+    - title: SANtricity Unified Managerインターフェイス
       url: "/um-admin/overview-interface-unified.html"
     - title: SANtricityソフトウェアデータシート
       url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf

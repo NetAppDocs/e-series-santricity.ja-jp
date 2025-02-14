@@ -12,7 +12,7 @@ summary: System Managerでは、スケジュールされたディスパッチを
 
 
 [role="lead"]
-System Managerでは、スケジュールされたディスパッチを待たずにAutoSupport ディスパッチをテクニカルサポートに送信できます。
+SANtricity System Managerでは、スケジュールされたディスパッチを待たずにAutoSupportディスパッチをテクニカルサポートに送信できます。
 
 .作業を開始する前に
 AutoSupport 機能を有効にする必要があります。有効になっているかどうかは、AutoSupport ページで確認できます。

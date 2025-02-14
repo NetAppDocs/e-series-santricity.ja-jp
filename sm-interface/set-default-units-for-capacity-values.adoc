@@ -12,7 +12,7 @@ summary: System Managerでは、容量値をギビバイト（GiB）またはテ
 
 
 [role="lead"]
-System Managerでは、容量値をギビバイト（GiB）またはテビバイト（TiB）で表示できます。
+SANtricity System Managerでは、容量の値をギビバイト（GiB）またはテビバイト（TiB）で表示できます。
 
 すべてのユーザが独自の設定を使用できるように、設定はブラウザのローカルストレージに保存されます。
 

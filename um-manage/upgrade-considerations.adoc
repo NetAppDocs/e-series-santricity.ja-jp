@@ -11,7 +11,7 @@ summary: Unified Managerを使用して複数のストレージアレイをア�
 
 
 [role="lead"]
-Unified Managerを使用して複数のストレージアレイをアップグレードする場合に、計画段階で確認が必要な主な考慮事項を以下に記載します。
+SANtricity Unified Managerを使用して複数のストレージアレイをアップグレードする場合に、計画段階で確認が必要な考慮事項を以下に記載します。
 
 
 

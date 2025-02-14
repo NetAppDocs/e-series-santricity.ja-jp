@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, host detection 
 summary: 接続されているホストが表示されない場合は、自動検出に失敗したか、ホストが正しく接続されていないか、または現在接続されているホストがありません。 
 ---
-= ホストが検出されませんでした。どうすればよいですか？
+= SANtricity System Managerでホストが検出されませんでした。どうすればいいですか？
 :allow-uri-read: 
 :experimental: 
 :icons: font

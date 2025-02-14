@@ -12,7 +12,7 @@ summary: 次の表に、iSER over InfiniBandセッションの設定と管理に
 
 
 [role="lead"]
-次の表に、iSER over InfiniBandセッションの設定と管理に使用するSystem Managerの機能を示します。
+次の表に、iSER over InfiniBandセッションの設定と管理に使用できるSANtricity System Managerの機能を示します。
 
 [NOTE]
 ====

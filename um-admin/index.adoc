@@ -11,4 +11,4 @@ summary: SANtricity Unified Manager 7
 
 
 [role="lead"]
-Unified ManagerはWebベースのインターフェイスであり、1つのビューで複数のストレージアレイを管理することができます。
+SANtricity Unified Managerは、複数のストレージアレイを1つのビューで管理できるWebベースのインターフェイスです。

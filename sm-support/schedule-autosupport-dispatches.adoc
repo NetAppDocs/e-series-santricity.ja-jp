@@ -12,7 +12,7 @@ summary: System Managerでは、AutoSupport ディスパッチのデフォルト
 
 
 [role="lead"]
-System Managerでは、AutoSupport ディスパッチのデフォルトスケジュールが自動的に作成されます。必要に応じて、独自のスケジュールを指定できます。
+SANtricity System Managerでは、AutoSupportディスパッチのデフォルトのスケジュールが自動的に作成されます。必要に応じて、独自のスケジュールを指定できます。
 
 .作業を開始する前に
 AutoSupport 機能を有効にする必要があります。有効になっているかどうかは、AutoSupport ページで確認できます。

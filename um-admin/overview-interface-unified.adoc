@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, interface, GUI 
 summary: Unified ManagerはWebベースのインターフェイスであり、1つのビューで複数のストレージアレイを管理することができます。 
 ---
-= Unified Managerインターフェイスの概要
+= SANtricity Unified Managerインターフェイスの概要
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Unified ManagerはWebベースのインターフェイスであり、1つのビューで複数のストレージアレイを管理することができます。
+SANtricity Unified Managerは、複数のストレージアレイを1つのビューで管理できるWebベースのインターフェイスです。
 
 
 

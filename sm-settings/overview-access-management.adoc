@@ -12,7 +12,7 @@ summary: アクセス管理は、SANtricity System Managerでユーザ認証を�
 
 
 [role="lead"]
-アクセス管理は、System Managerでユーザ認証を確立する手段の1つです。
+アクセス管理は、SANtricity System Managerでユーザ認証を確立する手段の1つです。
 
 
 

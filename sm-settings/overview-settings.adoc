@@ -12,7 +12,7 @@ summary: System Managerでは、一部の一般的なアレイ設定やアドオ
 
 
 [role="lead"]
-System Managerでは、一部の一般的なアレイ設定やアドオン機能を設定できます。
+SANtricityシステムマネージャでは、一部の一般的なアレイ設定やアドオン機能を設定できます。
 
 
 

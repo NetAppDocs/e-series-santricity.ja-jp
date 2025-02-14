@@ -11,7 +11,7 @@ summary: System Managerをキーボードだけで操作できます。
 
 
 [role="lead"]
-System Managerをキーボードだけで操作できます。
+SANtricityシステムマネージャは、キーボードだけを使用して操作できます。
 
 
 

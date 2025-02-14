@@ -12,7 +12,7 @@ summary: Unified Managerを使用して、同じタイプの複数のストレ�
 
 
 [role="lead"]
-Unified Managerを使用して、同じタイプの複数のストレージアレイのSANtricity OSソフトウェアを新しいバージョンにアップグレードできます。
+SANtricity Unified Managerを使用して、同じタイプの複数のストレージアレイのSANtricity OSソフトウェアを新しいバージョンにアップグレードできます。
 
 
 

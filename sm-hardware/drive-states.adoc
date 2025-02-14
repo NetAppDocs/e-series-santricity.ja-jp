@@ -11,7 +11,7 @@ summary: System Managerでは、ドライブのさまざまな状態が報告さ
 
 
 [role="lead"]
-System Managerでは、ドライブのさまざまな状態が報告されます。
+SANtricity System Managerでは、ドライブについてさまざまな状態が報告されます。
 
 
 

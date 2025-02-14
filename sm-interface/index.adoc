@@ -11,4 +11,4 @@ summary: SANtricity System Manager 11.9
 
 
 [role="lead"]
-System ManagerはWebベースのインターフェイスで、ストレージアレイを1つのビューで管理できます。
+SANtricity System Managerは、ストレージアレイを単一のビューで管理できるWebベースのインターフェイスです。

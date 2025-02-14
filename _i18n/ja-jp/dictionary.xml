@@ -460,7 +460,6 @@
   <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">コントローラソフトウェアとファームウェアのアップグレードのワークフロー</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">SANtricity System Managerでは、次の手順でAutoSupport 機能を設定します。</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">AutoSupport 機能のワークフロー</block>
-  <block id="fa1ad6ca18787ce10b28e8361e9f1ad1" category="paragraph">System Managerでは、次の手順でAutoSupport 機能を設定します。</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">AutoSupport メンテナンス期間を無効にして、エラーイベント発生時に自動でチケットが作成されるようにします。AutoSupport メンテナンス期間を無効にすると、問題 がある場合にストレージアレイはAutoSupport を使用してサポートケースをオープンします。</block>
   <block id="ccc1efeb0dcf8c187a812dfc3c4f8ac1" category="doc">AutoSupport メンテナンス期間を無効にします</block>
   <block id="0da69218a13ebfac913ebb21ce1861f6" category="list-text">[* AutoSupport メンテナンス期間を無効にする*]を選択します。</block>
@@ -3347,7 +3346,6 @@
   <block id="8707cd376e4a4e2b7f02a71e6a1b1009" category="summary">シンボリュームのスペースを監視して適切なアラートを生成し、容量不足が発生するのを回避できます。</block>
   <block id="ba2db905416fb6910e44524f99d5d8c1" category="doc">シンボリュームを監視する</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">SANtricity System Managerでは、次の手順でボリュームを作成します。</block>
-  <block id="26eaac99fa3741d6e7305e93cad51def" category="paragraph">System Managerでは、次の手順でボリュームを作成します。</block>
   <block id="fc6b23d453184949603cbf22152f962e" category="summary">既存のSnapshot整合性グループに新しいメンバーボリュームを追加できます。新しいメンバーボリュームを追加する場合、そのメンバーボリュームの容量もリザーブする必要があります。</block>
   <block id="01b0c179dae25a98bc7821b695a8f95c" category="doc">Snapshot整合性グループにメンバーボリュームを追加します</block>
   <block id="a96fdc91a370dc452506e02ceb89f9b7" category="list-text">メンバーボリュームが最適lである必要があります。</block>
@@ -3824,7 +3822,6 @@
   <block id="7dfb3cdb10c11c047007d5ba193bc8ec" category="list-text">読み取り処理と書き込み処理の合計数</block>
   <block id="8f2804311a0084d47f6c63f97e6d6ced" category="summary">SANtricity Unified Managerでストレージアレイを表示したりアクセスしたりするときに使用するパスワードを更新できます。</block>
   <block id="2aebbeed1009439a37c2d8cc2d3c3b8c" category="doc">ストレージアレイのパスワードを変更する</block>
-  <block id="56384fe256eff96c1a56aee05a2e3fbb" category="paragraph">Unified Managerでストレージアレイを表示したりアクセスしたりするときに使用するパスワードを更新できます。</block>
   <block id="3e06700262909cb379674ee849478971" category="list-text">Storage Adminの権限を含むユーザプロファイルでログインする必要があります。</block>
   <block id="6200b57bba4734c357cfd4a38fa16a12" category="list-text">System Managerで設定されているストレージアレイの現在のパスワードを確認しておく必要があります。</block>
   <block id="5d0efaa3695cc3970597a53c9f03654a" category="paragraph">このタスクでは、Unified Managerからストレージアレイにアクセスできるようにストレージアレイの現在のパスワードを入力します。これは、System Managerでアレイのパスワードが変更されたために、Unified Managerでも変更が必要になった場合などに行います。</block>
@@ -3833,7 +3830,6 @@
   <block id="b6deb366a7ea029beae2c06ae5edbee7" category="list-text">各ストレージアレイのパスワードを入力し、*保存*をクリックします。</block>
   <block id="2e427df5c1b5f1934e9cdd88bb2c3cb2" category="summary">SANtricity Unified Managerには、いくつかの種類のブラウザからアクセスできます。</block>
   <block id="6d84e3718084e0db779da4ff8791a2f2" category="doc">サポートされているブラウザ</block>
-  <block id="6d5a07028844be42740ba8ef0ebc030a" category="paragraph">Unified Managerには、いくつかの種類のブラウザからアクセスできます。</block>
   <block id="726e62b65e8dfa097c99ac497e95cf5c" category="paragraph">サポートされるブラウザとバージョンを次に示します。</block>
   <block id="ef15fd2f45e6bb5ce57587895ba64f93" category="cell">ブラウザ</block>
   <block id="d0a2e00895462c37efe5227c5b94faae" category="cell">最小バージョン</block>
@@ -3844,7 +3840,6 @@
   <block id="24bfb1beabc66d9a6a219a39706480f0" category="paragraph">Web Services Proxyをインストールしてブラウザから使用できるようにしておく必要があります。</block>
   <block id="c905ab540cd89c88f522731c7c764a87" category="summary">SANtricity Unified Managerへのアクセスに使用する管理者パスワードを変更できます。</block>
   <block id="644a1b99d39f24449d49b931a61fc964" category="doc">adminパスワードを変更</block>
-  <block id="f33a46d17adbb22063054d82821f25b7" category="paragraph">Unified Managerへのアクセスに使用する管理者パスワードを変更できます。</block>
   <block id="cd6788558cc7e0923a1c2358b16319f3" category="list-text">Root Adminの権限が割り当てられたローカル管理者としてログインする必要があります。</block>
   <block id="bd6118611ef18d79d9e7eedceea12308" category="list-text">現在の管理者パスワードを確認しておく必要があります。</block>
   <block id="52cf81d6fc3cf681001f06708a450dec" category="paragraph">パスワードを選択する際は、次のガイドラインに注意してください。</block>
@@ -3862,7 +3857,6 @@
   <block id="4210c9f98a5dc1ea45fd7d0d2dee8ef2" category="list-text">この操作を確認するためにローカル管理者パスワードを入力し、*変更*をクリックします。</block>
   <block id="c5140ae7574b7c90722120fd0af36a50" category="summary">SANtricity Unified Managerには、不正なアクセスを防ぐために管理者パスワードを設定する必要があります。</block>
   <block id="c68c69204222cbaf698768923068a3c1" category="doc">管理者パスワード保護を設定します</block>
-  <block id="eeba445787fc95d90b8233e19693857b" category="paragraph">Unified Managerには、不正なアクセスを防ぐために管理者パスワードを設定する必要があります。</block>
   <block id="1115a6e562080201b09b1af0e9c4f13a" category="section-title">管理パスワードとユーザプロファイル</block>
   <block id="95bd4ed85be27a910b2d6e09c064718e" category="paragraph">Unified Managerを初めて起動したときは、管理者パスワードの設定を求めるプロンプトが表示されます。管理者パスワードを持つユーザは、ストレージアレイの設定を変更できます。</block>
   <block id="2832434af291fd456a913710178e09e2" category="inline-link-macro">アクセス管理の仕組み</block>
@@ -3877,7 +3871,6 @@
   <block id="d08a3e1e92c08c9907f0557b4e28da7a" category="inline-link-macro">セッションタイムアウトの管理</block>
   <block id="2f8dca464fb973f09d9647570e912987" category="paragraph">セッションタイムアウトを調整したり、セッションタイムアウトを無効にしたりできます。詳細については、を参照してください <block ref="491ec1fb8cfb51b8b30aff1b660d5fdc" category="inline-link-macro-rx"></block>。</block>
   <block id="a1f94f83462c2ceebb1aef9832402037" category="summary">非アクティブな状態が一定の時間続いたユーザセッションは切断されるよう、SANtricity Unified Managerでタイムアウトを設定できます。</block>
-  <block id="8ad7e04aaecd791134a5e260a985aa04" category="paragraph">非アクティブな状態が一定の時間続いたユーザセッションは切断されるよう、Unified Managerでタイムアウトを設定できます。</block>
   <block id="90bc078771cba1fa174144730e743ae1" category="paragraph">デフォルトでは、Unified Managerのセッションタイムアウトは30分です。この時間を調整したり、セッションタイムアウトを無効にしたりすることができます。</block>
   <block id="5cdc5e794d92075b65fddab1a4df3b77" category="list-text">メニューバーで、ユーザログイン名の横にあるドロップダウン矢印を選択します。</block>
   <block id="dc5fab46b780f9174c45cb0a79e538b6" category="list-text">「*セッションタイムアウトを有効/無効にする*」を選択します。</block>
@@ -3886,7 +3879,6 @@
   <block id="b4be680c3d2ca05c238f23cda8f483c5" category="paragraph">設定できる最小のタイムアウトは15分です。</block>
   <block id="e9e6b18af35988c38b404cb9db9dab71" category="paragraph">セッションタイムアウトを無効にするには、*時間の長さを設定*チェックボックスをオフにします。</block>
   <block id="1b89afe60c3c3728ebb581ee0aac3506" category="summary">Unified ManagerはWebベースのインターフェイスであり、1つのビューで複数のストレージアレイを管理することができます。</block>
-  <block id="4dce3cdc79e2e44c19e0286c8128e182" category="doc">Unified Managerインターフェイスの概要</block>
   <block id="8f8d2783d036ec8dbe4b6b9c1d0fed0d" category="section-title">メインページ</block>
   <block id="edab0a6bffc866b3b3e060784eab4d6a" category="paragraph">Unified Managerにログインすると、メインページが開き、* Manage-All *が表示されます。このページから、ネットワーク内で検出されたストレージアレイのリストをスクロールして、そのステータスを表示し、1つのアレイまたはアレイグループに対して処理を実行できます。</block>
   <block id="bdb2999f28589aad2b040c21930c86dc" category="section-title">ナビゲーションサイドバー</block>
@@ -3910,8 +3902,6 @@
   <block id="216b0b121e6f2408241a848b4595c30c" category="paragraph">ユーザとパスワードの詳細については、次の項を参照してください。</block>
   <block id="dab914db541126686bbe7301f26a031b" category="list-text"><block ref="dab914db541126686bbe7301f26a031b" category="inline-link-macro-rx"></block></block>
   <block id="d424dbef08902607fe74ce66143ded85" category="summary">Unified Managerにアクセスしてログインします。</block>
-  <block id="935157885838ef2e13b906dc3cfa3504" category="doc">Unified Managerにアクセスします</block>
-  <block id="0fe8e078d723310c7a025dbb49b053a2" category="paragraph">Web Services Proxy をインストールしたら、 Unified Manager にアクセスして Web ベースのインターフェイスで複数のストレージシステムを管理できます。</block>
   <block id="d6ccab2da5107baf9a74bf70fd30ac64" category="inline-link-macro">サポートされているブラウザとオペレーティングシステム</block>
   <block id="0a638be7984a916271be0d85fa354c61" category="admonition">サポートされるブラウザについては、を参照してください <block ref="0d80156806b92a254389d706e3039498" category="inline-link-macro-rx"></block>。</block>
   <block id="75ac65baa63f90887df8eeedf86752f4" category="list-text">ブラウザを開き、次の URL を入力します。</block>
@@ -3966,8 +3956,6 @@
   <block id="3d945423f8e9496c429a5d8c65b4604f" category="paragraph">Ubuntu</block>
   <block id="f93164fdf3a453327bceab4df38f5ead" category="paragraph">18.04、20.04/64ビット</block>
   <block id="cdee3f665be88669170bda11b2f06c93" category="summary">Unified Managerのインストールの概要を参照してください</block>
-  <block id="65747c74d7b2e455833a7211d404378f" category="doc">Unified Manager をインストールします</block>
-  <block id="34d9a59f7d7e5ba2b6d37af87522f26b" category="paragraph">Unified ManagerはWeb Services Proxyに含まれています。Web Services Proxyは、NetApp Eシリーズストレージシステムを管理するためにホストシステムに別途インストールするRESTful APIサーバです。</block>
   <block id="cbdedeba7d21b6ec4e131a86b76662c6" category="paragraph">Web Services ProxyとUnified Managerをインストールするには、Eシリーズ/ SANtricity ドキュメントセンターで次の手順を参照してください。</block>
   <block id="a18485577a4748889b9322afa1d6eadc" category="inline-link">インストールとアップグレードの要件を確認</block>
   <block id="192c70ae7442b1e297e8288370c5d9a7" category="list-text"><block ref="192c70ae7442b1e297e8288370c5d9a7" category="inline-link-rx"></block></block>
@@ -4104,7 +4092,6 @@
   <block id="9e6b49710a50785bf46a03031fcae538" category="list-text">ハードウェアの保守操作必要LEDが点灯します。</block>
   <block id="fa1b63c4bafe790f2b625d05b15735d8" category="paragraph">問題の通知を受け取ったら、Recovery Guruを使用して問題を修正します。必要に応じて、リカバリ手順について説明しているハードウェアのドキュメントを参照し、障害が発生したコンポーネントを交換します。</block>
   <block id="3d371728a27bfe9492e0557bfd5069d2" category="summary">接続されているホストが表示されない場合は、自動検出に失敗したか、ホストが正しく接続されていないか、または現在接続されているホストがありません。</block>
-  <block id="e5455040d4a9ede58061022a5ec57985" category="doc">ホストが検出されませんでした。どうすればよいですか？</block>
   <block id="f7ff4c91fa7860bce0649b5e3d3793d8" category="list-text">ホストを手動で作成し、次のメニューから適切なホストポート識別子を関連付けることができます：Storage [Hosts]。手動で作成したホストは、*初期セットアップ*ウィザードにも表示されます。</block>
   <block id="50f6912c5df4e3e02e724cdec96987cf" category="list-text">自動検出が機能するためには、ターゲットとホストにホストポートタイプ（iSCSIやNVMe over RoCEなど）が設定されていて、ストレージへのセッションが確立されている必要があります。</block>
   <block id="c5a4e56bb338a4a15f84855c89874dcb" category="summary">ホームページには、ストレージアレイの日々の管理を行うためのダッシュボードビューが表示されます。System Managerにログインすると、最初に表示される画面がホームページになります。</block>
@@ -4201,8 +4188,6 @@
   <block id="35add11daa03126332ded679a471057a" category="list-text">ボリュームコピー処理が完了したら、「*クリア*」を選択してリストから削除できます。</block>
   <block id="0cfd3bc55947c6b31d655ec407a2f71f" category="paragraph">ホームページの上部には、処理が完了すると、情報メッセージと黄色のレンチアイコンが表示されます。このメッセージには、[Operations in Progress]ページから操作をクリアできるリンクが含まれています。</block>
   <block id="3412f4f9996db44d85e9a7ddb64f8fc2" category="summary">メインインターフェイスに移動すると、System Managerの機能やタスクにアクセスできます。</block>
-  <block id="42ff625aa5c914a15cc639fd05aa3bfb" category="doc">System Managerインターフェイスの概要</block>
-  <block id="bb62a2f52038b073396f3df591dfc864" category="paragraph">System ManagerはWebベースのインターフェイスで、ストレージアレイを1つのビューで管理できます。</block>
   <block id="a274f4d4670213a9045ce258c6c56b80" category="paragraph">通知</block>
   <block id="9446a98ad14416153cc4d45ab8b531bf" category="paragraph">パフォーマンス</block>
   <block id="fbc25e9c092c98f7b43c32748a412668" category="paragraph">ストレージ階層</block>
@@ -4682,7 +4667,6 @@
   <block id="f6de1d0bce3350f9520d85df5dd89a15" category="paragraph">ディレクトリサーバの構成設定、権限設定、およびロールのマッピングが削除されます。ユーザは、このサーバからのクレデンシャルを使用してログインできなくなります。</block>
   <block id="c73b1b4d687800d408f419f0f0df3f39" category="summary">ネットワークタイムプロトコル（NTP）が無効な場合は、コントローラのクロックを手動で設定して、管理クライアント（SANtricity System Managerにアクセスするブラウザの実行に使用されるシステム）と同期されるようにすることができます。</block>
   <block id="98ab351cb9c5d5c191ae7f2acc9960e7" category="doc">ストレージアレイのクロックを同期する</block>
-  <block id="3a7965dd150006ce04e7d23d6db0b1a0" category="paragraph">ネットワークタイムプロトコル（NTP）が無効な場合は、コントローラのクロックを手動で設定して、管理クライアント（System Managerにアクセスするブラウザの実行に使用されるシステム）と同期されるようにすることができます。</block>
   <block id="5686e4a1839427d3f101f1242524feeb" category="paragraph">同期によって、イベントログ内のイベントのタイムスタンプがホストログファイルに書き込まれるタイムスタンプと一致します。同期プロセスの実行中も、コントローラを引き続き使用できます。</block>
   <block id="fdcb6fda8360a631ef2730c06e89ae28" category="paragraph">System ManagerでNTPが有効になっている場合は、このオプションを使用してクロックを同期しないでください。代わりに、NTPではシンプルネットワークタイムプロトコル（SNTP）を使用してクロックを自動的に同期します。</block>
   <block id="187a2d7806202a5a575270922290f2a4" category="paragraph">同期後に、パフォーマンス統計が失われたり精度が低下したりする可能性があります。また、スケジュールに影響が生じたり（ASUP、Snapshotなど）、ログデータ内のタイムスタンプが不正確になる可能性もあります。NTPを使用すると、この問題を回避できます。</block>
@@ -4858,13 +4842,11 @@
   <block id="5961aa9528f652b687b47fcb649c5893" category="paragraph">200Gb対応のHICを使用してEF600ストレージアレイを設定する場合、このダイアログボックスには、2つのIPアドレスフィールドが表示されます。1つは物理ポート（外部）用のフィールドで、もう1つは仮想ポート（内部）用のフィールドです。両方のポートに一意のIPアドレスを割り当てる必要があります。これらの設定により、ホストは各ポート間のパスを確立し、HICのパフォーマンスを最大限に高めることができます。仮想ポートにIPアドレスを割り当てない場合、HICの実行速度は約半分になります。</block>
   <block id="4edd604de641cbb90cf573dc0f68458f" category="list-text">「* Yes」をクリックして、NVMe over InfiniBandポートをリセットします。</block>
   <block id="4bdba401227da38e05e805640bc07392" category="summary">ストレージアレイに組み込みのロールベースアクセス制御（RBAC）機能には、1つ以上のロールがマッピングされた事前定義済みのユーザプロファイルが含まれています。各ロールには、SANtricity System Managerのタスクにアクセスするための権限が含まれています。</block>
-  <block id="2f9b4deb9315aed582af1e2cad742214" category="paragraph">ストレージアレイに組み込みのロールベースアクセス制御（RBAC）機能には、1つ以上のロールがマッピングされた事前定義済みのユーザプロファイルが含まれています。各ロールには、System Managerのタスクにアクセスするための権限が含まれています。</block>
   <block id="4af88e993472ad0efbe148c3d71082f9" category="paragraph">ユーザプロファイルとマッピングされたロールには、どちらかのSystem Managerのユーザインターフェイスで設定（Access Management &gt;ローカルユーザロール）のメニューからアクセスできます。</block>
   <block id="536f38e388f0e686eaac049b4bfaf373" category="paragraph">これらのロールにより、次のタスクへのアクセスが可能になります。</block>
   <block id="730a090cd84a0ce605e346fc4d569c15" category="paragraph">ユーザに特定のタスクに対する権限がない場合、そのタスクはグレー表示されるか、ユーザインターフェイスに表示されません。</block>
   <block id="981aaa3b1d8f5d256493b92b6b493e0a" category="summary">ユーザがSANtricity System Managerでセッションを確立する前に表示されるログインバナーを作成できます。バナーには、注意と同意を求めるメッセージを含めることができます。</block>
   <block id="8efb09501bad8ce68b1a1bc93afb135d" category="doc">ログインバナーを設定します</block>
-  <block id="69bfc5b49cdbb5ecfe1a3226439e05f5" category="paragraph">ユーザがSystem Managerでセッションを確立する前に表示されるログインバナーを作成できます。バナーには、注意と同意を求めるメッセージを含めることができます。</block>
   <block id="7335dfb2a6a5b54076e56c28f64c1b27" category="paragraph">作成したバナーは、ログイン画面の前にダイアログボックスに表示されます。</block>
   <block id="715a220c50a620ae5a87b5d1e1719b4e" category="list-text">[全般]セクションで、[ログインバナーの設定*]を選択します。</block>
   <block id="795b64a6f7aa721a8a5c6f7bcdb2da8b" category="paragraph">Configure Login Bannerダイアログボックスが開きます。</block>
@@ -5181,7 +5163,6 @@
   <block id="30f8e0c6ba6693951068d665bf2d3173" category="list-text">*UDPポート*-- syslogのUDPポートは通常514です。設定されているsyslogサーバが表に表示されます。</block>
   <block id="85d48bc46b15b6483d2233aa0f95dca0" category="list-text">サーバーアドレスにテストアラートを送信するには、*すべてのSyslogサーバーをテスト*を選択します。</block>
   <block id="ae8f19f0991a75dbac99ee6e45ba300b" category="summary">非アクティブな状態が一定の時間続いたユーザセッションは切断されるよう、SANtricity System Managerでタイムアウトを設定できます。</block>
-  <block id="0d08d54101084156343832dde6b77679" category="paragraph">非アクティブな状態が一定の時間続いたユーザセッションは切断されるよう、System Managerでタイムアウトを設定できます。</block>
   <block id="7e21334170926970f8d92b45e8391954" category="paragraph">デフォルトでは、System Managerのセッションタイムアウトは30分です。この時間を調整したり、セッションタイムアウトを無効にしたりすることができます。</block>
   <block id="e535d8be0b5cae9eeaf63966afda7bde" category="paragraph">アレイに組み込まれているSecurity Assertion Markup Language（SAML）機能を使用してアクセス管理が設定されている場合は、ユーザのSSOセッションがその期限に達したときにセッションタイムアウトが発生する可能性があります。これは、System Managerのセッションタイムアウトより前に発生することがあります。</block>
   <block id="5303e6808de2e1eb2cd0b535241f849f" category="list-text">[全般]セクションで、[*セッションタイムアウトの有効化/無効化*]を選択します。</block>
@@ -5271,7 +5252,6 @@
   <block id="3040397b3aa3ed9f7b0a276c2146f2b4" category="paragraph">ドライブセキュリティのパスフレーズをストレージアレイの管理者パスワードと混同しないでください。ドライブセキュリティのパスフレーズは、セキュリティキーのバックアップを保護します。管理者パスワードは、ストレージアレイ全体を不正アクセスから保護します。</block>
   <block id="e938a1906cdb8c9484393d955b24416e" category="list-text">バックアップセキュリティキーファイルが管理クライアントにダウンロードされます。ダウンロードファイルのパスは、ブラウザのデフォルトのダウンロード先によって異なる場合があります。セキュリティキー情報の格納場所を記録しておいてください。</block>
   <block id="6ca00ca15079ef4d4e240986dacffa79" category="summary">アクセス管理は、SANtricity System Managerでユーザ認証を確立する手段の1つです。</block>
-  <block id="09802636c4ae135257f67339b6132e62" category="paragraph">アクセス管理は、System Managerでユーザ認証を確立する手段の1つです。</block>
   <block id="8fb2f6e415dce0ffc2a42ed7de73d08d" category="paragraph">設定とユーザ認証は次のように行います。</block>
   <block id="70d4f4d0018e0331ccbe2f6327c363ec" category="paragraph">初めてのログインでは'ユーザ名adminが自動的に表示され'変更することはできませんadminユーザは'システムのすべての機能にフル・アクセスできます</block>
   <block id="0f8888851116618073d1ec0b2125cb99" category="list-text">ユーザインターフェイスでアクセス管理に移動します。ストレージアレイはローカルユーザロールを使用するように事前に設定されています。これはロールベースアクセス制御（RBAC）機能の実装です。</block>
@@ -5678,7 +5658,6 @@
   <block id="46fd54ea2401d27e9da8c70f78b70f28" category="paragraph">SSO</block>
   <block id="90370a06b1b0571260a5d4550fabea3e" category="paragraph">シングルサインオン（SSO）は、1組のログインクレデンシャルで複数のアプリケーションにアクセスできるようにする認証サービスです。</block>
   <block id="e78959343eccc5753e5a6f69aa17e104" category="summary">外部キー管理では、ストレージアレイとキー管理サーバが互いに信頼関係を確立できるように、2つのエンティティの間の認証用に2種類の証明書をインポートします。</block>
-  <block id="6bb1fc83f2153c8e3dfddfa5b556e792" category="doc">外部キー管理を行うためにSystem Managerにアップロードする必要がある証明書を確認するにはどうすればよいですか？</block>
   <block id="9a4b083823a7c4b7786c0328f4a16e2a" category="paragraph">キー管理サーバ証明書は、ストレージアレイがサーバのIPアドレスを信頼できるよう、キー管理サーバを検証します。キー管理サーバからサーバ証明書ファイルを取得し、System Managerにアクセスするホストにそのファイルをコピーします。</block>
   <block id="6157bc386a497dae1351826703950791" category="summary">監査ログを外部のsyslogサーバにアーカイブする場合は、そのサーバとストレージアレイの間の通信を設定できます。接続が確立されると、監査ログは自動的にsyslogサーバに保存されます。</block>
   <block id="fbd96b600f11b3fec9c557321a19ac3a" category="list-text">サーバがセキュアなプロトコル（TLSなど）を使用している場合は、ローカルシステムに認証局（CA）証明書が配置されている必要があります。CA証明書がWebサイトの所有者を識別することにより、サーバとクライアントの間のセキュアな接続が確立さ</block>
@@ -5788,7 +5767,6 @@
   <block id="b19fe3a2a20f338166ef8a5d0758b53a" category="list-text">下にスクロールして* NVMe over InfiniBand settings *を表示し、* View NVMe over Fabrics Statistics *を選択します。</block>
   <block id="3c625277723f7e35643a56ecccb51d80" category="summary">System Managerから、コマンドラインインターフェイス（CLI）パッケージをダウンロードできます。</block>
   <block id="b44398f4857f5ee9b5b3372c0d3a83ac" category="doc">コマンドラインインターフェイス（CLI）のダウンロード</block>
-  <block id="934757b9623717972adcc349e85d6283" category="paragraph">System Managerから、コマンドラインインターフェイス（CLI）パッケージをダウンロードできます。</block>
   <block id="f0edcadd28eaa53b81b22a31b44b45b9" category="paragraph">CLIでは、テキストベースの方法でストレージアレイを設定および監視できます。このCLIはHTTPS経由で通信し、外部にインストールされた管理ソフトウェアパッケージのCLIと同じ構文を使用します。CLIをダウンロードするためにキーは必要ありません。</block>
   <block id="75842716a65060950b20cba161cbac95" category="paragraph">CLIコマンドを実行する管理システムに、Java Runtime Environment（JRE）バージョン8以降がインストールされている必要があります。</block>
   <block id="bd5b00551ee618ada817137a1272291f" category="list-text">[*アドオン*（* Add-ons *）]で、[*コマンドラインインターフェイス*（* Command Line Interface）]を選択</block>
@@ -5918,7 +5896,6 @@
   <block id="1298ddb9c50bbd0f7326abb668f694eb" category="list-text">キャッシュプリフェッチを有効にすると、シーケンシャルリードアクセスが最適化されます。読み取り処理ではデータがディスクから読み取られるのではなく、キャッシュ内のデータが使用される可能性が高くなります。</block>
   <block id="b36030520bf6fb6f82f2952d906f0dd4" category="summary">System Managerでは、一部の一般的なアレイ設定やアドオン機能を設定できます。</block>
   <block id="c7f8006a54ae70968da2a44d61c94f4c" category="doc">設定の概要</block>
-  <block id="2161120ac2f277c69a937d29896bb757" category="paragraph">System Managerでは、一部の一般的なアレイ設定やアドオン機能を設定できます。</block>
   <block id="f01afbc659c3b1d4c71bba9b1a9ce3ea" category="section-title">どのような設定を構成できますか？</block>
   <block id="92a98c57d8dff609da2fceddaeac27a4" category="paragraph">アレイの設定は次のとおりです。</block>
   <block id="9f6081850e27326c653ce13711fd1f40" category="list-text"><block ref="9f6081850e27326c653ce13711fd1f40" category="inline-link-macro-rx"></block></block>
@@ -6103,7 +6080,6 @@
   <block id="3799da0d6e5f0f1fd40261a10dc360b0" category="paragraph">DHCPを使用しない場合は、ネットワーク管理者がこれらのIPアドレスを手動で入力します。DHCPを使用する場合は、クライアントがTCP / IP処理を開始する必要があるときにアドレス情報の要求を送信します。DHCPサーバは、要求を受信し、リース期間と呼ばれる指定された時間だけ新しいアドレスを割り当てて、アドレスをクライアントに送信します。DHCPを使用すると、ネットワークに接続するたびにデバイスのIPアドレスが変わる可能性があります。一部のシステムでは、デバイスが接続されている間でもデバイスのIPアドレスが変わる場合があります。</block>
   <block id="9a10dfa4820362278c75541e0d1eed8b" category="summary">ホットスペアは、System ManagerのRAID 1、RAID 5、またはRAID 6のボリュームグループで、スタンバイドライブとして機能します。</block>
   <block id="276a13903d824739180cb574a8b6063a" category="doc">ホットスペアドライブの概要</block>
-  <block id="e4fa5d6edf084bd88f0cdd23e75bb932" category="paragraph">ホットスペアは、System ManagerのRAID 1、RAID 5、またはRAID 6のボリュームグループで、スタンバイドライブとして機能します。</block>
   <block id="bb3d0b1d00371907893169044379dc18" category="paragraph">問題なく動作するドライブですが、データは格納されていません。ボリュームグループ内のドライブで障害が発生すると、障害が発生したドライブのデータがホットスペアとして割り当てられているドライブに自動的に再構築されます。</block>
   <block id="44fc683d36bd75431aa319eb657eee3d" category="paragraph">ホットスペアは、特定のボリュームグループ専用ではありません。ストレージアレイ内で障害が発生したどのドライブにも使用できますが、ホットスペアとドライブで次の属性が共有されている必要があります。</block>
   <block id="4cb8bf730ded016e3d4d1c1557bceadb" category="list-text">容量（またはホットスペアの方が大きい）</block>
@@ -6458,7 +6434,6 @@
   <block id="28a1f079174ccf89f395f1d4715eb87c" category="paragraph">これで、別のボリュームグループまたはディスクプール、あるいは別のストレージアレイでドライブを使用できるようになります。</block>
   <block id="260143c2df7ae0ce4b9a6b4e5820e5bb" category="summary">ストレージアレイのIPアドレスを変更した場合は、SANtricity Unified Managerでグローバルアレイビューを更新できます。</block>
   <block id="cc9d5e6a39247b7ae502a7f1e633c4f7" category="doc">管理ポートを設定したあとに何をすればよいですか？</block>
-  <block id="33be6721ee47ba737121b0b61fc7ccb1" category="paragraph">ストレージアレイのIPアドレスを変更した場合、Unified Managerでグローバルアレイビューを更新できます。</block>
   <block id="67b52d0dd0552f62756981b7d04e334a" category="paragraph">Unified Managerでグローバルアレイビューを更新するには、インターフェイスを開き、メニューから「Manage [Discover]」に移動します。</block>
   <block id="3f79a5cd8daf0ba8a2623f690e8ad45d" category="paragraph">SANtricity Storage Managerをまだ使用している場合は、Enterprise Management Window（EMW）に移動し、IPアドレスを削除してから、新しいIPアドレスを再度追加する必要があります。</block>
   <block id="4a2833218ca50e72920f4fc85ded87b5" category="doc">ドライブを論理的に交換するのはどのような場合ですか？</block>
@@ -7212,7 +7187,6 @@
   <block id="e162c795f41b2f54f4cc4318a9da4a18" category="list-text">シンボリュームの場合は、自動拡張を有効にする必要があります。</block>
   <block id="7f29556c75106b05f3d2b4179dcc2406" category="summary">SANtricity System Managerで管理できない従来のストレージアレイにプライマリボリュームを作成した場合は、System Managerを使用してそのアレイにセカンダリボリュームを作成できます。</block>
   <block id="87b4e06d5443a380cc83c83c3d590d35" category="doc">従来型システムで作成されたプライマリボリュームのミラーペアを作成します</block>
-  <block id="abe482b981924f3c0e95f1bdc14f29dc" category="paragraph">System Managerで管理できない従来のストレージアレイにプライマリボリュームを作成した場合は、System Managerを使用してそのアレイにセカンダリボリュームを作成できます。</block>
   <block id="380f85f6054e74968d72b39236e80732" category="paragraph">System Managerで管理可能な別のインターフェイスや新しいアレイを使用する従来型アレイ間で、非同期ミラーリングを実行できます。</block>
   <block id="33560e79148fad52472bc34df24ac293" category="list-text">System Managerを使用する2つのストレージアレイをミラーリングする場合は、ミラーペア作成手順ですでにミラーペアの作成が完了しているため、このタスクはスキップできます。</block>
   <block id="d680891c022a8b76135d7b350bcfef66" category="list-text">このタスクはリモートストレージアレイで実行します。</block>
@@ -7560,7 +7534,6 @@
   <block id="7ade41b7f837575cf3bc9cf9c6db860c" category="list-text"><block ref="7ade41b7f837575cf3bc9cf9c6db860c" category="inline-link-macro-rx"></block></block>
   <block id="d18c8b00e80b505406982d1c60493e63" category="summary">ストレージアレイをSANtricity Unified Managerで管理する必要がなくなった場合は、削除することができます。</block>
   <block id="bc54c8923d2e900bc8b88d98dcd843d0" category="doc">SANtricity Unified Managerからのストレージアレイの削除</block>
-  <block id="0c9f801d60084ecd96df66d961171ed0" category="paragraph">ストレージアレイをUnified Managerで管理する必要がなくなった場合は、削除することができます。</block>
   <block id="46da89f7644863b59a53669234ecf705" category="paragraph">削除すると、そのストレージアレイにはアクセスできなくなります。ただし、ブラウザでIPアドレスまたはホスト名を直接指定すれば、削除したストレージアレイへの接続を確立できます。</block>
   <block id="928414d532f3a0bd88fe01efa33e49cc" category="paragraph">ストレージアレイを削除しても、ストレージアレイ自体やそのデータには影響はありません。ストレージアレイを誤って削除した場合は、再度追加することができます。</block>
   <block id="c0906399540cc4c4cd2789192cf8a8b0" category="list-text">[* Manage *（管理）]ページを選択します。</block>
@@ -7629,14 +7602,12 @@
   <block id="9a2322dec60d95a72c3020f689531591" category="list-text"><block ref="9a2322dec60d95a72c3020f689531591" category="inline-link-macro-rx"></block></block>
   <block id="bd5c1b4a761c6f196221f804787289cb" category="summary">管理操作を実行する場合は、起動オプションを使用して、1つ以上のストレージアレイのブラウザベースのSANtricity System Managerを開くことができます。</block>
   <block id="c911e68fc2d0d4330e7c34bd2941a90f" category="doc">個々のストレージアレイを管理します</block>
-  <block id="8911f9d4a79da70f2e2f26cc33ada8aa" category="paragraph">管理操作を実行する場合は、起動オプションを使用して、1つ以上のストレージアレイのブラウザベースのSystem Managerを開くことができます。</block>
   <block id="dc81e35ba70439bdea73c9ca731dedc7" category="list-text">管理ページで、管理するストレージアレイを1つ以上選択します。</block>
   <block id="3eab8ee0f45fd9624973c05ec4303d5a" category="list-text">[* 起動 * ] をクリックします。</block>
   <block id="a269bd71b079afa7d2ec900d0f51428d" category="paragraph">新しいウィンドウが開き、System Managerのログインページが表示されます。</block>
   <block id="ed52458bc28c3fb69da9d3d643b9c4bb" category="list-text">ユーザー名とパスワードを入力し、*ログイン*をクリックします。</block>
   <block id="7671664858be05fdbfc7ebd9e330e072" category="summary">Unified Managerでストレージリソースを表示および管理するには、組織のネットワークで管理するストレージアレイを検出する必要があります。複数のアレイを検出することも、単一のアレイを検出することもできます。</block>
   <block id="072bbf879ecafdb82ab2e4349cfd42b5" category="doc">アレイの検出に関する考慮事項</block>
-  <block id="9b4ac681029804460c9ba68ebc344819" category="paragraph">Unified Managerでストレージリソースを表示して管理するには、組織のネットワークから管理対象のストレージアレイを検出する必要があります。複数のアレイを検出することも、単一のアレイを検出することもできます。</block>
   <block id="d316240204769eb0f31faba6852de25e" category="section-title">複数のストレージアレイを検出しています</block>
   <block id="c1180fcf0651dd21fc1fde9763788bc7" category="paragraph">複数のアレイを検出する場合は、ネットワークIPアドレスの範囲を入力すると、その範囲の各IPアドレスへの接続がUnified Managerで個別に試行されます。到達したストレージアレイが検出ページに表示され、管理ドメインに追加されることがあります。</block>
   <block id="429de7c9197491bab6d29f7b2cb5f688" category="section-title">単一のストレージアレイを検出しています</block>
@@ -7665,7 +7636,6 @@
   <block id="50e72c7eca8fd15d183c63b71f5f7331" category="list-text">必要に応じて、System Managerで同期設定を変更できます。</block>
   <block id="4fe5208fe8ba8110b56b8acc0c96d17e" category="summary">設定のインポート機能は、1つのストレージアレイから複数のストレージアレイに構成をロードするバッチ処理です。この処理でインポートされる設定は、SANtricity System Managerでソースストレージアレイがどのように設定されているかによって異なります。</block>
   <block id="d77d1605f41e6be3f550ae05cfaca17d" category="doc">どの設定がインポートされますか？</block>
-  <block id="c7f22d49f002f26198a719f2496c2e98" category="paragraph">設定のインポート機能は、1つのストレージアレイから複数のストレージアレイに構成をロードするバッチ処理です。この処理でインポートされる設定は、System Managerでソースストレージアレイがどのように設定されているかによって異なります。</block>
   <block id="eb66762bbeb3f99c598499dad7ab6419" category="paragraph">複数のストレージアレイにインポートできる設定は次のとおりです。</block>
   <block id="25e8a6fd63ed997760d824ab39cd4591" category="list-text">*Email alerts*--メールサーバのアドレスとアラート受信者の電子メールアドレスを設定します</block>
   <block id="6dad188816c45ced8208980247910468" category="list-text">*Syslogアラート*-- syslogサーバのアドレスとUDPポートを含む設定。</block>
@@ -7676,7 +7646,6 @@
   <block id="1aa660524e4f7281ec5e49498a4718df" category="list-text">*システム設定*--ボリュームのメディアスキャン設定、コントローラのSSDキャッシュ、および自動ロードバランシングが含まれます(ホスト接続レポートは含まれません)。</block>
   <block id="bcd2040d9a3029641d27c34b32354648" category="summary">ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、起動オプションを使用してSANtricity System Managerを開きます。</block>
   <block id="c95d46d93ad992222d3d7452ede68ef3" category="doc">System Managerにアクセスする際の考慮事項</block>
-  <block id="625735d117f75d6e7141cef378902859" category="paragraph">ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、Launchオプションを使用してSystem Managerを開きます。</block>
   <block id="e2de2b40f2bec701c57fd2fbde183531" category="paragraph">System Managerは、コントローラに組み込まれたアプリケーションであり、イーサネット管理ポートを介してネットワークに接続されます。アレイベースのすべての関数が含まれています。</block>
   <block id="97c771fec542c151941358c9507e1818" category="paragraph">System Managerにアクセスするには、以下を準備しておく必要があります。</block>
   <block id="d2bf6cf91aae10964c05d43904777ddb" category="inline-link-macro">E シリーズハードウェアの概要</block>
@@ -7956,7 +7925,6 @@
   <block id="effd8867201555d9e878c25e6ac1c734" category="inline-link">EMW（E2700、E5600 / EF560）のヘルプ</block>
   <block id="a0b75c365d2e51a35e74402a2c9667cf" category="list-text"><block ref="a0b75c365d2e51a35e74402a2c9667cf" category="inline-link-rx"></block></block>
   <block id="8a26f9c1af451d8775363a647445ae49" category="summary">アクセス管理では、SANtricity Unified Managerでユーザ認証を設定することができます。</block>
-  <block id="d1cc45589c0084f17d53b1764541acde" category="paragraph">アクセス管理では、Unified Managerでユーザ認証を設定することができます。</block>
   <block id="41315c44be734de1ba40d7ac966572b8" category="paragraph">次の認証方式を使用できます。</block>
   <block id="d49c4941abd4cbf48ddd6db7bbbb59b9" category="list-text">*ローカルユーザーの役割*-- RBAC（役割ベースのアクセス制御）機能を使用して認証を管理しますローカルユーザロールには、事前定義されたユーザプロファイルと、特定のアクセス権限を持つロールが含まれます。</block>
   <block id="aad50f908f47b2bf0ef42647f8e94a63" category="list-text">*ディレクトリサービス*-- LDAP (Lightweight Directory Access Protocol)サーバとディレクトリサービス(MicrosoftのActive Directoryなど)を介して認証を管理します</block>
@@ -7969,7 +7937,6 @@
   <block id="5e2b2b6f8333b56b53fc5e3216758819" category="list-text"><block ref="5e2b2b6f8333b56b53fc5e3216758819" category="inline-link-macro-rx"></block></block>
   <block id="34919a9493354af06c60b6a7efe26f66" category="summary">アクセス管理用の認証を設定するには、LDAPサーバとSANtricity Unified ManagerのWebサービスプロキシを実行するホストの間の通信を確立します。その後、LDAPユーザグループをローカルユーザロールにマッピングします。</block>
   <block id="b828924e6cb61c82f7d84db873261628" category="doc">ディレクトリサーバを追加します</block>
-  <block id="4414343c3416e84cd36e3cad4675e6cf" category="paragraph">アクセス管理用の認証を設定するには、LDAPサーバとUnified ManagerのWebサービスプロキシを実行するホストの間の通信を確立します。その後、LDAPユーザグループをローカルユーザロールにマッピングします。</block>
   <block id="b53df6d7d04b2e16a801c386e5491e43" category="paragraph">ディレクトリサーバの追加は、2つのステップで行います。まず、ドメイン名とURLを入力します。サーバでセキュアなプロトコルを使用している場合、認証に使用するCA証明書が標準の署名機関によって署名されていない場合、その証明書もアップロードする必要があります。バインドアカウントのクレデンシャルがある場合は、そのアカウント名とパスワードも入力できます。次に、LDAPサーバのユーザグループをローカルユーザロールにマッピングします。</block>
   <block id="062bd96c08dfa22823465cc5da09e38b" category="list-text">アクセス管理*を選択します。</block>
   <block id="983f7148d2276d9ec50cb88b8a839197" category="list-text">[*ディレクトリサービス*]タブで、[*ディレクトリサーバーの追加*]を選択します。</block>
@@ -7996,10 +7963,8 @@
   <block id="4184d6ac97aa74061d28478ab8dbe8d0" category="list-text">* rw *（読み取り/書き込み）-このユーザには、Storage Admin、Support Admin、Monitorのロールが含まれています。このアカウントは、パスワードが設定されるまで無効になります。</block>
   <block id="12f62570f7b21772e82a534ca6dde3d5" category="list-text">* ro *（読み取り専用）--このユーザーには、Monitorロールのみが含まれています。このアカウントは、パスワードが設定されるまで無効になります。</block>
   <block id="7f5fc7f5a6cfd2d629daa43027091634" category="summary">ロールベースアクセス制御（RBAC）機能には、1つ以上のロールがマッピングされた事前定義済みのユーザが含まれています。各ロールには、SANtricity Unified Managerのタスクにアクセスするための権限が含まれています。</block>
-  <block id="b6d27003498a8efabd89c3632f305a38" category="paragraph">ロールベースアクセス制御（RBAC）機能には、1つ以上のロールがマッピングされた事前定義済みのユーザが含まれています。各ロールには、Unified Managerのタスクにアクセスするための権限が含まれています。</block>
   <block id="ff3d7efd683a99e8ca518db8c7f93585" category="paragraph">ユーザに特定の機能に対する権限がない場合、その機能は選択できないか、ユーザインターフェイスに表示されません。</block>
   <block id="5d5b10ce79f5c0dc539334629d62d864" category="summary">アクセス管理を使用してSANtricity Unified Managerでのユーザ認証を確立する。</block>
-  <block id="44e7f9b14d94f37d603139d60643ff98" category="paragraph">アクセス管理を使用してUnified Managerでのユーザ認証を確立する。</block>
   <block id="f40760940eef8069f0bcacc614829c32" category="paragraph">アクセス管理の設定は次のように行います。</block>
   <block id="80cebe0082fb9e9d2629ddbf03a45e94" category="list-text">Security Adminの権限を含むユーザプロファイルでUnified Managerにログインします。</block>
   <block id="2ff565b6d3ae8906f3c4fac50daf31d4" category="paragraph">初めてのログインでは'ユーザ名adminが自動的に表示され'変更することはできませんadminユーザは'システムのすべての機能にフル・アクセスできます初回ログイン時にパスワードを設定する必要があります。</block>
@@ -8023,7 +7988,6 @@
   <block id="0d976dc17b4640ed74e2e82306ff7154" category="paragraph">システムでサーバの自己署名証明書が再び使用されるようになります。そのため、セッションの自己署名証明書を手動で承認するように求められます。</block>
   <block id="6537b14ab86690459051b15913eed344" category="summary">信頼されていない証明書の問題は、ストレージアレイからSANtricity Unified Managerへのセキュアな接続を確立しようとしたときに、接続がセキュアであることが確認できないと発生します。</block>
   <block id="57978b55e3a3b1f8e477379b56230f8e" category="doc">信頼されていない証明書を</block>
-  <block id="06ae56054017bbf48392ef1bea4dfe7b" category="paragraph">信頼されていない証明書の問題は、ストレージアレイからUnified Managerへのセキュアな接続を確立しようとしたときに、接続がセキュアであることが確認できないと発生します。</block>
   <block id="235d7e3807db91d7961342f6d13f3e3b" category="paragraph">証明書ページでは、信頼されていない証明書を解決するために、ストレージアレイから自己署名証明書をインポートするか、信頼できる第三者機関から発行された認証局（CA）証明書をインポートします。</block>
   <block id="951e2883c6a23f655f16e49f82ab2244" category="list-text">CA署名証明書をインポートする場合は、次の点に注意してください。</block>
   <block id="f1260c6add938f658d4fa1c233c69f76" category="list-text">ストレージアレイの各コントローラの証明書署名要求（.CSRファイル）を生成してCAに送信しておく必要があります。</block>
@@ -8087,13 +8051,11 @@
   <block id="ad1a4bcf3a61df607c20affd4b584d31" category="paragraph">\.[]{}()&lt;&gt;*+-=！？^$|</block>
   <block id="405a45882ab1bcdb0bc7b8f838ce10d1" category="paragraph">グループDNにマッピングするロール。このグループに含めるロールを個別に選択する必要があります。MonitorロールはSANtricity Unified Managerにログインするため必要なロールであり、他のロールと一緒に指定する必要があります。ロールには次のものがあります。</block>
   <block id="e1b68ee4aa4066c82dae8c2b6a7bd2c7" category="summary">SANtricity Unified Managerに関連するアクセス管理の用語を次に示します。</block>
-  <block id="64aa268315e67fd45e17bcf91ff30bab" category="paragraph">Unified Managerに関連するアクセス管理の用語を次に示します。</block>
   <block id="86492ff57bfb48a1cfe6863d646e4e37" category="paragraph">ロールベースアクセス制御（RBAC）は、コンピュータやネットワークリソースへのアクセスを個々のユーザのロールに基づいて制御する手法です。Unified Managerには事前定義されたロールがあります</block>
   <block id="e536634a787591dd23dbc618cd207ba6" category="paragraph">Web Services Proxyの使用方法</block>
   <block id="431e34c6a97c9d5d28df130a10fa0c0a" category="paragraph">Web Services Proxyは標準のHTTPSメカニズムによるアクセスを提供するプロキシで、管理者にストレージアレイの管理サービスの設定を許可します。このプロキシは、WindowsホストまたはLinuxホストにインストールできます。Unified ManagerインターフェイスはWeb Services Proxyで使用できます。</block>
   <block id="8e2a365bae244df40d20169523b4c250" category="summary">必要に応じて、SANtricity Unified Managerをホストするシステムで認証できるように、ストレージアレイの証明書をインポートすることができます。証明書には、認証局（CA）が署名した証明書と自己署名の証明書があります。</block>
   <block id="d308d3a2d458b8934e1a336510dd05c0" category="doc">アレイの証明書をインポートします</block>
-  <block id="e6170c93eb142fb01923e9f9b0ef39f7" category="paragraph">必要に応じて、Unified Managerをホストするシステムで認証できるように、ストレージアレイの証明書をインポートすることができます。証明書には、認証局（CA）が署名した証明書と自己署名の証明書があります。</block>
   <block id="35bc59ae8725a73f71e22d5b7e2eda45" category="list-text">信頼された証明書をインポートする場合は、System Managerを使用してストレージアレイのコントローラの証明書をインポートする必要があります。</block>
   <block id="2f3bb55cd5666e46843ed94b99f1cc9c" category="list-text">次のいずれかのメニューを選択します。Import [Certificates] CA certificate or menu：Import [Self-Signed storage array certificates]。自己署名証明書をインポートします。</block>
   <block id="3ebb85ccf545d068b56aa6242e5d9739" category="list-text">ダイアログボックスで証明書を選択し、*インポート*をクリックします。</block>
@@ -8116,7 +8078,6 @@
   <block id="818d28e7b7b11b8d0de393cdf2bad961" category="list-text">証明書ビューアアプリケーションでファイルを開きます。</block>
   <block id="ff35c3e3725af39a06df8c1a8972f5c3" category="summary">アクセス管理でディレクトリサーバを追加する前に、一定の要件を満たす必要があります。</block>
   <block id="061e64cad01b4cd81351026b626d0e7e" category="summary">管理者は、SANtricity Unified Managerに組み込みのロールベースアクセス制御（RBAC）機能を使用できます。これらの機能のことをローカルユーザロールと呼びます。</block>
-  <block id="ba501c87876b2abc6f333f2281c9b0d8" category="paragraph">管理者は、Unified Managerに組み込みのロールベースアクセス制御（RBAC）機能を使用できます。これらの機能のことを「ローカルユーザロール」と呼びます。</block>
   <block id="8605565fad22723762c246b949a49067" category="paragraph">ローカルユーザロールはシステムで事前に設定されています。認証にローカルユーザロールを使用する場合、管理者は次の操作を行うことができます。</block>
   <block id="76edcf550ca5e5e83180ce7ac7c7acf4" category="summary">すべての新規または更新されるローカルユーザパスワードの最小文字数を設定できます。また、ローカルユーザがパスワードを入力せずにシステムにアクセスできるようにすることもできます。</block>
   <block id="fbd6d481bdaa8213e0cdb2807836fbbc" category="list-text">設定を変更しても既存のローカルユーザパスワードには影響しません。</block>
@@ -8136,7 +8097,6 @@
   <block id="f131afe2eabed5b381e5517af0e2e91e" category="paragraph">信頼ストア</block>
   <block id="cf93328a82ffe3d054899b90fbfeed65" category="paragraph">信頼ストアは、CAなどの信頼できるサードパーティの証明書を格納するリポジトリです。</block>
   <block id="b9cba881bdd58bf9df0da788dc1b2941" category="summary">[ローカルユーザーの役割]タブでは、ユーザーとデフォルトの役割とのマッピングを表示できます。これらのマッピングは、SANtricity Unified ManagerのWebサービスプロキシで適用されるRBAC（ロールベースアクセス制御）の一部です。</block>
-  <block id="a0363d5fd0c0b077d52f4784dbe2bec9" category="paragraph">[ローカルユーザーの役割]タブでは、ユーザーとデフォルトの役割とのマッピングを表示できます。これらのマッピングは、Unified ManagerのWebサービスプロキシで適用されるRBAC（ロールベースアクセス制御）の一部です。</block>
   <block id="73ac0b03481ca2066ed032fc9c2875c2" category="paragraph">ユーザとマッピングは変更できません。変更できるのはパスワードだけです。</block>
   <block id="c5c570ddef1c2b01ec882c74deba2a55" category="paragraph">表にユーザが表示されます。</block>
   <block id="2bf59aca4b70fb1e276f68737ab54888" category="list-text">*admin*--システム内のすべての機能にアクセスできるスーパー管理者。このユーザにはすべてのロールが含まれています</block>
@@ -8198,8 +8158,6 @@
   <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">よくある質問です</block>
   <block id="3023481996e16c0dd27c1aeeab45a6c4" category="sidebar">すべてのハードウェアコンポーネントが表示されない場合はどうすればよいですか？</block>
   <block id="4f77fb4cfa40635f17d21979b6692c01" category="sidebar">すべてのホストが表示されない場合はどうすればよいですか？</block>
-  <block id="009fd64f93ff18102999ecfeee8b7573" category="sidebar">Unified Managerのセットアップを実行します</block>
-  <block id="26ed02718973e705cd69ee6e109400e0" category="sidebar">System Manager の略</block>
   <block id="93af28c8ab635f0e7d402547ab0c929d" category="sidebar">メインインターフェイス</block>
   <block id="fc78fae55edd9650c6455e58681d3aae" category="sidebar">パフォーマンスデータを表示します</block>
   <block id="76cf11d4db12b1a45f4d62797b620d5e" category="sidebar">インターフェイスの設定を管理します</block>
@@ -8364,7 +8322,6 @@
   <block id="045d1e9a94278a8386d71e58e81fd7a1" category="sidebar">アップグレードを管理する</block>
   <block id="8d94d37b5905d67ccf22b375e3bf5c6e" category="sidebar">ソフトウェアとファームウェアをアップグレードします</block>
   <block id="f446e3c0eca28983e35e282214782584" category="sidebar">アレイのステータスを表示します</block>
-  <block id="835b7ac0eaf285552b7ec179de33d014" category="sidebar">System Manager を起動します</block>
   <block id="8ebeac47d02da19c4d1cd88ab9d7cca8" category="sidebar">アレイのパスワードを変更します</block>
   <block id="a0a3f20685c328a00474bb00b7d35fd5" category="sidebar">アレイをビューから削除します</block>
   <block id="15fc53829e4c837f62e15647e031089c" category="sidebar">設定をインポートします</block>
@@ -8694,14 +8651,10 @@
   <block id="45dc1f6fb3b875c733e188121fcc647a" category="paragraph">秘密鍵と公開鍵のペアから外部で生成された証明書署名要求（CSR）ファイルを、System Managerからインポートできるようになりました。</block>
   <block id="c0f4196deec20490ebf6989158642c34" category="paragraph">Web Servicesでログインロックアウト機能を使用できるようになりました</block>
   <block id="a30347233ec617731633ca56f8f1b923" category="paragraph">REST APIでのみ設定可能で、組み込みWebサービスとプロキシWebサービスで新しいログインロックアウト設定を使用できるようになりました。</block>
-  <block id="877f007e3f321618e24a9962b07e63fa" category="sidebar">System Manager 11.9による単一アレイの管理</block>
-  <block id="9c2cbf0c1a7244ea333628422695d560" category="sidebar">Unified Manager 7による複数のアレイの管理</block>
   <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9のドキュメント</block>
   <block id="320344fc6d13f7639d2b2c90f55506fa" category="sidebar">SANtricity 11.90ソフトウェアを使用すると、データ分析、ビデオ監視、バックアップとリカバリなどの高ワークロードアプリケーション向けに、EシリーズのハイブリッドフラッシュおよびEFシリーズのオールフラッシュアレイのパフォーマンスと利用率を最大限に高めることができます。</block>
   <block id="b26c3f1c1c8d9eb65323b2750c4c349d" category="sidebar">SANtricityソフトウェアのドキュメント11.90</block>
   <block id="90e8ac6688c66ac3fc81de93ba27235a" category="sidebar">SANtricity システムマネージャとUnified Manager</block>
-  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Managerインターフェイス</block>
-  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Managerインターフェイス</block>
   <block id="e95315401141b931451e32ea694b6d92" category="sidebar">SANtricityソフトウェアデータシート</block>
   <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">Eシリーズのドキュメント</block>
   <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">Eシリーズシステムのドキュメント</block>
@@ -8722,4 +8675,71 @@
   <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">ツールとサポート</block>
   <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ（ログインが必要）</block>
   <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">Eシリーズ/ SANtricityのダウンロード（ログインが必要）</block>
+  <block id="511bc26995332ccd1bc373f2533ac9e7" category="doc">SANtricityシステムマネージャにアクセスする</block>
+  <block id="d5eb7087909dec2e661624440883bfe3" category="paragraph">SANtricity System Managerのユーザインターフェイスにアクセスするには、ブラウザでコントローラのIPアドレスを指定します。セットアップウィザードを使用して、システム設定を開始できます。</block>
+  <block id="df45899b1d870d205c92f531b2f9cbca" category="doc">SANtricity Unified Managerのインストール</block>
+  <block id="c37a83a89674fde8ffeaf12ba00d2af5" category="paragraph">SANtricity Unified ManagerはWebサービスプロキシに含まれています。Webサービスプロキシは、NetApp Eシリーズストレージシステムを管理するためにホストシステムに別途インストールするRESTful APIサーバです。</block>
+  <block id="0a9898b156851883b0c35a15776338c8" category="doc">SANtricity Unified Managerへのアクセス</block>
+  <block id="6def903cf56aa77e14dd50ebb8fe2719" category="paragraph">Webサービスプロキシをインストールしたら、SANtricity Unified ManagerにアクセスしてWebベースのインターフェイスで複数のストレージシステムを管理できます。</block>
+  <block id="ef256c4d218c47a2c04a18d10165ac0f" category="paragraph">SANtricity System Managerでは、ドライブについてさまざまな状態が報告されます。</block>
+  <block id="00cffad3ca607922a6c706858259b403" category="paragraph">ホットスペアは、SANtricity System ManagerのRAID 1、RAID 5、またはRAID 6のボリュームグループでスタンバイドライブとして機能します。</block>
+  <block id="f1a4437045c85126e53d06d8e40fd021" category="paragraph">ストレージシステムが最適モードでないのは、Invalid System Configuration状態が原因です。この状態でも既存のボリュームへの通常のI/Oアクセスは完全にサポートされますが、SANtricityシステムマネージャでは一部の処理が禁止されます。</block>
+  <block id="4c1548b517bea01f9959a884be8575f3" category="paragraph">[ホーム]ページには、ストレージアレイの日 々 の管理用にダッシュボードビューが表示されます。SANtricityシステムマネージャにログインすると、[ホーム]ページが最初の画面として表示されます。</block>
+  <block id="23d5a32d5d5e34af0ae01167c84aee80" category="paragraph">アプリケーションを特定すると、アプリケーションタイプに基づいてストレージを最適化するボリューム構成がSANtricity System Managerによって自動的に提示されます。</block>
+  <block id="37ab8a55610b93d738f7d12e13b2cbe8" category="paragraph">SANtricity System Managerは、ストレージアレイを単一のビューで管理できるWebベースのインターフェイスです。</block>
+  <block id="533d0451d27fab44f457ddccee791402" category="doc">SANtricity System Managerインターフェイスの概要</block>
+  <block id="1d4af631b6959ddfabcf268d07e5d112" category="paragraph">SANtricity System Managerは、アイコンおよびその他のいくつかの方法を使用して、ストレージアレイに問題が発生したことを通知します。</block>
+  <block id="eca296c53d8021e175c9233b22d536a5" category="paragraph">Recovery GuruはSANtricity System Managerのコンポーネントです。ストレージアレイの問題を診断し、問題を解決するためのリカバリ手順を推奨します。</block>
+  <block id="1eccb12b6beaa3afa33d88e6dbe96f3e" category="paragraph">SANtricity System Managerでは、容量の値をギビバイト（GiB）またはテビバイト（TiB）で表示できます。</block>
+  <block id="a9eafd95e4debe4d6c9e953b2123621f" category="doc">SANtricity System Managerでホストが検出されませんでした。どうすればいいですか？</block>
+  <block id="784bf5e8aec03bc0a910429232366bbb" category="paragraph">SANtricityシステムマネージャは、キーボードだけを使用して操作できます。</block>
+  <block id="31c67a5a03f932bcfb7ec2e8acde1918" category="paragraph">SANtricity System Managerでは、次のバージョンのブラウザがサポートされます。</block>
+  <block id="06c1a3efc270606698185f701855e68d" category="paragraph">ミラーペアはSANtricity Unified Managerインターフェイスで設定し、SANtricity System Managerで管理します。</block>
+  <block id="74b085142e307db471b1f86d42eaa7f6" category="paragraph">ミラーペアボリュームの設定を変更して、ミラーペアボリュームのリザーブ容量が残り少なくなったときにSANtricity System Managerからアラート通知を送信する割合を調整できます。</block>
+  <block id="f16e62f612f383ccc4993fccf8164eb5" category="paragraph">SANtricity System Managerで管理できない従来のストレージアレイにプライマリボリュームを作成した場合は、SANtricity System Managerを使用してそのアレイにセカンダリボリュームを作成できます。</block>
+  <block id="e8335355b809680a7a07946df0f22a21" category="paragraph">ミラーリングはSANtricity Unified Managerインターフェイスで設定します。</block>
+  <block id="3e8940a07dc6e6fcfaeb8f76e0e95d98" category="paragraph">SANtricityシステムマネージャからコマンドラインインターフェイス（CLI）パッケージをダウンロードできます。</block>
+  <block id="e3c6215a209a5d287059d476946fe408" category="paragraph">アドオンはSANtricity System Managerの標準構成には含まれていない機能であり、有効にするにはキーが必要になる場合があります。アドオン機能には、単一のプレミアム機能と、バンドルされた機能パックがあります。</block>
+  <block id="97d42caaa63b71f8c24b9a49d4dd3cad" category="doc">外部キー管理用にSANtricity System Managerにアップロードする必要がある証明書を確認するにはどうすればよいですか？</block>
+  <block id="2808e7b4862302de005363e8d7a9298b" category="paragraph">SANtricityシステムマネージャでは、一部の一般的なアレイ設定やアドオン機能を設定できます。</block>
+  <block id="ed6a026f78a1a9d6f206a0aac76aae36" category="paragraph">非アクティブな状態が一定の時間続いたユーザセッションは切断されるよう、SANtricity System Managerでタイムアウトを設定できます。</block>
+  <block id="7b5a3ab486c3b4b2ccfc9a760315a3ea" category="paragraph">SANtricity System Managerでは、ストレージアレイのアラートをEメール、SNMPトラップ、およびsyslogメッセージで送信するように設定できます。</block>
+  <block id="04dfac63eb6f5f22800fa898350089ee" category="paragraph">SANtricityシステムマネージャを使用して、証明書署名要求（CSR）の作成、証明書のインポート、および既存の証明書の管理を行うことができます。</block>
+  <block id="37292b1d6269336dad0fc27c14cc50e6" category="paragraph">自動ロードバランシング機能を使用すると、ホストからの受信I/Oトラフィックが動的に管理され、両方のコントローラに分散されます。この機能はデフォルトで有効になっていますが、SANtricityシステムマネージャから無効にすることができます。</block>
+  <block id="d446eaf3c37a2d1b64761e41e0d4c396" category="paragraph">コントローラとSANtricity System Managerへのアクセスに使用するブラウザとの間のセキュアな通信を確立するために、CA署名証明書を取得できます。</block>
+  <block id="71922c71c5f29b0c629529ba400ef998" category="paragraph">SANtricity System Managerでは、証明書失効リスト（CRL）をアップロードする代わりに、オンライン証明書ステータスプロトコル（OCSP）サーバを使用して失効した証明書をチェックできます。</block>
+  <block id="d901918c71190564252df1392b4512b5" category="paragraph">次の表に、iSER over InfiniBandセッションの設定と管理に使用できるSANtricity System Managerの機能を示します。</block>
+  <block id="97eb7f10d621b518571460a8d1bccf8b" category="paragraph">次の表に、over InfiniBandセッションの設定と管理に使用できるSANtricity System Managerの機能を示します。</block>
+  <block id="09cab99fec7e2be20fb90f16f896325b" category="paragraph">SANtricity System Managerに表示されるタイムスタンプが管理クライアント（ブラウザからSANtricity System Managerにアクセスするコンピュータ）に表示されるタイムスタンプと一致していない場合は、ストレージアレイのコントローラクロックを手動で同期する必要があります。このタスクを実行する必要があるのは、SANtricityシステムマネージャでNTP（ネットワークタイムプロトコル）が有効になっていない場合だけです。</block>
+  <block id="a96d9e965e10c639f6190acfe6a05114" category="paragraph">管理インターフェイスの切り替えや認証方式へのSAMLの使用など、SANtricity System Managerで特定の変更を行うと、一部の外部ツールや機能が使用できなくなることがあります。</block>
+  <block id="e89611f534bae4fdefd815eda302ac53" category="paragraph">SANtricityシステムマネージャへのログイン時にエラーが表示される場合は、次の原因を確認してください。</block>
+  <block id="e07e1a01ada9b7dffd6f47c6fec15822" category="paragraph">整合性グループのメンバーボリュームの設定を変更して、メンバーボリュームのリザーブ容量が残り少なくなったときにSANtricity System Managerからアラート通知を送信する割合を調整したり、リザーブ容量が最大使用率に達したときに使用するポリシーを変更したりできます。</block>
+  <block id="5565955fb75572cd15d1180cd1e84891" category="paragraph">Snapshotグループの設定を変更して、グループの名前、自動削除設定、許可されるSnapshotイメージの最大数、SANtricity System Managerがリザーブ容量のアラート通知を送信する割合、またはリザーブ容量が最大使用率に達したときに使用するポリシーを変更できます。</block>
+  <block id="f387ebe48cc5271f2c7b7a6d62f5e151" category="paragraph">プールの作成は、SANtricity System Managerがストレージアレイ内に未割り当てのドライブを検出すると自動的に開始されます。プールの自動作成を使用すると、ストレージアレイ内のすべての未割り当てドライブを1つのプールに簡単に設定したり、既存のプールにドライブを追加したりできます。</block>
+  <block id="167c625a6715ae3c7e8f536806a65484" category="paragraph">SANtricity System Managerでは、プールから削除できるドライブ数の制限が設定されています。</block>
+  <block id="c37cb57fbf471d09e0a0c473b1af4395" category="paragraph">容量アラートは、ドライブをプールに追加するタイミングを示します。ストレージアレイの処理を正常に実行するには、プールに十分な空き容量が必要です。プールの空き容量が指定した割合以上になったときにアラートを送信するようにSANtricity System Managerを設定すると、これらの処理の中断を回避できます。</block>
+  <block id="c3ef549f921f9931ee4e54e5a9176597" category="paragraph">SANtricityシステムマネージャでは、次の手順でSnapshotイメージとSnapshotボリュームを作成できます。</block>
+  <block id="e96cf8b7e66ac097facaf28c82d66aa1" category="paragraph">テクニカルサポートは、リカバリサポートファイルを使用して問題のトラブルシューティングを行うことができます。これらのファイルはSANtricity System Managerで自動的に保存されます。</block>
+  <block id="fcaba1806566990b101abb2ccb59a73f" category="paragraph">SANtricity System Managerでは、AutoSupportディスパッチのデフォルトのスケジュールが自動的に作成されます。必要に応じて、独自のスケジュールを指定できます。</block>
+  <block id="d8d7d1838ede45a15d34d278b1c7dc22" category="paragraph">SANtricity System Managerでは、スケジュールされたディスパッチを待たずにAutoSupportディスパッチをテクニカルサポートに送信できます。</block>
+  <block id="da1743923a3a0458c608ee2a3312d293" category="paragraph">iSCSIセッションは、非同期ミラー関係にあるホストまたはリモートストレージアレイとの間で実行できます。次の表に、これらのiSCSIセッションの設定と管理に使用できるSANtricityシステムマネージャの機能を示します。</block>
+  <block id="3ec40952f7ff71ab9d51f1f50e2e10a2" category="paragraph">SANtricity Unified Managerは、複数のストレージアレイを1つのビューで管理できるWebベースのインターフェイスです。</block>
+  <block id="5f7016e066403d9d218a874cedc63541" category="paragraph">非アクティブな状態が一定の時間続いたユーザセッションは切断されるように、SANtricity Unified Managerでタイムアウトを設定できます。</block>
+  <block id="82a77b13aa8d00eca6e71aa5af7098d6" category="doc">SANtricity Unified Managerインターフェイスの概要</block>
+  <block id="553b07cb69b9906d0f4d1c0b2c97bdae" category="paragraph">管理者は、SANtricity Unified Managerに組み込みのロールベースアクセス制御（RBAC）機能を使用できます。これらの機能は、「ローカルユーザロール」と呼ばれます。</block>
+  <block id="f0254fcd04a8e1df1dc8c778e6189b01" category="paragraph">SANtricity Unified Managerをホストする管理システムへのセキュアなアクセスを実現するために、CA署名証明書を取得してインポートできます。</block>
+  <block id="c5f9375676cadbc97263ea339c65e0df" category="paragraph">SANtricity Unified Managerでストレージリソースを表示して管理するには、組織のネットワークから管理対象のストレージアレイを検出する必要があります。複数のアレイを検出することも、単一のアレイを検出することもできます。</block>
+  <block id="8205965c706fda540f0df394d1fd7df5" category="paragraph">SANtricity Unified Managerを使用して、1つのストレージアレイから複数のストレージアレイに設定をインポートできます。設定のインポート機能は、ネットワーク内に複数のアレイを構成する必要がある場合に時間を節約するバッチ処理です。</block>
+  <block id="2b8e903f9231328c5dd4ac194fe0ed99" category="paragraph">SANtricity Unified Managerを使用して、同じタイプの複数のストレージアレイのSANtricity OSソフトウェアを新しいバージョンにアップグレードできます。</block>
+  <block id="c5cdef1d414ec599aa9b2d1f28c67d4b" category="doc">SANtricity System Managerへのアクセスに関する考慮事項</block>
+  <block id="cdaae564ece8b6f3561a5e657337c464" category="paragraph">SANtricity Unified Managerで非同期ミラーリングまたは同期ミラーリングを設定し、SANtricity System Managerを使用して同期を管理します。</block>
+  <block id="69ffe5f70c823700a785fa58e3fbca15" category="paragraph">SANtricity Unified Managerには、SANtricityのミラーリング機能の設定オプションがあります。この機能を使用すると、管理者は2つのストレージアレイ間でデータをレプリケートしてデータを保護できます。</block>
+  <block id="bf29ed0b212c99188f3c0d2b5992aeee" category="paragraph">SANtricity Unified Managerには、検出された各ストレージアレイのステータスが表示されます。</block>
+  <block id="99e207225cad4e6c8aa147bb693de2fe" category="paragraph">SANtricity Unified Managerを使用して複数のストレージアレイをアップグレードする場合に、計画段階で確認が必要な考慮事項を以下に記載します。</block>
+  <block id="48003406c3332bb90497a98f2d79b26a" category="sidebar">SANtricity System Managerインターフェイス</block>
+  <block id="b4baa7fdabc903993aebeaaa5980c455" category="sidebar">SANtricity Unified Managerインターフェイス</block>
+  <block id="447d926e847ba6e7316f7c54ac601bab" category="sidebar">SANtricity System Manager 11.9による単一アレイの管理</block>
+  <block id="4895fd90ba99a1644bbfaaa77bf80a43" category="sidebar">SANtricity Unified Managerを使用した複数のアレイの管理7</block>
+  <block id="3089984c7abf64387bdc035943beae57" category="sidebar">SANtricity System Managerのセットアップ</block>
+  <block id="61ed698df3699989d8d782fe430d2755" category="sidebar">SANtricity Unified Managerのセットアップ</block>
 </blocks>

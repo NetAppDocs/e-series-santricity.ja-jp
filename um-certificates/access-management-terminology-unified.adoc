@@ -11,7 +11,7 @@ summary: SANtricity Unified Managerに関連するアクセス管理の用語を
 
 
 [role="lead"]
-Unified Managerに関連するアクセス管理の用語を次に示します。
+SANtricity Unified Managerに関連するアクセス管理の用語を次に示します。
 
 [cols="25h,~"]
 |===
