@@ -1,6 +1,6 @@
 ---
 settings:
-  name: SANtricity 11.9
+  name: SANtricity software
   internal:
     pdf_enabled: true
   prod:
@@ -17,7 +17,7 @@ settings:
   langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: SANtricity 11.9のドキュメント
+  - title: SANtricityソフトウェア11.9のドキュメント
     url: "/index.html"
   - title: リリースノート
     entries:
