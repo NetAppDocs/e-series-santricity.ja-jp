@@ -2,7 +2,7 @@
 permalink: sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, resource-provisioned, volumes, feature, 
-summary: リソースプロビジョニングは、EF300およびEF600ストレージアレイで使用できる機能です。これにより、バックグラウンドの初期化プロセスを実行せずに、ボリュームをただちに使用できます。 
+summary: リソースプロビジョニングは、EF300、EF300C、EF600、およびEF600Cストレージアレイで使用できる機能です。この機能を使用すると、ボリュームをバックグラウンドの初期化プロセスなしですぐに使用できるようになります。 
 ---
 = リソースでプロビジョニングされるボリューム機能について、どのような点に注意する必要がありますか？
 :allow-uri-read: 
@@ -19,3 +19,6 @@ summary: リソースプロビジョニングは、EF300およびEF600ストレ�
 リソースプロビジョニングボリュームはSSDボリュームグループおよびプールでのみサポートされます。グループまたはプール内のすべてのドライブでNVMeのDeallocated or Unwritten Logical Block Error（DULBE）エラーリカバリ機能がサポートされます。リソースでプロビジョニングされたボリュームを作成すると、そのボリュームに割り当てられていたすべてのドライブブロックが割り当て解除（マッピング解除）されます。また、ホストではNVMe Dataset ManagementコマンドまたはSCSI Unmapコマンドを使用して、ボリューム内の論理ブロックの割り当てを解除できます。ブロックの割り当てを解除すると、SSDの消耗度が改善され、書き込みパフォーマンスが最大化されます。向上率はドライブのモデルと容量によって異なります。
 
 DULBEがサポートされているシステムでは、リソースプロビジョニングがデフォルトで有効になっています。このデフォルト設定は、* Pools & Volume Groups *で無効にできます。
+
+
+NOTE: 現在、EF300CまたはEF600CストレージアレイではDULBEはサポートされていません。

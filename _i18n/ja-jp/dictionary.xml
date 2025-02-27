@@ -911,7 +911,6 @@
   <block id="02d56cf7754ce16d7ce0193fbca7c90a" category="paragraph">キャッシュ</block>
   <block id="01875a0a0c6c489daebdf2da47822bf8" category="paragraph">キャッシュ設定が表示されます。この設定を変更すると、ボリュームの全体的なI/Oパフォーマンスを向上させることができます。</block>
   <block id="f7fad94692941472b9a76c2ba57c020c" category="paragraph">SSD キャッシュ</block>
-  <block id="04bbd2c132c1093db28e447b3653bb4f" category="admonition">この機能は、EF600またはEF300ストレージシステムでは使用できません。</block>
   <block id="0ac6cd8987ecb9501395a6c2fed923c4" category="paragraph">SSDキャッシュの設定が表示されます。互換性のあるボリュームでこの設定を有効にすると、読み取り専用のパフォーマンスが向上します。ドライブセキュリティとData Assuranceの設定が同じボリュームは互換性があります。</block>
   <block id="d0c8df7335fd09690d17fec5d12d8ec8" category="paragraph">* SSDキャッシュ機能は、1つまたは複数のソリッドステートディスク（SSD）を使用して読み取りキャッシュ*を実装します。SSDの読み取り時間が速くなるため、アプリケーションパフォーマンスが向上します。読み取りキャッシュはストレージアレイ内にあるため、ストレージアレイを使用するすべてのアプリケーションでキャッシュが共有されます。キャッシュするボリュームを選択すると、あとは動的に自動でキャッシングが実行されます。</block>
   <block id="f106bbc08b77d5e3fe5f9f78801fa7d1" category="paragraph">選択内容に基づいて、System Managerがボリュームの設定を変更します。</block>
@@ -1314,7 +1313,6 @@
   <block id="2b6dfac4c2ee1e0fccb3ed18c1e9e715" category="list-text">シンボリュームが最大割り当て容量の制限に近づいたときにホームページの通知領域にアラート（警告しきい値超過）が送信される割合を設定します。</block>
   <block id="641704c0841951140a62999ce85bfaeb" category="paragraph">シンボリュームの容量を拡張するには、レポート容量を拡張してください。</block>
   <block id="b427c469cec42cd76c840d0e5107a920" category="paragraph">System Managerには、シンボリュームを作成するオプションはありません。シンボリュームを作成する場合は、コマンドラインインターフェイス（CLI）を使用します。</block>
-  <block id="5b48e77fd7668c15e4d278280b54ae19" category="paragraph">シンボリュームは、EF600またはEF300ストレージシステムでは使用できません。</block>
   <block id="50d09ee94af23ca7be0ea0bd72392ef1" category="summary">ホストは、ストレージアレイ上のボリュームにI/Oを送信するサーバです。ホストクラスタはホストのグループです。ホストクラスタを作成すると、同じボリュームを複数のホストに簡単に割り当てることができます。</block>
   <block id="72180ea1a91065ba958b5dd4237a8c86" category="paragraph">ホストは個別に定義します。ホストを独立したエンティティにすることも、ホストクラスタに追加することもできます。個々のホストにボリュームを割り当てることができます。または、ホストをホストクラスタの一部として指定し、1つ以上のボリュームへのアクセスをホストクラスタ内の他のホストと共有することもできます。</block>
   <block id="e4fe3b05ff25fac2ac46ef009d413f46" category="paragraph">ホストクラスタは、SANtricity System Managerで作成する論理エンティティです。ボリュームを割り当てる前に、ホストクラスタにホストを追加する必要があります。</block>
@@ -1570,7 +1568,6 @@
   <block id="c840c0758e533a8d2471360454925ac2" category="paragraph">ドライブセキュリティ機能を使用する場合、セキュリティ有効ドライブとストレージアレイのコントローラで共有されるセキュリティキーを作成します。ドライブの電源をオフにしてオンにするたびに、コントローラによってセキュリティキーが適用されるまでセキュリティ有効ドライブはセキュリティロック状態になります。</block>
   <block id="8a815b2a47535f1623438fab12c61953" category="summary">アクセスボリュームは、ストレージアレイの工場出荷時に設定されたボリュームで、ホストI/O接続を介したストレージアレイおよびホストとの通信に使用されます。アクセスボリュームには論理ユニット番号（LUN）が必要です。</block>
   <block id="da5b269ce13f310ea60da5646f66f4df" category="list-text">*インバンド管理*--インバンド接続でストレージアレイを管理するために使用されるアクセスボリューム。これは、ストレージアレイをコマンドラインインターフェイス（CLI）で管理する場合にのみ可能です。</block>
-  <block id="b07f190bd057ec5ae997cb6fe0661683" category="paragraph">インバンド管理は、EF600またはEF300ストレージシステムに対しては使用できません。</block>
   <block id="c77cfe09f0da7405a83c73fb323b653d" category="paragraph">アクセスボリュームは、ホストに初めてボリュームを割り当てるときに自動的に作成されます。たとえば、Volume_1とVolume_2をホストに割り当てた場合、その割り当ての結果を表示すると、3つのボリューム（Volume_1、Volume_2、およびAccess）が表示されます。</block>
   <block id="1f7334c99cc83f3bab939dd30e1ec973" category="paragraph">ホストを自動的に作成しない場合やCLIを使用してストレージアレイをインバンドで管理しない場合は、アクセスボリュームが不要であるため、アクセスボリュームを削除してLUNを解放できます。この処理を実行すると、ボリュームとLUNの割り当てが解除されるだけでなく、ホストへのインバンド管理接続もすべて削除されます。</block>
   <block id="728d21c326005f9487f28f6b53df62a5" category="summary">セグメントは、あるドライブに格納されるデータの量（KiB）です。この量に達すると、ストライプ（RAIDグループ）内の次のドライブへと進みます。セグメントサイズはボリュームグループにのみ該当し、プールには該当しません。</block>
@@ -1752,7 +1749,6 @@
   <block id="497f98df0a65d45702bbb213f94ad2f9" category="paragraph">シェルフ損失の保護</block>
   <block id="583c0f2e390971cb9f4ba4ce9747868e" category="paragraph">シェルフ損失の保護が使用可能かどうかを示します。シェルフ損失の保護が有効な場合、シェルフとの通信が完全に失われた場合でもボリュームグループ内のボリューム上のデータへのアクセスが保証されます。</block>
   <block id="ccadd3c23eb718337466208415f3437d" category="paragraph">ドロワー損失の保護</block>
-  <block id="fd12b513859f856de91f86c6941047de" category="paragraph">ドロワー損失の保護が使用可能かどうかを示します。この保護は、使用しているドライブシェルフにドロワーが搭載されている場合にのみ提供されます。ドロワー損失の保護が有効な場合、ドライブシェルフの1台のドロワーとの通信が完全に失われた場合でもボリュームグループ内のボリューム上のデータへのアクセスが保証されます。</block>
   <block id="26fd2333265af0bb99ce6e49214a7444" category="paragraph">サポートされるボリュームのブロックサイズ（EF300およびEF600のみ）</block>
   <block id="145bb60ec8160f7c202bcdea28c6a17a" category="paragraph">グループ内のボリュームに作成できるブロックサイズが表示されます。</block>
   <block id="71c479418a6ac59e90760be894a1c19b" category="list-text">512n -- 512バイトネイティブ。</block>
@@ -2397,7 +2393,6 @@
   <block id="23509c39f2453599ca0877d32956ae09" category="list-text">シックボリュームの容量は、ボリュームの作成時に割り当てられます。</block>
   <block id="5310bc5e64d1f64e025eb1c642e2bba8" category="list-text">シンボリュームの容量は、ボリュームへの書き込みの際にデータとして割り当てられます。</block>
   <block id="059801af7cde1a87cf3c098887a187f9" category="paragraph">シンプロビジョニングを使用すると、無駄な容量の割り当てを回避し、ストレージの初期コストを削減できます。ただし、シックボリュームが作成されるとすべてのストレージが一度に割り当てられるため、完全なプロビジョニングのメリットとしてはレイテンシの低下が挙げられます。</block>
-  <block id="e2b8fbf01b4ff47fbb96c92ac379ea78" category="paragraph">EF600およびEF300ストレージシステムでは、シンプロビジョニングはサポートされません。</block>
   <block id="089e479d3dc64139ab1266d151b32d32" category="section-title">ボリュームの特性</block>
   <block id="796dfd432b6f644d61e91352515bb6d2" category="paragraph">プールまたはボリュームグループ内の各ボリュームには、格納されるデータのタイプに基づいて独自の特性があります。たとえば、次のような特性があります。</block>
   <block id="7c1d052253e33c65465a5eb406bb3dc2" category="list-text">*セグメントサイズ*-セグメントは、あるドライブに格納されるデータの量（KiB）です。この量に達すると、ストライプ（RAIDグループ）内の次のドライブへと進みます。セグメントサイズは、ボリュームグループの容量と同じかそれよりも小さくなります。プールのセグメントサイズは固定で、変更することはできません。</block>
@@ -5826,8 +5821,6 @@
   <block id="2ab0aa4e6f963bdda6156f57930e7a34" category="list-text">System Managerで、シャーシのシリアル番号を確認して記録します。このシリアル番号は、サポートセンターのタイルにマウスを合わせると表示されます。</block>
   <block id="d8ab4f4f4bd758e305ce24ae089739e7" category="list-text">System Manager で、機能有効識別子を確認します。[設定]、[システム]の順に移動し、下にスクロールして*アドオン*を表示します。機能有効識別子*を探します。機能有効識別子の番号を記録します。</block>
   <block id="1e892535381bacc3eae14862eb515b1a" category="list-text">機能を有効にするコードを探して記録します。機能パックの場合、このコードは変換を実行するための適切な手順で提供されます。</block>
-  <block id="b7c76db9b2472e615129452598c32a70" category="inline-link">NetApp Eシリーズシステムのドキュメントセンター</block>
-  <block id="19c1dae7ed1abf9eb3b6c5146df9b1d5" category="paragraph">ネットアップの手順説明にはからアクセスできます<block ref="da76044833cc021823434c8291982304" category="inline-link-rx"></block>。</block>
   <block id="ead7d7ce373cd886b6b7a1a60db53284" category="paragraph">プレミアム機能の場合は、サポートサイトから次の手順でアクティベーションコードにアクセスできます。</block>
   <block id="e7626dadbaccf1c6de0466c8e9271bce" category="list-text">にログインします<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>。</block>
   <block id="78e85ed9fdf2fdf631f1825f112c9596" category="list-text">お使いの製品の「*ソフトウェアライセンス*」にアクセスします。</block>
@@ -8448,11 +8441,7 @@
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
   <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
   <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">アレイに組み込まれたSecurity Assertion Markup Language（SAML）機能を使用してアクセス管理を設定している場合、ユーザのSSOセッションが最大数に達したときにセッションタイムアウトが発生することがあります。これは、System Managerのセッションタイムアウトより前に発生することがあります。</block>
-  <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">同期ミラーリングは、EF600またはEF300ストレージシステムでは使用できません。</block>
-  <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">同期ミラーリングはEF600またはEF300ストレージアレイでは使用できません。</block>
   <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">EF600およびEF300コントローラでは、非同期ミラーペアのプライマリボリュームとセカンダリボリュームのプロトコル、トレイレベル、セグメントサイズ、セキュリティタイプ、およびRAIDレベルが同じである必要があります。対応していない非同期ミラーペアは、使用可能なボリュームのリストに表示されません。</block>
-  <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">この機能は、EF600またはEF300ストレージシステムの同期ミラーリングでは使用できません。</block>
-  <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">同期ミラーリングはEF300またはEF600ストレージアレイでは使用できません。</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">はい^3^</block>
   <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^ターゲットボリュームの容量はシンボリュームのレポート容量以上である必要があります。</block>
   <block id="b7c484278db16efdf320efb752c9d501" category="paragraph">^2^オンラインコピー処理が完了するまでは、Snapshotボリュームコピーを使用できません。</block>
@@ -8501,7 +8490,6 @@
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">アラート対象のイベントが発生するたびに、イベントモニタからsyslogサーバにアラートが送信されます。監査ログのsyslog設定の詳細については、を参照してください。<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">設定が完了すると、以降すべての監査ログがsyslogサーバに送信されるようになります。以前のログは転送されません。アラートのsyslog設定の詳細については、を参照してください。<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager --ネットワーク内の個 々 のストレージアレイの管理に使用するWebベースのインターフェイス。</block>
-  <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600およびEF300ストレージアレイでは、同期ミラーリングまたはシンボリュームはサポートされません。</block>
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">ドライブ、コントローラ、およびコンポーネントのビュー</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">シェルフ前面ビューと背面ビューを切り替えるには、右端から*[ドライブ]*または*[コントローラとコンポーネント]*を選択します（表示されるリンクは現在のビューによって異なります）。[ドライブ]ビューには、ドライブと空のドライブベイが表示されます。[コントローラとコンポーネント]*ビューには、コントローラ、IOM（ESM）モジュール、電源/ファンキャニスター、または空のコントローラベイが表示されます。ページの下部で、*[すべてのドライブを表示]*を選択することもできます。</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80リリースノート</block>
@@ -8570,7 +8558,6 @@
   <block id="e4709a73a287a5f033f5b1b5142cb74d" category="inline-image-macro">システム設定</block>
   <block id="de8011abde4e4344c82af51912b3ce19" category="paragraph"><block ref="2bce2265bb1e82bb0d0858adf2dafedf" category="inline-image-macro-rx" type="image"></block>*システム設定*</block>
   <block id="9dcfdd4141be874fb7eb13880a5fd525" category="paragraph"><block ref="1cb7eabea009b4b9cfe98093989eadbf" category="inline-image-macro-rx" type="image"></block>*サポート*</block>
-  <block id="a06a26693ca66f654ff2c2dcecc3e13f" category="paragraph">Unified Manager は、ドメイン全体の管理に使用する Web ベースのソフトウェアです。EシリーズおよびEFシリーズの新しいすべてのアレイ（E4000、E2800、EF280、EF300、E5700、EF570、EF600など）のステータスをまとめて確認できます。選択したストレージアレイに対してバッチ処理を実行することもできます。</block>
   <block id="bb426997d075117a34b0e82e716e9988" category="inline-image-macro">ストレージアレイの検出</block>
   <block id="49e4791fdcd34bdf6b59ed172268d67f" category="paragraph"><block ref="9ff56b9b0514866913bcdc835ac16829" category="inline-image-macro-rx" type="image"></block>*ストレージアレイの検出*</block>
   <block id="9506f0fd0f7f1b07960b15b4c9e68d1a" category="inline-image-macro">キドウ</block>
@@ -8615,7 +8602,6 @@
   <block id="f1683bd5111055cff52f3434b437bc43" category="admonition">デフォルトのメディアスキャン期間は120日に設定されています。</block>
   <block id="630fb851299f40643b158fbf236a2e8c" category="list-text">*ネイティブブロックサイズ*–ボリュームのブロックサイズは、ドライブのブロックサイズ（512または4K）と同じです。</block>
   <block id="f6c667584c393a129ba0a1a453306311" category="list-text">*エミュレートされた512ブロックサイズ*-ドライブは4Kですが、報告されるブロックサイズは512です。</block>
-  <block id="478ac1c2fc93cbde8a7f38011e1743e9" category="paragraph">SMcliは、SANtricityシステムマネージャから直接使用できます。このダウンロード可能バージョンのSMcliは、E4000、EF600、EF300、E5700、EF570、E2800、EF280の各コントローラで使用できます。SANtricity システムマネージャからSMcliをダウンロードするには、* Settings *&gt;* System * and * Add-ons *&gt;* Command Line Interface *を選択します。</block>
   <block id="8372cda02b92707718d83873eed70eff" category="image-alt">プールとボリュームグループの構造</block>
   <block id="861b7c78b853932749bb7fa53551562a" category="image-alt">Snapshotの概要</block>
   <block id="454b39575eef78952a66832d854eb9a8" category="paragraph">システムストレージは、SANtricityシステムマネージャを使用して管理できます。</block>
@@ -8742,4 +8728,25 @@
   <block id="3ff0cf51d8c2e66a61c1a36c2258ffb7" category="sidebar">SANtricityソフトウェア11.9を使用すると、データ分析、ビデオ監視、バックアップとリカバリなどの高ワークロードアプリケーション向けに、EシリーズのハイブリッドフラッシュおよびEFシリーズのオールフラッシュアレイのパフォーマンスと利用率を最大限に高めることができます。</block>
   <block id="18ca0e475e67b79b5c1367dc3fece234" category="sidebar">SANtricityソフトウェア11.9ドキュメント</block>
   <block id="1bde2299408b1369159daef73cb92e8b" category="sidebar">SANtricityソフトウェア11.9のドキュメント</block>
+  <block id="bea9b4f39c26a537662fed44c4b4ab7e" category="admonition">EF600 / EF600CおよびEF300 / EF300Cストレージアレイでは、同期ミラーリングまたはシンボリュームはサポートされません。</block>
+  <block id="07ceb34078b6425ead2bdf25c28b4765" category="paragraph">Unified Manager は、ドメイン全体の管理に使用する Web ベースのソフトウェアです。EシリーズおよびEFシリーズの新しいすべてのアレイ（E4000、E2800、EF280、EF300、E5700、EF570、EF600、EF300C、EF600Cなど）のステータスをまとめて確認できます。選択したストレージアレイに対してバッチ処理を実行することもできます。</block>
+  <block id="a8d536a226bc5040b931337a7644185d" category="paragraph">同期ミラーリングは、EF600 / EF600CまたはEF300 / EF300Cストレージアレイでは使用できません。</block>
+  <block id="68d28abd2b869bd5795d298dfa9e846e" category="paragraph">この機能は、EF600 / EF600CまたはEF300 / EF300Cストレージシステムでは使用できません。</block>
+  <block id="465143b73392c408d4e639ff6ed7cf18" category="paragraph">同期ミラーリングは、EF300 / EF300CまたはEF600 / EF600Cストレージアレイでは使用できません。</block>
+  <block id="c1ef781eafa3554e3ab8e8623b4e5a71" category="paragraph">同期ミラーリングは、EF600 / EF600CまたはEF300 / EF300Cストレージシステムでは使用できません。</block>
+  <block id="5a7b6df104eae510976ebef6d294bbc2" category="paragraph">この機能は、EF600 / EF600CまたはEF300 / EF300Cストレージシステムの同期ミラーリングでは使用できません。</block>
+  <block id="b9e88ad6836c4f5d794f382de8f1f2c9" category="admonition">現在、EF300CまたはEF600CストレージアレイではDULBEはサポートされていません。</block>
+  <block id="4b8add2dc8ff6506b02ecbd9ce368929" category="summary">リソースプロビジョニングは、EF300、EF300C、EF600、およびEF600Cストレージアレイで使用できる機能です。この機能を使用すると、ボリュームをバックグラウンドの初期化プロセスなしですぐに使用できるようになります。</block>
+  <block id="90992e53bcf79cefee988e4147be01b6" category="paragraph">アクセスボリュームを使用したインバンド管理は、E4000、EF600 / EF600C、またはEF300 / EF300Cストレージシステムでは使用できません。</block>
+  <block id="16ebf1283fdb23275c2211d15a82e2cd" category="list-text">シンボリュームは、EF600 / EF600CまたはEF300 / EF300Cストレージシステムでは使用できません。</block>
+  <block id="1ac9fe85275ed11ba0a95e5559f5af80" category="paragraph">ドロワー損失の保護を使用できるかどうかを示します。この保護は、使用しているドライブシェルフにドロワーが搭載されている場合にのみ提供されます。ドロワー損失の保護が有効な場合、ドライブシェルフの1台のドロワーとの通信が完全に失われた場合でもボリュームグループ内のボリューム上のデータへのアクセスが保証されます。</block>
+  <block id="d1395fc90f77b84babf353a6d9d715db" category="list-text">2、048ボリューム（EF600、EF600C、E5700シリーズ）</block>
+  <block id="896a61fe313f0f38c6a4575f53d2958d" category="list-text">1、024ボリューム（EF300およびEF300C）</block>
+  <block id="61c9873f4f28e9fd9310c86bf6f0e33f" category="paragraph">SMcliは、SANtricityシステムマネージャから直接使用できます。このSMcliはダウンロード可能なバージョンで、E4000、EF600、EF600C、EF300、EF300C、E5700、EF570、E2800、EF280の各コントローラで使用できます。SANtricity システムマネージャからSMcliをダウンロードするには、* Settings *&gt;* System * and * Add-ons *&gt;* Command Line Interface *を選択します。</block>
+  <block id="4f0494c1ee4d34a0be2e413265889dcb" category="paragraph">EF600 / EF600CおよびEF300 / EF300Cストレージシステムでは、シンプロビジョニングがサポートされません。</block>
+  <block id="baee5b8c18b240b4edfcc1ae3fe154f0" category="section-title">バージョン11.90R1の新機能</block>
+  <block id="efe2c9d7be92af10ac48d790dd8ccfed" category="paragraph">新しいストレージシステムモデル–EF300CおよびEF600C</block>
+  <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">このリリースでは、EF300CおよびEF600CオールフラッシュNVMeストレージシステムが導入されました。EF300CおよびEF600Cは、既存のEF300およびEF600ストレージシステムの大容量フラッシュバージョンです。EF300CおよびEF600Cでは、30TBまたは60TBの大容量NVMe SSDドライブがサポートされます。EF300C / EF600Cは、従来のRAIDをサポートしていない場合にのみ、Dynamic Disk Poolsと互換性があります。</block>
+  <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">EF4000での12Gb SASインターフェイスのサポート</block>
+  <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000コントローラで12Gb SASホストインターフェイスカードがサポートされるようになりました。</block>
 </blocks>
