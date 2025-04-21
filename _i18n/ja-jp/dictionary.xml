@@ -456,8 +456,6 @@
   <block id="a68e42f8ba6fef756332c8e2507bd688" category="summary">ファームウェアアップグレードの進捗は、システムの全体的な負荷によって異なります。</block>
   <block id="182309e939480b1bc525560bbc942506" category="doc">ファームウェアアップグレードに時間がかかる場合、どのような理由が考えられますか？</block>
   <block id="fb7e65669e5874b9e0b75fbd623f7da4" category="paragraph">ドライブファームウェアのオンラインアップグレードで、高速の再構築プロセス中にボリュームの転送が実行されると、システムは転送されたボリューム上で完全な再構築を開始します。この処理にはかなりの時間がかかることがあります。完全な再構築に実際にかかる時間は、再構築処理中に発生するI/Oアクティビティの量、ボリュームグループ内のドライブ数、リビルドの優先度設定、ドライブのパフォーマンスなど、いくつかの要因によって異なります。</block>
-  <block id="0053cb3da5cd9357da42c9285388e7c5" category="summary">SANtricity System Managerでは、次の手順でコントローラソフトウェアとファームウェアをアップグレードします。</block>
-  <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">コントローラソフトウェアとファームウェアのアップグレードのワークフロー</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">SANtricity System Managerでは、次の手順でAutoSupport 機能を設定します。</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">AutoSupport 機能のワークフロー</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">AutoSupport メンテナンス期間を無効にして、エラーイベント発生時に自動でチケットが作成されるようにします。AutoSupport メンテナンス期間を無効にすると、問題 がある場合にストレージアレイはAutoSupport を使用してサポートケースをオープンします。</block>
@@ -7394,11 +7392,7 @@
   <block id="78d46085734b1546832159391eb2b467" category="list-text">選択メニュー：グループの管理[グループへのストレージアレイの追加]。</block>
   <block id="875510c22480d2f647cff890742474ab" category="list-text">グループに追加するストレージアレイを選択します。</block>
   <block id="5289185cda6b3fc469161fc0d841232d" category="list-text">[ * 追加 ] をクリックします。 *</block>
-  <block id="7d63fa7b66beb048adb4cb5412f78f29" category="summary">Unified Managerを使用して、同じタイプの複数のストレージアレイのSANtricity OSソフトウェアを新しいバージョンにアップグレードできます。</block>
-  <block id="35a02fabedaff63c9eea49354c0479c7" category="doc">アップグレードの仕組み</block>
   <block id="5b416e1633d16aad217a2e0fc2d097f8" category="section-title">アップグレードワークフロー</block>
-  <block id="37e1222cab25890a0cd0d01b19f4489d" category="paragraph">以下に、ソフトウェアのアップグレードを実行するための大まかなワークフローを示します。</block>
-  <block id="bc2ada3b24f486f7b98ff3159828f426" category="list-text">最新のSANtricity OSソフトウェアファイルをサポートサイトからダウンロードします（サポート*ページのUnified Managerからリンクできます）。管理ホストシステム（ブラウザでUnified Managerにアクセスするホスト）にファイルを保存し、ファイルを解凍します。</block>
   <block id="a200f8c4b71a38169e50e4e1757c92f0" category="list-text">Unified Managerで、SANtricity OSソフトウェアファイルとNVSRAMファイルをリポジトリ（ファイルが格納されているWebサービスプロキシサーバの領域）にロードします。ファイルは、メニューから追加できます。[Upgrade SANtricity OS Software]または[Upgrade Center]&gt;[Manage Software Repository]から選択します。</block>
   <block id="d1ba3ebc5172c097a542cb59c46118f4" category="list-text">リポジトリにファイルをロードしたら、アップグレードに使用するファイルを選択できます。SANtricity OSソフトウェアのアップグレードページ（メニュー：アップグレードセンター[Upgrade SANtricity OS software]）から、SANtricity OSソフトウェアファイルとNVSRAMファイルを選択します。ソフトウェアファイルを選択すると、互換性があるストレージアレイのリストがこのページに表示されます。次に、新しいソフトウェアでアップグレードするストレージアレイを選択します。（互換性のないアレイは選択できません）。</block>
   <block id="d07fed7a91e9b5ecf1b7a376a13d3c4e" category="list-text">ソフトウェアの転送とアクティブ化をすぐに開始することも、ファイルをステージングしてあとでアクティブ化することもできます。アップグレードプロセスを実行すると、Unified Managerで次の処理が実行されます。</block>
@@ -8620,7 +8614,6 @@
   <block id="22ec79b8668bcaf4a33eed694079e8b1" category="summary">AutoSupport機能では、テクニカルサポートへのAutoSupportディスパッチの配信にHTTPSプロトコルとSMTPプロトコルがサポートされます。</block>
   <block id="dd0ab6e042458857b9d76ede295a637e" category="image-alt">アップグレードファームウェアの場所</block>
   <block id="da31bdea5b9fdfa2bf077a70c49a1d66" category="image-alt">AutoSupportワークフロー</block>
-  <block id="0ceabfdc68af97f8a0c7393faf135de8" category="image-alt">コントローラのソフトウェアとファームウェアのアップグレードワークフロー</block>
   <block id="ece14770330886bc2d41238acbfe48aa" category="summary">SANtricity Unified Manager 7</block>
   <block id="3cd6f83d0a9a8330c077dfc98649ab8a" category="paragraph">SANtricity Unified Managerで使用する設定を行うことができます。</block>
   <block id="0be150145c60047c6667d2bfbc4085d9" category="image-alt">Webブラウザを使用したネットワーク管理クライアントへのアウトオブバンド接続。</block>
@@ -8713,7 +8706,6 @@
   <block id="f0254fcd04a8e1df1dc8c778e6189b01" category="paragraph">SANtricity Unified Managerをホストする管理システムへのセキュアなアクセスを実現するために、CA署名証明書を取得してインポートできます。</block>
   <block id="c5f9375676cadbc97263ea339c65e0df" category="paragraph">SANtricity Unified Managerでストレージリソースを表示して管理するには、組織のネットワークから管理対象のストレージアレイを検出する必要があります。複数のアレイを検出することも、単一のアレイを検出することもできます。</block>
   <block id="8205965c706fda540f0df394d1fd7df5" category="paragraph">SANtricity Unified Managerを使用して、1つのストレージアレイから複数のストレージアレイに設定をインポートできます。設定のインポート機能は、ネットワーク内に複数のアレイを構成する必要がある場合に時間を節約するバッチ処理です。</block>
-  <block id="2b8e903f9231328c5dd4ac194fe0ed99" category="paragraph">SANtricity Unified Managerを使用して、同じタイプの複数のストレージアレイのSANtricity OSソフトウェアを新しいバージョンにアップグレードできます。</block>
   <block id="c5cdef1d414ec599aa9b2d1f28c67d4b" category="doc">SANtricity System Managerへのアクセスに関する考慮事項</block>
   <block id="cdaae564ece8b6f3561a5e657337c464" category="paragraph">SANtricity Unified Managerで非同期ミラーリングまたは同期ミラーリングを設定し、SANtricity System Managerを使用して同期を管理します。</block>
   <block id="69ffe5f70c823700a785fa58e3fbca15" category="paragraph">SANtricity Unified Managerには、SANtricityのミラーリング機能の設定オプションがあります。この機能を使用すると、管理者は2つのストレージアレイ間でデータをレプリケートしてデータを保護できます。</block>
@@ -8749,4 +8741,7 @@
   <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">このリリースでは、EF300CおよびEF600CオールフラッシュNVMeストレージシステムが導入されました。EF300CおよびEF600Cは、既存のEF300およびEF600ストレージシステムの大容量フラッシュバージョンです。EF300CおよびEF600Cでは、30TBまたは60TBの大容量NVMe SSDドライブがサポートされます。EF300C / EF600Cは、従来のRAIDをサポートしていない場合にのみ、Dynamic Disk Poolsと互換性があります。</block>
   <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">EF4000での12Gb SASインターフェイスのサポート</block>
   <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000コントローラで12Gb SASホストインターフェイスカードがサポートされるようになりました。</block>
+  <block id="bd720a6ead0034815d9206b7292e06e5" category="section-title">バージョン11.90R2の新機能</block>
+  <block id="15829e6cc8b585193d8f6910a672107c" category="inline-link">Eシリーズ11.90リリースノート</block>
+  <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">このバージョンにはマイナーな変更のみが含まれており、新機能はありません。このリリースの変更点の詳細については、を参照してください<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>。</block>
 </blocks>
