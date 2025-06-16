@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, supported, browsers 
 summary: SANtricity Unified Managerには、いくつかの種類のブラウザからアクセスできます。 
 ---
-= サポートされているブラウザ
+= SANtricity Unified Manager でサポートされているブラウザ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

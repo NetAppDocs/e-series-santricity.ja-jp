@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, 
 summary: 非同期ミラーリングでは、データボリュームをオンデマンドで、またはスケジュールに基づいてコピーします。これにより、データの破損や損失が原因で発生するダウンタイムを回避または最小限に抑えることができます。 
 ---
-= 非同期ミラーリングの仕組み
+= SANtricity System Managerにおける非同期ミラーリングの仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

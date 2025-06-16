@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, communities, snmpv2c, traps, 
 summary: SNMPv2cトラップのコミュニティ名を削除できます。 
 ---
-= SNMPv2cトラップのコミュニティを削除します
+= SANtricity System Manager で SNMPv2c トラップのコミュニティを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

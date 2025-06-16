@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, directory, server, settings, role, mappings, 
 summary: アクセス管理でディレクトリサーバを設定済みの場合は、いつでも設定を変更できます。設定には、サーバ接続情報とグループとロールのマッピングが含まれます。 
 ---
-= ディレクトリサーバ設定とロールマッピングを編集します
+= SANtricity System Managerでディレクトリサーバーの設定と役割のマッピングを編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

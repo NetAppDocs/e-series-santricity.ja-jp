@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iscsi, statistics, packages 
 summary: ストレージアレイへのiSCSI接続に関するデータを表示できます。 
 ---
-= iSCSI統計パッケージを表示します
+= SANtricity System ManagerでiSCSI統計パッケージを表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

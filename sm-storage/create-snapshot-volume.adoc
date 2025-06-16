@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, snapshot, volume 
 summary: Snapshotボリュームを作成して、ボリュームまたはSnapshot整合性グループのSnapshotイメージにホストからアクセスできるようにします。Snapshotボリュームは読み取り専用または読み取り/書き込みに指定できます。 
 ---
-= Snapshotボリュームを作成します
+= SANtricity System Managerでスナップショットボリュームを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

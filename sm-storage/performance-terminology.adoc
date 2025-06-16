@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, performance, terms 
 summary: ストレージアレイに関連するパフォーマンスの用語を次に示します。 
 ---
-= パフォーマンスの用語
+= SANtricityソフトウェアのパフォーマンス用語について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

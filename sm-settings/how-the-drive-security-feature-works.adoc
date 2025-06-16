@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Drive Security, 
 summary: ドライブセキュリティは、 Full Disk Encryption （ FDE ）ドライブまたは連邦情報処理標準（ FIPS ）ドライブを使用してセキュリティを強化するストレージアレイの機能です。 
 ---
-= ドライブセキュリティ機能の仕組み
+= SANtricity System Managerのドライブセキュリティ機能の仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

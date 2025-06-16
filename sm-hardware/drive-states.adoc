@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, drive, states, 
 summary: System Managerでは、ドライブのさまざまな状態が報告されます。 
 ---
-= ドライブの状態
+= SANtricity System Managerのドライブの状態について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

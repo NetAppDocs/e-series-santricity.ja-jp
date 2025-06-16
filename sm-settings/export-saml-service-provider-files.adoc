@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, export, saml, Service Provider, files, 
 summary: 必要に応じて、ストレージアレイのサービスプロバイダのメタデータをエクスポートして、ファイルをアイデンティティプロバイダ（IdP）システムに再インポートすることができます。 
 ---
-= SAMLサービスプロバイダファイルをエクスポートする
+= SANtricity System ManagerでSAMLサービスプロバイダファイルをエクスポートする
 :allow-uri-read: 
 :experimental: 
 :icons: font

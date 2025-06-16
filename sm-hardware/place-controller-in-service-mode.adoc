@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, service, mode, 
 summary: 指示があった場合は、コントローラをサービスモードに切り替えることができます。 
 ---
-= コントローラをサービスモードにします
+= SANtricity System Managerでコントローラをサービスモードにする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

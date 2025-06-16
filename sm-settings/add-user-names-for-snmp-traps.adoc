@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, users, snmpv3, traps, 
 summary: SNMPv3トラップには、最大256人のユーザを追加できます。 
 ---
-= SNMPv3トラップのユーザを追加します
+= SANtricity System ManagerでSNMPv3トラップのユーザーを追加する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, local, user, roles, 
 summary: '[ローカルユーザーの役割]タブでは、ユーザープロファイルとデフォルトの役割のマッピングを表示できます。これらのマッピングは、ストレージアレイに適用されたロールベースアクセス制御（RBAC）の一部です。' 
 ---
-= ローカルユーザロールを表示します
+= SANtricity System Managerでローカルユーザーの役割を表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

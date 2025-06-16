@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, activate, staged, os, software 
 summary: ソフトウェアファイルはただちにアクティブ化することも、都合のいいタイミングでアクティブ化することもできます。この手順では、ソフトウェアファイルをあとでアクティブ化するように選択した場合を想定しています。 
 ---
-= ステージング済みOSソフトウェアをアクティブ化します
+= SANtricity Unified ManagerでステージングされたOSソフトウェアをアクティブ化する
 :allow-uri-read: 
 :experimental: 
 :icons: font

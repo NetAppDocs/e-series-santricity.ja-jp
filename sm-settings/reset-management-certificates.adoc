@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reset, management, certificates, 
 summary: コントローラの証明書をCA署名証明書から工場出荷時の自己署名証明書に戻すことができます。 
 ---
-= 管理証明書をリセットします
+= SANtricity System Managerで管理証明書をリセットする
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, snapshot, group 
 summary: Snapshotグループの設定では、グループ名、自動削除設定、許可されるSnapshotイメージの最大数、System Managerがリザーブ容量のアラート通知を送信する割合、またはリザーブ容量が最大使用率に達したときに使用するポリシーを変更できます。 
 ---
-= Snapshotグループのリザーブ容量の設定を変更します
+= SANtricity System Managerでスナップショットグループの予約容量設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

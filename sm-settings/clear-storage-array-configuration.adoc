@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, clear, storage, array, configuration, 
 summary: ストレージアレイからすべてのプール、ボリュームグループ、ボリューム、ホストの定義、およびホストの割り当てを削除する場合は、設定のクリア処理を使用します。 
 ---
-= ストレージアレイの構成のクリア
+= SANtricity System Managerでストレージアレイの構成をクリアする
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -108,4 +108,8 @@ X
 .結果
 * 現在の構成が削除され、ストレージアレイ上の既存のデータがすべて破棄されます。
 * すべてのドライブの割り当てが解除されます。
++
+
+NOTE: ストレージアレイはリカバリモードで起動します。ストレージアレイを使用する前に、リカバリモードを解除する必要があります。詳細については、を参照してください https://docs.netapp.com/us-en/e-series-santricity/sm-support/clear-recovery-mode.html["リカバリモードをクリアします"^] 。
+
 

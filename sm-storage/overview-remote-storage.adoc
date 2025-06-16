@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage 
 summary: リモートストレージ機能を使用している場合は、リモートストレージシステムからデータをインポートできます。 
 ---
-= リモートストレージ機能の概要
+= SANtricity System Managerのリモートストレージ機能について学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

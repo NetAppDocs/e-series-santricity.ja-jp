@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hot, spare, drives, raid1, raid6, raid5 
 summary: ホットスペアは、System ManagerのRAID 1、RAID 5、またはRAID 6のボリュームグループで、スタンバイドライブとして機能します。 
 ---
-= ホットスペアドライブの概要
+= SANtricity System Managerのホットスペアドライブについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

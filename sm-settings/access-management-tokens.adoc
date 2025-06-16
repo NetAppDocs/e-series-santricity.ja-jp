@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, tokens 
 summary: アクセストークンは、ユーザー名とパスワードを公開することなくアレイへのアクセスを提供します。 
 ---
-= アクセストークン
+= アクセストークンとSANtricityソフトウェアについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

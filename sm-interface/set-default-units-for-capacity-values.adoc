@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, capacity values 
 summary: System Managerでは、容量値をギビバイト（GiB）またはテビバイト（TiB）で表示できます。 
 ---
-= 容量値のデフォルトの単位を設定します
+= SANtricity System Manager の容量値のデフォルトの単位を設定します
 :allow-uri-read: 
 :experimental: 
 :icons: font

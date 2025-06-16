@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring 
 summary: ミラーリング機能を使用して、ローカルストレージアレイとリモートストレージアレイの間でデータを非同期または同期的にレプリケートします。 
 ---
-= ミラーリングの概要
+= SANtricity Unified Managerのミラーリングについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

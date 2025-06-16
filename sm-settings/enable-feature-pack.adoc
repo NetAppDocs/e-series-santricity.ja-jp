@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, feature, pack, 
 summary: 機能パックは、ストレージアレイの属性を変更する（プロトコルをFibre ChannelからiSCSIに変更するなど）バンドルです。機能パックを有効にするには特別なキーが必要です。 
 ---
-= 機能パックを有効にします
+= SANtricity System Managerで機能パックを有効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

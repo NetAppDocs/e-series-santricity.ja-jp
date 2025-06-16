@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes, assigned, hosts, clusters 
 summary: ホストまたはホストクラスタからボリュームへI/Oを送信するには、ボリュームをホストまたはホストクラスタに割り当てる必要があります。 
 ---
-= ホストおよびホストクラスタへのボリュームの割り当て方法
+= SANtricity ソフトウェアでボリュームをホストおよびホスト クラスターに割り当てる方法
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

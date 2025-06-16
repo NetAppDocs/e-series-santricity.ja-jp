@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, collect, support, data, manually 
 summary: ストレージアレイに関する各種のインベントリ、ステータス、およびパフォーマンスデータを1つのファイルに収集することができます。テクニカルサポートは、このファイルをトラブルシューティングや詳細分析に使用できます。 
 ---
-= サポートデータを手動で収集する
+= SANtricity System Managerでサポートデータを手動で収集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

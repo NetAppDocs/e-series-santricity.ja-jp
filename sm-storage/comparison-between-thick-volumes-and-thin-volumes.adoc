@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, comparison, thick volumes, thin volumes 
 summary: シックボリュームは常にフルプロビジョニングされます。つまり、ボリューム作成時にすべての容量が割り当てられます。シンボリュームは常にシンプロビジョニングされます。つまり、ボリュームにデータが書き込まれるときに容量が割り当てられます。 
 ---
-= シックボリュームとシンボリュームの比較
+= SANtricity ソフトウェアのシックボリュームとシンボリュームについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, delete, trusted, certificates 
 summary: 期限切れになった証明書など、不要になった証明書を削除することができます。 
 ---
-= 信頼された証明書を削除する
+= SANtricity Unified Managerで信頼された証明書を削除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

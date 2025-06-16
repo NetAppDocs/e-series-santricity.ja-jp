@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, alert, settings 
 summary: ストレージアレイから別のストレージアレイにアラート設定をインポートできます。このバッチ処理により、ネットワーク内に複数のアレイを設定する必要がある場合に時間を節約できます。 
 ---
-= アラート設定をインポートします
+= SANtricity Unified Manager にアラート設定をインポートする
 :allow-uri-read: 
 :experimental: 
 :icons: font

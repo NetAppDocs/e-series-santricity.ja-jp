@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, pool, volume, group 
 summary: プールまたはボリュームグループを削除して未割り当て容量を増やし、アプリケーションのストレージニーズを満たすように再構成することができます。 
 ---
-= プールまたはボリュームグループを削除します
+= SANtricity System Managerでプールまたはボリュームグループを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, snapshot, image, settings 
 summary: 各Snapshotイメージに割り当てられているプロパティ、ステータス、リザーブ容量、および関連オブジェクトを表示できます。 
 ---
-= Snapshotイメージの設定を表示します
+= SANtricity System Managerでスナップショットイメージの設定を表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

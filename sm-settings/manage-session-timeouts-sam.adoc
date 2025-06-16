@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, manage, session, timeouts, 
 summary: 非アクティブな状態が一定の時間続いたユーザセッションは切断されるよう、SANtricity System Managerでタイムアウトを設定できます。 
 ---
-= セッションタイムアウトの管理
+= SANtricity System Managerでセッションタイムアウトを管理する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, volumes 
 summary: ボリュームを作成してアプリケーション固有のワークロードにストレージ容量を追加し、作成したボリュームが特定のホストまたはホストクラスタに認識されるように設定します。また、ボリューム作成手順では、作成する各ボリュームに特定の量の容量を割り当てることもできます。 
 ---
-= ボリュームを作成します
+= SANtricity System Managerでボリュームを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

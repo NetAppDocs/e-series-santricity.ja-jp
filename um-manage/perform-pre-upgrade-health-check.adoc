@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, perform, pre-upgrade, health, check 
 summary: 健全性チェックはアップグレードプロセスの一環として実行されますが、開始前に別途実行することもできます。健全性チェックでは、ストレージアレイのコンポーネントについて、アップグレードを実行できる状態であるかがチェックされます。 
 ---
-= アップグレード前の健常性チェックを実行
+= SANtricity Unified Managerでアップグレード前のヘルスチェックを実行する
 :allow-uri-read: 
 :experimental: 
 :icons: font

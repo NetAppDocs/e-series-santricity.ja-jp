@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, storage, configuration, settings 
 summary: ストレージアレイから別のストレージアレイにストレージ構成をインポートできます。このバッチ処理により、ネットワーク内に複数のアレイを設定する必要がある場合に時間を節約できます。 
 ---
-= ストレージ構成の設定をインポートします
+= SANtricity Unified Manager にストレージ構成設定をインポートする
 :allow-uri-read: 
 :experimental: 
 :icons: font

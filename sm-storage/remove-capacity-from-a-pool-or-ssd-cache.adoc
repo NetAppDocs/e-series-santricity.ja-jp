@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, capacity, pool, ssd cache 
 summary: ドライブを削除することで、既存のプールまたはSSDキャッシュの容量を減らすことができます。 
 ---
-= プールまたはSSDキャッシュから容量を削除する
+= SANtricity System Manager でプールまたは SSD キャッシュから容量を削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

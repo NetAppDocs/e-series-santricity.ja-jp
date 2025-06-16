@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, snapshot, volume 
 summary: Snapshotボリュームの設定を変更して、Snapshotボリュームのリザーブ容量が残り少なくなったときにシステムからアラート通知を送信する割合を調整できます。 
 ---
-= Snapshotボリュームのリザーブ容量の設定を変更します
+= SANtricity System Managerでスナップショットボリュームの予約容量設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

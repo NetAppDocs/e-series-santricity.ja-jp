@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, ownership, async, change, preferred, controller, owner, mirrored, pair, 
 summary: ミラーペア内の優先コントローラ所有者を変更できます。 
 ---
-= ボリューム所有権
+= SANtricityソフトウェアの非同期ミラーリングにおけるボリューム所有権について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

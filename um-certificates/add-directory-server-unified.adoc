@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, add, directory, server 
 summary: アクセス管理用の認証を設定するには、LDAPサーバとSANtricity Unified ManagerのWebサービスプロキシを実行するホストの間の通信を確立します。その後、LDAPユーザグループをローカルユーザロールにマッピングします。 
 ---
-= ディレクトリサーバを追加します
+= SANtricity Unified Managerにディレクトリサーバーを追加する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

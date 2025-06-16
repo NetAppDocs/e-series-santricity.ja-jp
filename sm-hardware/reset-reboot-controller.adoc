@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reset, reboot, controller 
 summary: 一部の問題に対処するには、コントローラのリセット（リブート）が必要です。コントローラに物理的にアクセスできない場合でも、コントローラをリセットできます。 
 ---
-= コントローラをリセット（リブート）します
+= SANtricity System Managerでコントローラをリセット（再起動）する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

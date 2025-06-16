@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, mirroring, synchronously, 
 summary: 次のワークフローを使用して同期ミラーリングを設定します。 
 ---
-= ボリュームを同期的にミラーリングするためのワークフロー
+= SANtricityソフトウェアでボリュームを同期的にミラーリングする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

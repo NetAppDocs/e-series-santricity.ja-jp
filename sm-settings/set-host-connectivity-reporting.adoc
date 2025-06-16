@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, set, host, connectivity, reporting, 
 summary: ホスト接続レポートを有効にすると、コントローラと設定済みのホスト間の接続をストレージアレイで常時監視して、接続が中断された場合に通知されるようにすることができます。この機能はデフォルトで有効になっています。 
 ---
-= ホスト接続レポートの設定
+= SANtricity System Managerでホスト接続レポートを設定する
 :allow-uri-read: 
 :experimental: 
 :icons: font

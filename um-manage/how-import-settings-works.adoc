@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, settings, 
 summary: Unified Managerを使用して、1つのストレージアレイから複数のストレージアレイに設定をインポートできます。設定のインポート機能は、ネットワーク内で複数のアレイを設定する必要がある場合に時間を節約するバッチ処理です。 
 ---
-= 設定のインポートの仕組み
+= SANtricity Unified Managerで複数のストレージアレイを構成する方法について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

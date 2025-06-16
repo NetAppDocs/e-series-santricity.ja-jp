@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, switch, front, back, views, shelves 
 summary: ハードウェアページでは、シェルフの前面ビューと背面ビューのどちらかを確認できます。 
 ---
-= 正面図と背面図を切り替えます
+= SANtricity System Managerで前面と背面のビューを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

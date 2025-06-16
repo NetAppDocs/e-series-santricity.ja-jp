@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, hardware, components, filtering, 
 summary: '[ハードウェア]ページには、コンポーネントの検索を容易にするソートおよびフィルタリング機能があります。' 
 ---
-= ハードウェアコンポーネントを表示します
+= SANtricity System Managerでハードウェアコンポーネントを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

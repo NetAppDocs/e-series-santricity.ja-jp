@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, deactivate, synchronous, mirroring, adapter, host, bus, 
 summary: ストレージアレイで同期ミラーリング機能を非アクティブ化すると、ミラーデータの転送用に予約されていたホストバスアダプタ（HBA）のホストポート4を通常の用途に戻すことができます。 
 ---
-= 同期ミラーリングを非アクティブ化する
+= SANtricity System Managerで同期ミラーリングを無効化する
 :allow-uri-read: 
 :experimental: 
 :icons: font

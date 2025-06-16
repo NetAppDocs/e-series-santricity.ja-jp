@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hosts 
 summary: ストレージアレイとデータサーバの間の接続を定義するホストとホストクラスタを設定できます。 
 ---
-= ホストとホストクラスタの概要
+= SANtricity ソフトウェアのホストとホスト クラスタについて学習します
 :allow-uri-read: 
 :experimental: 
 :icons: font

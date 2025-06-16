@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, activate, controller, software, firmware 
 summary: アップグレードファイルはただちにアクティブ化することも、都合のいいタイミングでアクティブ化することもできます。 
 ---
-= コントローラソフトウェアとファームウェアをアクティブ化します
+= SANtricity System Managerでコントローラソフトウェアとファームウェアをアクティブ化する
 :allow-uri-read: 
 :experimental: 
 :icons: font

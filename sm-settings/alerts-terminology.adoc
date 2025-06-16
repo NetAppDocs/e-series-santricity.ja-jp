@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, alerts, terms, 
 summary: ストレージアレイに関連するアラートの用語を次に示します。 
 ---
-= アラートの用語
+= SANtricity ソフトウェアのアラート用語について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Alerts, 
 summary: System Managerでは、ストレージアレイのアラートをEメール、SNMPトラップ、syslogメッセージで送信するように設定できます。 
 ---
-= アラートの概要
+= SANtricity System Managerのアラートについて学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

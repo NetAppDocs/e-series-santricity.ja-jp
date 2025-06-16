@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, terms 
 summary: ストレージアレイに関連する同期ミラーリングの用語を次に示します。 
 ---
-= 同期ミラーリングに関する用語
+= SANtricityソフトウェアの同期ミラーリング用語について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

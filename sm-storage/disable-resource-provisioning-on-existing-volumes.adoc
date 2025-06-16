@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, resource provisioning, 
 summary: 既存のプールまたはボリュームグループでリソースのプロビジョニングを有効または無効にすることができます。 
 ---
-= 既存のボリュームグループおよびプールでリソースのプロビジョニングを有効または無効にします
+= SANtricity System Manager で既存のボリューム グループとプールのリソース プロビジョニングを有効または無効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

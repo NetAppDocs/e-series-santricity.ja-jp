@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access, management, 
 summary: アクセス管理は、SANtricity System Managerでユーザ認証を確立する手段の1つです。認証方式には、ロールベースアクセス制御（RBAC）、ディレクトリサービス、およびSecurity Assertion Markup Language（SAML）2.0があります。 
 ---
-= アクセス管理の概要
+= SANtricity System Managerのアクセス管理について学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, services 
 summary: コピーサービスを使用して、ボリュームをコピーしたり、ボリュームに対するその他の操作を実行したりできます。 
 ---
-= コピーサービスを使用する
+= SANtricity System Managerでコピーサービスを操作する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

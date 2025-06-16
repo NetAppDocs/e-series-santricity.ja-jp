@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, snapshot, schedule 
 summary: Snapshotスケジュールでは、自動収集時間または収集の頻度を変更できます。 
 ---
-= Snapshotスケジュールの設定を変更します
+= SANtricity System Managerでスナップショットスケジュールの設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

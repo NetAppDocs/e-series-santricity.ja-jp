@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, host, manually 
 summary: 自動で検出できないホストについては、手動で作成することができます。ホストの作成は、ストレージアレイが接続されているホストを認識して、ボリュームへのI/Oアクセスを許可するために必要な手順の1つです。 
 ---
-= ホストを手動で作成する
+= SANtricity System Managerでホストを手動で作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

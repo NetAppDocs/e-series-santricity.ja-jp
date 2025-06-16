@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume, 
 summary: 実行中のボリュームコピー処理の表示、ボリュームコピー処理の停止、優先度の変更、再コピー、クリアを行うことができます。 
 ---
-= ボリュームコピー処理に対して実行します
+= SANtricity System Managerでボリュームコピー操作を実行する
 :allow-uri-read: 
 :experimental: 
 :icons: font

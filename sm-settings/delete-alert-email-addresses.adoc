@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, mail, server, email, addresses, alerts, 
 summary: 以前に定義したメールサーバを削除して、アラートがEメールアドレスに送信されないようにすることができます。また、個々のEメールアドレスを削除することもできます。 
 ---
-= アラート用のメールサーバまたはEメールアドレスを削除します
+= SANtricity System Manager のアラートのメール サーバーまたは電子メール アドレスを削除します
 :allow-uri-read: 
 :experimental: 
 :icons: font

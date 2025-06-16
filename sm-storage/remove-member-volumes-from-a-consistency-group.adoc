@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, member volume, snapshot, consistency group 
 summary: 既存のSnapshot整合性グループからメンバーボリュームを削除できます。 
 ---
-= Snapshot整合性グループからメンバーボリュームを削除します
+= SANtricity System Managerのスナップショット整合性グループからメンバーボリュームを削除します
 :allow-uri-read: 
 :experimental: 
 :icons: font

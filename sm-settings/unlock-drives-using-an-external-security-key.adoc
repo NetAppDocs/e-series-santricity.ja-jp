@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unlock, drives, external, key, management, 
 summary: 外部キー管理を設定したあとに、セキュリティ有効ドライブをストレージアレイ間で移動した場合、ドライブ上の暗号化データにアクセスできるようにするには、新しいストレージアレイにセキュリティキーを再割り当てする必要があります。 
 ---
-= 外部キー管理を使用する場合は、ドライブのロックを解除します
+= SANtricity System Managerで外部キー管理を使用しているときにドライブのロックを解除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

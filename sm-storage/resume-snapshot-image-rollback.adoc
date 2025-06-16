@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, resume, snapshot, image, rollback 
 summary: Snapshotイメージのロールバック処理中にエラーが発生した場合は、処理が自動的に一時停止します。一時停止状態のロールバック処理を再開することができます。 
 ---
-= Snapshotイメージのロールバックを再開します
+= SANtricity System Managerでスナップショットイメージのロールバックを再開する
 :allow-uri-read: 
 :experimental: 
 :icons: font

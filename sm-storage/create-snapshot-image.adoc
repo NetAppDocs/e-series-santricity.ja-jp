@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, snapshot, image 
 summary: ベースボリュームまたはSnapshot整合性グループからSnapshotイメージを手動で作成することができます。これは、インスタントSnapshotまたはインスタントイメージとも呼ばれます。 
 ---
-= Snapshotイメージを作成する
+= SANtricity System Managerでスナップショットイメージを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, email, addresses, alerts, 
 summary: Eメールアラートを受け取る受信者のEメールアドレスを変更することができます。 
 ---
-= アラート用のEメールアドレスの編集
+= SANtricity System Manager でアラートのメール アドレスを編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

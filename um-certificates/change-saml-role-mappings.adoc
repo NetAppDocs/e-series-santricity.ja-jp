@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, change, saml, role, mappings, 
 summary: アクセス管理にSAMLを設定している場合は、IdPグループとストレージアレイの事前定義されたロールとの間のロールマッピングを変更できます。 
 ---
-= SAMLのロールマッピングを変更する
+= SANtricity Unified Manager で SAML ロール マッピングを変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

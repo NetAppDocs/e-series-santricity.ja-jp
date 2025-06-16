@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, communities, snmpv2c, traps, 
 summary: SNMPv2cトラップには最大256個のコミュニティ名を追加できます。 
 ---
-= SNMPv2cトラップのコミュニティを追加します
+= SANtricity System Manager で SNMPv2c トラップのコミュニティを追加する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, directory services, 
 summary: 管理者は、LDAP（Lightweight Directory Access Protocol）サーバとディレクトリサービス（MicrosoftのActive Directoryなど）を使用できます。 
 ---
-= ディレクトリサービスを使用したアクセス管理
+= SANtricity Unified Manager のディレクトリ サービスによるアクセス管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, assign volumes 
 summary: I/O処理に使用できるように、ボリュームをホストまたはホストクラスタに割り当てる必要があります。これにより、ストレージアレイ内の1つ以上のボリュームへのアクセスがホストまたはホストクラスタに許可されます。 
 ---
-= ホストにボリュームを割り当てます
+= SANtricity System Managerでホストにボリュームを割り当てる
 :allow-uri-read: 
 :experimental: 
 :icons: font

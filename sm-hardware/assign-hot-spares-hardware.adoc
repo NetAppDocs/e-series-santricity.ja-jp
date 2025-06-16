@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, assign, hot, spares, raid, 
 summary: RAID 1、RAID 5、またはRAID 6のボリュームグループでは、データ保護を強化するために、ホットスペアをスタンバイドライブとして割り当てることができます。これらのボリュームグループのいずれかでドライブに障害が発生すると、障害が発生したドライブのデータがホットスペアに再構築されます。 
 ---
-= ホットスペアを割り当てます
+= SANtricity System Managerでホットスペアを割り当てる
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

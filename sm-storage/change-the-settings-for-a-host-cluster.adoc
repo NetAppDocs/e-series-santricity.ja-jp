@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, host, cluster 
 summary: ホストクラスタの名前を変更したり、ホストクラスタ内のホストを追加または削除したりできます。 
 ---
-= ホストクラスタの設定を変更します
+= SANtricity System Managerでホストクラスタの設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

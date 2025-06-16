@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, terms 
 summary: ストレージアレイに関連するボリュームの用語を次に示します。 
 ---
-= ボリュームに関する用語
+= SANtricity ソフトウェアのボリューム用語について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

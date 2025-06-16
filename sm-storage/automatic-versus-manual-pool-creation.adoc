@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, automatic, manual, pool 
 summary: プールを自動または手動で作成して物理ストレージをグループ化し、必要に応じて動的に割り当てることができます。プールの作成時に物理ドライブを追加できます。 
 ---
-= プールの自動作成と手動作成
+= SANtricity System Manager での自動プール作成と手動プール作成について学習します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

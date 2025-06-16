@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, application, workloads, volume, 
 summary: ボリュームを作成する際には、ワークロードを選択して特定のアプリケーション用にストレージアレイの構成をカスタマイズします。 
 ---
-= ワークロードの仕組み
+= SANtricityソフトウェアにおけるワークロードの仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

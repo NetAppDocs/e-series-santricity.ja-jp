@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, synchronization, settings, mirrored, pair, 
 summary: ミラーペアが通信の中断後に再同期処理を完了するために使用する、同期優先度と再同期ポリシーを変更できます。 
 ---
-= ミラーペアの同期の設定を変更する
+= SANtricity System Managerでミラーリングされたペアの同期設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

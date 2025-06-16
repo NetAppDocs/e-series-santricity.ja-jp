@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, synchronization, settings, mirror, consistency, group, 
 summary: ローカルストレージアレイのミラー整合性グループがデータの初回同期時や非同期ミラーリング処理中のデータの再同期時に使用する、同期設定と警告しきい値を変更できます。 
 ---
-= ミラー整合性グループの同期設定の変更
+= SANtricity System Managerでミラー整合性グループの同期設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, online 
 summary: コントローラがオフライン状態またはサービスモードの場合は、オンラインに戻すことができます。 
 ---
-= コントローラをオンラインにします
+= SANtricity System Managerでコントローラをオンラインにする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

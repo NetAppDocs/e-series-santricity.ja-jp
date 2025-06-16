@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, create, volumes 
 summary: SANtricity System Managerでは、次の手順でボリュームを作成します。 
 ---
-= ボリュームを作成するためのワークフロー
+= SANtricity System Managerでのボリューム作成の仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

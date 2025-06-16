@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, upgrade, os, operating system 
 summary: ストレージアレイのソフトウェアとNVSRAMをアップグレードして、最新の機能とバグ修正をすべて適用します。コントローラNVSRAMは、コントローラのデフォルトの設定を指定するコントローラファイルです。 
 ---
-= SANtricity OSをアップグレードします
+= SANtricity オペレーティングシステムのアップグレード
 :allow-uri-read: 
 :experimental: 
 :icons: font

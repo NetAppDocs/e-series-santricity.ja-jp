@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, requirements, guidelines, snapshots 
 summary: Snapshotを作成して使用する場合は、次の要件およびガイドラインを確認してください。 
 ---
-= Snapshotの要件とガイドライン
+= SANtricity System Managerのスナップショットの要件とガイドライン
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

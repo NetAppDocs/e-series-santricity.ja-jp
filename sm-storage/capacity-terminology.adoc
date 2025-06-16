@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, capacity terms 
 summary: ストレージアレイに関連する容量の用語を次に示します。 
 ---
-= 容量に関する用語
+= SANtricityソフトウェアの容量用語について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

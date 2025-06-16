@@ -84,13 +84,6 @@ ATTO Technology、Inc.のマルチパスドライバを使用するWindowsオペ
 
 
  a| 
-FlexArray （ALUA）
- a| 
-マルチパスにALUAを使用するNetApp FlexArray システムをサポートします。
-
-
-
- a| 
 IBM SVCの場合
  a| 
 IBM SAN Volume Controller構成をサポートします。

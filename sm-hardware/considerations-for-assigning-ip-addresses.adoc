@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, considerations, assigning, ip, addresses 
 summary: デフォルトでは、コントローラは両方のネットワークポートでDHCPを有効にした状態で出荷されます。静的IPアドレスを割り当てるか、デフォルトの静的IPアドレスを使用するか、またはDHCPによって割り当てられたIPアドレスを使用できます。IPv6のステートレス自動設定を使用することもできます。 
 ---
-= IPアドレスの割り当てに関する考慮事項
+= EシリーズコントローラのIPアドレスの割り当てについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

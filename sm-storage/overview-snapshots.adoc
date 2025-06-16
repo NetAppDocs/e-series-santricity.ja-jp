@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshots 
 summary: Snapshot機能を使用すると、ストレージアレイボリュームのポイントインタイムイメージを作成してバックアップまたはテストに使用できます。 
 ---
-= Snapshot の概要
+= SANtricity System Managerのスナップショットについて学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

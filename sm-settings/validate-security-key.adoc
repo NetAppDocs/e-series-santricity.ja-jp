@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity,System Manager, E-Series, validate, security, key, 
 summary: セキュリティキーを検証して、セキュリティキーが破損していないこと、およびパスフレーズが正しいことを確認できます。 
 ---
-= セキュリティキーを検証する
+= SANtricity System Managerでセキュリティキーを検証する
 :allow-uri-read: 
 :experimental: 
 :icons: font

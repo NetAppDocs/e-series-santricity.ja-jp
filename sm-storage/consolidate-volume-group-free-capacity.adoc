@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, consolidate, free capacity, volume group 
 summary: 選択したボリュームグループ上の既存の空きエクステントを統合するには、空き容量の統合オプションを使用します。この操作を実行すると、追加ボリュームを作成する際にボリュームグループ内の空き容量を最大限使用できるようになります。 
 ---
-= ボリュームグループの空き容量を統合します
+= SANtricity System Managerでボリュームグループの空き容量を統合する
 :allow-uri-read: 
 :experimental: 
 :icons: font

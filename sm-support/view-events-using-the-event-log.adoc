@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, events, 
 summary: ストレージアレイで発生したイベントの履歴レコードを提供するイベントログを表示できます。 
 ---
-= イベントログを使用してイベントを表示します
+= SANtricity System Managerのイベントログを使用してイベントを表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

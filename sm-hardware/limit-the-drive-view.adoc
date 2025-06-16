@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, limit, drive, view, 
 summary: ストレージアレイに物理属性と論理属性が異なるドライブが含まれている場合、ハードウェアページのフィルタフィールドを使用して、ドライブの表示を制限したり、特定のドライブを特定したりできます。 
 ---
-= ドライブ表示を制限します
+= SANtricity System Managerでドライブビューをフィルタリングする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

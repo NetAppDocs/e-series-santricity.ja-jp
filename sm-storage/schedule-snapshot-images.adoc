@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, schedule, snapshot, images 
 summary: Snapshotスケジュールを作成して、ベースボリュームに関する問題が発生した場合のリカバリを有効にし、スケジュールされたバックアップを実行します。ベースボリュームまたはSnapshot整合性グループのSnapshotは、任意の時刻に日次、週次、または月単位のスケジュールで作成できます。 
 ---
-= Snapshotイメージのスケジュールを設定
+= SANtricity System Managerでスナップショットイメージをスケジュールする
 :allow-uri-read: 
 :experimental: 
 :icons: font

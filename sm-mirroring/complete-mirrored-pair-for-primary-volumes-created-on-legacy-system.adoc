@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, complete, mirrored, pair, volumes, created, legacy, 
 summary: SANtricity System Managerで管理できない従来のストレージアレイにプライマリボリュームを作成した場合は、System Managerを使用してそのアレイにセカンダリボリュームを作成できます。 
 ---
-= 従来型システムで作成されたプライマリボリュームのミラーペアを作成します
+= SANtricity System Managerでレガシーシステム上に作成されたプライマリボリュームのミラーペアを完了します。
 :allow-uri-read: 
 :experimental: 
 :icons: font

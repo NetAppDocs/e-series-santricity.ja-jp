@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, default, host, type, 
 summary: デフォルトのホストオペレーティングシステムの変更設定を使用して、ストレージアレイレベルでデフォルトのホストタイプを変更します。一般に、デフォルトのホストタイプは、ストレージアレイにホストを接続する前、または追加のホストを接続するときに変更します。 
 ---
-= デフォルトのホストタイプを変更
+= SANtricity System Managerでデフォルトのホストタイプを変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

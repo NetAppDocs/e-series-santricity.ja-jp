@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, session, timeouts 
 summary: 非アクティブな状態が一定の時間続いたユーザセッションは切断されるよう、SANtricity Unified Managerでタイムアウトを設定できます。 
 ---
-= セッションタイムアウトの管理
+= SANtricity Unified Managerでセッションタイムアウトを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, allocated capacity, thin volume 
 summary: オンデマンドでスペースを割り当てることができるシンボリュームの場合、シンボリュームが自動的に拡張できる割り当て容量を制限する制限を変更できます。 
 ---
-= シンボリュームの割り当て容量の制限を変更します
+= SANtricity System Managerでシンボリュームに割り当てられた容量制限を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

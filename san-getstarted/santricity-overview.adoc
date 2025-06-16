@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, 
 summary: E シリーズシステムには、ストレージプロビジョニングとその他のタスクを行うための SANtricity ソフトウェアが搭載されています。 
 ---
-= SANtricity ソフトウェアの概要
+= SANtricityソフトウェアの詳細
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

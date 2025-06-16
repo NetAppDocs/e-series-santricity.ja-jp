@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, storage hierarchy 
 summary: メインインターフェイスのストレージ階層には、ストレージアレイで管理される各種ハードウェアコンポーネントとストレージオブジェクトがまとめて表示されます。 
 ---
-= ストレージ階層を表示します
+= SANtricity System Managerでストレージ階層を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

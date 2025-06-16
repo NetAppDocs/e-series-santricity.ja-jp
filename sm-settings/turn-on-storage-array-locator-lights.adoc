@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, locator, lights, 
 summary: キャビネット内のストレージアレイの物理的な場所を特定するために、ストレージアレイのロケーター（LED）ライトを点灯できます。 
 ---
-= ストレージアレイのロケーターライトを点灯します
+= SANtricity System Managerでストレージアレイロケータライトをオンにする
 :allow-uri-read: 
 :experimental: 
 :icons: font

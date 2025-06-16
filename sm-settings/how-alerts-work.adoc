@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, alarm, alerts, 
 summary: アラートは、ストレージアレイで発生した重要なイベントについて管理者に通知します。アラートは E メール、 SNMP トラップ、 syslog を通じて送信できます。 
 ---
-= アラートの仕組み
+= SANtricity System Manager でのアラートの仕組み
 :allow-uri-read: 
 :experimental: 
 :icons: font

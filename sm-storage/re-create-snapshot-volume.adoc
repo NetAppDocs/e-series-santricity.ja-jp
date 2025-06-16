@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, re-create, snapshot, volume 
 summary: 以前に無効にしたSnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームを再作成できます。Snapshotボリュームの再作成は、新規作成よりも短時間で完了します。 
 ---
-= Snapshotボリュームを再作成します
+= SANtricity System Managerでスナップショットボリュームを再作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

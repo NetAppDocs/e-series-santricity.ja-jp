@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, local, user, roles 
 summary: 管理者は、SANtricity Unified Managerに組み込みのロールベースアクセス制御（RBAC）機能を使用できます。これらの機能のことをローカルユーザロールと呼びます。 
 ---
-= ローカルユーザロールを使用したアクセス管理
+= SANtricity Unified Manager のローカル ユーザー ロールによるアクセス管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

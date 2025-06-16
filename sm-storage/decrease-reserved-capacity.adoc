@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, decrease, reserved, capacity 
 summary: 容量の削減オプションを使用して、Snapshotグループ、Snapshotボリューム、整合性グループのメンバーボリュームなど、次のストレージオブジェクトのリザーブ容量を削減します。リザーブ容量は、増やしたときの分量ずつしか減らすことができません。 
 ---
-= リザーブ容量を削減します
+= SANtricity System Managerで予約容量を減らす
 :allow-uri-read: 
 :experimental: 
 :icons: font

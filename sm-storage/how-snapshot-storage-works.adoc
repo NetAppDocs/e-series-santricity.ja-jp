@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, storage 
 summary: Snapshot機能は、copy-on-writeテクノロジを使用してSnapshotイメージを格納し、割り当てられたリザーブ容量を使用します。 
 ---
-= Snapshotストレージの仕組み
+= SANtricityソフトウェアにおけるスナップショットストレージの仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, 
 summary: 同期ミラーリングでは、データボリュームをリアルタイムでレプリケートして、継続的な可用性を確保します。 
 ---
-= 同期ミラーリングの仕組み
+= SANtricity System Managerにおける同期ミラーリングの仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

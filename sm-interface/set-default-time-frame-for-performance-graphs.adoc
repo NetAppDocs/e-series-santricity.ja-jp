@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, time, graphs 
 summary: パフォーマンスグラフに表示されるデフォルト期間を変更できます。 
 ---
-= パフォーマンスグラフのデフォルト期間を設定します
+= SANtricity System Manager のパフォーマンス グラフのデフォルトの時間枠を設定する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, define, audit, log, policies, 
 summary: 上書きポリシーや監査ログに記録するイベントのタイプを変更することができます。 
 ---
-= 監査ログポリシーを定義する
+= SANtricity System Managerで監査ログポリシーを定義する
 :allow-uri-read: 
 :experimental: 
 :icons: font

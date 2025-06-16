@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, act, operations, progress, 
 summary: 長時間実行されている処理を表示して実行するには、Operations in Progressページを使用します。 
 ---
-= 実行中の処理を表示して対処します
+= SANtricity System Manager で進行中の操作を表示して操作する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

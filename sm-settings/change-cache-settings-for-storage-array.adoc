@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, cache, settings, 
 summary: ストレージアレイ内のすべてのボリュームでは、フラッシュおよびブロックサイズについてキャッシュメモリの設定を調整できます。 
 ---
-= ストレージアレイのキャッシュ設定を変更します
+= SANtricity System Managerでストレージアレイのキャッシュ設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

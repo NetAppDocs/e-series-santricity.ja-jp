@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, snapshot, volume 
 summary: Snapshotボリューム、またはSnapshot整合性グループのSnapshotボリュームが不要になった場合や一時的に使用を停止する場合は、それらのボリュームを無効にすることができます。 
 ---
-= Snapshotボリュームを無効にします
+= SANtricity System Managerでスナップショットボリュームを無効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, workloads 
 summary: あらゆる種類のアプリケーションのワークロードを作成できます。 
 ---
-= ワークロードの作成
+= SANtricity System Managerでワークロードを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

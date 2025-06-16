@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reconstruct, drive, manually, 
 summary: ドライブの再構築は、ドライブの交換後に通常は自動的に開始されます。ドライブの再構築が自動的に開始されない場合は、再構築を手動で開始できます。 
 ---
-= ドライブを手動で再構築
+= SANtricity System Managerでドライブを手動で再構築する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

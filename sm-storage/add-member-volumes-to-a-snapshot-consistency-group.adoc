@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, member, volume, snapshot consistency group 
 summary: 既存のSnapshot整合性グループに新しいメンバーボリュームを追加できます。新しいメンバーボリュームを追加する場合、そのメンバーボリュームの容量もリザーブする必要があります。 
 ---
-= Snapshot整合性グループにメンバーボリュームを追加します
+= SANtricity System Managerでスナップショット整合性グループにメンバーボリュームを追加する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot schedule 
 summary: ストレージスペースの節約が必要な場合は、Snapshotイメージのスケジュールされた収集を一時的に停止できます。この方法は、Snapshotスケジュールを削除して作成し直すよりも効率的です。 
 ---
-= Snapshotスケジュールのアクティブ化と一時停止
+= SANtricity System Managerでスナップショットスケジュールを有効化および一時停止する
 :allow-uri-read: 
 :experimental: 
 :icons: font

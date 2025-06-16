@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ARVM, asynchronous, mirroring, firmware, 
 summary: 非同期ミラーリング機能は、ローカルストレージアレイとリモートストレージアレイの間のデータレプリケーション用に、コントローラレベル、ファームウェアベースのメカニズムを提供します。 
 ---
-= 非同期ミラーリングの概要
+= SANtricityソフトウェアの非同期ミラーリングについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

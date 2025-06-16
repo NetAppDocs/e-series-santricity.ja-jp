@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iser, over, infiniband, statistics 
 summary: ストレージアレイのコントローラにiSER over InfiniBandポートが搭載されている場合は、ホスト接続に関するデータを表示できます。 
 ---
-= iSER over InfiniBandの統計を表示します
+= SANtricity System Manager で InfiniBand 上の iSER 統計を表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

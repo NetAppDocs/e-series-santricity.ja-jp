@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, authentication, users, roles, access management 
 summary: アクセス管理を使用してSANtricity Unified Managerでのユーザ認証を確立する。 
 ---
-= アクセス管理の仕組み
+= SANtricity Unified Manager におけるアクセス管理の仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

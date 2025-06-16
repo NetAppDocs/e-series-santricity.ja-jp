@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configuration settings, pool 
 summary: プールの名前、容量アラートの設定、変更の優先順位、予約済み容量などのプールの設定を編集できます。 
 ---
-= プールの設定を変更します
+= SANtricity System Managerでプールの構成設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

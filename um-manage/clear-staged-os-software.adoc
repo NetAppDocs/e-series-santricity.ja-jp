@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, clear, staged, os, software 
 summary: 保留中のバージョンがあとで誤ってアクティブ化されないように、ステージング済みのOSソフトウェアを削除することができます。ステージング済みOSソフトウェアを削除しても、ストレージアレイで実行されている現在のバージョンには影響しません。 
 ---
-= ステージング済みOSソフトウェアをクリアします
+= SANtricity Unified ManagerでステージングされたOSソフトウェアをクリアする
 :allow-uri-read: 
 :experimental: 
 :icons: font

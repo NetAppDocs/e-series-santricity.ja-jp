@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access volumes 
 summary: アクセスボリュームは、ストレージアレイの工場出荷時に設定されたボリュームで、ホストI/O接続を介したストレージアレイおよびホストとの通信に使用されます。アクセスボリュームには論理ユニット番号（LUN）が必要です。 
 ---
-= アクセスボリューム
+= SANtricity System Manager のボリュームにアクセスする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

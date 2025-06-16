@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, turn, drive, locator, light, LEDs 
 summary: ハードウェアページでは、ロケーターライトを点灯してストレージアレイ内のドライブの物理的な場所を確認できます。 
 ---
-= ドライブのロケーターライトを点灯します
+= SANtricity System Managerでドライブロケータライトをオンにする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

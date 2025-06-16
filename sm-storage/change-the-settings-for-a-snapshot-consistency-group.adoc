@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, snapshot, consistency group 
 summary: Snapshot整合性グループの設定では、グループ名、自動削除設定、許可されるSnapshotイメージの最大数を変更できます。 
 ---
-= Snapshot整合性グループの設定を変更します
+= SANtricity System Managerでスナップショット整合性グループの設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, restrictions 
 summary: ストレージアレイでSSDキャッシュを使用する場合の制限事項を次に示します。 
 ---
-= SSDキャッシュの制限事項
+= SANtricityソフトウェアのSSDキャッシュ制限について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

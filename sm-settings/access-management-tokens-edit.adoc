@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, edit tokens 
 summary: アクセストークンの設定を編集できます。これには、有効期限や新しいトークンを作成する機能が含まれます。 
 ---
-= アクセストークンの設定を編集します
+= SANtricity System Managerでアクセストークンの設定を編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

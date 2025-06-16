@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, data, integrity, security, volumes 
 summary: ボリュームでData Assurance（DA）機能とドライブセキュリティ機能を有効にして使用することができます。これらの機能は、プールおよびボリュームグループのレベルで提供されます。 
 ---
-= ボリュームのデータ整合性と データ セキュリティ
+= SANtricity ソフトウェアのボリュームのデータ整合性とデータセキュリティについて学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

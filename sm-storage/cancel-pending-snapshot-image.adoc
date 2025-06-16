@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cancel, pending, snapshot, image 
 summary: 保留中のSnapshotイメージを完了前にキャンセルすることができます。Snapshotは非同期的に作成され、作成が完了するまでSnapshotのステータスは「保留中」になります。同期処理が完了した時点でSnapshotイメージが作成されます。 
 ---
-= 保留中のSnapshotイメージをキャンセルします
+= SANtricity System Managerで保留中のスナップショットイメージをキャンセルする
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage, terms 
 summary: ストレージアレイに関連するリモートストレージの用語を次に示します。 
 ---
-= Remote Storageの用語
+= SANtricity ソフトウェアのリモート ストレージ用語について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

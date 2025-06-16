@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, notifications 
 summary: System Managerは、アイコンおよびその他のいくつかの方法を使用して、ストレージアレイに問題が存在することを通知します。 
 ---
-= 問題通知の概要
+= SANtricity System Managerの問題通知について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

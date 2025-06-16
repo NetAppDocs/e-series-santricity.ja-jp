@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, maximum, luns 
 summary: ストレージアレイには、各ホストに使用できる論理ユニット番号（LUN）の最大数があります。 
 ---
-= LUN の最大数
+= SANtricityソフトウェアにおけるLUNの最大数について
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

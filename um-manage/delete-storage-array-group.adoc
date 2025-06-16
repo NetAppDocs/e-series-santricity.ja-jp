@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, delete, storage, array, group 
 summary: 不要になった1つ以上のストレージアレイグループを削除することができます。 
 ---
-= ストレージアレイグループを削除します
+= SANtricity Unified Managerでストレージアレイグループを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

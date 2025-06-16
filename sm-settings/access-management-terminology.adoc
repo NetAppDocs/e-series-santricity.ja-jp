@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, terms 
 summary: ストレージアレイに関連するアクセス管理の用語を次に示します。 
 ---
-= アクセス管理の用語
+= SANtricity ソフトウェアのアクセス管理用語について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

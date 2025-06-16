@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirror, consistency, group, 
 summary: ミラー整合性グループ内のすべてのミラーペアでデータの同期を中断または再開できます。これは、個々のミラーペアで同期を中断または再開するよりも効率的です。 
 ---
-= ミラー整合性グループの同期を中断または再開します
+= SANtricity System Manager でミラー整合性グループの同期を一時停止または再開する
 :allow-uri-read: 
 :experimental: 
 :icons: font

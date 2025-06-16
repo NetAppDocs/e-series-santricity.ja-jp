@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, communities, smpv2c, traps, 
 summary: SNMPv2cトラップのコミュニティ名を編集できます。 
 ---
-= SNMPv2cトラップのコミュニティを編集します
+= SANtricity System Manager で SNMPv2c トラップのコミュニティを編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

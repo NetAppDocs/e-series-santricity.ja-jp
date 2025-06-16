@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, status, 
 summary: 同期ミラーペアのステータスは、プライマリボリュームとセカンダリボリュームのデータが同期されているかどうかを示します。ミラーステータスは、ミラーペアに含まれるボリュームのコンポーネントステータスとは無関係です。 
 ---
-= 同期ミラーリングのステータス
+= SANtricity System Manager の同期ミラーリングステータスについて学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

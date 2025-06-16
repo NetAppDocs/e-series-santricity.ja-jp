@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, settings 
 summary: アラート、AutoSupport 、ディレクトリサービスなどの設定をストレージアレイから別のストレージアレイにインポートできます。 
 ---
-= 設定インポートの概要
+= SANtricity Unified Managerでストレージアレイ設定をインポートする方法を学びます
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

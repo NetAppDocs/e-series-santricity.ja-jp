@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unlock, reset, locked, fips, nvme, drives, 
 summary: ロックされたNVMeドライブまたはFIPSドライブをストレージアレイに挿入する場合、ドライブに関連付けられているセキュリティキーファイルを追加することでドライブデータのロックを解除できます。セキュリティキーがない場合、ドライブの物理セキュリティID（PSID）を入力してロックされた各ドライブでリセットを実行し、セキュリティ属性をリセットしてドライブデータを消去できます。 
 ---
-= ロックされたNVMeドライブまたはFIPSドライブのロックを解除またはリセットします
+= SANtricity System Manager でロックされた NVMe または FIPS ドライブのロックを解除またはリセットする
 :allow-uri-read: 
 :experimental: 
 :icons: font

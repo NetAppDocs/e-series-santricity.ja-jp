@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workload, settings 
 summary: ワークロードの名前を変更し、関連付けられているアプリケーションタイプを確認できます。現在の名前が適切でない場合はワークロードの名前を変更します。 
 ---
-= ワークロードの設定を変更する
+= SANtricity System Managerでワークロード設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

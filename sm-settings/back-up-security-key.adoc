@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, backup, security, key, 
 summary: セキュリティキーの作成後または変更後に、元のキーが破損した場合に備えてキーファイルのバックアップコピーを作成することができます。 
 ---
-= セキュリティキーをバックアップする
+= SANtricity System Managerでセキュリティキーをバックアップする
 :allow-uri-read: 
 :experimental: 
 :icons: font

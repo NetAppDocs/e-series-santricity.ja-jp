@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, group 
 summary: Snapshotグループの削除は、グループのデータを完全に削除してシステムから削除する場合に実行します。Snapshotグループを削除すると、リザーブ容量が解放され、プールやボリュームグループで再利用できるようになります。 
 ---
-= Snapshotグループを削除します
+= SANtricity System Managerでスナップショットグループを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

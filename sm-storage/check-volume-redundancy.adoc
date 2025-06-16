@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, check, volume, redundancy 
 summary: テクニカルサポートから指示があった場合やRecovery Guruに記載されている場合は、プールまたはボリュームグループ内のボリュームの冗長性をチェックし、そのボリュームのデータに整合性があるかどうかを確認できます。冗長性データは、プールまたはボリュームグループ内のいずれかのドライブで障害が発生した場合に、交換用ドライブに迅速に情報を再構築するために使用されます。 
 ---
-= ボリュームの冗長性をチェックします
+= SANtricity System Managerでボリュームの冗長性を確認する
 :allow-uri-read: 
 :experimental: 
 :icons: font

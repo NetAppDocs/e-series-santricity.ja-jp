@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, create, snapshot, images, snapshot, volumes 
 summary: System Managerでは、次の手順でSnapshotイメージとSnapshotボリュームを作成します。 
 ---
-= SnapshotイメージとSnapshotボリュームを作成するためのワークフロー
+= SANtricity System Manager でのスナップショット イメージとスナップショット ボリュームの作成方法
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

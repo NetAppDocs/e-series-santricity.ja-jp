@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, role, change, mirror, consistency, group, secondary, mirror, consistency, group, 
 summary: ミラー整合性グループ内のミラーペア間でロールを変更できます。ロール変更では、プライマリミラー整合性グループをセカンダリロールに降格するか、またはセカンダリミラー整合性グループをプライマリロールに昇格できます。 
 ---
-= ミラー整合性グループのロール変更
+= SANtricity ソフトウェアでミラー整合性グループの役割を変更する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

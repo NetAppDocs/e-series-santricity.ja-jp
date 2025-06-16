@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, consistency, group 
 summary: 不要になったSnapshot整合性グループを削除することができます。 
 ---
-= Snapshot整合性グループを削除します
+= SANtricity System Managerでスナップショット整合性グループを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

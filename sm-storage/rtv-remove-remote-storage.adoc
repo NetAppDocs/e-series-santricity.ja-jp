@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, remote, storage, 
 summary: インポートの完了後、ローカルデバイスとリモートデバイス間でデータをコピーする必要がなくなった場合は、リモートストレージオブジェクトを削除できます。 
 ---
-= リモートストレージオブジェクトを削除する
+= SANtricity System Managerでリモートストレージオブジェクトを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

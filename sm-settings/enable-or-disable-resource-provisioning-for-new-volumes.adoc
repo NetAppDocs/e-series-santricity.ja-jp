@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning, 
 summary: 以前にリソースプロビジョニングのデフォルト機能を無効にしていた場合は、設定に移動して、作成した新しいSSDボリュームグループまたはプールに対して再度有効にすることができます。この設定を再度無効にすることもできます。 
 ---
-= 新しいボリュームグループまたはプールのリソースプロビジョニングを有効または無効にします
+= SANtricity System Managerで新しいボリュームグループまたはプールのリソースプロビジョニングを有効または無効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

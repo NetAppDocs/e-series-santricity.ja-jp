@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage, requirements 
 summary: リモートストレージ機能を使用する前に、次の要件および制限事項を確認してください。 
 ---
-= リモートストレージ機能の要件
+= SANtricity ソフトウェアのリモート ストレージ機能の要件について学習します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

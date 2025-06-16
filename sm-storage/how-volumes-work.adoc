@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, copy, 
 summary: ボリュームは、ストレージアレイ上のストレージスペースを管理および編成するデータコンテナです。 
 ---
-= ボリュームの仕組み
+= SANtricityソフトウェアにおけるボリュームの仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, configuration, workflow 
 summary: Unified Managerで非同期ミラーリングまたは同期ミラーリングを設定し、System Managerを使用して同期を管理します。 
 ---
-= ミラーリングの設定ワークフロー
+= ミラーSANtricity構成ワークフロー
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

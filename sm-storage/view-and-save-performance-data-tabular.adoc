@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, save, tabular, performance, 
 summary: パフォーマンスグラフのデータを表形式で表示および保存することができます。これにより、表示するデータをフィルタできます。 
 ---
-= 表形式のパフォーマンスデータを表示および保存する
+= SANtricity System Managerで表形式のパフォーマンスデータを表示および保存します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, software, firmware 
 summary: ストレージアレイのソフトウェア、およびオプションでIOMファームウェアと不揮発性ランダムアクセスメモリ（NVSRAM）をアップグレードして、最新の機能とバグ修正をすべて適用できます。 
 ---
-= コントローラのソフトウェアとファームウェアをアップグレードします
+= SANtricity System Managerでコントローラのソフトウェアとファームウェアをアップグレードする
 :allow-uri-read: 
 
 

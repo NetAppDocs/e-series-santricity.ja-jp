@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, increase, capacity, volume 
 summary: プールまたはボリュームグループ内の使用可能な空き容量を使用して、ボリュームのレポート容量（ホストに報告される容量）を拡張できます。 
 ---
-= ボリュームの容量を拡張します
+= SANtricity System Managerでボリュームの容量を増やす
 :allow-uri-read: 
 :experimental: 
 :icons: font

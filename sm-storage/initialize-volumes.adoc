@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, initialize, volumes 
 summary: ボリュームは、最初に作成されるときに自動的に初期化されます。ただし、一定の障害状況からリカバリするために、ボリュームを手動で初期化するようRecovery Guruから指示される場合があります。このオプションを使用する場合は、必ずテクニカルサポートの指示に従ってください。初期化するボリュームは1つ以上選択できます。 
 ---
-= ボリュームを初期化
+= SANtricity System Managerでボリュームを初期化する
 :allow-uri-read: 
 :experimental: 
 :icons: font

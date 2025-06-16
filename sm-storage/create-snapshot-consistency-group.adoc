@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency group 
 summary: 整合性のあるコピーを保持するために、Snapshot整合性グループと呼ばれる複数のボリュームのセットを作成できます。 
 ---
-= Snapshot整合性グループを作成します
+= SANtricity System Managerでスナップショット整合性グループを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

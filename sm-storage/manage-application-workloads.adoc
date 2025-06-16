@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, applications, workloads 
 summary: アプリケーションとワークロードを管理して、ストレージアレイ上の既存のすべてのボリュームをワークロード名とアプリケーションタイプでグループ化して表示できます。また、既存または新規のワークロードにボリュームを追加したり、既存のワークロードの設定を変更したり、新しいボリュームとワークロードを作成したりすることもできます。 
 ---
-= アプリケーションとワークロードの管理
+= SANtricity System Managerでアプリケーションとワークロードを管理する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

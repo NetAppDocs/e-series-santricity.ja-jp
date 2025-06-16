@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, syslog, server, settings, audit, log, records, 
 summary: 監査ログのアーカイブに使用するsyslogサーバの設定を変更したり、サーバ用の新しい認証局（CA）証明書をアップロードしたりできます。 
 ---
-= 監査ログレコード用のsyslogサーバ設定の編集
+= SANtricity System Manager で監査ログ レコードの Syslog サーバー設定を編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

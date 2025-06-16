@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, host 
 summary: ホストの名前、ホストのオペレーティングシステムタイプ、および関連付けられているホストクラスタを変更できます。 
 ---
-= ホストの設定を変更します
+= SANtricity System Managerでホストの設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

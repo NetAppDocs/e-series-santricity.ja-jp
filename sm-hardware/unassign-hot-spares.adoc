@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, hot, spare, unassign, 
 summary: ホットスペアを未割り当てのドライブに戻すことができます。 
 ---
-= ホットスペアの割り当てを解除します
+= SANtricity System Managerでホットスペアの割り当てを解除する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

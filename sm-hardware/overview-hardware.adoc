@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hardware, page, 
 summary: ハードウェアページでコンポーネントのステータスを確認し、それらのコンポーネントに関連するいくつかの機能を実行できます。 
 ---
-= ハードウェアコンポーネントの概要
+= SANtricity System Managerでハードウェアコンポーネントを表示および管理します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

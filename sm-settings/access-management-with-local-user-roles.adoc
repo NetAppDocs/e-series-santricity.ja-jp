@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, local, user, roles, 
 summary: 管理者は、ストレージアレイに組み込みのロールベースアクセス制御（RBAC）機能をアクセス管理に使用できます。これらの機能のことをローカルユーザロールと呼びます。 
 ---
-= ローカルユーザロールを使用したアクセス管理
+= SANtricity System Managerでローカルユーザーロールを使用してアクセス管理を構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

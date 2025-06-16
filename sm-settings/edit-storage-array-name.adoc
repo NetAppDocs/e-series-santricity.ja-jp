@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, storage array, name, 
 summary: SANtricity System Managerのタイトルバーに表示されるストレージアレイ名を変更することができます。 
 ---
-= ストレージアレイ名を編集します
+= SANtricity System Managerでストレージアレイ名を編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

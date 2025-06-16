@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, export, certificates 
 summary: 証明書をエクスポートして詳細を確認することができます。 
 ---
-= 証明書をエクスポートします
+= SANtricity Unified Managerで証明書をエクスポートする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

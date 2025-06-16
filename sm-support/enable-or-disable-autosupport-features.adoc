@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, autosupport, 
 summary: AutoSupport 機能およびAutoSupport の個々の機能は、初期セットアップ時に有効にするか、あとから有効または無効にすることができます。 
 ---
-= AutoSupport 機能を有効または無効にします
+= SANtricity System ManagerでAutoSupport機能を有効または無効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

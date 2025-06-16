@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, switch, external, internal, key, management, 
 summary: ドライブセキュリティの管理方法を外部キーサーバからストレージアレイで使用される内部の方法に変更することができます。以前に外部キー管理用に定義されたセキュリティキーが内部キー管理に使用されます。 
 ---
-= 外部キー管理から内部キー管理に切り替えます
+= SANtricity System Managerで外部キー管理から内部キー管理に切り替える
 :allow-uri-read: 
 :experimental: 
 :icons: font

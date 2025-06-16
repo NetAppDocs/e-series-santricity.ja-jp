@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, email, addresses, alerts, 
 summary: Eメールアラートには受信者を20名まで追加できます。 
 ---
-= アラート用のEメールアドレスを追加する
+= SANtricity System Manager でアラートのメール アドレスを追加する
 :allow-uri-read: 
 :experimental: 
 :icons: font

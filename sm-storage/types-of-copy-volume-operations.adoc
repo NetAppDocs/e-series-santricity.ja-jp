@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume, 
 summary: オフラインとオンラインのどちらかのボリュームコピー処理を実行できます。オフライン処理では、ソースボリュームからデータを読み取ってターゲットボリュームにコピーします。オンライン処理では、Snapshotボリュームをソースとして使用して、そのデータをターゲットボリュームにコピーします。 
 ---
-= ボリュームコピー処理のタイプ
+= SANtricityソフトウェアにおけるボリュームコピー操作の種類について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

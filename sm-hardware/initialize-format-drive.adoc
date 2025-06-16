@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, initialize, format, drive, 
 summary: ストレージアレイ間で割り当てられたドライブを移動する場合、新しいストレージアレイで使用するには、そのドライブを初期化（フォーマット）する必要があります。 
 ---
-= ドライブを初期化（フォーマット）します
+= SANtricity System Managerでドライブを初期化（フォーマット）する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

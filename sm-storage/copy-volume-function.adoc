@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume, 
 summary: ボリュームコピー機能を使用すると、ソースボリュームとターゲットボリュームの2つのボリュームを同じストレージアレイ上に作成して、ボリュームのポイントインタイムコピーを作成できます。 
 ---
-= ボリュームコピーの概要
+= SANtricity System Managerのボリュームコピーについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

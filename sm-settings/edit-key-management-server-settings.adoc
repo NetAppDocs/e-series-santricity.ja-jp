@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, key, management, server, settings, 
 summary: 外部キー管理を設定している場合、キー管理サーバの設定をいつでも表示および編集することができます。 
 ---
-= キー管理サーバの設定を編集します
+= SANtricity System Managerでキー管理サーバーの設定を編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

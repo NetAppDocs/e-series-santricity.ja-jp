@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, clear, recovery, mode 
 summary: ストレージアレイ構成をリストアしたら、リカバリモードのクリア処理を使用してストレージアレイでのI/Oを再開し、通常動作に戻します。 
 ---
-= リカバリモードをクリアします
+= SANtricityソフトウェアのリカバリモードをクリアする
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, volume 
 summary: ボリュームの名前、ホストの割り当て、セグメントサイズ、変更の優先順位、キャッシュなど、ボリュームの設定を変更できます。 など。 
 ---
-= ボリュームの設定を変更します
+= SANtricity System Managerでボリュームの設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, revoke tokens 
 summary: トークンが侵害されたと判断した場合は、すべてのアクセストークンを取り消すことができます。 
 ---
-= アクセストークンを取り消します
+= SANtricity System Managerでアクセストークンを取り消す
 :allow-uri-read: 
 :experimental: 
 :icons: font

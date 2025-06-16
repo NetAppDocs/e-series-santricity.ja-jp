@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, snapshot, volume 
 summary: SnapshotボリュームやSnapshot整合性グループのSnapshotボリュームについて、ボリュームコピープロセスを実行することができます。 
 ---
-= Snapshotボリュームをコピーします
+= SANtricity System Managerでスナップショットボリュームをコピーする
 :allow-uri-read: 
 :experimental: 
 :icons: font

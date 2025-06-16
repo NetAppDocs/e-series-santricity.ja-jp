@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, settings, snapshot, volume 
 summary: SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームの設定では、Snapshotボリュームの名前を変更したり、SSDキャッシュを有効または無効にしたり、ホスト、ホストクラスタ、または論理ユニット番号（LUN）の割り当てを変更したりできます。 
 ---
-= Snapshotボリュームのボリューム設定を変更します
+= SANtricity System Managerでスナップショットボリュームのボリューム設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

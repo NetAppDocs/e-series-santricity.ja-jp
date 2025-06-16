@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, schedules, snapshot, consistency groups 
 summary: Snapshotイメージの収集スケジュールを使用し、Snapshot整合性グループを使用して複数のベースボリュームを管理します。 
 ---
-= SnapshotスケジュールとSnapshot整合性グループ
+= SANtricity System Manager のスナップショット スケジュールとスナップショット整合性グループについて学習します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

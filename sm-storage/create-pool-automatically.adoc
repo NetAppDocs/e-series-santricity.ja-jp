@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, pool, automatically 
 summary: プールの作成は、System Managerがストレージアレイ内に未割り当てのドライブを検出すると自動的に開始されます。プールの自動作成を使用すると、ストレージアレイ内のすべての未割り当てドライブを1つのプールに簡単に設定したり、既存のプールにドライブを追加したりできます。 
 ---
-= プールを自動的に作成する
+= SANtricity System Managerでプールを自動的に作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

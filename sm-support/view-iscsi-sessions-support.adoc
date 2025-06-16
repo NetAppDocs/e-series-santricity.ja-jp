@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iscsi, sessions 
 summary: ストレージアレイへのiSCSI接続に関する詳細情報を表示できます。iSCSIセッションは、非同期ミラー関係にあるホストまたはリモートストレージアレイとの間で確立できます。 
 ---
-= iSCSI セッションを表示します
+= SANtricity System ManagerでiSCSIセッションを表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

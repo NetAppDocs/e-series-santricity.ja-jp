@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, management, port, 
 summary: コントローラには、システム管理に使用するイーサネットポートが搭載されています。必要に応じて、送信パラメータとIPアドレスを変更できます。 
 ---
-= 管理ポートを設定します
+= SANtricity System Managerで管理ポートを構成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

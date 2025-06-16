@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, autosupport, ASUP, maintenance window 
 summary: AutoSupport メンテナンス期間を無効にして、エラーイベント発生時に自動でチケットが作成されるようにします。AutoSupport メンテナンス期間を無効にすると、問題 がある場合にストレージアレイはAutoSupport を使用してサポートケースをオープンします。 
 ---
-= AutoSupport メンテナンス期間を無効にします
+= SANtricity System ManagerでAutoSupportメンテナンスウィンドウを無効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

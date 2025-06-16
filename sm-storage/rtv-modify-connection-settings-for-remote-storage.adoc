@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, modify, connection, settings, remote, storage 
 summary: 設定の表示 / 編集オプションを使用して、任意のリモートストレージ構成の接続設定を編集、追加、または削除できます。 
 ---
-= リモートストレージの接続設定を変更します
+= SANtricity System Managerでリモートストレージの接続設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

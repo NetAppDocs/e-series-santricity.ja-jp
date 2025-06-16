@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, re-enable, drive, ports 
 summary: 誤配線状態からリカバリするための修正措置が実行されたことをコントローラに通知できます。 
 ---
-= ドライブポートを再度有効にします
+= SANtricity System Managerでドライブポートを再度有効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

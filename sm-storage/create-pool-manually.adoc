@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, pool, manually 
 summary: プールの自動構成機能でニーズに合ったプールが提供されない場合は、プールを（一連の候補から）手動で作成できます。 
 ---
-= プールを手動で作成する
+= SANtricity System Managerで手動でプールを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

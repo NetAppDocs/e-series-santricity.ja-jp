@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, authentication 
 summary: アクセス管理では、SANtricity Unified Managerでユーザ認証を設定することができます。 
 ---
-= アクセス管理の概要
+= SANtricity Unified Managerのアクセス管理について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add workload, volume 
 summary: ワークロードに現在関連付けられていないボリュームについて、既存または新規のワークロードに1つ以上のボリュームを追加することができます。 
 ---
-= ワークロードにボリュームを追加する
+= SANtricity System Managerでワークロードにボリュームを追加する
 :allow-uri-read: 
 :experimental: 
 :icons: font

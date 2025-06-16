@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, autosupport, ASUP, maintenance window 
 summary: AutoSupport メンテナンス期間を有効にして、エラーイベント発生時に自動でチケットが作成されないようにします。通常運用モードでは、問題 がある場合、ストレージアレイはAutoSupport を使用してサポートケースをオープンします。 
 ---
-= AutoSupport メンテナンス期間を有効にします
+= SANtricity System ManagerでAutoSupportメンテナンスウィンドウを有効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

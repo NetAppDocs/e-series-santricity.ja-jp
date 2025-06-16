@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, syslog, server, alerts, 
 summary: syslogアラートを設定するには、syslogサーバのアドレスとUDPポートを入力する必要があります。最大5台のsyslogサーバを指定できます。 
 ---
-= アラート用のsyslogサーバを設定します
+= SANtricity System Managerでアラート用のSyslogサーバーを構成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

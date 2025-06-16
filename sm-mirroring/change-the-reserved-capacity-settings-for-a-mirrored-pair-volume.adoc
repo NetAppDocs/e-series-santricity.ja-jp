@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, reserved, capacity, settings, mirrored, pair, volume, 
 summary: ミラーペアボリュームの設定を変更して、ミラーペアボリュームのリザーブ容量が残り少なくなったときにSystem Managerからアラート通知を送信する割合を調整できます。 
 ---
-= ミラーペアボリュームのリザーブ容量の設定を変更する
+= SANtricity System Managerでミラーペアボリュームの予約容量設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

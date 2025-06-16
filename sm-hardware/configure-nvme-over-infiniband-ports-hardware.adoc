@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, infiniband, ports, nvme, 
 summary: コントローラにNVMe over InfiniBand接続が搭載されている場合は、ハードウェアページでNVMeポートを設定できます。 
 ---
-= NVMe over InfiniBandポートを設定する
+= SANtricity System ManagerでNVMe over InfiniBandポートを構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

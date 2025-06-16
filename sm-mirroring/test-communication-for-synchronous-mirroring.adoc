@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, test, communication, synchronous, mirroring, 
 summary: ローカルストレージアレイとリモートストレージアレイ間の通信をテストして、同期ミラーリングに参加しているミラーペアの通信に関する潜在的な問題を診断できます。 
 ---
-= 同期ミラーリングの通信をテストします
+= SANtricity System Managerで同期ミラーリングの通信をテストする
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, import, certificates, 
 summary: 'コントローラがネットワークサーバの信頼チェーンを検証できないために接続を拒否した場合は、[信頼済み]タブから証明書をインポートできます。このタブでは、コントローラ（クライアントとして動作）がそのサーバからの通信を受け入れることができます。' 
 ---
-= クライアントとして機能するコントローラの証明書をインポートする
+= SANtricity System Managerでクライアントとして動作する場合のコントローラの証明書のインポート
 :allow-uri-read: 
 :experimental: 
 :icons: font

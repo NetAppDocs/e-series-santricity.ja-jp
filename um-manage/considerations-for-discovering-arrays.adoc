@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, discovering, arrays 
 summary: Unified Managerでストレージリソースを表示および管理するには、組織のネットワークで管理するストレージアレイを検出する必要があります。複数のアレイを検出することも、単一のアレイを検出することもできます。 
 ---
-= アレイの検出に関する考慮事項
+= SANtricity Unified Manager でのストレージアレイの検出について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

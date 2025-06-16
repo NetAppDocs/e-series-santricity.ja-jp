@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, certificates, arrays 
 summary: 必要に応じて、SANtricity Unified Managerをホストするシステムで認証できるように、ストレージアレイの証明書をインポートすることができます。証明書には、認証局（CA）が署名した証明書と自己署名の証明書があります。 
 ---
-= アレイの証明書をインポートします
+= SANtricity Unified Manager でアレイの証明書をインポートする
 :allow-uri-read: 
 :experimental: 
 :icons: font

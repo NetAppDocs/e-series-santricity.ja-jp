@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificates, 
 summary: System Managerを使用して、証明書署名要求（CSR）の作成、証明書のインポート、および既存の証明書の管理を行うことができます。 
 ---
-= 証明書の概要
+= SANtricity System Managerの証明書について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

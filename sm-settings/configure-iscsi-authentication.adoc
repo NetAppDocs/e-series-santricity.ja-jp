@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, iscsi, authentication, 
 summary: iSCSIネットワークのセキュリティを強化するために、コントローラ（ターゲット）とホスト（イニシエータ）の間に認証を設定できます。 
 ---
-= iSCSI認証を設定
+= SANtricity System ManagerでiSCSI認証を構成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

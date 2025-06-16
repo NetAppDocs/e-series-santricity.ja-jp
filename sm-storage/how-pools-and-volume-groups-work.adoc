@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pools, volume group, 
 summary: ストレージをプロビジョニングするには、ストレージアレイで使用するハードディスクドライブ（HDD）またはソリッドステートディスク（SSD）ドライブを含むプールまたはボリュームグループを作成します。 
 ---
-= プールとボリュームグループの仕組み
+= SANtricityソフトウェアにおけるプールとボリュームグループの仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

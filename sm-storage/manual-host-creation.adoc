@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, manual, host, 
 summary: ホストの作成は、ストレージアレイが接続されているホストを認識して、ボリュームへのI/Oアクセスを許可するために必要な手順の1つです。ホストは手動でのみ作成できます。 
 ---
-= ホストの手動作成
+= SANtricity System Managerでの手動ホスト作成について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

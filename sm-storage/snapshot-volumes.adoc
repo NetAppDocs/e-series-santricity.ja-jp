@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, volumes 
 summary: Snapshotデータの読み取りまたは書き込みを行う場合は、Snapshotボリュームを作成してホストに割り当てることができます。Snapshotボリュームは、ベースボリュームと同じ特性（RAIDレベル、I/O特性など）を共有します。 
 ---
-= Snapshotボリューム
+= SANtricityソフトウェアのスナップショットボリュームについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

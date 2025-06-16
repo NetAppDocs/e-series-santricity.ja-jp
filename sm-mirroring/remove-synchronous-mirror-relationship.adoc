@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, synchronous, mirror, relationship, 
 summary: ミラーペアを削除して、ローカルストレージアレイ上のプライマリボリュームとリモートストレージアレイ上のセカンダリボリュームからミラー関係を削除します。 
 ---
-= 同期ミラー関係を削除する
+= SANtricity System Managerで同期ミラー関係を削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

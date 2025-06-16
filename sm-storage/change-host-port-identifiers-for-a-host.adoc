@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, host port, identifiers, host 
 summary: ホストポート識別子のユーザラベルを変更する場合、ホストに新しいホストポート識別子を追加する場合、またはホストからホストポート識別子を削除する場合は、ホストポート識別子を変更します。 
 ---
-= ホストのホストポート識別子を変更する
+= SANtricity System Managerでホストのホストポート識別子を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

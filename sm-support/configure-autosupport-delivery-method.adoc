@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, autosupport, ASUP, delivery, method 
 summary: AutoSupport機能では、テクニカルサポートにディスパッチを配信するためにHTTPSプロトコルとSMTPプロトコルがサポートされます。 
 ---
-= AutoSupport の配信方法を設定する
+= SANtricity System ManagerでAutoSupport配信方法を設定する
 :allow-uri-read: 
 :experimental: 
 :icons: font

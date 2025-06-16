@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, drive, status, settings, media, 
 summary: メディアタイプ、インターフェイスタイプ、容量などのドライブのステータスと設定を表示できます。 
 ---
-= ドライブのステータスと設定を表示します
+= SANtricity System Managerでドライブのステータスと設定を表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, unreadable, sectors, log 
 summary: 読み取り不能セクターのログを保存して、分析用のファイルをテクニカルサポートに送信できます。 
 ---
-= 読み取り不能セクターのログを表示します
+= SANtricity System Managerで読み取り不可能なセクターのログを表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

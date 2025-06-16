@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, controller, states, 
 summary: コントローラには、オンライン、オフライン、およびサービスモードの3種類の状態があります。 
 ---
-= コントローラの状態
+= SANtricity System Managerのコントローラの状態について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

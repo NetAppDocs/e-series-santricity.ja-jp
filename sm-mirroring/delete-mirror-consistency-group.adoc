@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, mirror, consistency, group, 
 summary: ローカルストレージアレイとリモートストレージアレイで不要になったミラー整合性グループを削除することができます。 
 ---
-= ミラー整合性グループを削除します
+= SANtricity System Managerでミラー整合性グループを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

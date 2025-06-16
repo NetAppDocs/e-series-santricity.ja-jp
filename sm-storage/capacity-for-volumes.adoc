@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, capacity, volumes, 
 summary: ストレージアレイ内のドライブは、データに対して物理ストレージ容量を提供します。データの格納を開始する前に、プールまたはボリュームグループと呼ばれる論理コンポーネントに割り当て容量を設定する必要があります。これらのストレージオブジェクトを使用して、ストレージアレイのデータを設定、格納、メンテナンス、および保持できます。 
 ---
-= ボリュームの容量の割り当て方法
+= SANtricity System Managerでボリュームに容量を割り当てる方法
 :allow-uri-read: 
 :experimental: 
 :icons: font

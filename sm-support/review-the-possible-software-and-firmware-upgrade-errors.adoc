@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, software, firmware, upgrade, errors 
 summary: コントローラソフトウェアのアップグレード中またはドライブファームウェアのアップグレード中にエラーが発生する可能性があります。 
 ---
-= ソフトウェアとファームウェアのアップグレードエラーの可能性を確認します
+= SANtricityソフトウェアおよびファームウェアのアップグレードエラーについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, automatic, load, balancing, 
 summary: 自動ロードバランシングを使用すると、負荷の変化に動的に対応してボリュームのコントローラ所有権が自動的に調整されるため、コントローラ間でワークロードが移動する際の負荷の不均衡が解消され、I/Oリソースの管理が強化されます。 
 ---
-= 自動ロードバランシングの概要
+= SANtricityソフトウェアの自動負荷分散について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

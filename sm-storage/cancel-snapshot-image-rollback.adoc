@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cancel, snapshot, image, rollback 
 summary: 実行中のアクティブなロールバック（データのアクティブなコピー）、（リソースの開始を待機している保留キューで）保留中のロールバック、またはエラーが原因で一時停止されたロールバックをキャンセルできます。 
 ---
-= Snapshotイメージのロールバックをキャンセルします
+= SANtricity System Managerでスナップショットイメージのロールバックをキャンセルする
 :allow-uri-read: 
 :experimental: 
 :icons: font

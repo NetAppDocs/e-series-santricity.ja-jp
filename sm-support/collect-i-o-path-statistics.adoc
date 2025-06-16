@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, collect, i/o path, statistics 
 summary: I/Oパス統計のファイルを保存し、分析用にテクニカルサポートに送信できます。 
 ---
-= I/Oパスの統計を収集
+= SANtricity System ManagerでI/Oパス統計を収集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

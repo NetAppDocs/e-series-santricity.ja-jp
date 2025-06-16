@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, host, cluster 
 summary: 同じボリュームへのI/Oアクセスを必要とするホストが複数ある場合は、ホストクラスタを作成します。 
 ---
-= ホストクラスタを作成する
+= SANtricity System Managerでホストクラスタを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

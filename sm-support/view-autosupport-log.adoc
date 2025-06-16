@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, autosupport, log 
 summary: AutoSupport ログには、ステータス、ディスパッチ履歴、およびAutoSupport ディスパッチの配信中に発生したエラーに関する情報が記録されます。 
 ---
-= AutoSupport ログを表示します
+= SANtricity System ManagerでAutoSupportログを表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

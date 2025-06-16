@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, drive, firmware 
 summary: ドライブのファームウェアをアップグレードして、最新の機能とバグ修正をすべて利用できます。 
 ---
-= ドライブファームウェアをアップグレードします
+= SANtricity System Managerでドライブファームウェアをアップグレードする
 :allow-uri-read: 
 :experimental: 
 :icons: font

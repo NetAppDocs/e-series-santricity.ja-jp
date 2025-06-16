@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, obtain, feature, key, file, 
 summary: ストレージアレイでプレミアム機能または機能パックを有効にするには、まず機能キーファイルを取得する必要があります。キーは1つのストレージアレイにのみ関連付けられます。 
 ---
-= 機能キーファイルを取得します
+= SANtricity System Managerで機能キーファイルを取得する
 :allow-uri-read: 
 :experimental: 
 :icons: font

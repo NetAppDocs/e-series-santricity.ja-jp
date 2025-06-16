@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, requirements, synchronous, mirroring, 
 summary: 同期ミラーリングを使用する場合は、次の要件に注意してください。 
 ---
-= 同期ミラーリングを使用するための要件
+= SANtricityソフトウェアで同期ミラーリングを使用するための要件
 :allow-uri-read: 
 :experimental: 
 :icons: font

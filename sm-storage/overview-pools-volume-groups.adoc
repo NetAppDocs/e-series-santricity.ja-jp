@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pools, volume groups 
 summary: ストレージアレイ内の未割り当てドライブのサブセットから論理ストレージ容量を作成できます。この論理容量は、環境のニーズに応じてプールまたはボリュームグループのどちらかの形式にすることができます。 
 ---
-= プールとボリュームグループの概要
+= SANtricity System Managerのプールとボリュームグループについて学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

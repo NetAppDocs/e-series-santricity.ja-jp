@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, iscsi, discovery, settings, 
 summary: iSCSIネットワーク内のストレージデバイスの検出に関連する設定を有効にすることができます。 
 ---
-= iSCSI検出設定を有効にします
+= SANtricity System ManagerでiSCSI検出設定を有効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

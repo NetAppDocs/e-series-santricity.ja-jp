@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, default, host, operating, system, 
 summary: デフォルトのホストタイプは、ホストの最初の接続時にストレージアレイで使用されます。ボリュームがアクセスされたときに、ストレージアレイ内のコントローラがホストのオペレーティングシステムとどのように連携するかを定義します。 
 ---
-= デフォルトのホストオペレーティングシステムタイプ
+= SANtricity ソフトウェアのデフォルトのホスト オペレーティング システムの種類について学習します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

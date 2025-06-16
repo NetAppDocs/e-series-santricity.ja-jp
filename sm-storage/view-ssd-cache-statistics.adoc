@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, ssd cache, statistics 
 summary: SSDキャッシュについて、読み取り、書き込み、キャッシュヒット、キャッシュ割り当ての割合、 キャッシュ使用率です。 
 ---
-= SSDキャッシュの統計を表示します
+= SANtricity System ManagerでSSDキャッシュ統計を表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

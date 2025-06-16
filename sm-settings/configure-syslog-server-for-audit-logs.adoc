@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, syslog, server, audit, logs, 
 summary: 監査ログを外部のsyslogサーバにアーカイブする場合は、そのサーバとストレージアレイの間の通信を設定できます。接続が確立されると、監査ログは自動的にsyslogサーバに保存されます。 
 ---
-= 監査ログ用のsyslogサーバを設定します
+= SANtricity System Managerで監査ログ用のSyslogサーバーを構成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

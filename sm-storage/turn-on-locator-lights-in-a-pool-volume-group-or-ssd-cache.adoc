@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, lights, LEDs 
 summary: ドライブを検索して、選択したプール、ボリュームグループ、またはSSDキャッシュを構成するすべてのドライブを物理的に特定できます。選択したプール、ボリュームグループ、またはSSDキャッシュ内の各ドライブのLEDインジケータが点灯します。 
 ---
-= プール、ボリュームグループ、またはSSDキャッシュでのロケーターライトの点灯
+= SANtricity System Manager でプール、ボリューム グループ、または SSD キャッシュのロケータ ライトをオンにする
 :allow-uri-read: 
 :experimental: 
 :icons: font

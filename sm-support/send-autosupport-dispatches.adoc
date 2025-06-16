@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, send, autosupport, dispatches 
 summary: System Managerでは、スケジュールされたディスパッチを待たずにAutoSupport ディスパッチをテクニカルサポートに送信できます。 
 ---
-= AutoSupport ディスパッチを送信します
+= SANtricity System ManagerでAutoSupportディスパッチを送信する
 :allow-uri-read: 
 :experimental: 
 :icons: font

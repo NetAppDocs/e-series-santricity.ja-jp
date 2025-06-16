@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, external, security, key, 
 summary: キー管理サーバでドライブセキュリティ機能を使用するには、キー管理サーバとストレージアレイのセキュリティ対応ドライブで共有する外部キーを作成する必要があります。 
 ---
-= 外部セキュリティキーを作成します
+= SANtricity System Managerで外部セキュリティキーを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

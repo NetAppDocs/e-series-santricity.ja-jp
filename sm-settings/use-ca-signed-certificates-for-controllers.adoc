@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, controllers, 
 summary: コントローラとSystem Managerへのアクセスに使用されるブラウザとの間のセキュアな通信を確立するために、CA署名証明書を取得できます。 
 ---
-= コントローラのCA署名証明書を使用する
+= SANtricity System Manager のコントローラに CA 署名証明書を使用する
 :allow-uri-read: 
 :experimental: 
 :icons: font

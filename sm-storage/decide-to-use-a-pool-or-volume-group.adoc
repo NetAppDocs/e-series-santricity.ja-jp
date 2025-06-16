@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pool, volume group 
 summary: ボリュームはプールまたはボリュームグループを使用して作成できます。どちらが適しているかは、主に、予想されるI/Oワークロードなどの主要なストレージ要件、パフォーマンス要件、データ保護要件によって決まります。 
 ---
-= プールとボリュームグループのどちらを使用するかを決定します
+= SANtricity ソフトウェアのプールとボリューム グループについて学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

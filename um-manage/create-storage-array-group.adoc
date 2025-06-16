@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, storage, array, group 
 summary: ストレージグループを作成し、そのグループにストレージアレイを追加します。ストレージグループでは、ボリュームを構成するストレージをどのドライブから提供するかを定義します。 
 ---
-= ストレージアレイグループを設定する
+= SANtricity Unified Managerでストレージアレイグループを構成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

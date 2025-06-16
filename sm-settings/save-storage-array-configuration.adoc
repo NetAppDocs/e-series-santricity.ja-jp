@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, save, storage array, configuration, 
 summary: ストレージアレイの構成情報をスクリプトファイルに保存すると、追加のストレージアレイをセットアップする時間を同じ構成で節約できます。 
 ---
-= ストレージアレイの構成を保存します
+= SANtricity System Managerでストレージアレイ構成を保存する
 :allow-uri-read: 
 :experimental: 
 :icons: font

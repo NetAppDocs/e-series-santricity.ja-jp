@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, snmp, mib, variables, 
 summary: SNMPアラートの場合、必要に応じて、SNMPトラップに表示される管理情報ベース（MIB）変数を設定できます。これらの変数で、ストレージアレイの名前、場所、および担当者を返すことができます。 
 ---
-= SNMP MIB変数を設定します
+= SANtricity System ManagerでSNMP MIB変数を設定する
 :allow-uri-read: 
 :experimental: 
 :icons: font

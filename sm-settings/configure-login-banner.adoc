@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, login, banner, 
 summary: ユーザがSANtricity System Managerでセッションを確立する前に表示されるログインバナーを作成できます。バナーには、注意と同意を求めるメッセージを含めることができます。 
 ---
-= ログインバナーを設定します
+= SANtricity System Managerでログインバナーを設定する
 :allow-uri-read: 
 :experimental: 
 :icons: font

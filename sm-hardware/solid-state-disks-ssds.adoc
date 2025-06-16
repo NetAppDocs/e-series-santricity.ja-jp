@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, solid, state, disk, SSD 
 summary: ソリッドステートディスク（ SSD ）は、ソリッドステートメモリ（フラッシュ）を使用してデータを永続的に格納するデータストレージデバイスです。SSD は従来のハードドライブをエミュレートしたものであり、ハードドライブと同じインターフェイスで利用できます。 
 ---
-= ソリッドステートディスク（SSD）
+= SANtricity System Manager のソリッド ステート ディスク (SSD) について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

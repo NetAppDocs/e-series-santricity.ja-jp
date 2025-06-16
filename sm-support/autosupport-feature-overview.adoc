@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, autosupport, ASUP 
 summary: AutoSupport 機能は、ストレージアレイの健常性を監視し、テクニカルサポートに自動ディスパッチを送信します。 
 ---
-= AutoSupport 機能の概要
+= EシリーズのAutoSupportについて
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

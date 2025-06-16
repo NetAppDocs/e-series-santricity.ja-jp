@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, deactivate, asynchronous, mirroring, remote, 
 summary: ローカルとリモートのストレージアレイで非同期ミラーリングを非アクティブ化すると、ストレージアレイの専用ポートを通常の用途に戻すことができます。 
 ---
-= 非同期ミラーリングを非アクティブ化する
+= SANtricity System Managerで非同期ミラーリングを無効化する
 :allow-uri-read: 
 :experimental: 
 :icons: font

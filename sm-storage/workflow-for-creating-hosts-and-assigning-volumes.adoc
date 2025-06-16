@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, host, creation, volume, assignment 
 summary: 次の図に、ホストアクセスの設定方法を示します。 
 ---
-= ホストの作成とボリュームの割り当てのワークフロー
+= SANtricity System Manager でのホスト作成とボリューム割り当ての仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

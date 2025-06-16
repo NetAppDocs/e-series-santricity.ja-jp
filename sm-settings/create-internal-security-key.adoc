@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, internal, security, key, 
 summary: ドライブセキュリティ機能を使用するために、ストレージアレイのコントローラとセキュリティ対応ドライブで共有される内部セキュリティキーを作成できます。内部キーは、コントローラの永続的メモリに保持されます。 
 ---
-= 内部セキュリティキーを作成します
+= SANtricity System Managerで内部セキュリティキーを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

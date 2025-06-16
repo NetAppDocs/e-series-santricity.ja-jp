@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, nvme, 
 summary: 一部のコントローラには、NVMe（Non-Volatile Memory Express）over Fabricsを実装するためのポートが搭載されています。NVMeを使用すると、ホストとストレージアレイの間でハイパフォーマンスな通信が可能になります。 
 ---
-= NVMe の概要
+= NVMeとSANtricityソフトウェアについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

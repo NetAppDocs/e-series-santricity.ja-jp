@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, image 
 summary: Snapshotイメージを削除すると、SnapshotグループまたはSnapshot整合性グループから最も古いSnapshotイメージがクリーンアップされます。 
 ---
-= Snapshotイメージを削除します
+= SANtricity System Managerでスナップショットイメージを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

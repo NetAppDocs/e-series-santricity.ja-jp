@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, test, communication, mirror, consistency, groups, 
 summary: 通信リンクをテストして、ミラー整合性グループに関連付けられているローカルストレージアレイとリモートストレージアレイ間の通信に関する潜在的な問題を診断できます。 
 ---
-= ミラー整合性グループの通信をテストする
+= SANtricity System Manager でミラー整合性グループの通信をテストする
 :allow-uri-read: 
 :experimental: 
 :icons: font

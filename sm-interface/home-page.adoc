@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, home page 
 summary: ホームページには、ストレージアレイの日々の管理を行うためのダッシュボードビューが表示されます。System Managerにログインすると、最初に表示される画面がホームページになります。 
 ---
-= ホームページ
+= SANtricity System Managerのホームページについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

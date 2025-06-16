@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, requirements, using, mirroring 
 summary: ミラーリングを設定する場合は、次の要件に注意してください。 
 ---
-= ミラーリングを使用するための要件
+= SANtricity Unified Managerでミラーリングを使用するための要件
 :allow-uri-read: 
 :experimental: 
 :icons: font

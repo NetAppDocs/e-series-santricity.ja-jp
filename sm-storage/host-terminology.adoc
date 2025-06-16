@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, host, terms 
 summary: ストレージアレイに関連するホストの用語を次に示します。 
 ---
-= ホストの用語
+= SANtricity ソフトウェアのホスト用語について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

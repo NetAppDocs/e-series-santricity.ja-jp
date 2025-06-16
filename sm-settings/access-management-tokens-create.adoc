@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, create tokens 
 summary: ユーザ名とパスワードの代わりに、REST APIまたはコマンドラインインターフェイスでの認証に使用するアクセストークンを作成できます。 
 ---
-= アクセストークンを作成します
+= SANtricity System Managerでアクセストークンを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

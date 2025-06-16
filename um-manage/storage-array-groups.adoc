@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, storage, array, groups 
 summary: 一連のストレージアレイを1つのグループにまとめて物理インフラや仮想インフラを管理することができます。ストレージアレイをグループ化すると、ジョブの監視やレポートが簡単になります。 
 ---
-= ストレージアレイグループ
+= SANtricity Unified Managerのストレージアレイグループについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

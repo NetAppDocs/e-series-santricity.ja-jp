@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, setup wizard 
 summary: セットアップウィザードを使用して、ハードウェア、ホスト、アプリケーション、ワークロード、 プール、アラート、およびAutoSupport 。 
 ---
-= セットアップウィザードの概要
+= SANtricity System Manager セットアップウィザードについて学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, snmp, alerts, 
 summary: 簡易ネットワーク管理プロトコル（SNMP）アラートを設定するには、ストレージアレイのイベントモニタからSNMPトラップを送信できるサーバを少なくとも1つ指定する必要があります。この設定には、コミュニティ名またはユーザ名、およびサーバのIPアドレスが必要です。 
 ---
-= SNMPアラートを設定する
+= SANtricity System ManagerでSNMPアラートを設定する
 :allow-uri-read: 
 :experimental: 
 :icons: font

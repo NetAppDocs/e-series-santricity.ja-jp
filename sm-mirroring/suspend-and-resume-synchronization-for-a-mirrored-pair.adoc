@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirrored, pair, 
 summary: 中断オプションと再開オプションを使用して、ミラーペアのプライマリボリュームとセカンダリボリュームのデータを同期するタイミングを制御できます。 
 ---
-= ミラーペアの同期を中断して再開します
+= SANtricity System Manager でミラーリングされたペアの同期を一時停止および再開する
 :allow-uri-read: 
 :experimental: 
 :icons: font

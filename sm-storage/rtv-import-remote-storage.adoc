@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, import, remote, storage 
 summary: リモートシステムからローカルのEシリーズストレージシステムへのストレージのインポートを開始するには、リモートストレージのインポートウィザードを使用します。 
 ---
-= リモートストレージをインポートします
+= SANtricity System Managerでリモートストレージをインポートする
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, 
 summary: Unified ManagerにはSANtricity ミラーリング機能の設定オプションが用意されており、管理者は2つのストレージアレイ間でデータをレプリケートしてデータを保護できます。 
 ---
-= ミラーリングの仕組み
+= SANtricityミラーリングについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

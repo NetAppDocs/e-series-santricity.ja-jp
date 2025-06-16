@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, autosupport, status 
 summary: AutoSupport ページには、AutoSupport 機能と個々のAutoSupport 機能が現在有効になっているかどうかが表示されます。 
 ---
-= AutoSupport のステータスを確認します
+= SANtricity System ManagerでAutoSupportのステータスを表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

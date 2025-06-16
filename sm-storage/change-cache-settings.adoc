@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cache settings 
 summary: 読み取りキャッシュと書き込みキャッシュの設定を変更して、ボリュームの全体的なI/Oパフォーマンスを調整することができます。 
 ---
-= ボリュームのキャッシュ設定を変更します
+= SANtricity System Managerでボリュームのキャッシュ設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

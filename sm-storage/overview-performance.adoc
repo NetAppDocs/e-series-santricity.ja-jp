@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, performance 
 summary: Performanceページでは、ストレージアレイのパフォーマンスを簡単に監視できます。 
 ---
-= パフォーマンスの概要
+= SANtricity System Managerのパフォーマンス概要について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, software, repository 
 summary: ソフトウェアリポジトリには、 Web サービスプロキシに関連付けられているすべてのソフトウェアファイルが表示されます。 
 ---
-= ソフトウェアリポジトリを管理します
+= Unified ManagerでSANtricityソフトウェアリポジトリを管理する
 :allow-uri-read: 
 :experimental: 
 :icons: font

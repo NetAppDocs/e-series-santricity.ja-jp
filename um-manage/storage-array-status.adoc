@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, storage, array, status, communication, 
 summary: Unified Managerには、検出された各ストレージアレイのステータスが表示されます。 
 ---
-= ストレージアレイのステータスを表示します
+= SANtricity Unified Managerでストレージアレイのステータスを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

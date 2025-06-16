@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add-on, features, 
 summary: アドオンは、System Managerの標準構成には含まれていない機能で、有効にするにはキーが必要な場合があります。アドオン機能には、単一のプレミアム機能と、バンドルされた機能パックがあります。 
 ---
-= アドオン機能の仕組み
+= SANtricity System Managerのアドオン機能の仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

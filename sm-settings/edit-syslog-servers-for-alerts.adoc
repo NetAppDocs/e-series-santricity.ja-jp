@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, syslog, servers, alerts, 
 summary: syslogアラートの受信に使用するサーバアドレスを編集できます。 
 ---
-= アラート用のsyslogサーバを編集します
+= SANtricity System ManagerでアラートのSyslogサーバーを編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

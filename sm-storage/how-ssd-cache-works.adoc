@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd cache, 
 summary: SSDキャッシュ機能は、アクセス頻度が特に高いデータ（「ホット」データ）を低レイテンシのソリッドステートドライブ（SSD）にキャッシュすることでシステムのパフォーマンスを動的に向上させるコントローラベースの解決策 です。SSDキャッシュは、ホスト読み取りにのみ使用されます。 
 ---
-= SSDキャッシュの仕組み
+= SANtricityソフトウェアにおけるSSDキャッシュの仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

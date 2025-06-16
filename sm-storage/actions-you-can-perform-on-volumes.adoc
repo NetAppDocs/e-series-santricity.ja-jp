@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes 
 summary: ボリュームに対しては、容量の拡張、削除、コピー、初期化、再配置など、さまざまな処理を実行できます。 所有権の変更、キャッシュ設定の変更、メディアスキャン設定の変更 
 ---
-= ボリュームで実行できる操作
+= SANtricity System Managerでボリュームに対して実行できるアクション
 :allow-uri-read: 
 :experimental: 
 :icons: font

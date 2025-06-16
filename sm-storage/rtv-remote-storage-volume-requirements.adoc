@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage, volume, requirements 
 summary: インポートに使用するボリュームは、サイズ、ステータス、およびその他の条件の要件を満たしている必要があります。 
 ---
-= Remote Storageのボリューム要件
+= SANtricity ソフトウェアのリモート ストレージ ボリューム要件について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

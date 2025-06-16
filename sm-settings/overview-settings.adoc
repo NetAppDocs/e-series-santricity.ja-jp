@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, system settings 
 summary: System Managerでは、一部の一般的なアレイ設定やアドオン機能を設定できます。 
 ---
-= 設定の概要
+= SANtricity System Managerの設定の概要について学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

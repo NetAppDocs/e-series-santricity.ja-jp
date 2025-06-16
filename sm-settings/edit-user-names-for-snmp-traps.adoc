@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, user, settings, snmpv3, traps, 
 summary: SNMPv3トラップのユーザ定義を編集できます。 
 ---
-= SNMPv3トラップのユーザ設定を編集します
+= SANtricity System Manager で SNMPv3 トラップのユーザー設定を編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

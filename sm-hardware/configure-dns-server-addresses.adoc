@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, dns, server, addresses, 
 summary: ドメインネームシステム（DNS）は、コントローラとネットワークタイムプロトコル（NTP）サーバの完全修飾ドメイン名を解決するために使用されます。ストレージアレイの管理ポートは、IPv4プロトコルとIPv6プロトコルを同時にサポートできます。 
 ---
-= DNSサーバアドレスを設定する
+= SANtricity System ManagerでDNSサーバーアドレスを構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

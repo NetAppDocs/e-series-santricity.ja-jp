@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, mail, server, alerts, 
 summary: Eメールアラートに使用するメールサーバのアドレスやEメールの送信元のアドレスを変更することができます。 
 ---
-= アラート用のメールサーバを編集します
+= SANtricity System Managerでアラート用のメールサーバーを編集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved, capacity, 
 summary: リザーブ容量は、Snapshotや非同期ミラーリング処理などのコピーサービス処理がボリュームに提供されている場合に自動的に作成されます。 
 ---
-= リザーブ容量の仕組み
+= SANtricityソフトウェアにおける予約容量の仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

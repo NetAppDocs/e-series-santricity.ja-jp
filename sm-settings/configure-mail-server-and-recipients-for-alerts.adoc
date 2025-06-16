@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, mail, server, recipients, alerts, 
 summary: Eメールアラートを設定するには、メールサーバのアドレスとアラート受信者のEメールアドレスを指定する必要があります。Eメールアドレスは20個まで指定できます。 
 ---
-= メールサーバとアラートの受信者を設定
+= SANtricity System Managerでメールサーバーとアラート受信者を設定する
 :allow-uri-read: 
 :experimental: 
 :icons: font

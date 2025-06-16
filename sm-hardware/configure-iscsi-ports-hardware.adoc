@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, iscsi, ports, 
 summary: コントローラにiSCSIホスト接続が搭載されている場合は、ハードウェアページでiSCSIポートを設定できます。 
 ---
-= iSCSIポートを設定
+= SANtricity System ManagerでiSCSIポートを構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

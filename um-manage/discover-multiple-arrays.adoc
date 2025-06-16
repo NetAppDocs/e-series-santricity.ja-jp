@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, multiple, storage, arrays 
 summary: 複数のアレイの検出では、管理サーバが配置されているサブネット全体からすべてのストレージアレイを検出し、検出されたアレイを管理ドメインに自動的に追加します。 
 ---
-= 複数のストレージアレイを検出する
+= SANtricity Unified Managerで複数のストレージアレイを検出する
 :allow-uri-read: 
 :experimental: 
 :icons: font

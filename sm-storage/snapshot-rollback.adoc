@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, rollback 
 summary: ロールバック処理では、ベースボリュームが選択したSnapshotで指定された以前の状態に戻ります。 
 ---
-= Snapshotのロールバック
+= SANtricityソフトウェアのスナップショットロールバックについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

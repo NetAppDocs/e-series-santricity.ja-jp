@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, login, 
 summary: リモートログインを使用すると、ローカルエリアネットワーク外のユーザがコントローラ上でSSHセッションを開始し、設定を変更できます。 
 ---
-= リモートログイン（SSH）の設定
+= SANtricity System Managerでリモートログイン（SSH）を構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

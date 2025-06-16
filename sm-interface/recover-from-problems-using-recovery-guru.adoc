@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Recovery Guru 
 summary: Recovery GuruはSystem Managerのコンポーネントです。ストレージアレイの問題を診断し、問題を修正するリカバリ手順を推奨します。 
 ---
-= Recovery Guruを使用して問題からリカバリします
+= SANtricity System Manager Recovery Guruを使用して問題から回復する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

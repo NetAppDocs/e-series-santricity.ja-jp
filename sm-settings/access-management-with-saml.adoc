@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, saml 
 summary: 管理者は、アレイに組み込みのSecurity Assertion Markup Language（SAML）2.0の機能をアクセス管理に使用できます。 
 ---
-= SAMLを使用したアクセス管理
+= SANtricity System ManagerでSAMLを使用してアクセス管理を構成する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

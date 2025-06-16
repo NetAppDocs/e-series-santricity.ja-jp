@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, update, remote, ip, address, connection, 
 summary: リモートストレージアレイのiSCSI IPアドレスを更新して、ローカルストレージアレイとの接続を再確立できます。 
 ---
-= リモートIPアドレスを更新します
+= SANtricity System ManagerでリモートストレージアレイのIPアドレスを更新する
 :allow-uri-read: 
 :experimental: 
 :icons: font

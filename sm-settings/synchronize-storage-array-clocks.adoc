@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronize, storage, array, clocks, 
 summary: ネットワークタイムプロトコル（NTP）が無効な場合は、コントローラのクロックを手動で設定して、管理クライアント（SANtricity System Managerにアクセスするブラウザの実行に使用されるシステム）と同期されるようにすることができます。 
 ---
-= ストレージアレイのクロックを同期する
+= SANtricity System Managerでストレージアレイのクロックを同期する
 :allow-uri-read: 
 :experimental: 
 :icons: font

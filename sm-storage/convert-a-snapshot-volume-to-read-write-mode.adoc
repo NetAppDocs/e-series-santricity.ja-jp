@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, convert, snapshot, volume, read-write mode 
 summary: 必要に応じて、読み取り専用のSnapshotボリュームやSnapshot整合性グループのSnapshotボリュームを読み取り/書き込みモードに変換することができます。 
 ---
-= Snapshotボリュームを読み取り/書き込みモードに変換します
+= SANtricity System Managerでスナップショットボリュームを読み書きモードに変換する
 :allow-uri-read: 
 :experimental: 
 :icons: font

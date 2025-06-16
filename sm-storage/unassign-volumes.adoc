@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unassign, volumes 
 summary: ホストまたはホストクラスタからボリュームへのI/Oアクセスが不要になった場合は、ホストまたはホストクラスタからそのボリュームの割り当てを解除します。 
 ---
-= ボリュームの割り当てを解除する
+= SANtricity System Managerでボリュームの割り当てを解除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

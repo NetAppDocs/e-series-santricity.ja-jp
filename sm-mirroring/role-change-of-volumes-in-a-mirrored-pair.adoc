@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, role, change, between, volume, mirrored, pair, 
 summary: ミラーペア内のボリューム間でロールを変更できます。ロール変更では、プライマリボリュームをセカンダリロールに降格するか、またはセカンダリボリュームをプライマリロールに昇格できます。 
 ---
-= ミラーペア内のボリューム間でのロール変更
+= SANtricityソフトウェアのミラーリングされたペアにおけるボリュームの役割の変更について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

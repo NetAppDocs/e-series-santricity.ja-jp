@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, terminology 
 summary: ストレージアレイに関連するミラーリングの用語を次に示します。 
 ---
-= ミラーリングに関する用語
+= SANtricity Unified Managerのミラーリング用語について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

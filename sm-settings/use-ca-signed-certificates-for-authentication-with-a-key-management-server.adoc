@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, authentication, key, management, server, 
 summary: キー管理サーバとストレージアレイコントローラの間のセキュアな通信を確立するためには、適切な証明書セットを設定する必要があります。 
 ---
-= キー管理サーバでの認証にCA署名証明書を使用する
+= SANtricity System Manager のキー管理サーバーでの認証に CA 署名証明書を使用する
 :allow-uri-read: 
 :experimental: 
 :icons: font

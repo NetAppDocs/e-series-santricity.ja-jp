@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hardware, page, components, 
 summary: Hardware（ハードウェア）ページには、ストレージアレイの物理コンポーネントの図が表示されます。ここから、コンポーネントのステータスを確認し、それらのコンポーネントに関連するいくつかの機能を実行できます。 
 ---
-= ハードウェアのページとコンポーネント
+= SANtricity System Manager のハードウェアページとコンポーネント
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

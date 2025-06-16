@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, set, automatic, load, balancing, 
 summary: 自動ロードバランシング機能を使用すると、ホストからの受信I/Oトラフィックが動的に管理され、両方のコントローラに分散されます。この機能はデフォルトで有効になっていますが、System Managerから無効にすることもできます。 
 ---
-= 自動ロードバランシングを設定する
+= SANtricity System Managerで自動負荷分散を設定する
 :allow-uri-read: 
 :experimental: 
 :icons: font

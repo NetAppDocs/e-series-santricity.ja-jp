@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, re-synchronize, mirror, consistency, group, manually, 
 summary: ミラー整合性グループ内のすべてのミラーペアの再同期を手動で開始できます。 
 ---
-= ミラー整合性グループを手動で再同期します
+= SANtricity System Managerでミラー整合性グループを手動で再同期する
 :allow-uri-read: 
 :experimental: 
 :icons: font

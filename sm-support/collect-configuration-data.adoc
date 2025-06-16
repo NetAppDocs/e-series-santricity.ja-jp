@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, collect, configuration data 
 summary: ボリュームグループとディスクプールのすべてのデータを含む、コントローラからRAID構成データを保存できます。データのリストア方法については、テクニカルサポートにお問い合わせください。 
 ---
-= 構成データを収集
+= SANtricity System Managerで構成データを収集する
 :allow-uri-read: 
 :experimental: 
 :icons: font

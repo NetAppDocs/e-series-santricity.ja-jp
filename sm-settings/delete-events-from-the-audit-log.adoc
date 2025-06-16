@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, events, audit, log, 
 summary: 監査ログの古いイベントをクリアすることができます。これにより、イベントの検索が容易になります。削除時に古いイベントをCSV（カンマ区切り値）ファイルに保存することもできます。 
 ---
-= 監査ログからイベントを削除します
+= SANtricity System Managerの監査ログからイベントを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

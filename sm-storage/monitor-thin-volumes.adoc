@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, monitor, thin, volumes 
 summary: シンボリュームのスペースを監視して適切なアラートを生成し、容量不足が発生するのを回避できます。 
 ---
-= シンボリュームを監視する
+= SANtricity System Managerでシンボリュームを監視する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

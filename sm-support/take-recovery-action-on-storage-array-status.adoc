@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, take, recovery, action, storage, array, status 
 summary: 読み取り不能セクターのログの確認、ドライブポートの再有効化、およびリカバリモードのクリアを行うことにより、現在のストレージアレイのステータスに応じた操作を実行できます。 
 ---
-= ストレージアレイのステータスに対してリカバリ操作を実行します
+= SANtricity System Managerでストレージアレイのステータスの回復アクションを実行する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

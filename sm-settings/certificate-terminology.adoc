@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificate, terms, 
 summary: 証明書管理に関連する用語を次に示します。 
 ---
-= 証明書の用語
+= SANtricity ソフトウェアの証明書用語について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

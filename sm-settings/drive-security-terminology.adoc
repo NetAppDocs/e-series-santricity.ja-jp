@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, drive, security, terms, 
 summary: ストレージアレイに関連するドライブセキュリティの用語を次に示します。 
 ---
-= ドライブセキュリティの用語
+= SANtricity ソフトウェアのドライブ セキュリティ用語について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

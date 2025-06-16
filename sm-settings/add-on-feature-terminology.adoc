@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add-on, feature, terms 
 summary: ストレージアレイに関連するアドオン機能の用語を次に示します。 
 ---
-= アドオン機能に関する用語
+= SANtricity ソフトウェアのアドオン機能の用語について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

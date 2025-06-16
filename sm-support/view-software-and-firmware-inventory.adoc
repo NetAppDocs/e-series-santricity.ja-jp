@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, software, firmware, inventory 
 summary: ソフトウェアとファームウェアのインベントリには、ストレージアレイ内の各コンポーネントのファームウェアバージョンが表示されます。 
 ---
-= ソフトウェアとファームウェアのインベントリを表示します
+= SANtricity System Managerでソフトウェアとファームウェアのインベントリを表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

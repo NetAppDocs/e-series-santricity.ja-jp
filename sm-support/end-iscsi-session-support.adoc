@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, end, iscsi, session 
 summary: 不要になったiSCSIセッションを終了できます。iSCSIセッションは、非同期ミラー関係にあるホストまたはリモートストレージアレイとの間で確立できます。 
 ---
-= iSCSIセッションを終了します
+= SANtricity System ManagerでiSCSIセッションを終了する
 :allow-uri-read: 
 :experimental: 
 :icons: font

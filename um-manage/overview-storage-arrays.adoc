@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays 
 summary: ストレージリソースを管理するには、まずネットワーク内のストレージアレイを検出する必要があります。 
 ---
-= 検出の概要
+= SANtricity Unified Managerの検出について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, volume 
 summary: Snapshotボリューム、またはSnapshot整合性グループのSnapshotボリュームは、バックアップやソフトウェアアプリケーションのテストに必要なくなったときは削除することができます。 
 ---
-= Snapshotボリュームを削除します
+= SANtricity System Managerでスナップショットボリュームを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

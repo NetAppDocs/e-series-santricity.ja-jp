@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, synchronous, mirrored, pair 
 summary: 同期ミラーリングを設定するには、ローカルアレイのプライマリボリュームとリモートアレイのセカンダリボリュームを含むミラーペアを作成します。 
 ---
-= 同期ミラーペアを作成する
+= SANtricity Unified Managerで同期ミラーペアを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

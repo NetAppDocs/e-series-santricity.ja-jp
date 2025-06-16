@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, groups 
 summary: グループの管理ページでは、一連のストレージアレイグループを作成することで管理を容易にすることができます。 
 ---
-= グループの概要
+= SANtricity Unified Managerのグループの概要について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

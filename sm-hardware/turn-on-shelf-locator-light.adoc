@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED 
 summary: Hardware（ハードウェア）ページに表示されているシェルフの物理的な位置を確認するには、シェルフのロケーターライトをオンにします。 
 ---
-= シェルフのロケーターライトを点灯します
+= SANtricity System Managerで棚位置ライトをオンにする
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

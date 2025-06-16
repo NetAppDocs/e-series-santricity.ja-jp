@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, terms 
 summary: ストレージアレイに関連するSnapshotの用語を次に示します。 
 ---
-= Snapshotに関する用語
+= SANtricity ソフトウェアのスナップショット用語について学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

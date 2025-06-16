@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, export, key, management, server, certificates, 
 summary: キー管理サーバ用の証明書をローカルマシンに保存できます。 
 ---
-= キー管理サーバ証明書をエクスポートする
+= SANtricity System Managerでキー管理サーバー証明書をエクスポートする
 :allow-uri-read: 
 :experimental: 
 :icons: font

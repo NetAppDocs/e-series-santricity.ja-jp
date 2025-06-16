@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, view, order, shelves 
 summary: ハードウェアのページに表示されるシェルフの順序は、キャビネット内のシェルフの物理的な順序に合わせて変更できます。 
 ---
-= シェルフの表示順序を変更します
+= SANtricity System Managerでシェルフの表示順序を変更する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

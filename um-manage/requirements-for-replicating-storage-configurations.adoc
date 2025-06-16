@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, requirements, replicating, storage, configurations 
 summary: ストレージアレイ間でストレージ構成をインポートする前に、要件およびガイドラインを確認してください。 
 ---
-= ストレージ構成のレプリケートに関する要件
+= SANtricity Unified Managerでストレージアレイ構成を複製するための要件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

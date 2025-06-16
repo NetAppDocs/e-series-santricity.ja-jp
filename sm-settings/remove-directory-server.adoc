@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, directory, server, 
 summary: ディレクトリサーバとストレージアレイ間の接続を解除するために、アクセス管理ページからサーバ情報を削除できます。このタスクは、新しいサーバを設定して古いサーバを削除する場合などに実行します。 
 ---
-= ディレクトリサーバを削除します
+= SANtricity System Managerでディレクトリサーバーを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, base, volume 
 summary: ロールバック処理を実行して、Snapshotイメージに保存されている内容と一致するようにベースボリュームの内容を変更することができます。ロールバック処理では、ベースボリュームに関連付けられているSnapshotイメージの内容は変更されません。 
 ---
-= ベースボリュームのSnapshotイメージのロールバックを開始する
+= SANtricity System Managerでベースボリュームのスナップショットイメージのロールバックを開始します
 :allow-uri-read: 
 :experimental: 
 :icons: font

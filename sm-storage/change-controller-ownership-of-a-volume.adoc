@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, controller ownership, volume 
 summary: ボリュームの優先コントローラ所有権を変更して、ホストアプリケーションのI/Oが新しいパス経由で転送されるようにすることができます。 
 ---
-= ボリュームのコントローラ所有権を変更する
+= SANtricity System Managerでボリュームのコントローラ所有権を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

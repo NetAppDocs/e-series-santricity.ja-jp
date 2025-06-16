@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, retrieve, recovery, support files 
 summary: テクニカルサポートは、リカバリサポートファイルを使用して問題のトラブルシューティングを行うことができます。これらのファイルはSystem Managerで自動的に保存されます。 
 ---
-= リカバリサポートファイルを取得します
+= SANtricity System Managerでリカバリサポートファイルを取得する
 :allow-uri-read: 
 :experimental: 
 :icons: font

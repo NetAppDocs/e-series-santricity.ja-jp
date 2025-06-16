@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, upgrade, considerations 
 summary: Unified Managerを使用して複数のストレージアレイをアップグレードする場合に、計画段階で確認が必要な主な考慮事項を以下に記載します。 
 ---
-= アップグレード時の考慮事項
+= SANtricity Unified Managerを使用して複数のストレージアレイをアップグレードする方法を学びます
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

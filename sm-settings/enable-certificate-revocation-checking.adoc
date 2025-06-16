@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, certificate, revocation checking, 
 summary: 失効した証明書の自動チェックを有効にして、Online Certificate Status Protocol（OCSP）サーバがユーザによるセキュアでない接続をブロックするようにすることができます。 
 ---
-= 証明書失効チェックを有効にします
+= SANtricity System Managerで証明書失効チェックを有効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

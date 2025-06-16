@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, center 
 summary: アップグレードセンターを使用して最新のソフトウェアとファームウェアをダウンロードし、ストレージアレイをアップグレードして最新の機能とバグ修正を入手します。 
 ---
-= Upgrade Centerの概要
+= SANtricityソフトウェアのアップグレードについて
 :allow-uri-read: 
 :experimental: 
 :icons: font

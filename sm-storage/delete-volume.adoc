@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, volume 
 summary: ボリュームを削除する一般的な状況としては、作成したボリュームのパラメータや容量に誤りがあった場合、ストレージ構成のニーズを満たさなくなった場合、バックアップやアプリケーションのテストに必要なくなったSnapshotイメージがある場合などがあります。 
 ---
-= ボリュームを削除します
+= SANtricity System Managerでボリュームを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

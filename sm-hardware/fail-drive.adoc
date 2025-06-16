@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, fail, drive, 
 summary: 指示があった場合は、ドライブを手動で使用停止できます。 
 ---
-= ドライブを使用停止にする
+= SANtricity System Managerでドライブを手動で故障させる
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

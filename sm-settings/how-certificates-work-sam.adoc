@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificates, 
 summary: 証明書は、Webサイトやサーバなどのオンラインエンティティを識別するデジタルファイルで、インターネット上のセキュアな通信を実現します。 
 ---
-= 証明書の仕組み
+= SANtricity System Managerにおける証明書の仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

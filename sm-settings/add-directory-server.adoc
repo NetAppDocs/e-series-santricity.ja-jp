@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, directory, server, 
 summary: アクセス管理用に認証を設定するには、ストレージアレイとLDAPサーバの間の通信を確立し、LDAPユーザグループをアレイの事前定義されたロールにマッピングします。 
 ---
-= LDAPディレクトリサーバを追加します
+= SANtricity System ManagerでLDAPディレクトリサーバーを追加する
 :allow-uri-read: 
 :experimental: 
 :icons: font

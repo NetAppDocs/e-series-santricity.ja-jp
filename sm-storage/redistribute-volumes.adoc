@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, redistribute, volumes 
 summary: ボリュームの再配置は、ボリュームを優先コントローラ所有者に戻すために実行します。通常、ホストとストレージアレイの間のデータパスに問題が発生した場合、マルチパスドライバがボリュームを優先コントローラ所有者から移動します。 
 ---
-= ボリュームを再配置する
+= SANtricity System Managerでボリュームを再分配する
 :allow-uri-read: 
 :experimental: 
 :icons: font

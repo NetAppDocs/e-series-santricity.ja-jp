@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, single, array 
 summary: 単一ストレージアレイの追加/検出オプションを使用して、組織のネットワークを手動で検出して追加します。 
 ---
-= 単一のアレイを検出します
+= SANtricity Unified Managerで単一のアレイを検出する
 :allow-uri-read: 
 :experimental: 
 :icons: font

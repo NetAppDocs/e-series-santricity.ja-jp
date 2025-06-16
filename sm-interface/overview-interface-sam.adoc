@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, 
 summary: メインインターフェイスに移動すると、System Managerの機能やタスクにアクセスできます。 
 ---
-= SANtricity System Managerインターフェイスの概要
+= SANtricity System Managerインターフェースについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

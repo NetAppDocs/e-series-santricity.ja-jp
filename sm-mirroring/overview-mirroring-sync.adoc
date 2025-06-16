@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, RVM, synchronous, mirroring, controllers, 
 summary: 同期ミラーリング機能は、遠距離にあるストレージアレイ間のオンラインのリアルタイムデータレプリケーションを提供します。 
 ---
-= 同期ミラーリングの概要
+= SANtricityソフトウェアの同期ミラーリングについて学ぶ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

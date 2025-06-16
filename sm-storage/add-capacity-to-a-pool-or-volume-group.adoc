@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, capacity, pool, volume, group 
 summary: ドライブを追加することで、既存のプールまたはボリュームグループの空き容量を拡張することができます。 
 ---
-= プールまたはボリュームグループに容量を追加します
+= SANtricity System Managerでプールまたはボリュームグループに容量を追加する
 :allow-uri-read: 
 :experimental: 
 :icons: font

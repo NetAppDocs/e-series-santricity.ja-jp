@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, graphical, performance, 
 summary: 論理オブジェクト、物理オブジェクト、アプリケーション、およびワークロードのパフォーマンスデータをグラフで表示できます。 
 ---
-= グラフィカルなパフォーマンスデータを表示します
+= SANtricity System Managerでグラフィカルなパフォーマンスデータを表示する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

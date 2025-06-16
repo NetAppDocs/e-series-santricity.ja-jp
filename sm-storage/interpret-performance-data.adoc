@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, interpret, performance data 
 summary: パフォーマンスデータは、ストレージアレイのパフォーマンス調整に役立ちます。 
 ---
-= パフォーマンスデータを解釈する
+= SANtricity System Managerでパフォーマンスデータを解釈する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

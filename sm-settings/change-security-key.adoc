@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, security, key, 
 summary: セキュリティキーは、いつでも新しいキーに置き換えることができます。セキュリティキーの変更が必要になるのは、会社でセキュリティ侵害が発生する可能性があり、権限のない担当者がドライブのデータにアクセスできないようにする場合です。 
 ---
-= セキュリティキーを変更する
+= SANtricity System Managerでセキュリティキーを変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

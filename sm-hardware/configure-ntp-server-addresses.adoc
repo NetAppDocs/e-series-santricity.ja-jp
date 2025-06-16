@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, ntp, server, addresses, network, time, protocol, 
 summary: ネットワークタイムプロトコル（NTP）サーバへの接続を設定すると、コントローラがNTPサーバを定期的に照会して内部のクロックを更新できるようになります。 
 ---
-= NTPサーバアドレスを設定する
+= SANtricity System ManagerでNTPサーバのアドレスを設定する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

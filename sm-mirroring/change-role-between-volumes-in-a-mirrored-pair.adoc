@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, role, volumes, mirrored, pair, 
 summary: 管理目的またはローカルストレージアレイで災害が発生した場合に、同期ミラーリングに参加しているミラーペア内の2つのボリューム間でロールを交換することができます。 
 ---
-= ミラーペア内のボリューム間でロールを変更します
+= SANtricity System Managerでミラーリングされたペアのボリューム間の役割を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

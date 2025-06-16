@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, authentication, users, roles, access, Management, 
 summary: アクセス管理は、SANtricity System Managerでユーザ認証を確立する手段の1つです。 
 ---
-= アクセス管理の仕組み
+= SANtricity System Manager におけるアクセス管理の仕組み
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes 
 summary: アプリケーション、データベース、およびファイルシステムがデータを格納するコンテナとしてボリュームを作成できます。ボリュームを作成する際には、ワークロードを選択して特定のアプリケーション用のストレージアレイ構成をカスタマイズすることもできます。 
 ---
-= ボリュームとワークロードの概要
+= SANtricity System Managerのボリュームとワークロードについて学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

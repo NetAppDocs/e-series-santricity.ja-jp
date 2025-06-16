@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, media scan settings, volume 
 summary: メディアスキャンは、ボリューム内のすべてのデータと冗長性情報をスキャンするバックグラウンド処理です。このオプションは、1つ以上のボリュームのメディアスキャン設定を有効または無効にしたり、スキャン期間を変更したりする場合に使用します。 
 ---
-= ボリュームのメディアスキャン設定を変更します
+= SANtricity System Managerでボリュームのメディアスキャン設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

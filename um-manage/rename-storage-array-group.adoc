@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, rename, storage, array, group 
 summary: 現在の名前が適切でない場合は、ストレージアレイグループの名前を変更できます。 
 ---
-= ストレージアレイグループの名前を変更します
+= SANtricity Unified Manager でストレージ アレイ グループの名前を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

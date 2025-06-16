@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, trusted, certificates, 
 summary: '以前に[信頼済み]タブからインポートした、ユーザーがインストールした証明書を削除できます。' 
 ---
-= 信頼された証明書を削除する
+= SANtricity System Managerで信頼された証明書を削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

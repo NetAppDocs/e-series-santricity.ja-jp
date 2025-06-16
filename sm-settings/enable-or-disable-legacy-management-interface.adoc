@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, legacy, management, interface, 
 summary: ストレージアレイと管理クライアントの間の通信方法である、従来の管理インターフェイス（SYMbol）を有効または無効にすることができます。 
 ---
-= 従来の管理インターフェイスを有効または無効にします
+= SANtricity System Manager で従来の管理インターフェースを有効または無効にする
 :allow-uri-read: 
 :experimental: 
 :icons: font

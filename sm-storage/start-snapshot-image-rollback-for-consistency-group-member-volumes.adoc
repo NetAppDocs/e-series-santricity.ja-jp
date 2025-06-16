@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, snapshot, consistency, group, member, volumes 
 summary: ロールバック処理を実行して、Snapshotイメージに保存されている内容と一致するようにSnapshot整合性グループメンバーボリュームの内容を変更することができます。 
 ---
-= Snapshot整合性グループのメンバーボリュームのSnapshotイメージのロールバックを開始します
+= SANtricity System Managerでスナップショット整合性グループのメンバーボリュームのスナップショットイメージのロールバックを開始します。
 :allow-uri-read: 
 :experimental: 
 :icons: font

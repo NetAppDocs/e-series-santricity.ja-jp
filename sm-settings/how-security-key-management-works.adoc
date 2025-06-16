@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, security, key, management, 
 summary: ドライブセキュリティ機能を実装する場合、セキュリティ有効ドライブ（FIPSまたはFDE）には、データアクセスのためにセキュリティキーが必要です。セキュリティキーは、ストレージアレイ内のこれらのタイプのドライブおよびコントローラで共有される文字列です。 
 ---
-= セキュリティキー管理の仕組み
+= SANtricity System Manager におけるセキュリティ キー管理の仕組み
 :allow-uri-read: 
 :experimental: 
 :icons: font

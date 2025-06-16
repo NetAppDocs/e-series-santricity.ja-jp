@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configuration settings, volume group 
 summary: 名前やRAIDレベルなど、ボリュームグループの設定を編集できます。 
 ---
-= ボリュームグループの設定を変更します
+= SANtricity System Managerでボリュームグループの構成設定を変更する
 :allow-uri-read: 
 :experimental: 
 :icons: font

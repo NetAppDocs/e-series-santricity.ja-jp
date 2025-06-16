@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, export, import, volume group 
 summary: ボリュームグループの移行では、ボリュームグループをエクスポートして、別のストレージアレイにインポートすることができます。 
 ---
-= ボリュームグループをエクスポート/インポートする
+= SANtricity CLI でのボリューム グループのエクスポート/インポート
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

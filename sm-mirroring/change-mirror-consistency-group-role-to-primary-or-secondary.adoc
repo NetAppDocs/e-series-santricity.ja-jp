@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, mirror, consistency group, primary, secondary 
 summary: 管理目的で、またはローカルストレージアレイで災害が発生した場合に、ミラー整合性グループ間でロールを変更することができます。 
 ---
-= ミラー整合性グループのロールをプライマリまたはセカンダリに変更します
+= SANtricity System Managerでミラー整合性グループの役割をプライマリまたはセカンダリに変更します。
 :allow-uri-read: 
 :experimental: 
 :icons: font

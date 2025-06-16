@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, ssd, cache 
 summary: システムパフォーマンスを向上させるために、SSDキャッシュ機能を使用して、アクセス頻度が特に高いデータ（「ホット」データ）を低レイテンシのソリッドステートドライブ（SSD）にキャッシュすることができます。SSDキャッシュは、ホスト読み取りにのみ使用されます。 
 ---
-= SSDキャッシュを作成する
+= SANtricity System ManagerでSSDキャッシュを作成する
 :allow-uri-read: 
 :experimental: 
 :icons: font

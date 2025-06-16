@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, shelf, ids, 
 summary: シェルフIDは、ストレージアレイ内のシェルフを一意に識別する番号です。シェルフに00または01から始まる連番が振られており、シェルフ画面の左上に表示されます。 
 ---
-= シェルフIDを変更します
+= SANtricity System ManagerでシェルフIDを変更する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

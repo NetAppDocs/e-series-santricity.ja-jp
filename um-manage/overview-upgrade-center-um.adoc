@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, upgrade, center 
 summary: アップグレードセンターでは、複数のストレージアレイのSANtricity OSソフトウェアとNVSRAMのアップグレードを管理できます。 
 ---
-= Upgrade Centerの概要
+= SANtricity Unified Managerのアップグレードセンターについて学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

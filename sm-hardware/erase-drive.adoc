@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, erase, drives, removal, 
 summary: 消去オプションを使用して、未割り当てのドライブをシステムから取り外す準備を行うことができます。この手順 はデータを完全に削除し、データを二度と読み取れないようにします。 
 ---
-= ドライブを消去します
+= SANtricity System Managerでドライブを消去する
 :allow-uri-read: 
 :experimental: 
 :icons: font

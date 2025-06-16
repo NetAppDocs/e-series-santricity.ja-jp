@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, syslog, servers, alerts, 
 summary: syslogサーバを削除してアラートの受信を中止することができます。 
 ---
-= アラート用のsyslogサーバを削除します
+= SANtricity System Manager でアラートの Syslog サーバーを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

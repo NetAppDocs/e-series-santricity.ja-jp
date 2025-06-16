@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, storage, array, profile 
 summary: ストレージアレイプロファイルは、ストレージアレイのすべてのコンポーネントとプロパティの概要 を提供します。 
 ---
-= ストレージアレイプロファイルを表示します
+= SANtricity System Managerでストレージアレイのプロファイルを表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

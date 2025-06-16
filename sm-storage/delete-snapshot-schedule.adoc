@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, schedule 
 summary: Snapshotイメージを収集する必要がなくなった場合は、既存のSnapshotスケジュールを削除できます。 
 ---
-= Snapshotスケジュールを削除します
+= SANtricity System Managerでスナップショットスケジュールを削除する
 :allow-uri-read: 
 :experimental: 
 :icons: font

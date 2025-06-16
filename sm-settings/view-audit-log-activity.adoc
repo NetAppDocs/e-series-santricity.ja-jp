@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, audit, log, activity, 
 summary: Security Admin権限を持つユーザは、監査ログを表示して、ユーザによる操作、認証エラー、無効なログインの試行、およびユーザセッションの期間を監視できます。 
 ---
-= 監査ログアクティビティを表示します
+= SANtricity System Managerで監査ログアクティビティを表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font

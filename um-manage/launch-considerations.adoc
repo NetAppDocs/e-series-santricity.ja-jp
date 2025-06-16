@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager 
 summary: ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、起動オプションを使用してSANtricity System Managerを開きます。 
 ---
-= SANtricity System Managerへのアクセスに関する考慮事項
+= Unified ManagerからSANtricity System Managerにアクセスする方法について学習します
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
