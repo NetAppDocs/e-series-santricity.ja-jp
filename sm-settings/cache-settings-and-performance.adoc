@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cache, settings, performance, 
 summary: キャッシュメモリは、ドライブメディアよりも速くアクセスできる、コントローラ上の一時的な揮発性ストレージ領域です。 
 ---
-= キャッシュの設定とパフォーマンス
+= SANtricityソフトウェアのキャッシュ設定とパフォーマンスについて学ぶ
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -1,0 +1,129 @@
+---
+permalink: sm-settings/faq-nvme-protocol.html 
+sidebar: sidebar 
+keywords:  
+summary: この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。 
+---
+= SANtricity System Manager の NVMe プロトコルに関する FAQ
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。
+
+
+
+== NVMe over Fabrics統計には何が表示されますか？
+
+View NVMe over Fabrics Statisticsダイアログボックスには、NVMeサブシステムとRDMAインターフェイスの統計が表示されます。統計はすべて読み取り専用で、設定することはできません。
+
+* * nvmeサブシステム統計*- NVMeコントローラとそのキューの統計が表示されます。NVMeコントローラは、ストレージアレイ内のネームスペースとホストの間のアクセスパスを提供します。NVMeサブシステム統計では、接続障害、リセット、シャットダウンなどの項目を確認できます。これらの統計の詳細については、[表見出しの凡例を表示する*]をクリックしてください。
+* * rdma Interface statistics *-- RDMAインターフェイス上のすべてのNVMe over Fabricsポートの統計を提供します。各スイッチポートに関連付けられているパフォーマンス統計とリンクエラー情報が含まれます。このタブは、NVMe over Fabricsポートが使用可能な場合にのみ表示されます。統計の詳細については、[表見出しの凡例を表示する*]をクリックしてください。
+
+
+これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。統計の生データは、コントローラの起動以降に収集されたすべての統計です。ベースライン統計は、ベースライン時間の設定以降に収集されたポイントインタイムの統計です。
+
+
+
+== NVMe over InfiniBandを設定または診断するためにほかに必要な作業は何ですか？
+
+次の表に、over InfiniBandセッションの設定と管理に使用できるSANtricity System Managerの機能を示します。
+
+[NOTE]
+====
+NVMe over InfiniBandを設定できるのは、ストレージアレイのコントローラにNVMe over InfiniBandポートが搭載されている場合のみです。
+
+====
+[cols="35h,~"]
+|===
+| アクション | 場所 
+
+
+ a| 
+NVMe over InfiniBandポートを設定する
+ a| 
+. 「 * ハードウェア * 」を選択します。
+. [コントローラとコンポーネント]*タブを選択します。
+. コントローラを選択します。
+. Configure NVMe over InfiniBand ports] を選択します。
+
+
+または
+
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* NVMe over InfiniBand settings *を表示し、* Configure NVMe over InfiniBand ports *を選択します。
+
+
+
+
+ a| 
+NVMe over InfiniBandの統計を表示します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* NVMe over InfiniBand settings *を表示し、* View NVMe over Fabrics Statistics *を選択します。
+
+
+|===
+
+
+== NVMe over RoCEを設定または診断するためにほかに必要な作業は何ですか？
+
+NVMe over RoCEの設定と管理は、ハードウェアと設定のページで実行できます。
+
+[NOTE]
+====
+NVMe over RoCEを設定できるのは、ストレージアレイのコントローラにNVMe over RoCEポートが搭載されている場合のみです。
+
+====
+[cols="35h,~"]
+|===
+| アクション | 場所 
+
+
+ a| 
+NVMe over RoCEポートを設定します
+ a| 
+. 「 * ハードウェア * 」を選択します。
+. [コントローラとコンポーネント]*タブを選択します。
+. コントローラを選択します。
+. NVMe over RoCE ポートの設定 * を選択します。
+
+
+または
+
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* NVMe over RoCE settings *（NVMe over RoCE設定*）に進み、* Configure NVMe over RoCE Ports *（NVMe over RoCEポートの設定*）を選択します。
+
+
+
+
+ a| 
+NVMe over Fabricsの統計を表示します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* NVMe over RoCE settings *を表示し、* View NVMe over Fabrics Statistics *を選択します。
+
+
+|===
+
+
+== 1つの物理ポートに2つのIPアドレスがあるのはなぜですか。
+
+EF600ストレージアレイには、外部HICと内部HICが2つ搭載されています。
+
+この構成では、外部HICが内部の補助HICに接続されます。外部HICからアクセス可能な各物理ポートには、内部HICの仮想ポートが関連付けられています。
+
+最大200Gbのパフォーマンスを実現するには、物理ポートと仮想ポートの両方に一意のIPアドレスを割り当てて、ホストが各ポートへの接続を確立できるようにする必要があります。仮想ポートにIPアドレスを割り当てない場合、HICの実行速度は約半分になります。
+
+
+
+== 1つの物理ポートに2セットのパラメータがあるのはなぜですか。
+
+EF600ストレージアレイには、外部HICと内部HICが2つ搭載されています。
+
+この構成では、外部HICが内部の補助HICに接続されます。外部HICからアクセス可能な各物理ポートには、内部HICの仮想ポートが関連付けられています。
+
+最大200Gbのパフォーマンスを実現するには、物理ポートと仮想ポートの両方にパラメータを割り当てて、ホストが各ポートへの接続を確立できるようにする必要があります。仮想ポートにパラメータを割り当てない場合、HICの実行速度は約半分になります。

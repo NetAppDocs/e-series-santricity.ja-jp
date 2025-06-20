@@ -1,0 +1,180 @@
+---
+permalink: sm-settings/faq-iscsi-protocol.html 
+sidebar: sidebar 
+keywords:  
+summary: この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。 
+---
+= SANtricity System Manager の iSCSI プロトコルに関する FAQ
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。
+
+
+
+== iSNSサーバを登録に使用するとどうなりますか？
+
+Internet Storage Name Service（iSNS）サーバの情報を使用する場合は、iSNSサーバを照会してターゲット（コントローラ）から情報を取得するようにホスト（イニシエータ）を設定できます。
+
+この登録により、コントローラのiSCSI Qualified Name（IQN）とポート情報がiSNSサーバに提供され、イニシエータ（iSCSIホスト）とターゲット（コントローラ）間の照会が可能になります。
+
+
+
+== iSCSIではどの登録方法が自動的にサポートされますか。
+
+iSCSIの実装では、Internet Storage Name Service（iSNS）検出方式またはSend Targetsコマンドの使用がサポートされます。
+
+iSNS方式では、イニシエータ（iSCSIホスト）とターゲット（コントローラ）の間でiSNS検出を実行できます。ターゲットコントローラを登録して、コントローラのiSCSI修飾名（IQN）とポート情報をiSNSサーバに提供します。
+
+iSNSを設定しない場合、iSCSIホストはiSCSI検出セッション中にSend Targetsコマンドを送信します。これに応答して、コントローラからポート情報（ターゲットIQN、ポートIPアドレス、リスニングポート、ターゲットポートグループなど）が返されます。iSNSを使用する場合は、ホストイニシエータがiSNSサーバからターゲットIPを取得できるため、この検出方式は必要ありません。
+
+
+
+== iSER over InfiniBand統計には何が表示されますか？
+
+View iSER over InfiniBand Statisticsダイアログボックスには、ローカルターゲット（プロトコル）統計とiSER over InfiniBand（IB）インターフェイス統計が表示されます。統計はすべて読み取り専用で、設定することはできません。
+
+* *ローカルターゲット（プロトコル）統計*- iSER over InfiniBandターゲットの統計を提供し、ストレージメディアへのブロックレベルのアクセスが表示されます。
+* * iSER over InfiniBandインターフェイス統計*- InfiniBandインターフェイス上のすべてのiSER over InfiniBandポートの統計が提供され、各スイッチポートに関連付けられているパフォーマンス統計とリンクエラー情報が含まれます。
+
+
+これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。統計の生データは、コントローラの起動以降に収集されたすべての統計です。ベースライン統計は、ベースライン時間の設定以降に収集されたポイントインタイムの統計です。
+
+
+
+== iSER over InfiniBandを設定または診断するためにほかに必要な作業は何ですか？
+
+次の表に、iSER over InfiniBandセッションの設定と管理に使用できるSANtricity System Managerの機能を示します。
+
+[NOTE]
+====
+iSER over InfiniBandを設定できるのは、ストレージアレイのコントローラにiSER over InfiniBandホスト管理ポートが搭載されている場合のみです。
+
+====
+[cols="35h,~"]
+|===
+| アクション | 場所 
+
+
+ a| 
+iSER over InfiniBandポートを設定します
+ a| 
+. 「 * ハードウェア * 」を選択します。
+. [コントローラとコンポーネント]*タブを選択します。
+. コントローラを選択します。
+. iSER over InfiniBandポートの設定*を選択します。
+
+
+または
+
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* iSER over InfiniBand setting*を選択し、* iSER over InfiniBandポートの設定*を選択します。
+
+
+
+
+ a| 
+iSER over InfiniBandの統計を表示します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* iSER over InfiniBand settings *を表示し、* View iSER over InfiniBand Statistics *を選択します。
+
+
+|===
+
+
+== iSCSIを設定または診断するためにほかに必要な作業は何ですか？
+
+iSCSIセッションは、非同期ミラー関係にあるホストまたはリモートストレージアレイとの間で実行できます。次の表に、これらのiSCSIセッションの設定と管理に使用できるSANtricityシステムマネージャの機能を示します。
+
+[NOTE]
+====
+iSCSIを設定できるのは、ストレージアレイでiSCSIがサポートされている場合のみです。
+
+====
+
+
+=== iSCSIを設定
+
+[cols="1a,1a"]
+|===
+| アクション | 場所 
+
+
+ a| 
+iSCSI設定を管理します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* iscsi settings *を表示し、すべての管理機能を表示します。
+
+
+
+
+ a| 
+iSCSIポートを設定
+ a| 
+. 「 * ハードウェア * 」を選択します。
+. [コントローラとコンポーネント]*タブを選択します。
+. コントローラを選択します。
+. Configure iSCSI Port* （ iSCSI ポートの設定）を選択します。
+
+
+
+
+ a| 
+ホストのCHAPシークレットを設定します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして「* iSCSI settings *」（* iSCSI設定*）に進み、「Configure Authentication *」（認証の設定*）を選択
+
+
+または
+
+. メニューから「 Storage [Hosts] 」を選択します。
+. ホストメンバーを選択します。
+. メニューの[表示/設定の編集][ホストポート]タブをクリックします。
+
+
+|===
+
+
+=== iSCSIを診断する
+
+[cols="1a,1a"]
+|===
+| アクション | 場所 
+
+
+ a| 
+iSCSIセッションを表示または終了します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして「* iSCSI settings *」（* iSCSI設定）に進み、「* View/End iSCSI Sessions *」（* iSCSIセッションの表示/終了）を選択し
+
+
+または
+
+. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
+. 「* iSCSIセッションの表示/終了*」を選択します。
+
+
+
+
+ a| 
+iSCSI統計を表示します
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* iSCSI設定*を表示し、* iSCSI統計パッケージの表示*を選択します。
+
+
+または
+
+. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
+. [View iSCSI Statistics Packages]を選択します。
+
+
+|===

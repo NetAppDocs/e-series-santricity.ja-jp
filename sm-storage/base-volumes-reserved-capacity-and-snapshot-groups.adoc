@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, base volumes, reserved capacity, snapshot groups 
 summary: Snapshot機能は、ベースボリューム、リザーブ容量、およびSnapshotグループを使用します。 
 ---
-= ベースボリューム、リザーブ容量、およびSnapshotグループ
+= SANtricity System Manager の基本ボリューム、予約容量、スナップショット グループについて学習します。
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
