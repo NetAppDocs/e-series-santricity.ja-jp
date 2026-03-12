@@ -9039,4 +9039,7 @@
   <block id="3ec10d346538ec4062959d73db3a7bac" category="list-text">プライマリ ボリュームとセカンダリ ボリュームでは、リソース パーティショニングが有効になっていません。</block>
   <block id="9da88b3d41fc062b2fe1a843a0e9c3f6" category="admonition">E4000 コントローラは iSCSI ミラーリングをサポートしていません。</block>
   <block id="2ba81316cd80bb512d2d7c99312de69e" category="section-title">バージョン11.90R4の新機能</block>
+  <block id="980295b6698b8b2aea7adc1d9dafed8c" category="section-title">Version 11.90R5の新機能</block>
+  <block id="94bf3a177cda972f0b25d90290f4610c" category="paragraph">このバージョンには欠陥の修正のみが含まれ、新しい機能は含まれていません。このリリースの変更点の詳細については、Eシリーズ SANtricity OS 11.90R5 READMEを参照してください。</block>
+  <block id="b2676fbb812b8574fa9249e68163593f" category="paragraph">このバージョンにはマイナーな変更のみが含まれており、新しい機能は含まれていません。このリリースの変更点の詳細については、Eシリーズ SANtricity OS 11.90R4 READMEを参照してください。</block>
 </blocks>
