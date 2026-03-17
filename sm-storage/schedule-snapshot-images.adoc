@@ -28,13 +28,13 @@ Snapshotスケジュールを作成して、ベースボリュームに関する
 .手順
 . 次のいずれかを実行して、Snapshotスケジュールを作成します。
 +
-** 選択メニュー： Storage [Volumes]
+** 左側のパネルから、menu:Storage[Volumes]を選択します。
 +
 このSnapshotスケジュールのオブジェクト（ボリュームまたはSnapshot整合性グループ）を選択し、メニュー：コピーサービス[ Snapshotスケジュールの作成]を選択します。
 
-** メニューを選択します。Storage [Snapshots]。
+** 左側のパネルから、メニュー：Storage[Snapshots]を選択します。
 +
-[*スケジュール*]タブを選択し、[*作成*]をクリックします。
+* Snapsshot schedules * タブを選択し、* Create * をクリックします。
 
 
 

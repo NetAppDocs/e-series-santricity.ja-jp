@@ -15,7 +15,7 @@ summary: AutoSupport ページには、AutoSupport 機能と個々のAutoSupport
 AutoSupport ページには、AutoSupport 機能と個々のAutoSupport 機能が現在有効になっているかどうかが表示されます。
 
 .手順
-. メニューを選択AutoSupport します。[Support Center]>[Support]（サポートセンター）タブ。
+. 左側のパネルから、メニュー：サポート[サポートセンター > AutoSupport]タブを選択します。
 . タブのすぐ下にあるページの右側を参照して、基本的なAutoSupport 機能が有効になっているかどうかを確認します。
 . 疑問符にカーソルを合わせると、個々のAutoSupport 機能が有効になっているかどうかが表示されます。
 

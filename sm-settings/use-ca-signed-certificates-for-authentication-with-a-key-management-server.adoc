@@ -30,7 +30,7 @@ Security Adminの権限を含むユーザプロファイルでログインする
 NOTE: 秘密鍵と公開鍵のペアによって外部で生成されたCSRファイルは、[外部セキュリティキーの作成]ダイアログを使用してインポートできます。外部生成されたCSRファイルのインポートの詳細については、を参照してください https://docs.netapp.com/us-en/e-series-santricity/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html#step-2-import-certificates-for-the-key-management-server["手順2：キー管理サーバの証明書をインポートする"]。
 
 .手順
-. メニューから[設定][証明書]を選択します。
+. 左側のパネルから、menu:Settings[Certificates]を選択します。
 . [キー管理]タブで、[*Complete CSR*]を選択します。
 . 次の情報を入力します。
 +
@@ -72,7 +72,7 @@ NOTE: キー管理サーバは独自のCAとして機能するため、署名済
 
 
 .手順
-. メニューから[設定][証明書]を選択します。
+. 左側のパネルから、menu:Settings[Certificates]を選択します。
 . [キー管理]タブで、[*インポート*]を選択します。
 +
 証明書ファイルをインポートするためのダイアログボックスが表示されます。

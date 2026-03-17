@@ -18,7 +18,7 @@ summary: リモートストレージアレイのiSCSI IPアドレスを更新し
 iSCSI接続を使用して非同期ミラーリングを行うために、ローカルストレージアレイとリモートストレージアレイの両方を設定する必要があります。
 
 .手順
-. メニューを選択します。Storage [非同期ミラーリング]。
+. 左側のパネルから、menu:Storage[Asynchronous Mirroring]を選択します。
 . [ミラー整合性グループ*（Mirror Consistency Groups *）]タブを選択します。
 +
 Mirror Consistency Groupテーブルには、ストレージアレイに関連付けられたすべてのミラー整合性グループが表示されます。

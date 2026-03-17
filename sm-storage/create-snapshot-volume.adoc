@@ -30,7 +30,7 @@ Snapshotボリュームを作成するプロセスは複数の手順で構成さ
 ベースボリュームまたはSnapshot整合性グループのSnapshotイメージを選択します。Snapshot整合性グループのSnapshotイメージを選択した場合は、確認用にSnapshot整合性グループのメンバーボリュームが表示されます。
 
 .手順
-. メニューを選択します。Storage [Snapshots]。
+. 左側のパネルから、メニュー：Storage[Snapshots]を選択します。
 . スナップショットボリューム*タブを選択します。
 . 「 * Create * 」を選択します。
 +

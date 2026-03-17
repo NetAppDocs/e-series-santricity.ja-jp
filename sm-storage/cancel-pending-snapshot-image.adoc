@@ -22,8 +22,8 @@ Snapshotイメージが保留状態になるのは、次の条件が同時に発
 
 
 .手順
-. 選択メニュー：Storage（Pool & Volume Groups）
+. 左側のパネルから、メニュー：Storage[Pools and volume groups]を選択します。
 . 予約容量*タブをクリックします。
-. 保留中のSnapshotイメージをキャンセルするSnapshotグループを選択し、メニューの[一般的でないタスク][保留中のSnapshotイメージのキャンセル]をクリックします。
+. 保留中のスナップショットイメージをキャンセルするスナップショットグループを選択し、menu:ellipsis icon[Cancel pending snapshot image]をクリックします。
 . 「* Yes」をクリックして、保留中のSnapshotイメージをキャンセルすることを確認します。
 

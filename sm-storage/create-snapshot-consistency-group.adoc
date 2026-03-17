@@ -31,7 +31,7 @@ Snapshot整合性グループを作成するプロセスは複数の手順で構
 メンバーボリュームが最適lである必要があります。
 
 .手順
-. メニューを選択します。Storage [Snapshots]。
+. 左側のパネルから、メニュー：Storage[Snapshots]を選択します。
 . スナップショット・コンシステンシ・グループ*タブをクリックします
 . メニューを選択します。Create [Snapshot consistency group].
 +

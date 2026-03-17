@@ -1,10 +1,10 @@
 ---
 indexpage:
-  title: SANtricityソフトウェア11.9ドキュメント
+  title: SANtricity ソフトウェア12.0のドキュメント
   summary: SANtricity システムマネージャとUnified Manager
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: SANtricityソフトウェア11.9を使用すると、データ分析、ビデオ監視、バックアップとリカバリなどの高ワークロードアプリケーション向けに、EシリーズのハイブリッドフラッシュおよびEFシリーズのオールフラッシュアレイのパフォーマンスと利用率を最大限に高めることができます。
+  lead: SANtricity ソフトウェア12.0では、データ分析、ビデオ監視、バックアップおよびリカバリなどの高負荷アプリケーション向けに、EシリーズハイブリッドフラッシュアレイおよびEFシリーズオールフラッシュアレイの最高のパフォーマンスと利用率を実現できます。
   tiles:
   - title: はじめに
     links:
@@ -41,9 +41,9 @@ indexpage:
   - title: SEの場合
     links:
     - title: Eシリーズ/ EFシリーズテクニカルトレーニング（ログインが必要）
-      url: https://fieldportal.netapp.com/content/199944
+      url: https://fieldportal.netapp.com/s/article/E-Series-and-EF-Series-SE-Technical-Training
     - title: EF300の概要と技術情報（ログインが必要）
-      url: https://fieldportal.netapp.com/content/1417672
+      url: https://fieldportal.netapp.com/s/article/eseries-ef300-se-presentation-1704449366156
     - title: NetApp Fusion（ログインが必要）
       url: https://fusion.netapp.com/
   - title: ツールとサポート

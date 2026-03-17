@@ -21,7 +21,7 @@ Security Adminの権限を含むユーザプロファイルでログインする
 ユーザプロファイルとマッピングは変更できません。変更できるのはパスワードだけです。
 
 .手順
-. メニューを選択します。Settings [Access Management]。
+. 左側のパネルから、menu:Settings[Access Management]を選択します。
 . [ローカルユーザー役割*（Local User Roles *）]タブを選択します。
 +
 ユーザプロファイルが表に表示されます。

@@ -23,28 +23,28 @@ SANtricity Unified Managerには、いくつかの種類のブラウザからア
  a| 
 Google Chrome
  a| 
-八九
+120
 
 
 
  a| 
 Mozilla Firefox
  a| 
-8時80分
+120
 
 
 
  a| 
 Safari
  a| 
-14
+16
 
 
 
  a| 
 Microsoft Edge の場合
  a| 
-90
+120
 
 |===
 [NOTE]

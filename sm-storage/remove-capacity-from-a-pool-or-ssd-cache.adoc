@@ -45,8 +45,8 @@ NOTE: このプールに作成する新しいボリュームはすべてDA対応
 
 ====
 .手順
-. 選択メニュー：Storage（Pool & Volume Groups）
-. プールまたはSSDキャッシュを選択し、メニューをクリックします。More [容量の削除]
+. 左側のパネルから、メニュー：Storage[Pools and volume groups]を選択します。
+. プールまたはSSD Cacheを選択し、メニューの省略記号アイコン[容量の削除]をクリックします。
 +
 Remove Capacityダイアログボックスが表示されます。
 

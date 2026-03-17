@@ -25,7 +25,7 @@ Collect Configuration Data機能では'save storageArray dbmDatabaseのCLIコマ
 このタスクは、Recovery Guruの処理またはテクニカルサポートの指示があった場合にのみ実行してください。
 
 .手順
-. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
+. 左側のパネルから、メニュー：Support[Support Center > Diagnostics]タブを選択します。
 . [ 構成データの収集 *] を選択します。
 . ダイアログボックスで、* Collect *をクリックします。
 +

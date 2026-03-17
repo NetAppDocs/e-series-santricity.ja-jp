@@ -24,8 +24,8 @@ summary: ベースボリュームまたはSnapshot整合性グループからSna
 .手順
 . 次のいずれかを実行してSnapshotイメージを作成します。
 +
-** 選択メニュー： Storage [Volumes]オブジェクト（ベースボリュームまたはSnapshot整合性グループ）を選択し、メニュー：コピーサービス[インスタントSnapshotの作成]を選択します。
-** メニューを選択します。Storage [Snapshots]。「*スナップショットイメージ*」タブを選択し、メニューから「Create [Instant snapshot]」を選択します。
+** 左側のパネルから、メニュー：Storage[Volumes]を選択します。オブジェクト（ベースボリュームまたはスナップショット整合性グループ）を選択し、メニュー：ellipsis icon[Create instant snapshot]をクリックします。
+** 左側のパネルから、メニュー：Storage[Snapshots]を選択します。*Snapshot Images*タブを選択し、メニュー：Create[Instant snapshot Image]を選択します。
 +
 Create Snapshot Image（スナップショットイメージの作成）ダイアログボックスが表示されます。オブジェクト（ベースボリュームまたはSnapshot整合性グループ）を選択し、* Next *をクリックします。ボリュームまたはSnapshot整合性グループの以前のSnapshotイメージが作成されている場合は、インスタントSnapshotがすぐに作成されます。それ以外の場合は、ボリュームまたはSnapshot整合性グループのSnapshotイメージが初めて作成されるときに、Confirm Snapshot Imageダイアログボックスが表示されます。
 

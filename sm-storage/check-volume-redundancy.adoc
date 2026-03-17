@@ -41,8 +41,11 @@ summary: テクニカルサポートから指示があった場合やRecovery Gu
 
 ====
 .手順
-. 選択メニュー：Storage（Pool & Volume Groups）
-. メニューから[一般的でないタスク]を選択します。[ボリュームの冗長性をチェック]。
+
+NOTE: ボリューム冗長性チェック機能は、現在、従来の System Manager インターフェースでの操作でのみ利用可能です。
+
+. 左側のパネルから、メニュー：Storage[Pools and volume groups]を選択します。
+. 確認したいプールまたはボリュームグループのmenu:ellipsis icon[Check volume redundancy]をクリックします。
 +
 [Check Redundancy]ダイアログボックスが表示されます。
 

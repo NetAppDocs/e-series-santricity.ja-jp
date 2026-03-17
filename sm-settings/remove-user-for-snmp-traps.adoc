@@ -15,7 +15,7 @@ summary: SNMPv3トラップのユーザを削除できます。
 SNMPv3トラップのユーザを削除できます。
 
 .手順
-. メニューを選択します。Settings [Alerts]（設定[Alerts]）。
+. 左側のパネルから、menu:Settings[Alerts]を選択します。
 . [*SNMP*]タブを選択します。
 +
 トラップの送信先とユーザ名が[Alerts]ページに表示されます。

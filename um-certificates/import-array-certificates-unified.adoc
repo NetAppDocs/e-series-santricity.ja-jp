@@ -20,7 +20,7 @@ summary: 必要に応じて、SANtricity Unified Managerをホストするシス
 
 
 .手順
-. [証明書管理]を選択します。
+. 左側のパネルから、menu:Settings[Certificates]を選択します。
 . [*Trusted*]タブを選択します。
 +
 このページには、ストレージアレイについて報告されたすべての証明書が表示されます。

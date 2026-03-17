@@ -45,7 +45,7 @@ SAML認証の設定は複数の手順からなる手順 です。
 ストレージアレイにIdPの接続情報を提供するには、Unified ManagerにIdPメタデータをインポートします。このメタデータは、IdPシステムが認証要求を正しいURLにリダイレクトし、受信した応答を検証するために必要です。
 
 .手順
-. メニューを選択します。Settings [Access Management]。
+. 左側のパネルから、menu:Settings[Access Management]を選択します。
 . SAML *タブを選択します。
 +
 設定手順の概要が表示されます。

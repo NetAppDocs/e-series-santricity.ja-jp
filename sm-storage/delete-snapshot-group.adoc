@@ -18,9 +18,9 @@ Snapshotグループの削除は、グループのデータを完全に削除し
 Snapshotグループを削除すると、グループ内のSnapshotイメージもすべて削除されます。
 
 .手順
-. 選択メニュー：Storage（Pool & Volume Groups）
+. 左側のパネルから、メニュー：Storage[Pools and volume groups]を選択します。
 . 予約容量*タブをクリックします。
-. 削除するSnapshotグループを選択し、メニューから「一般的でないタスク」「Snapshotグループの削除」をクリックします。
+. 削除するスナップショット グループを選択し、menu:ellipsis icon[Delete]をクリックします。
 +
 Confirm Delete Snapshot Groupダイアログボックスが表示されます。
 

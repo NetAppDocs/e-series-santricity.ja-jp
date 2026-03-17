@@ -20,8 +20,8 @@ Snapshotスケジュールでは、自動収集時間または収集の頻度を
 SnapshotスケジュールはSnapshotグループまたはSnapshot整合性グループに関連付けられているため、スケジュールの設定を変更するとリザーブ容量に影響を及ぼす場合があります。
 
 .手順
-. メニューを選択します。Storage [Snapshots]。
-. [* Schedules *（スケジュール*）]タブをクリックします
+. 左側のパネルから、メニュー：Storage[Snapshots]を選択します。
+. * Snapshot Schedules * タブをクリックします。
 . 変更するSnapshotスケジュールを選択し、* Edit *をクリックします。
 +
 Edit Snapshot Schedule（スナップショットスケジュールの編集）ダイアログボックスが表示されます。

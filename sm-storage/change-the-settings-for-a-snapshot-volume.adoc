@@ -15,7 +15,7 @@ summary: SnapshotボリュームまたはSnapshot整合性グループのSnapsho
 SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリュームの設定では、Snapshotボリュームの名前を変更したり、SSDキャッシュを有効または無効にしたり、ホスト、ホストクラスタ、または論理ユニット番号（LUN）の割り当てを変更したりできます。
 
 .手順
-. メニューを選択します。Storage [Snapshots]。
+. 左側のパネルから、メニュー：Storage[Snapshots]を選択します。
 . スナップショットボリューム*タブをクリックします。
 . 変更するSnapshotボリュームを選択し、*表示/設定の編集*をクリックします。
 +

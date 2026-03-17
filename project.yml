@@ -8,16 +8,16 @@ settings:
     harmony_enabled: false
   rss_page: whats-new.html
   versions:
-  - version-number: '11.9'
+  - version-number: '12.0'
     url: "/e-series-santricity"
+  - version-number: '11.9'
+    url: "/e-series-santricity-119"
   - version-number: '11.8'
     url: "/e-series-santricity-118"
-  - version-number: '11.7'
-    url: "/e-series-santricity-117"
   langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: SANtricityソフトウェア11.9のドキュメント
+  - title: SANtricityソフトウェア12.0ドキュメント
     url: "/index.html"
   - title: リリースノート
     entries:
@@ -290,6 +290,8 @@ sidebar:
           url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
         - title: ホストのホストポート識別子を変更します
           url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
+        - title: ホスト I/O モジュールのプロトコルを変更します
+          url: "/sm-storage/io-module-change-protocol.html"
       - title: ホストシステムとホストクラスターに関するFAQ
         url: "/sm-storage/faq-systems-clusters.html"
     - title: Snapshot
@@ -692,8 +694,6 @@ sidebar:
           url: "/sm-settings/change-cache-settings-for-storage-array.html"
         - title: 自動ロードバランシングを設定する
           url: "/sm-settings/set-automatic-load-balancing.html"
-        - title: 従来の管理インターフェイスを有効または無効にします
-          url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
       - title: アドオン機能を設定
         entries:
         - title: アドオン機能の仕組み
@@ -914,6 +914,8 @@ sidebar:
           url: "/sm-support/upgrade-drive-firmware.html"
         - title: ソフトウェアとファームウェアのアップグレードエラーの可能性を確認します
           url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+      - title: Script Editorを使用する
+        url: "/sm-support/use-script-editor.html"
       - title: AutoSupport FAQ
         url: "/sm-support/faq-autosupport.html"
   - title: SANtricity Unified Manager の略
