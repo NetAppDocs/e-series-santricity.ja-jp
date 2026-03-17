@@ -1,10 +1,10 @@
 ---
 indexpage:
-  title: SANtricity ソフトウェア12.0のドキュメント
+  title: SANtricity ソフトウェア12.00のドキュメント
   summary: SANtricity システムマネージャとUnified Manager
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: SANtricity ソフトウェア12.0では、データ分析、ビデオ監視、バックアップおよびリカバリなどの高負荷アプリケーション向けに、EシリーズハイブリッドフラッシュアレイおよびEFシリーズオールフラッシュアレイの最高のパフォーマンスと利用率を実現できます。
+  lead: SANtricity ソフトウェア12.00では、データ分析、ビデオ監視、バックアップおよびリカバリなどの高負荷アプリケーション向けに、EシリーズハイブリッドフラッシュアレイおよびEFシリーズオールフラッシュアレイの最高のパフォーマンスと利用率を実現できます。
   tiles:
   - title: はじめに
     links:

@@ -8085,7 +8085,6 @@
   <block id="e8b164999d03a57227fb0dc4e31b1f9a" category="list-text"><block ref="e8b164999d03a57227fb0dc4e31b1f9a" category="inline-link-rx"></block></block>
   <block id="7a2b27b2d95b2db288029dec9f945c50" category="inline-link">11.90リリースノート</block>
   <block id="a780d55204be966b795f04cc4bf22137" category="list-text"><block ref="a780d55204be966b795f04cc4bf22137" category="inline-link-rx"></block></block>
-  <block id="5e40a8e83b3a3f822534bef7faa8799b" category="paragraph"><block ref="5e40a8e83b3a3f822534bef7faa8799b" category="inline-link-rx"></block></block>
   <block id="01e0b2ba5ead95d64e3071a148f7dc95" category="paragraph"><block ref="9736d9f6dc9242e38869944fa056dfab" category="inline-image-macro-rx" type="image"></block>*パフォーマンス*</block>
   <block id="730eaa798c5f8a877db1f1518847a4e4" category="paragraph"><block ref="7671c6425a04efd849fb29c1bc3d6f15" category="inline-image-macro-rx" type="image"></block>*ストレージ*</block>
   <block id="21a1e68164f738b8be1dae11d5a694b3" category="inline-image-macro">データ保護</block>
@@ -8726,8 +8725,6 @@
   <block id="9da88b3d41fc062b2fe1a843a0e9c3f6" category="admonition">E4000 コントローラは iSCSI ミラーリングをサポートしていません。</block>
   <block id="da4fb5c6e93e74d3df8527599fa62642" category="paragraph">120</block>
   <block id="c74d97b01eae257e44aa9d5bade97baf" category="paragraph">16</block>
-  <block id="3b4608a173577ff11cb5a970a95a9116" category="inline-link">12.0 リリースノート</block>
-  <block id="3140eb9f268fa80dd4b189e0d7e0986b" category="list-text"><block ref="3140eb9f268fa80dd4b189e0d7e0986b" category="inline-link-rx"></block></block>
   <block id="fd2794987891340c24fff2fa599efaee" category="admonition">EF80、EF50、EF600/EF600C、およびEF300/EF300Cストレージアレイは、同期ミラーリングまたはシンボリュームをサポートしていません。</block>
   <block id="ccdf92355b0aaee2a2280755e8b08e7c" category="paragraph">Unified Managerは、ドメイン全体を管理するために使用されるWebベースのソフトウェアです。中央ビューから、EF80、EF50、E4000、E2800、EF280、EF300、E5700、EF570、EF600、EF300C、EF600Cなど、すべての新しいEシリーズおよびEFシリーズアレイのステータスを確認できます。選択したストレージアレイに対してバッチ操作を実行することもできます。</block>
   <block id="82c50740e9777a0b839701b8603354cb" category="paragraph">8.x (SP10)、9.x (SP6、SP7)、10.x (GA、SP1) / 64-bit</block>
@@ -8738,7 +8735,6 @@
   <block id="e663db07e118a870f470c797797eabdc" category="list-text">操作を確認するには、<block ref="26eb25b14d930f9d5f59b2c50798a9a4" prefix=" " category="inline-code"></block>と入力し、*ドライブを消去*をクリックします。</block>
   <block id="a37442aae2fdec96cb5238a1da614975" category="paragraph">消去操作には数分から数時間かかる場合があります。ステータスは、menu:Storage[Operations in Progress]で確認できます。消去操作が完了すると、ドライブは別のボリュームグループまたはディスクプール、あるいは別のストレージアレイで使用できるようになります。</block>
   <block id="dcfabf77926c61707b0aec26409327ca" category="paragraph">割り当て解除または未書き込み論理ブロックエラー（DULBE）は、NVMeドライブのオプションであり、EF80、EF50、EF300/EF300C、またはEF600/EF600Cストレージアレイがリソースプロビジョニングボリュームをサポートできるようにします。</block>
-  <block id="38833d44319a29abce252a75db2a1f8b" category="doc">SANtricity System Manager 12.0</block>
   <block id="8200990c6066d1d9a57e817228d442ed" category="paragraph">割り当て解除または未書き込みの論理ブロックエラー（DULBE）のオプションが有効になっているか（はい）無効になっているか（いいえ）を示します。DULBEはNVMeドライブのオプションであり、EF80、EF50、EF300、またはEF600ストレージアレイがリソースプロビジョニングされたボリュームをサポートできるようにします。</block>
   <block id="80c4081de557a7ea6b138514f14e41c8" category="paragraph">レイテンシーグラフは、ボリューム、ボリュームグループ、プール、アプリケーション、ワークロードごとのレイテンシー統計情報をミリ秒（ms）単位で表示します。このグラフは、論理ビュー、物理ビュー、アプリケーションとワークロードビューの各タブに表示されます。</block>
   <block id="301220bfd980824d7e894be673f80491" category="paragraph">IOPSグラフは、1秒あたりの入出力操作数の統計情報を表示します。ホームページでは、このグラフにストレージアレイの統計情報が表示されます。パフォーマンスページの論理ビュー、物理ビュー、アプリケーションとワークロードビューの各タブでは、このグラフにストレージアレイ、ボリューム、ボリュームグループ、プール、アプリケーション、ワークロードの統計情報が表示されます。</block>
@@ -9083,26 +9079,30 @@
   <block id="0c577323ad91a9214ccf927630b8f24e" category="paragraph">EF80、EF50、EF600/EF600C、またはEF300/EF300Cストレージ システムでは、同期ミラーリングは利用できません。</block>
   <block id="d789ee5d8d5244777090beeda7a82875" category="list-text">ヘルスチェックが完了したら、各行の右側にある省略記号（…）をクリックして、詳細情報を表示したり、その他のタスクを実行したりできます。</block>
   <block id="b3e39c045e7dc1da6b72058620f83a78" category="paragraph">EF80、EF50、EF600/EF600C、またはEF300/EF300Cストレージ アレイでは、同期ミラーリングは利用できません。</block>
-  <block id="a1a85e20a47be8d7fe53c0f34789b4c7" category="doc">SANtricity OS 12.0の新機能</block>
-  <block id="0f6926308b07eb7aa9e7a13247779ca5" category="paragraph">SANtricity System Manager 12.0の新機能を次の表で説明します。</block>
-  <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">バージョン12.0の新機能</block>
-  <block id="fe676a4357a919795437a65bc3508ba2" category="admonition">SANtricity OS 12.0リリースは、新しいEF80およびEF50オールフラッシュ ストレージ システムとのみ互換性があります。SANtricity OS 11.9以前を使用している場合は、以前のリリースの新機能のリストについて<block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="bf183e9df2b499bf43a8c68e4fec9235" category="paragraph">新しいストレージ システム モデル – EF80およびEF50オールフラッシュ ストレージ システム</block>
   <block id="786003cdc863f3aad3e6d8b6bfb3da10" category="paragraph">SANtricity System Manager の新しいユーザーインターフェイス</block>
   <block id="22b06c9a9c11b263cfc8b70ea106720b" category="paragraph">新しいEF80およびEF50コントローラーの場合、SANtricity System Managerのユーザーインターフェイスが、よりモダンな外観と操作性を実現するために再設計されました。新しいインターフェイスには、左側のパネルナビゲーションと、管理タスクを効率化するための使いやすさの向上が含まれています。</block>
-  <block id="522e7d53ef8c9a652990f42224faa7e2" category="admonition">新しいユーザーインターフェイスは現在、SANtricity 12.0リリースのEF80およびEF50ストレージシステムでのみ利用可能です。SANtricity 11.9以前のバージョンを使用している場合は、レガシーユーザーインターフェースの使用方法について<block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="33c4e4a69bd4b16424ffdb3de34b0af4" category="paragraph">サーバー証明書のサブジェクト代替名（SAN）には、文字、数字、ハイフンのみが使用可能になりました</block>
   <block id="817a0c8fef1c872c585c0d94e85a802a" category="paragraph">SANtricity System ManagerまたはUnified Managerでサーバ証明書を作成または編集する際、Subject Alternative Names（SANs）フィールドには英字、数字、ハイフンのみが許可されるようになりました。この変更により、セキュリティが強化され、SSL/TLS証明書の業界標準との互換性が確保されます。</block>
   <block id="98fb326bd031cfdd062648c1e4359ef9" category="paragraph">SSDおよびNVMeベースのシステムでは、ダイナミックディスクプールのセグメントサイズがデフォルトで32Kになりました</block>
   <block id="1970e3f7efbd3974c3dc8ec9d2745647" category="paragraph">SSDおよびNVMeベースのシステムにおけるDynamic Disk Poolの場合、デフォルトのセグメントサイズが32Kに変更されました。以前は、これらのシステムにおけるdynamic disk poolのデフォルトのセグメントサイズは128Kに固定されていました。この変更により、小規模なI/O操作と大規模なI/O操作が混在するワークロードのパフォーマンスが最適化されます。</block>
   <block id="acc2a3dd457f3b89ae3e07ece78ae970" category="paragraph">スクリプトエディタがSANtricity System Managerで利用可能になりました</block>
   <block id="96326b5520f644337f2b9f27c4b4e238" category="paragraph">新しいスクリプトエディタがSANtricity System Manager内で利用可能になりました。スクリプトエディタを使用すると、スクリプトファイルの作成や編集、スクリプトファイルのストレージ管理ステーションのローカルディスクへの保存、またはディスクからのスクリプトファイルの読み込みを行うことができます。スクリプトエディタは、ストレージシステムの管理に必要な構文チェック機能とコマンド実行機能を提供します。詳細については、<block ref="7511cf8ef97831a0432bb6966b2afe45" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="a35eccd872ba8e614629dbb155eab989" category="sidebar">SANtricity ソフトウェア12.0では、データ分析、ビデオ監視、バックアップおよびリカバリなどの高負荷アプリケーション向けに、EシリーズハイブリッドフラッシュアレイおよびEFシリーズオールフラッシュアレイの最高のパフォーマンスと利用率を実現できます。</block>
-  <block id="a18560d6b67741b585690f916908df13" category="sidebar">SANtricity ソフトウェア12.0のドキュメント</block>
-  <block id="32c395ac29352ecc8c0d3bb542c45265" category="sidebar">SANtricity System Manager 12.0による単一アレイ管理</block>
   <block id="cbeeed737f5afb09d1505cf179e9c1f8" category="sidebar">SANtricity Unified Manager 8による複数のアレイ管理</block>
-  <block id="2352bcb087671319b99c6ee8bf6be16b" category="sidebar">SANtricityソフトウェア12.0ドキュメント</block>
   <block id="523d8e1940fe8fd7921104a2b1aa3b24" category="sidebar">Script Editorを使用する</block>
   <block id="7270f12c0a303f4c7f8c806c946d0faf" category="paragraph">今回のリリースでは、EF80およびEF50というオールNVMeフラッシュストレージシステムを紹介します。EF80およびEF50は、コントローラごとに24台のNVMe SSDドライブとコントローラ間ミラーリングカードをサポートします。サポートされているNVMe over Fabricsホスト インターフェイスには、NVMe over RoCE、NVMe over IB、EF80用のNVMe over FC、およびEF50用のNVMe over FCが含まれます。両システムでサポートされているSCSIインターフェイスはFibre Channelです。EF50はコントローラあたり最大2枚のホスト インターフェイス カードをサポートし、EF80はコントローラあたり最大3枚のホスト インターフェイス カードをサポートします。</block>
   <block id="685ec10705743526f323aaeb2e8abdb9" category="paragraph">EF80およびEF50は、30TBまたは60TBの大容量NVMe SSDドライブにも対応しています。EF80およびEF50は、アレイに30TBまたは60TBのドライブが搭載されている場合にのみ、ダイナミックディスクプールを利用できます。</block>
+  <block id="e866b10ba89d5ee2fe179d93f938430c" category="inline-link">12.00 リリースノート</block>
+  <block id="15df5baea5d41e42b8be265c67488ea8" category="list-text"><block ref="15df5baea5d41e42b8be265c67488ea8" category="inline-link-rx"></block></block>
+  <block id="c9f4c41100461402ef108c1e6ccc6adf" category="paragraph"><block ref="c9f4c41100461402ef108c1e6ccc6adf" category="inline-link-rx"></block></block>
+  <block id="dcf1521fe2188852a3d1ae5493b83c24" category="doc">SANtricity System Manager 12.00</block>
+  <block id="b9e4ac9c6566befa2eace1a2f5e1c0e9" category="doc">SANtricity OS 12.00の新機能</block>
+  <block id="ae8ef432f09f0cc2743b6f647e8b7391" category="paragraph">SANtricity System Manager 12.00の新機能を次の表で説明します。</block>
+  <block id="d37b8d3a8d7d50a2d15245479531c53d" category="section-title">バージョン12.00の新機能</block>
+  <block id="22df7e56856f8d8f8a1db64219f4f7a9" category="admonition">SANtricity OS 12.00リリースは、新しいEF80およびEF50オールフラッシュ ストレージ システムとのみ互換性があります。SANtricity OS 11.9以前を使用している場合は、以前のリリースの新機能のリストについて<block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="34eb0a9cd2b702531a67dae4540bdd52" category="admonition">新しいユーザーインターフェイスは現在、SANtricity 12.00リリースのEF80およびEF50ストレージシステムでのみ利用可能です。SANtricity 11.9以前のバージョンを使用している場合は、レガシーユーザーインターフェースの使用方法について<block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="579aadc4c26cc865ba493de4c39a2dbf" category="sidebar">SANtricity ソフトウェア12.00では、データ分析、ビデオ監視、バックアップおよびリカバリなどの高負荷アプリケーション向けに、EシリーズハイブリッドフラッシュアレイおよびEFシリーズオールフラッシュアレイの最高のパフォーマンスと利用率を実現できます。</block>
+  <block id="4304224086372505f40ff85886d04942" category="sidebar">SANtricity ソフトウェア12.00のドキュメント</block>
+  <block id="9dfc00eb4df11a45ce48523995f27cd5" category="sidebar">SANtricity System Manager 12.00による単一アレイ管理</block>
+  <block id="ec5103775143b601241e8ddefaff5a2f" category="sidebar">SANtricityソフトウェア12.00ドキュメント</block>
 </blocks>
