@@ -905,7 +905,6 @@
   <block id="f220b79cc4513584ba7d4bae43c90357" category="doc">プールの最適化容量とは何ですか？</block>
   <block id="672f98d79305b073b8d6566d14c8bc16" category="paragraph">プールに関連付けられているドライブの未割り当て容量は、プールの予約済み容量、空き容量（ボリュームで使用されていない容量）、および使用可能容量のうちの最適化容量として確保された容量で構成されます。この最適化容量は使用可能容量を減らすことで最小レベルの最適化容量を確保するため、ボリュームの作成には使用できません。</block>
   <block id="45c5490b8f9ad55e093507d717bd2f32" category="paragraph">プールの作成時に、パフォーマンス、ドライブの寿命、使用可能容量のバランスに基づいて、推奨される最適化容量が決定されます。プール設定ダイアログにある追加の最適化容量スライダを使用して、プールの最適化容量を調整できます。スライダを動かすことで、使用可能容量を犠牲にしてパフォーマンスの向上とドライブ寿命の延長を図るか、またはパフォーマンスとドライブ寿命を犠牲にして使用可能容量を増やすことができます。</block>
-  <block id="ba85db8eaa03f65889fdd8e78af14efd" category="paragraph">追加の最適化容量スライダは、EF600およびEF300ストレージシステムに対してのみ使用できます。</block>
   <block id="2d5e16304d23da14ecd4f0009bac1f3b" category="summary">ドライブを削除することで、既存のプールまたはSSDキャッシュの容量を減らすことができます。</block>
   <block id="ac3397ae43dda551f36c38a71bab9e59" category="paragraph">ドライブを削除したあと、プールまたはSSDキャッシュの各ボリューム内のデータは残りのドライブに再配置されます。削除されたドライブは割り当てが解除され、その容量はストレージアレイの合計空き容量に加算されます。</block>
   <block id="99a58673d1a25ca7a256d2223185c373" category="paragraph">容量を削除する際のガイドラインを次に示します。</block>
@@ -9105,4 +9104,5 @@
   <block id="4304224086372505f40ff85886d04942" category="sidebar">SANtricity ソフトウェア12.00のドキュメント</block>
   <block id="9dfc00eb4df11a45ce48523995f27cd5" category="sidebar">SANtricity System Manager 12.00による単一アレイ管理</block>
   <block id="ec5103775143b601241e8ddefaff5a2f" category="sidebar">SANtricityソフトウェア12.00ドキュメント</block>
+  <block id="578bcdf9f5107955b69cf51095e173c5" category="paragraph">追加最適化容量スライダーは、EF80、EF50、EF600、およびEF300ストレージシステムでのみ利用可能です。</block>
 </blocks>
