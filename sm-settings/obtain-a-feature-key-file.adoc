@@ -23,8 +23,8 @@ summary: ストレージアレイでプレミアム機能または機能パッ�
 
 
 .手順
-. System Managerで、シャーシのシリアル番号を確認し、記録してください。左側のパネルからメニュー：Support[Suport Center]を選択し、*View top storage array properties*までスクロールダウンして、シャーシのシリアル番号を表示します。
-. System Managerで、Feature Enable Identifierを探します。左側のパネルからmenu:Settings[System]を選択し、下にスクロールして*Add-ons*を探します。*Feature Enable Identifier*を探してください。Feature Enable Identifierの番号を記録してください。
+. System Manager で、シャーシのシリアル番号を確認し、記録してください。左側のパネルから menu:Support[Support center] を選択し、下にスクロールして *View top storage array properties* を選択すると、シャーシのシリアル番号が表示されます。
+. System Manager で、機能有効化識別子を探します。左側のパネルから「System」を選択し、下にスクロールして「Add-ons」を探します。「Feature enable identifier」を探してください。機能有効化識別子の番号を記録してください。
 . 機能を有効にするコードを探して記録します。機能パックの場合、このコードは変換を実行するための適切な手順で提供されます。
 +
 プレミアム機能の場合は、サポートサイトから次の手順でアクティベーションコードにアクセスできます。

@@ -16,6 +16,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 
 
+[[what-data-am-i-collecting]]
 == 収集するデータ
 
 AutoSupport 機能と手動のサポートデータ収集機能を使用すると、テクニカルサポートによるリモートでのトラブルシューティングや問題分析用にカスタマーサポートバンドルにデータを収集できます。
@@ -24,6 +25,7 @@ AutoSupport 機能と手動のサポートデータ収集機能を使用する�
 
 
 
+[[what-does-unreadable-sectors-data-show-me]]
 == 読み取り不能セクターについて、どのようなデータが表示されますか？
 
 ストレージアレイのドライブで検出された読み取り不能セクターに関する詳細なデータを表示できます。
@@ -104,6 +106,7 @@ AutoSupport 機能と手動のサポートデータ収集機能を使用する�
 |===
 
 
+[[what-is-a-health-image]]
 == ヘルスイメージとは何ですか？
 
 ヘルスイメージは、コントローラのプロセッサメモリの生のデータダンプです。テクニカルサポートがコントローラの問題を診断する際に使用します。
@@ -112,6 +115,7 @@ AutoSupport 機能と手動のサポートデータ収集機能を使用する�
 
 
 
+[[what-do-the-autosupport-features-do]]
 == AutoSupport の機能について教えてください。
 
 AutoSupport 機能は、個別に有効にする3つの機能で構成されています。
@@ -123,6 +127,7 @@ AutoSupport 機能は、個別に有効にする3つの機能で構成されて�
 
 
 
+[[what-type-of-data-is-collected-through-the-autosupport-feature]]
 == AutoSupport 機能ではどのような種類のデータが収集されますか。
 
 AutoSupport 機能には、標準のディスパッチタイプとして、イベントディスパッチ、スケジュールディスパッチ、オンデマンドディスパッチ、リモート診断ディスパッチの3つがあります。
@@ -157,6 +162,7 @@ AutoSupport 機能によって、複数のディスパッチが定期的に送�
 
 
 
+[[how-do-i-configure-the-delivery-method-for-the-autosupport-feature]]
 == AutoSupport 機能の配信方法を設定するにはどうすればよいですか？
 
 AutoSupport機能では、テクニカルサポートへのAutoSupportディスパッチの配信にHTTPSプロトコルとSMTPプロトコルがサポートされます。
@@ -179,7 +185,7 @@ AutoSupport機能では、テクニカルサポートへのAutoSupportディス�
 
 ====
 .手順
-. 左側のパネルから、メニュー：サポート[サポートセンター > AutoSupport]タブを選択します。
+. 左側のパネルから、メニュー：サポート[AutoSupport]を選択します。
 . AutoSupport 配信方法の設定 * を選択します。
 +
 ディスパッチの配信方法を示すダイアログボックスが表示されます。
@@ -213,6 +219,7 @@ AutoSupport機能では、テクニカルサポートへのAutoSupportディス�
 
 
 
+[[what-is-configuration-data]]
 == 構成データとは何ですか？
 
 Collect Configuration Dataを選択すると、RAID構成データベースの現在の状態が保存されます。
@@ -221,6 +228,7 @@ RAID構成データベースには、コントローラ上のボリュームグ�
 
 
 
+[[what-do-i-need-to-know-before-upgrading-the-santricity-os-software]]
 == SANtricity OSソフトウェアをアップグレードするときは、どのような点に注意する必要がありますか？
 
 コントローラのソフトウェアとファームウェアをアップグレードする前に、次の項目を確認しておきます。
@@ -268,6 +276,7 @@ CAUTION: アップグレードの実行中はストレージアレイに変更�
 
 
 
+[[what-do-i-need-to-know-before-suspending-iom-auto-synchronization]]
 == IOMの自動同期を一時停止するときは、どのような点に注意する必要がありますか？
 
 IOMの自動同期を一時停止すると、SANtricity OSコントローラソフトウェアの次回アップグレード時にIOMファームウェアがアップグレードされなくなります。
@@ -276,6 +285,7 @@ IOMの自動同期を一時停止すると、SANtricity OSコントローラソ�
 
 
 
+[[why-is-my-firmware-upgrade-progressing-so-slowly]]
 == ファームウェアアップグレードに時間がかかる場合、どのような理由が考えられますか？
 
 ファームウェアアップグレードの進捗は、システムの全体的な負荷によって異なります。
@@ -284,6 +294,7 @@ IOMの自動同期を一時停止すると、SANtricity OSコントローラソ�
 
 
 
+[[what-do-i-need-to-know-before-upgrading-drive-firmware]]
 == ドライブファームウェアをアップグレードするときは、どのような点に注意する必要がありますか？
 
 ドライブファームウェアをアップグレードする前に、次の項目を確認しておきます。
@@ -298,6 +309,7 @@ IOMの自動同期を一時停止すると、SANtricity OSコントローラソ�
 
 
 
+[[how-do-i-choose-which-type-of-upgrade-to-perform]]
 == 実行するアップグレードのタイプを選択するにはどうすればよいですか？
 
 ドライブ上で実行するアップグレードのタイプは、プールまたはボリュームグループの状態に応じて選択します。

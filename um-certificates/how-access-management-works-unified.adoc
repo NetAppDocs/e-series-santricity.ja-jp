@@ -15,6 +15,7 @@ summary: アクセス管理を使用してSANtricity Unified Managerでのユー
 
 
 
+[[configuration-workflow]]
 == 設定ワークフロー
 
 アクセス管理の設定は次のように行います。
@@ -47,6 +48,7 @@ summary: アクセス管理を使用してSANtricity Unified Managerでのユー
 
 
 
+[[functions-available-in-unified-manager]]
 == Unified Managerで使用できる機能
 
 機能へのアクセスは、ユーザに割り当てられたロールによって次のように異なります。

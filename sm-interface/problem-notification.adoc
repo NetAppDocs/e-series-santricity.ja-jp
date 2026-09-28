@@ -15,6 +15,7 @@ SANtricity System Managerは、アイコンおよびその他のいくつかの�
 
 
 
+[[icons]]
 == アイコン
 
 System Managerでは、以下のアイコンを使用してストレージアレイおよびそのコンポーネントのステータスが表示されます。
@@ -59,6 +60,7 @@ image:../media/sam1130-ss-icon-status-caution.gif["注意"]
 
 
 
+[[alerts-and-leds]]
 == アラートとLED
 
 System Managerでは、アイコン以外の方法でも問題が通知されます。

@@ -15,6 +15,7 @@ summary: 証明書管理では、証明書署名要求（CSR）の作成、証�
 
 
 
+[[what-are-certificates]]
 == 証明書とは何ですか？
 
 _証明書_は、Webサイトやサーバなどのオンラインエンティティを識別し、インターネット上のセキュアな通信を実現するデジタルファイルです。証明書には2種類あります。A_Signed certificate_is validated by a Certificate Authority（CA；認証局）とa_self-signed certificate_is validated by the entity of the entity instead of a third party。
@@ -27,6 +28,7 @@ _証明書_は、Webサイトやサーバなどのオンラインエンティテ
 
 
 
+[[how-do-i-configure-certificates]]
 == 証明書の設定方法
 
 証明書管理では、Unified Managerをホストする管理ステーションの証明書を設定できるほか、アレイのコントローラの証明書をインポートすることもできます。

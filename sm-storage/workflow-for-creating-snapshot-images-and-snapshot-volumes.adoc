@@ -15,12 +15,14 @@ SANtricityシステムマネージャでは、次の手順でSnapshotイメー�
 
 
 
+[[workflow-for-creating-snapshot-images]]
 == Snapshotイメージの作成ワークフロー
 
 image::../media/sam1130-flw-snapshots-create-ss-images.gif[Snapshotイメージの作成ワークフロー]
 
 
 
+[[workflow-for-creating-snapshot-volumes]]
 == Snapshotボリュームの作成ワークフロー
 
 image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[Snapshotボリュームの作成ワークフロー]

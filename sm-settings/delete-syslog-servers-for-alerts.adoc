@@ -15,8 +15,7 @@ summary: syslogサーバを削除してアラートの受信を中止するこ�
 syslogサーバを削除してアラートの受信を中止することができます。
 
 .手順
-. 左側のパネルから、menu:Settings[Alerts]を選択します。
-. *Syslog *タブを選択します。
+. 左側のパネルから、メニュー：Alerts［Syslog alerts］を選択します。
 . syslogサーバのアドレスを選択し、右上の「* Remove *」をクリックします。
 +
 Confirm Delete Syslog Serverダイアログボックスが開きます。

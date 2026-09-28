@@ -20,7 +20,7 @@ summary: コントローラにNVMe over RoCE（RDMA over Converged Ethernet）�
 
 
 .手順
-. 左側のパネルから、menu:Settings[System]を選択します。
+. 左側のパネルから*システム*を選択してください。
 . [* NVMe over ROCE SETTINGS *（NVMe over ROCE設定*）]で、[* Configure NVMe over ROCE Ports]を選択します。
 . NVMe over RoCEポートを設定するコントローラを選択します。「 * 次へ * 」をクリックします。
 . 設定するHICポートをドロップダウンリストから選択します。「 * 次へ * 」をクリックします。

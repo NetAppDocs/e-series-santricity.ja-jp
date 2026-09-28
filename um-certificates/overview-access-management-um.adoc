@@ -15,6 +15,7 @@ summary: アクセス管理では、SANtricity Unified Managerでユーザ認証
 
 
 
+[[what-authentication-methods-are-available]]
 == どのような認証方式を使用できますか。
 
 次の認証方式を使用できます。
@@ -34,6 +35,7 @@ summary: アクセス管理では、SANtricity Unified Managerでユーザ認証
 
 
 
+[[how-do-i-configure-access-management]]
 == アクセス管理を設定するにはどうすればよいですか。
 
 SANtricity ソフトウェアは、ローカルユーザロールを使用するように事前に設定されています。LDAPを使用する場合は、[Access Management]ページでLDAPを設定できます。

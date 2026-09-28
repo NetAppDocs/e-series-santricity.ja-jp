@@ -16,6 +16,7 @@ summary: アクセス管理は、SANtricity System Managerでユーザ認証を�
 
 
 
+[[what-authentication-methods-are-available]]
 == どのような認証方式を使用できますか。
 
 認証方式には、ロールベースアクセス制御（RBAC）、ディレクトリサービス、およびSecurity Assertion Markup Language（SAML）があります。
@@ -37,9 +38,10 @@ summary: アクセス管理は、SANtricity System Managerでユーザ認証を�
 
 
 
+[[how-do-i-configure-authentication]]
 == 認証を設定するにはどうすればよいですか？
 
-ストレージアレイは、RBAC機能を実装したローカルユーザロールを使用するように事前に設定されています。別の方法を設定する場合は、[設定][アクセス管理]メニューに移動します。
+ストレージアレイは、RBAC機能の実装であるローカルユーザーロールを使用するように事前構成されています。別の方法を設定する場合は、menu:Authentication[]に移動してください。
 
 詳細はこちら。
 
@@ -49,6 +51,7 @@ summary: アクセス管理は、SANtricity System Managerでユーザ認証を�
 
 
 
+[[related-information]]
 == 関連情報
 
 アクセス管理に関連するタスクの詳細：

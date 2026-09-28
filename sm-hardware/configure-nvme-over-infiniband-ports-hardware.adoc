@@ -24,18 +24,14 @@ NVMe over InfiniBandの設定と機能は、ストレージアレイのコント
 
 ====
 .手順
-. 左側のパネルから*Hardware*を選択します。
-. 図にドライブが表示された場合は、*[コントローラとコンポーネント]*タブをクリックします。
-+
-図の表示が切り替わり、ドライブではなくコントローラが表示されます。
-
+. 左側のパネルから、menu:Hardware[Controllers and components]を選択します。
 . NVMe over InfiniBandポートを設定するコントローラをクリックします。
 +
 コントローラのコンテキストメニューが表示されます。
 
 . Configure NVMe over InfiniBand ports] を選択します。
 +
-Configure NVMe over InfiniBand Ports（NVMe over InfiniBandポートの設定）ダイアログボックスが開きます。
+NVMe over InfiniBand ポートの設定ダイアログボックスが開きます。
 
 . 設定するHICポートをドロップダウンリストから選択し、IPアドレスを入力します。
 +

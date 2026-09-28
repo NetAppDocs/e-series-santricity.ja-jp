@@ -16,6 +16,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 
 
+[[why-does-the-cannot-access-other-controller-dialog-box-appear]]
 == Cannot Access Other Controllerダイアログボックスが表示されるのはなぜですか。
 
 CA証明書に関連する特定の処理（証明書のインポートなど）を実行すると、2台目のコントローラの自己署名証明書を受け入れるよう求めるダイアログボックスが表示されることがあります。
@@ -32,6 +33,7 @@ CA証明書に関連する特定の処理（証明書のインポートなど）
 
 
 
+[[how-do-i-know-what-certificates-need-to-be-uploaded-to-santricity-system-manager-for-external-key-management]]
 == 外部キー管理用にSANtricity System Managerにアップロードする必要がある証明書を確認するにはどうすればよいですか？
 
 外部キー管理では、ストレージアレイとキー管理サーバが互いに信頼関係を確立できるように、2つのエンティティの間の認証用に2種類の証明書をインポートします。
@@ -46,6 +48,7 @@ CA証明書に関連する特定の処理（証明書のインポートなど）
 
 
 
+[[what-do-i-need-to-know-about-certificate-revocation-checking]]
 == 証明書失効チェックについて、どのような点に注意する必要がありますか？
 
 SANtricity System Managerでは、証明書失効リスト（CRL）をアップロードする代わりに、オンライン証明書ステータスプロトコル（OCSP）サーバを使用して失効した証明書をチェックできます。
@@ -61,6 +64,7 @@ System Managerまたはコマンドラインインターフェイス（CLI）で
 ====
 
 
+[[what-types-of-servers-will-revocation-checking-be-enabled-for]]
 == 失効チェックが有効になるのはどのタイプのサーバですか？
 
 ストレージアレイは、AutoSupport サーバ、外部キー管理サーバ（EKMS）、Lightweight Directory Access Protocol over SSL（LDAPS）サーバ、またはsyslogサーバに接続するたびに失効チェックを実行します。

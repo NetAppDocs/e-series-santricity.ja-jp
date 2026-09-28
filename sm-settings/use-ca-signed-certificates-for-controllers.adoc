@@ -24,6 +24,7 @@ CA署名証明書の使用は、3つの手順で構成される手順 です。
 
 
 
+[[step-1-complete-csrs-for-the-controllers]]
 == 手順1：コントローラのCSRを作成します
 
 最初に、ストレージアレイの各コントローラの証明書署名要求（CSR）ファイルを生成する必要があります。
@@ -37,8 +38,7 @@ CA署名証明書の使用は、3つの手順で構成される手順 です。
 
 ====
 .手順
-. 左側のパネルから、menu:Settings[Certificates]を選択します。
-. [Array Management]タブで、[*Complete CSR*]を選択します。
+. 左側のパネルから、メニュー：Certificates[Array management certificates]を選択し、*Complete CSR*を選択します。
 +
 [NOTE]
 ====
@@ -85,6 +85,7 @@ CSR要求を最初に作成するときは、[この手順をスキップ]リン
 
 
 
+[[step-2-submit-the-csr-files]]
 == 手順2：CSRファイルを送信します
 
 証明書署名要求（CSR）ファイルを作成したら、ファイルを認証局（CA）に送信します。Eシリーズシステムには、署名済み証明書用のPEM形式（Base64 ASCIIエンコード）が必要です。これには、PEM、.crt、.cer、.keyのいずれかのファイルタイプが含まれています。
@@ -103,6 +104,7 @@ CSR要求を最初に作成するときは、[この手順をスキップ]リン
 
 
 
+[[step-3-import-signed-certificates-for-controllers]]
 == 手順3：コントローラの署名済み証明書をインポートする
 
 署名済み証明書を認証局（CA）から受け取ったあと、コントローラのファイルをインポートします。
@@ -114,8 +116,7 @@ CSR要求を最初に作成するときは、[この手順をスキップ]リン
 
 
 .手順
-. 左側のパネルから、menu:Settings[Certificates]を選択します。
-. Array Management（アレイ管理）タブで、* Import（インポート）*を選択します。
+. 左側のパネルから、メニュー：Certificates[Array management certificates]を選択し、*Import*を選択します。
 +
 証明書ファイルをインポートするためのダイアログボックスが表示されます。
 

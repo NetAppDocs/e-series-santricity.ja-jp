@@ -20,8 +20,7 @@ Snapshotボリューム、またはSnapshot整合性グループのSnapshotボ�
 ベースボリュームを削除すると、関連付けられているSnapshotボリュームまたは整合性グループのSnapshotボリュームは自動的に削除されます。ステータスが「実行中」のボリュームコピーの対象になっているSnapshotボリュームは削除できません。
 
 .手順
-. 左側のパネルから、メニュー：Storage[Snapshots]を選択します。
-. スナップショットボリューム*タブを選択します。
+. 左側のパネルから、メニュー：Snapshots[Snapshot volumes]を選択します。
 +
 System Managerに、ストレージアレイに関連付けられているすべてのSnapshotボリュームが表示されます。
 

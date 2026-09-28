@@ -2,7 +2,7 @@
 permalink: sm-storage/decrease-reserved-capacity.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, decrease, reserved, capacity 
-summary: 容量の削減オプションを使用して、Snapshotグループ、Snapshotボリューム、整合性グループのメンバーボリュームなど、次のストレージオブジェクトのリザーブ容量を削減します。リザーブ容量は、増やしたときの分量ずつしか減らすことができません。 
+summary: 「容量削減」オプションを使用すると、以下のストレージ オブジェクトの予約容量を削減できます。スナップショット グループ、スナップショット ボリューム、および整合性グループ メンバー ボリューム。予約容量を減らすことができるのは、増やすために使用した容量分のみです。 
 ---
 = SANtricity System Managerで予約容量を減らす
 :allow-uri-read: 
@@ -29,8 +29,7 @@ summary: 容量の削減オプションを使用して、Snapshotグループ、
 
 
 .手順
-. 左側のパネルから、メニュー：Storage[Pools and volume groups]を選択します。
-. 予約容量*タブをクリックします。
+. 左側のパネルから、メニュー：ストレージ［予約容量］を選択します。
 . 予約容量を減らしたいストレージオブジェクトを選択し、menu:ellipsis icon[Decrease Capacity]をクリックします。
 +
 「予約容量の削減」ページが表示されます。

@@ -23,6 +23,7 @@ summary: 自動ロードバランシングを使用すると、負荷の変化�
 
 
 
+[[enabling-and-disabling-automatic-load-balancing]]
 == 自動ロードバランシングの有効化と無効化
 
 自動ロードバランシングは、すべてのストレージアレイでデフォルトで有効になっています。
@@ -35,6 +36,7 @@ summary: 自動ロードバランシングを使用すると、負荷の変化�
 
 
 
+[[host-types-that-support-the-automatic-load-balancing-feature]]
 == 自動ロードバランシング機能をサポートするホストタイプ
 
 自動ロードバランシングを有効にするのはストレージアレイレベルですが、ホストまたはホストクラスタに選択したホストタイプがこの機能の動作に直接影響します。
@@ -82,6 +84,7 @@ Native Multipathing Plugin（NMP）と'VMW_SATP_ALUA Storage Array Type'プラ�
 
 
 
+[[verifying-os-compatibility-with-the-automatic-load-balancing-feature]]
 == 自動ロードバランシング機能とOSの互換性の確認
 
 新しいシステムを設定（または既存のシステムを移行）する前に、自動ロードバランシング機能とOSの互換性を確認します。

@@ -28,8 +28,7 @@ SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリ�
 
 ====
 .手順
-. 左側のパネルから、メニュー：Storage[Snapshots]を選択します。
-. スナップショットボリューム*タブを選択します。
+. 左側のパネルから、メニュー：Snapshots[Snapshot volumes]を選択します。
 +
 Snapshot Volumesテーブルが表示され、ストレージアレイに関連付けられているすべてのSnapshotボリュームが表示されます。
 

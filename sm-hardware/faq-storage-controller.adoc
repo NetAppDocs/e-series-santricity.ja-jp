@@ -16,6 +16,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 
 
+[[what-is-auto-negotiation]]
 == 自動ネゴシエーションとは何ですか？
 
 自動ネゴシエーションは、ネットワークインターフェイスが、自身の接続パラメータ（速度とデュプレックスモード）を別のネットワークインターフェイスと自動的に調整する機能です。
@@ -29,6 +30,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 ====
 
 
+[[what-is-ipv6-stateless-address-auto-configuration]]
 == IPv6ステートレスアドレス自動設定とは何ですか。
 
 ステートレス自動設定を使用すると、ホストはアドレスやその他の設定情報をサーバから取得しません。
@@ -49,12 +51,14 @@ IPv6のステートレス自動設定には、リンクローカルアドレス�
 
 
 
+[[which-do-i-choose-dhcp-or-manual-configuration]]
 == DHCP と手動構成のどちらを選択すればよいですか?
 
 ネットワーク設定のデフォルトの方法は、Dynamic Host Configuration Protocol（DHCP；動的ホスト構成プロトコル）です。ネットワークにDHCPサーバがない場合を除き、必ずこのオプションを使用してください。
 
 
 
+[[what-is-a-dhcp-server]]
 == DHCPサーバとは何ですか。
 
 動的ホスト構成プロトコル（DHCP）は、インターネットプロトコル（IP）アドレスの割り当てタスクを自動化するプロトコルです。
@@ -65,6 +69,7 @@ DHCPを使用しない場合は、ネットワーク管理者がこれらのIP�
 
 
 
+[[how-do-i-configure-my-dhcp-server]]
 == DHCPサーバを設定するにはどうすればよいですか。
 
 ストレージアレイのコントローラに静的インターネットプロトコル（IP）アドレスを使用するには、動的ホスト構成プロトコル（DHCP）サーバを設定する必要があります。
@@ -75,6 +80,7 @@ DHCPサーバが割り当てるIPアドレスは一般に動的で、有効期�
 
 
 
+[[why-do-i-need-to-change-the-controller-network-configuration]]
 == コントローラのネットワーク設定を変更する必要があるのはなぜですか？
 
 アウトオブバンド管理を使用する場合は、各コントローラのネットワーク設定（IPアドレス、サブネットワークマスク、ゲートウェイ）を設定する必要があります。
@@ -83,6 +89,7 @@ DHCPサーバが割り当てるIPアドレスは一般に動的で、有効期�
 
 
 
+[[where-do-i-get-the-network-configuration]]
 == ネットワーク設定はどこで入手できますか。
 
 インターネットプロトコル（IP）アドレス、サブネットワークマスク（サブネットマスク）、およびゲートウェイの情報は、ネットワーク管理者から入手できます。
@@ -91,6 +98,7 @@ DHCPサーバが割り当てるIPアドレスは一般に動的で、有効期�
 
 
 
+[[what-are-icmp-ping-responses]]
 == ICMP PING応答とは何ですか？
 
 Internet Control Message Protocol（ICMP）は、TCP / IPスイートのプロトコルの1つです。
@@ -99,6 +107,7 @@ Internet Control Message Protocol（ICMP）は、TCP / IPスイートのプロ�
 
 
 
+[[when-should-i-refresh-the-port-configuration]]
 == ポート設定を更新する必要があるのはいつですか？
 
 DHCPサーバは、サーバを変更またはアップグレードしたとき、および現在のストレージアレイと使用するストレージアレイに関連するDHCP情報が変更されたときに更新します。
@@ -112,6 +121,7 @@ DHCPサーバは、サーバを変更またはアップグレードしたとき�
 ====
 
 
+[[what-should-i-do-after-configuring-the-management-ports]]
 == 管理ポートを設定したあとに何をすればよいですか？
 
 ストレージアレイのIPアドレスを変更した場合は、SANtricity Unified Managerでグローバルアレイビューを更新できます。
@@ -122,6 +132,7 @@ SANtricity Storage Managerをまだ使用している場合は、Enterprise Mana
 
 
 
+[[why-is-the-storage-system-in-non-optimal-mode]]
 == ストレージシステムが最適モードでないのはなぜですか？
 
 ストレージシステムが最適モードでないのは、Invalid System Configuration状態が原因です。この状態でも既存のボリュームへの通常のI/Oアクセスは完全にサポートされますが、SANtricityシステムマネージャでは一部の処理が禁止されます。

@@ -23,10 +23,9 @@ syslogアラートを設定するには、syslogサーバのアドレスとUDP�
 このタスクでは、syslogサーバのアドレスとポートを入力し、入力したアドレスをテストする方法について説明します。
 
 .手順
-. 左側のパネルから、menu:Settings[Alerts]を選択します。
-. *Syslog *タブを選択します。
+. 左側のパネルから、メニュー：Alerts［Syslog alerts］を選択します。
 +
-syslogサーバがまだ定義されていない場合は、[Alerts]ページに[Add Syslog Servers]と表示されます。
+syslogサーバがまだ定義されていない場合、ページには「Add Syslog Servers」と表示されます。
 
 . [Add Syslog Servers]をクリックします。
 +

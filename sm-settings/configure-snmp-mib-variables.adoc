@@ -37,8 +37,7 @@ MIBファイルがない場合は、次の方法で入手できます。
 
 
 .手順
-. 左側のパネルから、menu:Settings[Alerts]を選択します。
-. [*SNMP*]タブを選択します。
+. 左側のパネルから、メニュー：Alerts［SNMP alerts］を選択します。
 . [Configure SNMP MIB Variables]を選択します。
 +
 SNMP MIB変数の設定ダイアログボックスが開きます。

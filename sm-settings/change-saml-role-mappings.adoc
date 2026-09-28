@@ -21,8 +21,7 @@ summary: アクセス管理にSAMLを設定している場合は、IdPグルー�
 
 
 .手順
-. 左側のパネルから、menu:Settings[Access Management]を選択します。
-. SAML *タブを選択します。
+. 左側のパネルから、メニュー：Authentication［SAML］を選択します。
 . *Map System Manager roles*を選択します。
 +
 ロールマッピング(Role Mapping)ダイアログボックスが開きます

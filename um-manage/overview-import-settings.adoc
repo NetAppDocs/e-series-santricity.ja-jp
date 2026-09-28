@@ -15,6 +15,7 @@ summary: アラート、AutoSupport 、ディレクトリサービスなどの�
 
 
 
+[[what-settings-can-be-imported]]
 == どの設定をインポートできますか。
 
 アラート方法、AutoSupport 設定、ディレクトリサービス設定、ストレージ設定（ボリュームグループやプールなど）、およびシステム設定（自動ロードバランシングなど）をインポートできます。
@@ -27,6 +28,7 @@ summary: アラート、AutoSupport 、ディレクトリサービスなどの�
 
 
 
+[[how-do-i-perform-a-batch-import]]
 == バッチインポートの実行方法
 
 ソースとして使用するストレージアレイで、System Managerを開いて目的の設定を行います。その後、Unified Managerの管理ページに移動し、設定を1つ以上のアレイにインポートします。

@@ -15,12 +15,14 @@ summary: 一部のコントローラには、NVMe（Non-Volatile Memory Express�
 
 
 
+[[what-is-nvme]]
 == NVMeとは
 
 _NVM _は「不揮発性メモリ」を表し、多くのタイプのストレージデバイスで使用されている永続的メモリです。_NVM_（NVM Express）は、NVMデバイスとのハイパフォーマンスなマルチキュー通信に特化して設計された、標準インターフェイスまたはプロトコルです。
 
 
 
+[[what-is-nvme-over-fabrics]]
 == NVMe over Fabricsとは
 
 _NVMe over Fabrics（NVMe-oF）_は、NVMeメッセージベースのコマンドおよびデータをホストコンピュータとストレージの間でネットワーク経由で転送できるようにするテクノロジ仕様です。NVMeストレージアレイ（a_subsystem _）には、ファブリックを使用してホストからアクセスできます。NVMeコマンドは、ホスト側とサブシステム側の両方のトランスポート抽象化レイヤで有効化され、カプセル化されます。これにより、ハイパフォーマンスなNVMeインターフェイスのエンドツーエンドがホストからストレージへ拡張され、コマンドセットが標準化、簡易化されます。
@@ -29,18 +31,21 @@ NVMe-oFストレージは、ローカルのブロックストレージデバイ�
 
 
 
+[[what-is-an-nvme-qualified-name-nqn]]
 == NVMe Qualified Name（NQN）とは
 
 NVMe Qualified Name（NQN）は、リモートストレージターゲットを識別するために使用します。ストレージアレイのNVMe Qualified Nameは常にサブシステムによって割り当てられ、変更はできません。NVMe Qualified Nameはアレイ全体で1つです。NVMe Qualified Nameは最大223文字です。iSCSI Qualified Nameと比較してみてください。
 
 
 
+[[what-is-a-namespace-and-a-namespace-id]]
 == ネームスペースおよびネームスペースIDとは何ですか。
 
 ネームスペースはSCSIの論理ユニットに相当し、アレイ内のボリュームに関連付けられています。ネームスペースID（NSID）は、SCSIの論理ユニット番号（LUN）に相当します。NSIDはネームスペースの作成時に作成し、1~255の値を設定できます。
 
 
 
+[[what-is-an-nvme-controller]]
 == NVMeコントローラとは
 
 ホストのイニシエータからストレージシステムのターゲットへのパスを表すSCSI I_T Nexusと同様に、ホスト接続プロセスで作成されるNVMeコントローラは、ストレージアレイ内のネームスペースとホストの間のアクセスパスを提供します。NVMeコントローラはホストのNQNとホストポート識別子によって一意に識別されます。NVMeコントローラを関連付けることができるのは単一のホストのみですが、NVMeコントローラは複数のネームスペースにアクセスできます。

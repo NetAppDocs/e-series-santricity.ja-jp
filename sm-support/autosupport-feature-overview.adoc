@@ -19,6 +19,7 @@ AutoSupport データには、ストレージアレイの構成、ステータ�
 
 
 
+[[key-benefits]]
 == 主なメリット
 
 AutoSupport 機能の主な利点は次のとおりです。
@@ -33,6 +34,7 @@ AutoSupport 機能の主な利点は次のとおりです。
 
 
 
+[[individual-autosupport-features]]
 == 個々のAutoSupport 機能
 
 AutoSupport 機能は、個別に有効にする3つの機能で構成されています。
@@ -44,6 +46,7 @@ AutoSupport 機能は、個別に有効にする3つの機能で構成されて�
 
 
 
+[[difference-between-autosupport-and-collect-support-data]]
 == AutoSupport とサポートデータ収集の違い
 
 ストレージアレイでは、次の2つの方法でサポートデータを収集できます。

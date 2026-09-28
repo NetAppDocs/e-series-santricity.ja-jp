@@ -15,6 +15,7 @@ SANtricityシステムマネージャを使用して、証明書署名要求（C
 
 
 
+[[what-are-certificates]]
 == 証明書とは何ですか？
 
 _証明書_は、Webサイトやサーバなどのオンラインエンティティを識別し、インターネット上のセキュアな通信を実現するデジタルファイルです。証明書には2種類あります。A_Signed certificate_is validated by a Certificate Authority（CA；認証局）とa_self-signed certificate_is validated by the entity of the entity instead of a third party。
@@ -27,6 +28,7 @@ _証明書_は、Webサイトやサーバなどのオンラインエンティテ
 
 
 
+[[how-do-i-configure-signed-certificates]]
 == 署名済み証明書の設定方法
 
 署名要求は、System Managerから生成することも、秘密鍵と公開鍵のペアを使用して外部から生成することもできます。署名要求がCAに送信され、証明書ファイルが生成されます。CAから証明書ファイルが返されたら、System Managerを使用してインポートします。
@@ -39,6 +41,7 @@ _証明書_は、Webサイトやサーバなどのオンラインエンティテ
 
 
 
+[[related-information]]
 == 関連情報
 
 証明書に関連するタスクの詳細：

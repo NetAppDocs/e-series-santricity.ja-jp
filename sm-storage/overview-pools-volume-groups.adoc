@@ -16,6 +16,7 @@ summary: ストレージアレイ内の未割り当てドライブのサブセ�
 
 
 
+[[what-are-pools-and-volume-groups]]
 == プールとボリュームグループとは何ですか？
 
 a_pool_は、論理的にグループ化されたドライブのセットです。a_volume group_は、特性が共有されているボリュームのコンテナです。プールまたはボリュームグループを使用して、ホストにアクセス可能なボリュームを作成することができます。
@@ -29,6 +30,7 @@ a_pool_は、論理的にグループ化されたドライブのセットです�
 
 
 
+[[how-do-you-create-pools]]
 == プールの作成方法
 
 System Manager で、ストレージアレイ内の未割り当て容量が検出されたときにプールが自動的に作成されるように設定できます。また、自動作成で最適な構成を判断できない場合は、menu:Storage[Pools and volume groups]から手動でプールを作成できます。
@@ -43,6 +45,7 @@ System Manager で、ストレージアレイ内の未割り当て容量が検�
 
 
 
+[[how-do-you-create-volume-groups]]
 == ボリュームグループの作成方法
 
 menu:Storage[Pools and volume groups]からボリュームグループを作成できます。
@@ -55,6 +58,7 @@ menu:Storage[Pools and volume groups]からボリュームグループを作成�
 
 
 
+[[related-information]]
 == 関連情報
 
 プールとボリュームグループに関連する概念の詳細については、以下を参照してください。

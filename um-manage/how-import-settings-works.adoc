@@ -15,6 +15,7 @@ SANtricity Unified Managerを使用して、1つのストレージアレイか�
 
 
 
+[[settings-available-for-import]]
 == インポートできる設定
 
 複数のアレイにインポートできる構成は次のとおりです。
@@ -40,6 +41,7 @@ SANtricity Unified Managerを使用して、1つのストレージアレイか�
 
 
 
+[[configuration-workflow]]
 == 設定ワークフロー
 
 設定をインポートするワークフローは次のとおりです。

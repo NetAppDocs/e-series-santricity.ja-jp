@@ -23,7 +23,7 @@ summary: ホスト接続レポートを有効にすると、コントローラ�
 
 ====
 .手順
-. 左側のパネルから、menu:Settings[System]を選択します。
+. 左側のパネルから*システム*を選択してください。
 . 下にスクロールして「* Additional Settings *」(その他の設定*)を表示し、「* Enable / Disable Host Connectivity Reporting *」(ホスト接続レポートの有効化/無効化
 +
 このオプションが現在有効か無効かを示すテキストがこのオプションの下に表示されます。

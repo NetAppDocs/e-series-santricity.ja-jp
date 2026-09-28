@@ -22,6 +22,7 @@ CA署名証明書の使用は、3つの手順で構成される手順 です。
 
 
 
+[[step-1-complete-a-csr-file]]
 == 手順1：CSRファイルを作成します
 
 最初に証明書署名要求（CSR）ファイルを生成する必要があります。これにより、Web Services ProxyとUnified Managerがインストールされている組織とホストシステムが特定されます。
@@ -57,6 +58,7 @@ CA署名証明書の使用は、3つの手順で構成される手順 です。
 
 
 
+[[step-2-submit-csr-file]]
 == 手順2：CSRファイルを送信する
 
 証明書署名要求（CSR）ファイルを作成したら、そのファイルを認証局（CA）に送信して、Unified ManagerとWebサービスプロキシをホストするシステムの署名付き管理証明書を受け取ります。
@@ -81,6 +83,7 @@ NOTE: Eシリーズシステムには、署名済み証明書用のPEM形式（B
 
 
 
+[[step-3-import-management-certificates]]
 == 手順3：管理証明書をインポートする
 
 認証局（CA）から署名入りの証明書を受け取ったら、Web Services ProxyとUnified Managerインターフェイスがインストールされているホストシステムに証明書をインポートします。

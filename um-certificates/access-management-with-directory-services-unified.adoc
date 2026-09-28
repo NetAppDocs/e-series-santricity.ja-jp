@@ -15,6 +15,7 @@ LDAP（Lightweight Directory Access Protocol）サーバとディレクトリサ
 
 
 
+[[configuration-workflow]]
 == 設定ワークフロー
 
 ネットワークでLDAPサーバとディレクトリサービスが使用されている場合、設定は次のようになります。
@@ -35,6 +36,7 @@ adminユーザは'システムのすべての機能にフル・アクセスで�
 
 
 
+[[management]]
 == 管理
 
 認証にディレクトリサービスを使用する場合、管理者は次の管理タスクを実行できます。

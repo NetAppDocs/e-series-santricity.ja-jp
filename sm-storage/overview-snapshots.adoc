@@ -16,6 +16,7 @@ Snapshot機能を使用すると、ストレージアレイボリュームのポ
 
 
 
+[[what-are-snapshot-images]]
 == Snapshotイメージとは何ですか？
 
 a_snapshot image_は 特定の時点でキャプチャされたボリュームデータの論理コピーです。リストアポイントと同様に、 Snapshot イメージを使用して既知の正常なデータセットにロールバックできます。ホストはSnapshotイメージにアクセスできますが、直接読み取ったり書き込んだりすることはできません。
@@ -31,9 +32,10 @@ a_snapshot image_は 特定の時点でキャプチャされたボリューム�
 
 
 
+[[how-do-i-create-snapshots]]
 == Snapshotを作成するにはどうすればよいですか？
 
-ベースボリュームまたはSnapshot整合性グループからSnapshotイメージを手動で作成することができます。この手順 は次のメニューから使用できます。Storage [Snapshots]。
+ベースボリュームまたはスナップショット整合性グループから、スナップショットイメージを手動で作成できます。この手順は、メニュー：Snapshots［Snapshot images］から実行できます。
 
 詳細はこちら。
 
@@ -47,9 +49,10 @@ a_snapshot image_は 特定の時点でキャプチャされたボリューム�
 
 
 
+[[how-do-i-roll-back-data-from-a-snapshot]]
 == Snapshotからデータをロールバックするにはどうすればよいですか？
 
-a_rollback_は、ベースボリューム内のデータを過去の特定の時点に戻すプロセスです。メニューからSnapshotデータをロールバックできます。Storage [Snapshots]。
+ロールバックとは、ベースボリューム内のデータを以前の時点の状態に戻すプロセスです。menu:Snapshots[Snapshot images]からスナップショット データをロールバックできます。
 
 詳細はこちら。
 
@@ -60,6 +63,7 @@ a_rollback_は、ベースボリューム内のデータを過去の特定の時
 
 
 
+[[related-information]]
 == 関連情報
 
 Snapshotに関連するタスクの詳細を確認できます。

@@ -20,6 +20,7 @@ SANtricity Unified Managerには、SANtricityのミラーリング機能の設�
 ====
 
 
+[[types-of-mirroring]]
 == ミラーリングのタイプ
 
 SANtricity アプリケーションには、非同期と同期の2種類のミラーリングがあります。
@@ -30,6 +31,7 @@ SANtricity アプリケーションには、非同期と同期の2種類のミ�
 
 
 
+[[differences-between-mirroring-types]]
 == ミラーリングのタイプの違い
 
 次の表に、2種類のミラーリングの主な違いを示します。

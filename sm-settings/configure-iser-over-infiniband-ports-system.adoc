@@ -20,7 +20,7 @@ summary: コントローラにiSER over InfiniBandポートが搭載されてい
 
 
 .手順
-. 左側のパネルから、menu:Settings[System]を選択します。
+. 左側のパネルから*システム*を選択してください。
 . *iSER設定*で、*InfiniBandポート経由でiSERを設定*を選択します。
 . iSER over InfiniBandポートを設定するコントローラをクリックします。「 * 次へ * 」をクリックします。
 . ドロップダウンリストで設定するHICポートを選択し、ホストのIPアドレスを入力します。

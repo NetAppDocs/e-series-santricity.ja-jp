@@ -19,7 +19,7 @@ summary: ストレージアレイに関する各種のインベントリ、ス�
 
 [NOTE]
 ====
-AutoSupport 機能が有効になっている場合は、* AutoSupport *タブに移動し、* AutoSupport ディスパッチを送信*を選択して、このデータを収集することもできます。
+AutoSupport 機能が有効になっている場合は、メニュー：サポート[AutoSupport] に移動し、*AutoSupport Dispatch の送信* を選択することで、このデータを収集することもできます。
 
 ====
 収集処理は一度に1つずつしか実行できません。別の処理を開始しようとすると、エラーメッセージが表示されます。
@@ -30,7 +30,7 @@ AutoSupport 機能が有効になっている場合は、* AutoSupport *タブ�
 
 ====
 .手順
-. 左側のパネルから、メニュー：Support[Support Center > Diagnostics]タブを選択します。
+. 左側のパネルから、メニュー：Support［Diagnostics］を選択します。
 . 「サポートデータの収集」を選択します。
 . [*Collect*]( 収集 ) をクリックします
 +

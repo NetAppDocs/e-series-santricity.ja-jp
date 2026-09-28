@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/collect-i-o-path-statistics.html 
 sidebar: sidebar 
-keywords: SANtricity, System Manager, E-Series, collect, i/o path, statistics 
-summary: I/Oパス統計のファイルを保存し、分析用にテクニカルサポートに送信できます。 
+keywords: SANtricity, System Manager, E-Series, collect, io path, statistics 
+summary: IOパス統計ファイルを保存して、分析のためにテクニカルサポートに送信できます。 
 ---
 = SANtricity System ManagerでI/Oパス統計を収集する
 :allow-uri-read: 
@@ -25,7 +25,7 @@ I/Oパス統計の収集を確定すると、I/Oパス統計のカウンタは�
 
 ====
 .手順
-. 左側のパネルから、メニュー：Support[Support Center > Diagnostics]タブを選択します。
+. 左側のパネルから、メニュー：Support［Diagnostics］を選択します。
 . [*Collect I/O Path Statistics*]を選択します。
 . 操作を実行することを確認するには'collect'と入力してから'*Collect*をクリックします
 +

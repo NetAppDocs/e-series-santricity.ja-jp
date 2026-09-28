@@ -30,8 +30,7 @@ summary: アクセス管理用に認証を設定するには、ストレージ�
 
 ====
 .手順
-. 左側のパネルから、menu:Settings[Access Management]を選択します。
-. [ディレクトリサービス]タブで、[*ディレクトリサーバーの追加*]を選択します。
+. 左側のパネルから、メニュー：Authentication[Directory services]を選択し、次に*Add Directory Server*を選択します。
 +
 [ディレクトリサーバーの追加]ダイアログボックスが開きます。
 

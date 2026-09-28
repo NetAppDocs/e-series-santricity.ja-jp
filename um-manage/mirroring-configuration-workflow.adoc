@@ -15,6 +15,7 @@ SANtricity Unified Managerで非同期ミラーリングまたは同期ミラー
 
 
 
+[[asynchronous-mirroring-workflow]]
 == 非同期ミラーリングのワークフロー
 
 非同期ミラーリングのワークフローは次のとおりです。
@@ -45,6 +46,7 @@ SANtricity Unified Managerで非同期ミラーリングまたは同期ミラー
 
 
 
+[[synchronous-mirroring-workflow]]
 == 同期ミラーリングのワークフロー
 
 同期ミラーリングのワークフローは次のとおりです。

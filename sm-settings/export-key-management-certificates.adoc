@@ -20,8 +20,7 @@ summary: キー管理サーバ用の証明書をローカルマシンに保存�
 
 
 .手順
-. 左側のパネルから、menu:Settings[Certificates]を選択します。
-. [*キー管理*（Key Management *）]タブを選択します。
+. 左側のパネルから、メニュー：Certificates[Key management certificates]を選択します。
 . 表からエクスポートする証明書を選択し、* Export *（エクスポート）をクリックします。
 +
 [保存（Save）]ダイアログボックスが開きます。

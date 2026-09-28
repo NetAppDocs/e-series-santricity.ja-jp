@@ -20,8 +20,7 @@ syslogアラート用に最大5台のサーバを追加できます。
 
 
 .手順
-. 左側のパネルから、menu:Settings[Alerts]を選択します。
-. *Syslog *タブを選択します。
+. 左側のパネルから、メニュー：Alerts［Syslog alerts］を選択します。
 . [Add Syslog Servers]を選択します。
 +
 [Add Syslog Server]ダイアログボックスが開きます。

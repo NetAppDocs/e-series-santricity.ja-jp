@@ -33,6 +33,7 @@ summary: スクリプト エディタを使用して、スクリプト ファイ
 
 
 
+[[open-the-script-editor]]
 == スクリプト エディタを開く
 
 .手順
@@ -136,6 +137,7 @@ Continue`ステートメントは、実行エラーが発生した後でもス�
 
 
 
+[[write-scripts-in-the-script-editor]]
 === Script editorでスクリプトを作成します
 
 .作業を開始する前に
@@ -169,6 +171,7 @@ setting controller mode
 
 
 
+[[interpret-script-execution-results]]
 === スクリプト実行結果を解釈する
 
 スクリプトの実行中、出力ペインには次で始まるメッセージが表示されます：

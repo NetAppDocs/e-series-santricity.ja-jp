@@ -22,6 +22,7 @@ Security Adminの権限を含むユーザプロファイルでログインする
 
 
 
+[[step-1-complete-and-submit-csr-for-authentication-with-a-key-management-server]]
 == 手順1：キー管理サーバを使用した認証用にCSRを作成および送信します
 
 最初に証明書署名要求（CSR）ファイルを生成し、そのCSRを使用して、キー管理サーバで信頼されている認証局（CA）から署名済みのクライアント証明書を要求する必要があります。ダウンロードしたCSRファイルを使用して、キー管理サーバからクライアント証明書を作成およびダウンロードすることもできます。クライアント証明書は、キー管理サーバが自身のKey Management Interoperability Protocol（KMIP）要求を信頼できるよう、ストレージアレイのコントローラを検証します。
@@ -30,8 +31,7 @@ Security Adminの権限を含むユーザプロファイルでログインする
 NOTE: 秘密鍵と公開鍵のペアによって外部で生成されたCSRファイルは、[外部セキュリティキーの作成]ダイアログを使用してインポートできます。外部生成されたCSRファイルのインポートの詳細については、を参照してください https://docs.netapp.com/us-en/e-series-santricity/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html#step-2-import-certificates-for-the-key-management-server["手順2：キー管理サーバの証明書をインポートする"]。
 
 .手順
-. 左側のパネルから、menu:Settings[Certificates]を選択します。
-. [キー管理]タブで、[*Complete CSR*]を選択します。
+. 左側のパネルから、メニュー：Certificates[Key management certificates]を選択し、*Complete CSR*を選択します。
 . 次の情報を入力します。
 +
 ** *共通名*--クライアントを識別する名前。一般的には、クライアント証明書の命名規則に関するKMSサーバの要件と共通名の内容を一致させることが一般的です。一般的な名前は、ハンドシェイク中にクライアントの証明書が提示されたときに、KMSがクライアントの証明書を識別するのに役立ちます。
@@ -56,6 +56,7 @@ NOTE: キー管理サーバは独自のCAとして機能するため、署名済
 
 
 
+[[step-2-import-certificates-for-the-key-management-server]]
 == 手順2：キー管理サーバの証明書をインポートする
 
 次の手順として、ストレージアレイとキー管理サーバの間の認証用に証明書をインポートします。証明書には2種類あります。クライアント証明書はストレージアレイのコントローラを検証し、キー管理サーバ証明書はサーバを検証します。コントローラのクライアント証明書ファイルとキー管理サーバのサーバ証明書ファイルの両方をロードする必要があります。
@@ -72,8 +73,7 @@ NOTE: キー管理サーバは独自のCAとして機能するため、署名済
 
 
 .手順
-. 左側のパネルから、menu:Settings[Certificates]を選択します。
-. [キー管理]タブで、[*インポート*]を選択します。
+. 左側のパネルから、メニュー：Certificates[Key management certificates]を選択し、*Import*を選択します。
 +
 証明書ファイルをインポートするためのダイアログボックスが表示されます。
 

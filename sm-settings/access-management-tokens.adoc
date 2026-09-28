@@ -15,6 +15,7 @@ summary: アクセストークンは、ユーザー名とパスワードを公�
 
 
 
+[[saml-and-json-web-token-access]]
 == SAMLとJSON Webトークンアクセス
 
 デフォルトでは、SAMLが有効になっているシステムで従来のコマンドラインツールにアクセスすることはできません。MFAワークフローで認証用にアイデンティティプロバイダサーバへのリダイレクトが必要なため、REST APIとCLIは実質的に操作不能になります。そのため、ユーザがMFAで認証されることを求めるトークンをSystem Managerで生成する必要があります。
@@ -24,6 +25,7 @@ NOTE: Webトークンを使用するためにSAMLを有効にする必要はあ�
 
 
 
+[[workflow-for-creating-and-using-tokens]]
 == トークンを作成および使用するためのワークフロー
 
 . System Managerでトークンを作成し、有効期限を確認します。

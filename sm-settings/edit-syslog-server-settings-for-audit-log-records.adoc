@@ -21,8 +21,7 @@ summary: 監査ログのアーカイブに使用するsyslogサーバの設定�
 
 
 .手順
-. 左側のパネルから、menu:Settings[Access Management]を選択します。
-. 監査ログタブで、*Configure Syslog Servers *を選択します。
+. 左側のパネルからメニュー：監視［監査ログ］を選択し、*syslogサーバの設定*を選択します。
 +
 設定されているsyslogサーバがページに表示されます。
 

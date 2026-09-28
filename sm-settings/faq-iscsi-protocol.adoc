@@ -16,6 +16,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 
 
+[[what-happens-when-i-use-an-isns-server-for-registration]]
 == iSNSサーバを登録に使用するとどうなりますか？
 
 Internet Storage Name Service（iSNS）サーバの情報を使用する場合は、iSNSサーバを照会してターゲット（コントローラ）から情報を取得するようにホスト（イニシエータ）を設定できます。
@@ -24,6 +25,7 @@ Internet Storage Name Service（iSNS）サーバの情報を使用する場合�
 
 
 
+[[which-registration-methods-are-automatically-supported-for-iscsi]]
 == iSCSIではどの登録方法が自動的にサポートされますか。
 
 iSCSIの実装では、Internet Storage Name Service（iSNS）検出方式またはSend Targetsコマンドの使用がサポートされます。
@@ -34,9 +36,10 @@ iSNSを設定しない場合、iSCSIホストはiSCSI検出セッション中に
 
 
 
+[[how-do-i-interpret-iser-over-infiniband-statistics]]
 == iSER over InfiniBand統計には何が表示されますか？
 
-View iSER over InfiniBand Statisticsダイアログボックスには、ローカルターゲット（プロトコル）統計とiSER over InfiniBand（IB）インターフェイス統計が表示されます。統計はすべて読み取り専用で、設定することはできません。
+「View iSER over InfiniBand statistics」ダイアログボックスには、ローカルターゲット（プロトコル）の統計情報と iSER over InfiniBand（IB）インターフェースの統計情報が表示されます。すべての統計情報は読み取り専用であり、設定することはできません。
 
 * *ローカルターゲット（プロトコル）統計*- iSER over InfiniBandターゲットの統計を提供し、ストレージメディアへのブロックレベルのアクセスが表示されます。
 * * iSER over InfiniBandインターフェイス統計*- InfiniBandインターフェイス上のすべてのiSER over InfiniBandポートの統計が提供され、各スイッチポートに関連付けられているパフォーマンス統計とリンクエラー情報が含まれます。
@@ -46,6 +49,7 @@ View iSER over InfiniBand Statisticsダイアログボックスには、ロー�
 
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband]]
 == iSER over InfiniBandを設定または診断するためにほかに必要な作業は何ですか？
 
 次の表に、iSER over InfiniBandセッションの設定と管理に使用できるSANtricity System Managerの機能を示します。
@@ -63,16 +67,15 @@ iSER over InfiniBandを設定できるのは、ストレージアレイのコン
  a| 
 iSER over InfiniBandポートを設定します
  a| 
-. 「 * ハードウェア * 」を選択します。
-. [コントローラとコンポーネント]*タブを選択します。
+. メニューの「Hardware[Controllers and components]」を選択してください。
 . コントローラを選択します。
 . iSER over InfiniBandポートの設定*を選択します。
 
 
 または
 
-. メニューを選択します。[設定][システム]。
-. 下にスクロールして* iSER over InfiniBand setting*を選択し、* iSER over InfiniBandポートの設定*を選択します。
+. 「システム」を選択します。
+. *iSER over InfiniBand 設定*まで下にスクロールし、*iSER over InfiniBand ポートの設定*を選択します。
 
 
 
@@ -80,13 +83,14 @@ iSER over InfiniBandポートを設定します
  a| 
 iSER over InfiniBandの統計を表示します
  a| 
-. メニューを選択します。[設定][システム]。
-. 下にスクロールして* iSER over InfiniBand settings *を表示し、* View iSER over InfiniBand Statistics *を選択します。
+. 「システム」を選択します。
+. *iSER over InfiniBandの設定*まで下にスクロールし、*iSER over InfiniBandの統計を表示*を選択します。
 
 
 |===
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi]]
 == iSCSIを設定または診断するためにほかに必要な作業は何ですか？
 
 iSCSIセッションは、非同期ミラー関係にあるホストまたはリモートストレージアレイとの間で実行できます。次の表に、これらのiSCSIセッションの設定と管理に使用できるSANtricityシステムマネージャの機能を示します。
@@ -98,6 +102,7 @@ iSCSIを設定できるのは、ストレージアレイでiSCSIがサポート�
 ====
 
 
+[[configure-iscsi]]
 === iSCSIを設定
 
 [cols="1a,1a"]
@@ -108,7 +113,7 @@ iSCSIを設定できるのは、ストレージアレイでiSCSIがサポート�
  a| 
 iSCSI設定を管理します
  a| 
-. メニューを選択します。[設定][システム]。
+. 「システム」を選択します。
 . 下にスクロールして* iscsi settings *を表示し、すべての管理機能を表示します。
 
 
@@ -128,8 +133,8 @@ iSCSIポートを設定
  a| 
 ホストのCHAPシークレットを設定します
  a| 
-. メニューを選択します。[設定][システム]。
-. 下にスクロールして「* iSCSI settings *」（* iSCSI設定*）に進み、「Configure Authentication *」（認証の設定*）を選択
+. 「システム」を選択します。
+. *iSCSI設定*までスクロールダウンし、*InfiniBand経由のiSCSI/iSERの認証を設定*を選択します。
 
 
 または
@@ -142,6 +147,7 @@ iSCSIポートを設定
 |===
 
 
+[[diagnose-iscsi]]
 === iSCSIを診断する
 
 [cols="1a,1a"]
@@ -152,14 +158,14 @@ iSCSIポートを設定
  a| 
 iSCSIセッションを表示または終了します
  a| 
-. メニューを選択します。[設定][システム]。
-. 下にスクロールして「* iSCSI settings *」（* iSCSI設定）に進み、「* View/End iSCSI Sessions *」（* iSCSIセッションの表示/終了）を選択し
+. 「システム」を選択します。
+. 下にスクロールして*iSCSI設定*を探し、*iSCSIセッションの表示/終了*を選択してください。
 
 
 または
 
-. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
-. 「* iSCSIセッションの表示/終了*」を選択します。
+. メニューから「サポート」→「診断」を選択します。
+. 「iSCSIセッションの表示/終了」を選択します。
 
 
 
@@ -167,14 +173,14 @@ iSCSIセッションを表示または終了します
  a| 
 iSCSI統計を表示します
  a| 
-. メニューを選択します。[設定][システム]。
-. 下にスクロールして* iSCSI設定*を表示し、* iSCSI統計パッケージの表示*を選択します。
+. 「システム」を選択します。
+. 「iSCSI設定」までスクロールダウンし、「iSCSI統計情報の表示」を選択してください。
 
 
 または
 
-. メニューを選択します。Support（サポートセンター）> Diagnostics（診断）タブ。
-. [View iSCSI Statistics Packages]を選択します。
+. メニューから「サポート」→「診断」を選択します。
+. 「iSCSI統計情報の表示」を選択します。
 
 
 |===

@@ -15,6 +15,7 @@ summary: 管理者は、アレイに組み込みのSecurity Assertion Markup Lan
 
 
 
+[[configuration-workflow]]
 == 設定ワークフロー
 
 SAMLの設定は次のように行います。
@@ -49,6 +50,7 @@ SAMLを有効にすると、ユーザインターフェイスで無効にした�
 
 
 
+[[management]]
 == 管理
 
 認証にSAMLを使用している場合、管理者は次の管理タスクを実行できます。
@@ -59,6 +61,7 @@ SAMLを有効にすると、ユーザインターフェイスで無効にした�
 
 
 
+[[access-restrictions]]
 == アクセス制限
 
 SAMLが有効な場合、ユーザは従来のStorage Managerインターフェイスからそのアレイのストレージを検出または管理できません。

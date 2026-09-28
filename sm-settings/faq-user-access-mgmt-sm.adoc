@@ -16,6 +16,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 
 
+[[why-cant-i-log-in]]
 == ログインできない理由は何ですか?
 
 SANtricityシステムマネージャへのログイン時にエラーが表示される場合は、次の原因を確認してください。
@@ -26,7 +27,7 @@ System Managerのログインエラーは、次のいずれかが原因の可能
 * 必要な権限がありません。
 * ディレクトリサーバ（設定されている場合）が使用できない可能性があります。その場合は、ローカルユーザロールでログインしてみてください。
 * ログインが複数回失敗したために、ロックアウトモードがトリガーされました。10分待ってから再度ログインしてください。
-* ロックアウト状態がトリガーされ、監査ログがいっぱいになった可能性があります。アクセス管理に移動し、監査ログから古いイベントを削除します。
+* ロックアウト状態が発生したため、監査ログがいっぱいになっている可能性があります。「監視」>「監査ログ」に移動し、監査ログから古いイベントを削除します。
 * SAML認証が有効になりました。ログインするには、ブラウザをリフレッシュしてください。
 
 
@@ -39,6 +40,7 @@ System Managerのログインエラーは、次のいずれかが原因の可能
 
 
 
+[[what-do-i-need-to-know-before-adding-a-directory-server]]
 == ディレクトリサーバを追加するときは、どのような点に注意する必要がありますか？
 
 アクセス管理でディレクトリサーバを追加する前に、次の要件を満たしていることを確認してください。
@@ -50,6 +52,7 @@ System Managerのログインエラーは、次のいずれかが原因の可能
 
 
 
+[[what-do-i-need-to-know-about-mapping-to-storage-array-roles]]
 == ストレージアレイのロールをマッピングするときは、どのような点に注意する必要がありますか？
 
 グループをロールにマッピングする前に、次のガイドラインを確認してください。
@@ -64,6 +67,7 @@ System Managerのログインエラーは、次のいずれかが原因の可能
 
 
 
+[[directory-services]]
 === ディレクトリサービス
 
 LDAP（Lightweight Directory Access Protocol）サーバとディレクトリサービスを使用する場合は、次の点を確認してください。
@@ -80,6 +84,7 @@ LDAP（Lightweight Directory Access Protocol）サーバとディレクトリサ
 
 
 
+[[saml]]
 === SAML
 
 ストレージアレイに組み込みのSecurity Assertion Markup Language（SAML）機能を使用する場合は、次の点を確認してください。
@@ -97,12 +102,14 @@ LDAP（Lightweight Directory Access Protocol）サーバとディレクトリサ
 
 
 
+[[which-external-management-tools-may-be-affected-by-this-change]]
 == この変更の影響を受ける外部管理ツールはどれですか。
 
 管理インターフェイスの切り替えや認証方式へのSAMLの使用など、SANtricity System Managerで特定の変更を行うと、一部の外部ツールや機能が使用できなくなることがあります。
 
 
 
+[[management-interface]]
 === 管理インターフェイス
 
 SANtricity SMI-S ProviderやOnCommand Insight （OCI）などの従来の管理インターフェイス（SYMbol）と直接通信するツールは、レガシー管理インターフェイスの設定が有効になっていないかぎり機能しません。この設定が無効な場合、従来のCLIコマンドを使用したりミラーリング処理を実行したりすることはできません。
@@ -111,6 +118,7 @@ SANtricity SMI-S ProviderやOnCommand Insight （OCI）などの従来の管理�
 
 
 
+[[saml-authentication]]
 === SAML 認証
 
 SAMLが有効な場合、次のクライアントはストレージアレイのサービスとリソースにアクセスできません。
@@ -127,12 +135,14 @@ SAMLが有効な場合、次のクライアントはストレージアレイの�
 
 
 
+[[what-do-i-need-to-know-before-configuring-and-enabling-saml]]
 == SAMLを設定および有効にするときは、どのような点に注意する必要がありますか？
 
 認証のためにSecurity Assertion Markup Language（SAML）の機能を設定して有効にする前に、次の要件を満たしていることを確認し、SAMLの制限事項を理解しておきます。
 
 
 
+[[requirements]]
 === 要件
 
 作業を開始する前に、次の点を確認してください。
@@ -147,6 +157,7 @@ SAMLが有効な場合、次のクライアントはストレージアレイの�
 
 
 
+[[restrictions]]
 === 制限事項
 
 上記の要件に加えて、次の制限事項を理解しておく必要があります。
@@ -168,6 +179,7 @@ SAMLが有効な場合、次のクライアントはストレージアレイの�
 
 
 
+[[what-types-of-events-are-recorded-in-the-audit-log]]
 == 監査ログにはどのようなタイプのイベントが記録されますか？
 
 監査ログには、変更イベント、または変更イベントと読み取り専用イベントの両方を記録できます。
@@ -180,6 +192,7 @@ SAMLが有効な場合、次のクライアントはストレージアレイの�
 
 
 
+[[what-do-i-need-to-know-before-configuring-a-syslog-server]]
 == syslogサーバを設定するときは、どのような点に注意する必要がありますか？
 
 監査ログは外部syslogサーバにアーカイブできます。
@@ -195,8 +208,9 @@ syslogサーバを設定する際は、次のガイドラインに注意して�
 
 
 
+[[the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do]]
 == syslogサーバが監査ログを受信しなくなりました。どうすればよいですか？
 
 syslogサーバにTLSプロトコルを設定している場合、何らかの理由で証明書が無効になるとサーバはメッセージを受信できなくなります。無効な証明書に関するエラーメッセージが監査ログに記録されます。
 
-この問題 を解決するには、syslogサーバの証明書を修正する必要があります。有効な証明書チェーンが確立されたら、メニューに移動します。Settings [Audit Log]> Configure Syslog Servers > Test All]。
+この問題を解決するには、まずsyslogサーバの証明書を修正する必要があります。有効な証明書チェーンが設定されたら、menu:Monitoring[Audit log > Configure Syslog Servers > Test All]に進みます。

@@ -25,13 +25,13 @@ Snapshotボリュームを作成するプロセスは複数の手順で構成さ
 
 
 
+[[step-1-review-members-for-a-snapshot-volume]]
 == 手順1：Snapshotボリュームのメンバーを確認します
 
 ベースボリュームまたはSnapshot整合性グループのSnapshotイメージを選択します。Snapshot整合性グループのSnapshotイメージを選択した場合は、確認用にSnapshot整合性グループのメンバーボリュームが表示されます。
 
 .手順
-. 左側のパネルから、メニュー：Storage[Snapshots]を選択します。
-. スナップショットボリューム*タブを選択します。
+. 左側のパネルから、メニュー：Snapshots[Snapshot volumes]を選択します。
 . 「 * Create * 」を選択します。
 +
 Create Snapshot Volume（スナップショットボリュームの作成）ダイアログボックスが表示されます。
@@ -48,6 +48,7 @@ Snapshot整合性グループのSnapshotイメージに対してを選択した�
 
 
 
+[[step-2-assign-snapshot-volume-to-host]]
 == 手順2：Snapshotボリュームをホストに割り当てる
 
 特定のホストまたはホストクラスタを選択してSnapshotボリュームに割り当てます。これにより、ホストまたはホストクラスタにSnapshotボリュームへのアクセスが許可されます。必要に応じて、ホストをあとから割り当てることもできます。
@@ -90,6 +91,7 @@ Snapshot整合性グループのSnapshotイメージに対してを選択した�
 
 
 
+[[step-3-reserve-capacity-for-a-snapshot-volume]]
 == 手順3：Snapshotボリューム用の容量をリザーブする
 
 読み取り/書き込みのSnapshotボリュームにリザーブ容量を関連付けます。ベースボリュームまたはSnapshot整合性グループのプロパティに基づいて、System Managerから推奨されるボリュームと容量が提示されます。推奨されるリザーブ容量の設定をそのまま使用することも、割り当てられたストレージをカスタマイズすることもできます。
@@ -130,6 +132,7 @@ Snapshotボリュームのリザーブ容量を必要に応じて増やしたり
 
 
 
+[[step-4-edit-settings-for-a-snapshot-volume]]
 == 手順4：Snapshotボリュームの設定を編集する
 
 名前、キャッシュ、リザーブ容量に関するアラートしきい値など、Snapshotボリュームの設定を変更します。
@@ -156,7 +159,7 @@ Snapshotボリュームのリザーブ容量を必要に応じて増やしたり
  a| 
 名前
  a| 
-Snapshotボリュームの名前を指定します。
+スナップショット ボリュームの名前を指定してください。ボリューム名の最大文字数は 30 文字です。名前は一意でなければなりません。
 
 
 

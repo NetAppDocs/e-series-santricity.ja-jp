@@ -21,8 +21,7 @@ summary: 監査ログを外部のsyslogサーバにアーカイブする場合�
 
 
 .手順
-. 左側のパネルから、menu:Settings[Access Management]を選択します。
-. 監査ログタブで、*Configure Syslog Servers *を選択します。
+. 左側のパネルからメニュー：監視［監査ログ］を選択し、*syslogサーバの設定*を選択します。
 +
 Configure Syslog Serversダイアログボックスが開きます。
 
@@ -38,7 +37,7 @@ Configure Syslog Serversダイアログボックスが開きます。
 +
 [NOTE]
 ====
-あとで証明書が無効になると、TLSハンドシェイクは失敗します。その結果、監査ログにエラーメッセージが記録され、syslogサーバにメッセージが送信されなくなります。この問題 を解決するには、syslogサーバで証明書を修正してから、メニューの[設定]、[監査ログ]、[ syslogサーバの設定]、[すべてテスト]の順に選択します。
+証明書が後から無効になった場合、TLSハンドシェイクは失敗します。その結果、監査ログにエラーメッセージが記録され、メッセージはsyslogサーバに送信されなくなります。この問題を解決するには、syslogサーバの証明書を修正してから、menu:Monitoring[Audit log > Configure Syslog Servers > Test All]に移動してください。
 
 ====
 ** *ポート*-- syslogレシーバーのポート番号を入力します。[Add *]をクリックすると、[Configure Syslog Servers]ダイアログボックスが開き、設定したsyslogサーバがページに表示されます。

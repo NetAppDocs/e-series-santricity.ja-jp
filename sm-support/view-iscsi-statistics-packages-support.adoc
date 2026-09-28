@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iscsi, statistics, packages 
 summary: ストレージアレイへのiSCSI接続に関するデータを表示できます。 
 ---
-= SANtricity System ManagerでiSCSI統計パッケージを表示する
+= SANtricity System Manager で iSCSI 統計情報を表示する
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -32,8 +32,8 @@ NOTE: System Managerに表示される統計のタイプは、ストレージア
 これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。統計の生データは、コントローラの起動以降に収集されたすべての統計です。ベースライン統計は、ベースライン時間の設定以降に収集されたポイントインタイムの統計です。
 
 .手順
-. 左側のパネルから、メニュー：Support[Support Center > Diagnostics]タブを選択します。
-. [View iSCSI Statistics Packages]を選択します。
+. 左側のパネルから*システム*を選択してください。
+. 「iSCSI統計情報の表示」を選択します。
 . タブをクリックして、さまざまな統計を表示します。
 . ベースラインを設定するには、*新しいベースラインを設定*をクリックします。
 +

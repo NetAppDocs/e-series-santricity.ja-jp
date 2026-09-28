@@ -30,6 +30,7 @@ summary: '[Performance]ページには"いくつかの重要な領域でスト�
 
 
 
+[[characteristics-of-performance-data-formats]]
 == パフォーマンスデータ形式の特徴
 
 [cols="1a,1a,1a,1a,1a"]
@@ -93,6 +94,7 @@ summary: '[Performance]ページには"いくつかの重要な領域でスト�
 |===
 
 
+[[guidelines-for-viewing-performance-data]]
 == パフォーマンスデータを表示する際のガイドライン
 
 * パフォーマンスデータの収集は常にオンです。オフにするオプションはありません。
